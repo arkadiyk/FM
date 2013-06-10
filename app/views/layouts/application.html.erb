@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>FM</title>
+  <%= stylesheet_link_tag    "application", :media => "all" %>
+
+  <script type="text/javascript">
+      window.ENV = window.ENV || {};
+      ENV.EXPERIMENTAL_CONTROL_HELPER = true;
+  </script>
+
+  <%= javascript_include_tag "application" %>
+  <%= csrf_meta_tags %>
+</head>
+<body>
+
+
+<script data-template-name="application" type="text/x-handlebars">
+  <h1>Ember.js Tree Example</h1>
+  {{control "treeBranch" App.treeRoot}}
+  <p><a href="http://billysbilling.com/blog/How-to-implement-a-tree-in-Ember-js">Read the blog post</a></p>
+</script>
+
+<script data-template-name="tree" type="text/x-handlebars">
+  {{control "treeBranch" content}}
+</script>
+
+<script data-template-name="tree-branch" type="text/x-handlebars">
+  {{each children itemController="treeNode" itemViewClass="App.TreeNodeView"}}
+</script>
+
+<script data-template-name="tree-node" type="text/x-handlebars">
+  <span {{bindAttr class=":toggle-icon children.length::leaf"}} {{action toggle}}>
+  {{#if isExpanded}}
+  &#x25BC;
+  {{else}}
+  &#x25B6;
+  {{/if}}
+  </span>
+  <a {{action click}} class="text">{{text}}</a>
+  {{#if isExpanded}}
+  {{control "treeBranch" content}}
+  {{/if}}
+</script>
+
+</body>
+</html>
