@@ -15,6 +15,3 @@
 //= require ember
 //= require_self
 //= require fm
-// FM = Ember.Application.create();
-
-//= require_tree .

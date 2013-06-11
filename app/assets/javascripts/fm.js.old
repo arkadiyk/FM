@@ -1,5 +1,4 @@
 /*
-#= equire ./store
 #= equire_tree ./models
 #= equire_tree ./controllers
 #= equire_tree ./views
