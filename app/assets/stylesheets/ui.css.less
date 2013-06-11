@@ -1,0 +1,60 @@
+// Place all the styles related to the ui controller here.
+// They will automatically be included in application.css.
+// You can use Less here: http://lesscss.org/
+
+#wrapper {
+  min-height: 100%;
+  height: auto !important;
+  height: 100%;
+  margin: 0 auto -3em;
+  z-index: 10;
+  position: relative;
+  width: 100%;
+  min-width: 320px;
+}
+
+.panels {
+  position: relative;
+  -webkit-transition: margin-left 0.3s ease-in;
+  -moz-transition: margin-left 0.3s ease-in;
+}
+a.active{
+color: #fff;
+text-shadow: 0 -1px 0 rgba(0,0,0,0.2);
+//background-color: #08c;
+}
+
+.folders-panel {
+  width: 250px;
+  float: left;
+  min-height: 60em;
+  //opacity: 99.9;
+  position: relative;
+  -webkit-transition: margin 0.3s ease-in, width 0.3s ease-in, left 0.3s ease-in, right 0.3s ease-in, opacity 0.3s ease-in;
+  -webkit-box-shadow: rgba(255, 255, 255, 0.1) 0 1px 0, rgba(0, 0, 0, 0.8) 0 1px 7px 0px inset;
+  -moz-box-shadow: rgba(255, 255, 255, 0.1) 0 1px 0, rgba(0, 0, 0, 0.8) 0 1px 7px 0px inset;
+  box-shadow: rgba(255, 255, 255, 0.1) 0 1px 0, rgba(0, 0, 0, 0.8) 0 1px 7px 0px inset;
+  background: #202020;
+  background-color: rgba(0, 0, 0, 0.3);
+  border: 0;}
+
+.files-panel {
+  -webkit-transition: margin 0.3s ease-in, width 0.3s ease-in, left 0.3s ease-in, right 0.3s ease-in, opacity 0.3s ease-in;
+  min-height: 60em;
+  opacity: 99.9;
+  position: absolute;
+  right: 0px;
+  left: 250px;
+  z-index: 50;
+}
+
+.nav-list > li > a {
+  padding: 0px 15px;
+}
+
+.nav-list > li > a, .nav-list .nav-header {
+  margin-right: 0;
+}
+.nav-list {
+  padding-right: 0;
+}
