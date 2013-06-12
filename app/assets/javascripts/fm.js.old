@@ -1,45 +1,4 @@
-/*
-#= equire_tree ./models
-#= equire_tree ./controllers
-#= equire_tree ./views
-#= equire_tree ./helpers
-#= equire_tree ./templates
-#= equire_tree ./routes
-#= equire ./router
-#= require_self
-*/
-
-App = Ember.Application.create();
-
-App.TreeBranchController = Ember.ObjectController.extend({
-});
-App.register('controller:treeBranch', App.TreeBranchController, {singleton: false});
-
-App.TreeBranchView = Ember.View.extend({
-  tagName: 'ul',
-  templateName: 'tree-branch',
-  classNames: ['tree-branch']
-});
-
-App.TreeNodeController = Ember.ObjectController.extend({
-  isExpanded: false,
-  toggle: function() {
-    this.set('isExpanded', !this.get('isExpanded'));
-},
-click: function() {
-console.log('Clicked: '+this.get('text'));
-}
-});
-App.register('controller:treeNode', App.TreeNodeController, {singleton: false});
-
-App.TreeNodeView = Ember.View.extend({
-  tagName: 'li',
-  templateName: 'tree-node',
-  classNames: ['tree-node']
-});
-
-
-App.set('treeRoot', {
+FM.set('treeRoot', {
   text: 'Root',
   children: [
   {

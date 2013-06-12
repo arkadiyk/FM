@@ -1,6 +1,6 @@
 <div class="navbar navbar-fixed-top">
   <div class="navbar-inner">
-    <a class="brand" href="#">FmRails</a>
+    <a class="brand" href="#">FM</a>
     <ul class="nav">
       <li><a href="#">About</a></li>
     </ul>
@@ -15,15 +15,7 @@
     <div class="folders-panel">
       <ul class="nav nav-list">
         <li class="nav-header">Setup</li>
-        {{control "treeBranch" App.treeRoot}}
-        <li><span><i style="cursor:pointer" class="icon-folder-open"></i><%= link_to "Link1", "/path1" %></span></li>
-        <li><ul class="nav nav-list">
-          <li><span><i style="cursor:pointer" class="icon-folder-open"></i><a href="#" class="active">Subfolder</a></span></li>
-          <li><span><i style="cursor:pointer" class="icon-folder-open"></i><%= link_to "Link3", "/path3" %></span></li>
-        </ul></li>
-        <li><span><i style="cursor:pointer" class="icon-folder-open"></i><%= link_to "Link2", "/path2" %></span></li>
-        <li><span><i style="cursor:pointer" class="icon-folder-open"></i><%= link_to "Link3", "/path3" %></span></li>
-        <li><span><i style="cursor:pointer" class="icon-folder-open"></i><%= link_to "Link2", "/path2" %></span></li>
+        {{control "folder" FM.treeRoot}}
       </ul>
     </div>
   </div>

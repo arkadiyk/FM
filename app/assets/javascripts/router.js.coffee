@@ -6,7 +6,7 @@ FM.Router.map ->
 
 FM.IndexRoute = Ember.Route.extend
   redirect: ->
-    @transitionTo 'setup' unless FM.drive.get('Fotomoo Folder')
+    @transitionTo 'setup' # unless FM.drive.get('Fotomoo Folder')
 
 FM.SetupRoute = Ember.Route.extend
   model: -> FM.Folder.find('root')

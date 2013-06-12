@@ -1,0 +1,12 @@
+<li>
+  <span>
+    {{#if children.length}}
+      <i style="cursor:pointer" {{bindAttr class="isExpanded:icon-folder-open:icon-folder-close"}} {{action toggle}}></i>
+    {{/if}}
+    <a {{action click}} class="text">{{text}}</a>
+        {{#if isExpanded}}
+      {{control "folderList" content}}
+    {{/if}}
+  </span>
+</li>
+
