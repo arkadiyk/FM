@@ -12,11 +12,29 @@ FM.Drive = Ember.Object.extend
   statusMessage: ''
   statusDetailsMessage: ''
 
-  authorizeOnLoad: (success_callback) ->
-    if !gapi || !gapi.auth
-      setTimeout ( => @authorizeOnLoad(success_callback) ), 37
-    else
-      @_authorize(success_callback)
+  apiLoaded: ->
+    call_count = 0
+    execute = (resolve, reject) ->
+      if window.gapi and window.gapi.auth
+        resolve()
+      else
+        if call_count++ > 10
+          reject('Cannot load Google Drive API')
+        else
+          setTimeout ( => execute(resolve, reject) ), 37
+    new Ember.RSVP.Promise(execute)
+
+  authorize: ->
+    execute = (resolve) => @_authorize -> resolve()
+    new Ember.RSVP.Promise(execute)
+
+  loadAssets: ->
+    tasks = [
+      @getUserProfile()
+#      @loadFolders()
+#      @loadImageFiles()
+    ]
+    Ember.RSVP.all(tasks)
 
   _authorize: (success_callback) ->
     CLIENT_ID = '865302316429.apps.googleusercontent.com'
@@ -52,12 +70,19 @@ FM.Drive = Ember.Object.extend
 
   getUserProfile: ->
     @set('statusMessage', 'Authorizing ...')
-    profile = @get('userProfile')
-    callback = (result) =>
-      profile.setProperties(result)
-      @setProperties(userProfileLoading: false, userProfileLoaded: true)
     @set('userProfileLoading', true)
-    @_execute('about.get', {fields: 'name,user'}, callback )
+    profile = @get('userProfile')
+
+    execute = (resolve, reject) =>
+      callback = (result) =>
+        profile.setProperties(result)
+        @setProperties(userProfileLoading: false, userProfileLoaded: true)
+        resolve()
+      @_execute('about.get', {fields: 'name,user'}, callback )
+
+    new Ember.RSVP.Promise(execute)
+
+
 
   _loadFiles: (params, complete_callback) ->
     files = {}

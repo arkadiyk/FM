@@ -1,10 +1,9 @@
 window.gapi ||= {}
 
-window.gapi.auth = {
+window.gapi.auth =
   authorize: (params, callback) ->
     result = {}
     setTimeout ( -> callback(result); console.log('authorized') ), 1000
-}
 
 window.gapi.client = {
   load: (api_name, api_version, load_callback) -> setTimeout load_callback, 150

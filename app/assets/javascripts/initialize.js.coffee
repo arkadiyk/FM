@@ -1,13 +1,35 @@
 FM.drive = FM.Drive.create({})
 
+FM.drive.addObserver 'statusMessage', -> Ember.$('#load-message').text(FM.drive.get('statusMessage'))
+FM.drive.addObserver 'statusDetailsMessage', -> Ember.$('#load-details-message').text(FM.drive.get('statusDetailsMessage'))
+
+FM.deferReadiness()
+
+FM.drive.apiLoaded().then ->
+  FM.drive.authorize()
+.then ->
+  FM.drive.loadAssets()
+.then ->
+  $('#load').remove()
+  FM.advanceReadiness()
+.then null, (error_message) ->
+  console.log("ERROR:", error_message)
+  Ember.$('#load-message').text(error_message)
+
+
+
+#
+#Ember.Application.initializer
+#  name: 'initial_loads'
+#  initialize: (container, app) ->
+#    FM.deferReadiness()
+#
+
 
 ###
 Fotomoo.deferReadiness()
 Fotomoo.drive = Fotomoo.Drive.create({})
-Fotomoo.userProfile = Ember.Object.create()
 
-Fotomoo.drive.addObserver 'statusMessage', -> $('#load-message').text(Fotomoo.drive.get('statusMessage'))
-Fotomoo.drive.addObserver 'statusDetailsMessage', -> $('#load-details-message').text(Fotomoo.drive.get('statusDetailsMessage'))
 
 Fotomoo.drive.addObserver 'filesLoaded', ->
   $('#load').remove()

@@ -1,2 +1,16 @@
-<h1>Ui#index</h1>
-<p>Find me in app/views/ui/index.html.erb</p>
+<div class="modal" id="load">
+  <div class="modal-body" style="padding: 50px">
+    <div class="well well-large well-transparent lead">
+      <i class="icon-spinner icon-spin icon-2x pull-left"></i> <div style="margin-top: 6px">Loading Data</div>
+    </div>
+    <p class="muted">
+      <span id='load-message'></span><small class="pull-right" id='load-details-message'></small>
+    </p>
+  </div>
+</div>
+
+<% if @api == 'real' %>
+    <script type="text/javascript" src="https://apis.google.com/js/client.js"></script>
+<% else %>
+    <%= javascript_include_tag 'gapi-mock' %>
+<% end %>
