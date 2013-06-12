@@ -31,7 +31,7 @@ FM.Drive = Ember.Object.extend
   loadAssets: ->
     tasks = [
       @getUserProfile()
-#      @loadFolders()
+      @loadFolders()
 #      @loadImageFiles()
     ]
     Ember.RSVP.all(tasks)
@@ -47,38 +47,38 @@ FM.Drive = Ember.Object.extend
 
     gapi.auth.authorize( {client_id: CLIENT_ID, scope: SCOPES, immediate: true}, callback)
 
-  _execute: (method, params, success_callback, error_callback) ->
+  _execute: (method, params) ->
     [gapi_area, gapi_call] = method.split('.')
     @incrementProperty('activeCallCount')
-    gapi.client.load 'drive', 'v2', =>
-      request = gapi.client.drive[gapi_area][gapi_call](params)
-      request.execute (result) =>
-        if not result
-          success_callback({items:[]})
-        else if not result.error
-          success_callback(result)
-        else if result.error.code == 401
-          console.log("reathorizing #{method}:", result)
-          @_authorize(=> @execute(method, success_callback, error_callback))
-        else
-          console.log("ERROR!", result)
-          error_callback(result) if error_callback
+    execute = (resolve, reject) =>
+      gapi.client.load 'drive', 'v2', =>
+        request = gapi.client.drive[gapi_area][gapi_call](params)
+        request.execute (result) =>
+          if not result
+            resolve(items:[])
+          else if not result.error
+            resolve(result)
+          else if result.error.code == 401
+            console.log("reathorizing #{method}:", result)
+            @authorize().then(@_execute(method,params))
+          else
+            console.log("ERROR!", result)
+            reject(result) if error_callback
 
-        @decrementProperty('activeCallCount')
+          @decrementProperty('activeCallCount')
 
-
+    new Ember.RSVP.Promise(execute)
 
   getUserProfile: ->
     @set('statusMessage', 'Authorizing ...')
     @set('userProfileLoading', true)
     profile = @get('userProfile')
 
-    execute = (resolve, reject) =>
-      callback = (result) =>
+    execute = (resolve) =>
+      @_execute('about.get', {fields: 'name,user'}).then (result) =>
         profile.setProperties(result)
         @setProperties(userProfileLoading: false, userProfileLoaded: true)
         resolve()
-      @_execute('about.get', {fields: 'name,user'}, callback )
 
     new Ember.RSVP.Promise(execute)
 
