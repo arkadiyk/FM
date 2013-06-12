@@ -1,12 +1,12 @@
 <li>
-  <span>
-    {{#if children.length}}
-      <i style="cursor:pointer" {{bindAttr class="isExpanded:icon-folder-open:icon-folder-close"}} {{action toggle}}></i>
-    {{/if}}
-    <a {{action click}} class="text">{{text}}</a>
-        {{#if isExpanded}}
-      {{control "folderList" content}}
-    {{/if}}
-  </span>
+  {{#if children.length}}
+    <i {{bindAttr class=":pull-left :folder-icon isExpanded:icon-folder-open:icon-folder-close"}} {{action toggle}}></i>
+  {{else}}
+    <i class="pull-left icon-folder-close" style="opacity: 0.4; margin-top: 3px"></i>
+  {{/if}}
+  <a {{action click}} class="text">{{text}}</a>
+      {{#if isExpanded}}
+    {{control "folderList" content}}
+  {{/if}}
 </li>
 
