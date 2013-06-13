@@ -10,12 +10,17 @@ FM.IndexRoute = Ember.Route.extend
 
 FM.SetupRoute = Ember.Route.extend
   model: -> FM.Folder.find('root')
+  renderTemplate: (c, model) ->
+    contoller = @controllerFor('folder')
+    contoller.set('content', model)
+    @render('folder', controller: contoller)
+
 
 FM.FolderRoute = Ember.Route.extend
   model: (fid) ->
     FM.Folder.find(fid.folder_id) if fid
-  renderTemplate: ->
-    @render 'setup/folder',
-      into: "application"
-      outlet: "folderOutlet"
+#  renderTemplate: ->
+#    @render 'setup/folder',
+#      into: "application"
+#      outlet: "folderOutlet"
 
