@@ -14,5 +14,3 @@ FM.SelectFolderCheckbox = Em.Checkbox.extend
     checked = @get('checked')
     file.set('selected', checked) for file in @get('files')
   ).observes('checked')
-
-
