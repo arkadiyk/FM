@@ -6,6 +6,7 @@ FM.deferReadiness()
 
 FM.drive.apiLoaded().then ->
   FM.drive.authorize()
+  FM.geocoder = new google.maps.Geocoder()
 .then ->
   FM.drive.loadAssets()
 .then ->

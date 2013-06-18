@@ -19,6 +19,7 @@
             <td>{{fileSize}}</td>
             <td>{{imageMediaMetadata.date}}</td>
             <td>{{imageMediaMetadata.width}}&times;{{imageMediaMetadata.height}}</td>
+            <td>{{#if address.isLoaded}}{{address.formattedAddress}}{{/if}}</td>
           </tr>
         {{/each}}
       {{/each}}

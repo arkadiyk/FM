@@ -34,6 +34,10 @@ FM.Folder.reopenClass
 
 FM.File = Ember.Object.extend
   selected: true
+  address: (->
+    return null if @get("latitude")
+    FM.Address.create(latitude: @get("latitude"), longitude: @get("longitude"))
+  ).property('latitude')
 
 FM.File.reopenClass
   find: (fid) -> FM.drive.findImageFile(fid)
@@ -47,3 +51,21 @@ FM.ViewMode = Ember.Object.extend
   ).property('mode')
 
 FM.viewMode = FM.ViewMode.create({})
+
+FM.Address = Ember.Object.extend
+  init: ->
+    @set('isLoaded', false)
+    @load()
+
+  load: ->
+    latlng = new google.maps.LatLng(@get("latitude"),@get("longitude"))
+    FM.geocoder.geocode {'latLng': latlng}, (results, status) =>
+      console.log(results, status)
+      @set('formattedAddress', results[1].formatted_address) if(status == 'OK')
+      @set('isLoaded', true)
+
+
+
+
+
+
