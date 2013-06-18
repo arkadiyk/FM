@@ -97,7 +97,7 @@ FM.Drive = Ember.Object.extend
 
       params =
         q: "mimeType contains 'image'"
-        fields: "items(description,fileSize,iconLink,id,imageMediaMetadata(cameraMake,cameraModel,date,height,width),indexableText,mimeType,parents(id,isRoot),thumbnailLink,title),nextPageToken"
+        fields: "items(description,fileSize,iconLink,id,imageMediaMetadata(cameraMake,cameraModel,date,height,width,location),indexableText,mimeType,parents(id,isRoot),thumbnailLink,title),nextPageToken"
       @setProperties(filesLoading: true, filesLoaded: false)
       @_loadFiles(params, process_files)
 

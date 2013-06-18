@@ -4,8 +4,10 @@
   {{else}}
     <i class="pull-left icon-folder-close" style="opacity: 0.4; margin-top: 3px"></i>
   {{/if}}
-  <a {{action click}} class="text">{{title}}</a>
-      {{#if isExpanded}}
+
+  {{#linkTo files this}}{{title}}{{/linkTo}}
+
+  {{#if isExpanded}}
     {{control "folderList" content}}
   {{/if}}
 </li>

@@ -1,0 +1,29 @@
+{{#if FM.drive.filesLoading}}
+  <h3>Loading files ...</h3>
+{{else}}
+  {{#if FM.drive.filesLoaded}}
+    <table class="table table-condensed">
+      {{#each file in allFiles}}
+        <tr class="info">
+          <td>{{view FM.SelectFolderCheckbox filesBinding="file.files"}}</td>
+          <td colspan="4">
+            {{#each file.titles}}
+              <span class="badge badge-info">{{this}}</span>
+            {{/each}}
+          </td>
+        </tr>
+        {{#each file.files}}
+          <tr>
+            <td>{{view Ember.Checkbox checkedBinding="selected"}}</td>
+            <td>{{title}}</td>
+            <td>{{fileSize}}</td>
+            <td>{{imageMediaMetadata.date}}</td>
+            <td>{{imageMediaMetadata.width}}&times;{{imageMediaMetadata.height}}</td>
+          </tr>
+        {{/each}}
+      {{/each}}
+    </table>
+  {{else}}
+    <h3>Files are not loaded</h3>
+  {{/if}}
+{{/if}}

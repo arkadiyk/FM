@@ -1,6 +1,6 @@
 FM.Router.map ->
   @resource 'setup', ->
-    @resource 'folder', {path: '/:folder_id'}, ->
+    @resource 'files', {path: '/:folder_id'}, ->
       @route 'list'
       @route 'grid'
 
@@ -16,11 +16,11 @@ FM.SetupRoute = Ember.Route.extend
     @render('folder', controller: contoller)
 
 
-FM.FolderRoute = Ember.Route.extend
+FM.FilesRoute = Ember.Route.extend
   model: (fid) ->
     FM.Folder.find(fid.folder_id) if fid
-#  renderTemplate: ->
-#    @render 'setup/folder',
-#      into: "application"
-#      outlet: "folderOutlet"
+  renderTemplate: ->
+    @render 'files',
+      into: "application"
+      outlet: "files"
 
