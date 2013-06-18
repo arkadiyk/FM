@@ -6,9 +6,11 @@ FM.register('controller:folderList', FM.FolderListController, singleton: false)
 FM.FolderController = Ember.ObjectController.extend
   isExpanded: false,
   toggle: -> @set('isExpanded', !this.get('isExpanded'))
-  click: -> console.log("Clicked: #{@get('text')}")
+  click: -> console.log("Clicked: #{@get('title')}")
 
-FM.register('controller:folder', FM.FolderController, singleton: false);
+FM.register('controller:folder', FM.FolderController, singleton: false)
+
+FM.RootFolderController = FM.FolderController.extend({})
 
 #FM.SetupController = Ember.ObjectController.extend
 #  copyFiles: ->

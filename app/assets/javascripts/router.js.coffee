@@ -11,7 +11,7 @@ FM.IndexRoute = Ember.Route.extend
 FM.SetupRoute = Ember.Route.extend
   model: -> FM.Folder.find('root')
   renderTemplate: (c, model) ->
-    contoller = @controllerFor('folder')
+    contoller = @controllerFor('root_folder')
     contoller.set('content', model)
     @render('folder', controller: contoller)
 
