@@ -14,5 +14,5 @@
 //= require jquery-ui
 //= require handlebars
 //= require ember
-//= require_self
+//= require ember-table
 //= require fm

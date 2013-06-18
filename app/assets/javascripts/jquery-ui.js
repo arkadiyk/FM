@@ -13,3 +13,4 @@
 //= require jquery.ui.selectable
 //= require jquery.ui.sortable
 
+//= require jquery.mousewheel.js
