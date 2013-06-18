@@ -5,7 +5,6 @@ window.FotomooFixtures.files = {
     items: [
         {
             "id": "file_0",
-            "iconLink": "https://ssl.gstatic.com/docs/doclist/images/icon_11_image_list.png",
             "thumbnailLink": "",
             "title": "PB274930.jpg",
             "mimeType": "image/jpeg",
@@ -27,7 +26,6 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_1",
-            "iconLink": "https://ssl.gstatic.com/docs/doclist/images/icon_11_image_list.png",
             "thumbnailLink": "",
             "title": "P5040127.jpg",
             "mimeType": "image/jpeg",
@@ -49,7 +47,6 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_2",
-            "iconLink": "https://ssl.gstatic.com/docs/doclist/images/icon_11_image_list.png",
             "thumbnailLink": "",
             "title": "PB275015.jpg",
             "mimeType": "image/jpeg",
@@ -71,7 +68,6 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_3",
-            "iconLink": "https://ssl.gstatic.com/docs/doclist/images/icon_11_image_list.png",
             "thumbnailLink": "",
             "title": "PB244708.jpg",
             "mimeType": "image/jpeg",
@@ -93,7 +89,6 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_4",
-            "iconLink": "https://ssl.gstatic.com/docs/doclist/images/icon_11_image_list.png",
             "thumbnailLink": "",
             "title": "P5260376.jpg",
             "mimeType": "image/jpeg",
@@ -115,7 +110,6 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_5",
-            "iconLink": "https://ssl.gstatic.com/docs/doclist/images/icon_11_image_list.png",
             "thumbnailLink": "",
             "title": "PB224565.jpg",
             "mimeType": "image/jpeg",
@@ -137,7 +131,6 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_6",
-            "iconLink": "https://ssl.gstatic.com/docs/doclist/images/icon_11_image_list.png",
             "thumbnailLink": "",
             "title": "PB274920.jpg",
             "mimeType": "image/jpeg",
@@ -159,7 +152,6 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_7",
-            "iconLink": "https://ssl.gstatic.com/docs/doclist/images/icon_11_image_list.png",
             "thumbnailLink": "",
             "title": "P6081924.jpg",
             "mimeType": "image/jpeg",
@@ -181,7 +173,6 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_8",
-            "iconLink": "https://ssl.gstatic.com/docs/doclist/images/icon_11_image_list.png",
             "thumbnailLink": "",
             "title": "P5040053.jpg",
             "mimeType": "image/jpeg",
@@ -203,7 +194,6 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_9",
-            "iconLink": "https://ssl.gstatic.com/docs/doclist/images/icon_11_image_list.png",
             "thumbnailLink": "",
             "title": "P6081876.jpg",
             "mimeType": "image/jpeg",
@@ -225,7 +215,6 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_10",
-            "iconLink": "https://ssl.gstatic.com/docs/doclist/images/icon_11_image_list.png",
             "thumbnailLink": "",
             "title": "PB224540.jpg",
             "mimeType": "image/jpeg",
@@ -247,7 +236,6 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_11",
-            "iconLink": "https://ssl.gstatic.com/docs/doclist/images/icon_11_image_list.png",
             "thumbnailLink": "",
             "title": "P9049549.jpg",
             "mimeType": "image/jpeg",
@@ -269,7 +257,6 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_12",
-            "iconLink": "https://ssl.gstatic.com/docs/doclist/images/icon_11_image_list.png",
             "thumbnailLink": "",
             "title": "IMGP0484.jpg",
             "mimeType": "image/jpeg",
@@ -290,7 +277,6 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_13",
-            "iconLink": "https://ssl.gstatic.com/docs/doclist/images/icon_11_image_list.png",
             "thumbnailLink": "",
             "title": "P5040060.jpg",
             "mimeType": "image/jpeg",
@@ -312,7 +298,6 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_14",
-            "iconLink": "https://ssl.gstatic.com/docs/doclist/images/icon_11_image_list.png",
             "thumbnailLink": "",
             "title": "PB244723.jpg",
             "mimeType": "image/jpeg",
@@ -334,7 +319,6 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_15",
-            "iconLink": "https://ssl.gstatic.com/docs/doclist/images/icon_11_image_list.png",
             "thumbnailLink": "",
             "title": "PB214484.jpg",
             "mimeType": "image/jpeg",
@@ -356,7 +340,6 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_16",
-            "iconLink": "https://ssl.gstatic.com/docs/doclist/images/icon_11_image_list.png",
             "thumbnailLink": "",
             "title": "PB234582.jpg",
             "mimeType": "image/jpeg",
@@ -378,7 +361,6 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_17",
-            "iconLink": "https://ssl.gstatic.com/docs/doclist/images/icon_11_image_list.png",
             "thumbnailLink": "",
             "title": "PB234641.jpg",
             "mimeType": "image/jpeg",
@@ -400,7 +382,6 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_18",
-            "iconLink": "https://ssl.gstatic.com/docs/doclist/images/icon_11_image_list.png",
             "thumbnailLink": "",
             "title": "PB244760.jpg",
             "mimeType": "image/jpeg",
@@ -422,7 +403,6 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_19",
-            "iconLink": "https://ssl.gstatic.com/docs/doclist/images/icon_11_image_list.png",
             "thumbnailLink": "",
             "title": "P6081887.jpg",
             "mimeType": "image/jpeg",
@@ -444,7 +424,6 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_20",
-            "iconLink": "https://ssl.gstatic.com/docs/doclist/images/icon_11_image_list.png",
             "thumbnailLink": "",
             "title": "RIMG0361-arc.jpg",
             "mimeType": "image/jpeg",
@@ -466,7 +445,6 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_21",
-            "iconLink": "https://ssl.gstatic.com/docs/doclist/images/icon_11_image_list.png",
             "thumbnailLink": "",
             "title": "RIMG0150-arc.jpg",
             "mimeType": "image/jpeg",
@@ -488,7 +466,6 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_22",
-            "iconLink": "https://ssl.gstatic.com/docs/doclist/images/icon_11_image_list.png",
             "thumbnailLink": "",
             "title": "P9049467.jpg",
             "mimeType": "image/jpeg",
@@ -510,7 +487,6 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_23",
-            "iconLink": "https://ssl.gstatic.com/docs/doclist/images/icon_11_image_list.png",
             "thumbnailLink": "",
             "title": "P9049596.jpg",
             "mimeType": "image/jpeg",
@@ -532,7 +508,6 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_24",
-            "iconLink": "https://ssl.gstatic.com/docs/doclist/images/icon_11_image_list.png",
             "thumbnailLink": "",
             "title": "PB244710.jpg",
             "mimeType": "image/jpeg",
@@ -554,7 +529,6 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_25",
-            "iconLink": "https://ssl.gstatic.com/docs/doclist/images/icon_11_image_list.png",
             "thumbnailLink": "",
             "title": "PB234687.jpg",
             "mimeType": "image/jpeg",
@@ -576,7 +550,6 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_26",
-            "iconLink": "https://ssl.gstatic.com/docs/doclist/images/icon_11_image_list.png",
             "thumbnailLink": "",
             "title": "RIMG0223-arc.jpg",
             "mimeType": "image/jpeg",
@@ -598,7 +571,6 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_27",
-            "iconLink": "https://ssl.gstatic.com/docs/doclist/images/icon_11_image_list.png",
             "thumbnailLink": "",
             "title": "P5040106.jpg",
             "mimeType": "image/jpeg",
@@ -620,7 +592,6 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_28",
-            "iconLink": "https://ssl.gstatic.com/docs/doclist/images/icon_11_image_list.png",
             "thumbnailLink": "",
             "title": "P6081852.jpg",
             "mimeType": "image/jpeg",
@@ -642,7 +613,6 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_29",
-            "iconLink": "https://ssl.gstatic.com/docs/doclist/images/icon_11_image_list.png",
             "thumbnailLink": "",
             "title": "PB274980.jpg",
             "mimeType": "image/jpeg",
@@ -664,7 +634,6 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_30",
-            "iconLink": "https://ssl.gstatic.com/docs/doclist/images/icon_11_image_list.png",
             "thumbnailLink": "",
             "title": "P9049480.jpg",
             "mimeType": "image/jpeg",
@@ -686,7 +655,6 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_31",
-            "iconLink": "https://ssl.gstatic.com/docs/doclist/images/icon_11_image_list.png",
             "thumbnailLink": "",
             "title": "P5050216.jpg",
             "mimeType": "image/jpeg",
@@ -708,7 +676,6 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_32",
-            "iconLink": "https://ssl.gstatic.com/docs/doclist/images/icon_11_image_list.png",
             "thumbnailLink": "",
             "title": "PB274963.jpg",
             "mimeType": "image/jpeg",
@@ -730,7 +697,6 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_33",
-            "iconLink": "https://ssl.gstatic.com/docs/doclist/images/icon_11_image_list.png",
             "thumbnailLink": "",
             "title": "PB224506.jpg",
             "mimeType": "image/jpeg",
@@ -752,7 +718,6 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_34",
-            "iconLink": "https://ssl.gstatic.com/docs/doclist/images/icon_11_image_list.png",
             "thumbnailLink": "",
             "title": "IMGP0573.jpg",
             "mimeType": "image/jpeg",
@@ -773,7 +738,6 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_35",
-            "iconLink": "https://ssl.gstatic.com/docs/doclist/images/icon_11_image_list.png",
             "thumbnailLink": "",
             "title": "P2126664.jpg",
             "mimeType": "image/jpeg",
@@ -795,7 +759,6 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_36",
-            "iconLink": "https://ssl.gstatic.com/docs/doclist/images/icon_11_image_list.png",
             "thumbnailLink": "",
             "title": "PB264864.jpg",
             "mimeType": "image/jpeg",
@@ -817,7 +780,6 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_37",
-            "iconLink": "https://ssl.gstatic.com/docs/doclist/images/icon_11_image_list.png",
             "thumbnailLink": "",
             "title": "PB234647.jpg",
             "mimeType": "image/jpeg",
@@ -839,7 +801,6 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_38",
-            "iconLink": "https://ssl.gstatic.com/docs/doclist/images/icon_11_image_list.png",
             "thumbnailLink": "",
             "title": "P9049643.jpg",
             "mimeType": "image/jpeg",
@@ -861,7 +822,6 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_39",
-            "iconLink": "https://ssl.gstatic.com/docs/doclist/images/icon_11_image_list.png",
             "thumbnailLink": "",
             "title": "P6081847.jpg",
             "mimeType": "image/jpeg",
@@ -883,7 +843,6 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_40",
-            "iconLink": "https://ssl.gstatic.com/docs/doclist/images/icon_11_image_list.png",
             "thumbnailLink": "",
             "title": "RIMG0222-arc.jpg",
             "mimeType": "image/jpeg",
@@ -905,7 +864,6 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_41",
-            "iconLink": "https://ssl.gstatic.com/docs/doclist/images/icon_11_image_list.png",
             "thumbnailLink": "",
             "title": "IMGP0438.jpg",
             "mimeType": "image/jpeg",
@@ -926,7 +884,6 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_42",
-            "iconLink": "https://ssl.gstatic.com/docs/doclist/images/icon_11_image_list.png",
             "thumbnailLink": "",
             "title": "P5260379.jpg",
             "mimeType": "image/jpeg",
@@ -948,7 +905,6 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_43",
-            "iconLink": "https://ssl.gstatic.com/docs/doclist/images/icon_11_image_list.png",
             "thumbnailLink": "",
             "title": "RIMG0229-arc.jpg",
             "mimeType": "image/jpeg",
@@ -970,7 +926,6 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_44",
-            "iconLink": "https://ssl.gstatic.com/docs/doclist/images/icon_11_image_list.png",
             "thumbnailLink": "",
             "title": "P8019349.jpg",
             "mimeType": "image/jpeg",
@@ -992,7 +947,6 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_45",
-            "iconLink": "https://ssl.gstatic.com/docs/doclist/images/icon_11_image_list.png",
             "thumbnailLink": "",
             "title": "P6081945.jpg",
             "mimeType": "image/jpeg",
@@ -1014,7 +968,6 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_46",
-            "iconLink": "https://ssl.gstatic.com/docs/doclist/images/icon_11_image_list.png",
             "thumbnailLink": "",
             "title": "P6081923.jpg",
             "mimeType": "image/jpeg",
@@ -1036,7 +989,6 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_47",
-            "iconLink": "https://ssl.gstatic.com/docs/doclist/images/icon_11_image_list.png",
             "thumbnailLink": "",
             "title": "P5260382.jpg",
             "mimeType": "image/jpeg",
@@ -1058,7 +1010,6 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_48",
-            "iconLink": "https://ssl.gstatic.com/docs/doclist/images/icon_11_image_list.png",
             "thumbnailLink": "",
             "title": "P6081936.jpg",
             "mimeType": "image/jpeg",
@@ -1080,7 +1031,6 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_49",
-            "iconLink": "https://ssl.gstatic.com/docs/doclist/images/icon_11_image_list.png",
             "thumbnailLink": "",
             "title": "PB224550.jpg",
             "mimeType": "image/jpeg",
@@ -1102,7 +1052,6 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_50",
-            "iconLink": "https://ssl.gstatic.com/docs/doclist/images/icon_11_image_list.png",
             "thumbnailLink": "",
             "title": "IMGP0453.jpg",
             "mimeType": "image/jpeg",
@@ -1123,7 +1072,6 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_51",
-            "iconLink": "https://ssl.gstatic.com/docs/doclist/images/icon_11_image_list.png",
             "thumbnailLink": "",
             "title": "PB285053.jpg",
             "mimeType": "image/jpeg",
@@ -1145,7 +1093,6 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_52",
-            "iconLink": "https://ssl.gstatic.com/docs/doclist/images/icon_11_image_list.png",
             "thumbnailLink": "",
             "title": "IMGP0425.jpg",
             "mimeType": "image/jpeg",
@@ -1166,7 +1113,6 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_53",
-            "iconLink": "https://ssl.gstatic.com/docs/doclist/images/icon_11_image_list.png",
             "thumbnailLink": "",
             "title": "PB274899.jpg",
             "mimeType": "image/jpeg",
@@ -1188,7 +1134,6 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_54",
-            "iconLink": "https://ssl.gstatic.com/docs/doclist/images/icon_11_image_list.png",
             "thumbnailLink": "",
             "title": "PB244714.jpg",
             "mimeType": "image/jpeg",
@@ -1210,7 +1155,6 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_55",
-            "iconLink": "https://ssl.gstatic.com/docs/doclist/images/icon_11_image_list.png",
             "thumbnailLink": "",
             "title": "P9049459.jpg",
             "mimeType": "image/jpeg",
@@ -1232,7 +1176,6 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_56",
-            "iconLink": "https://ssl.gstatic.com/docs/doclist/images/icon_11_image_list.png",
             "thumbnailLink": "",
             "title": "P6081877.jpg",
             "mimeType": "image/jpeg",
@@ -1254,7 +1197,6 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_57",
-            "iconLink": "https://ssl.gstatic.com/docs/doclist/images/icon_11_image_list.png",
             "thumbnailLink": "",
             "title": "P6081849.jpg",
             "mimeType": "image/jpeg",
@@ -1276,7 +1218,6 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_58",
-            "iconLink": "https://ssl.gstatic.com/docs/doclist/images/icon_11_image_list.png",
             "thumbnailLink": "",
             "title": "PB274957.jpg",
             "mimeType": "image/jpeg",
@@ -1298,7 +1239,6 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_59",
-            "iconLink": "https://ssl.gstatic.com/docs/doclist/images/icon_11_image_list.png",
             "thumbnailLink": "",
             "title": "P6081874.jpg",
             "mimeType": "image/jpeg",
@@ -1320,7 +1260,6 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_60",
-            "iconLink": "https://ssl.gstatic.com/docs/doclist/images/icon_11_image_list.png",
             "thumbnailLink": "",
             "title": "PB244712.jpg",
             "mimeType": "image/jpeg",
@@ -1342,7 +1281,6 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_61",
-            "iconLink": "https://ssl.gstatic.com/docs/doclist/images/icon_11_image_list.png",
             "thumbnailLink": "",
             "title": "P6081948.jpg",
             "mimeType": "image/jpeg",
@@ -1364,7 +1302,6 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_62",
-            "iconLink": "https://ssl.gstatic.com/docs/doclist/images/icon_11_image_list.png",
             "thumbnailLink": "",
             "title": "PB274909.jpg",
             "mimeType": "image/jpeg",
@@ -1386,7 +1323,6 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_63",
-            "iconLink": "https://ssl.gstatic.com/docs/doclist/images/icon_11_image_list.png",
             "thumbnailLink": "",
             "title": "P9049453.jpg",
             "mimeType": "image/jpeg",
@@ -1408,7 +1344,6 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_64",
-            "iconLink": "https://ssl.gstatic.com/docs/doclist/images/icon_11_image_list.png",
             "thumbnailLink": "",
             "title": "RIMG0279-arc.jpg",
             "mimeType": "image/jpeg",
@@ -1430,7 +1365,6 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_65",
-            "iconLink": "https://ssl.gstatic.com/docs/doclist/images/icon_11_image_list.png",
             "thumbnailLink": "",
             "title": "PB224525.jpg",
             "mimeType": "image/jpeg",
@@ -1452,7 +1386,6 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_66",
-            "iconLink": "https://ssl.gstatic.com/docs/doclist/images/icon_11_image_list.png",
             "thumbnailLink": "",
             "title": "PB285041.jpg",
             "mimeType": "image/jpeg",
@@ -1474,7 +1407,6 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_67",
-            "iconLink": "https://ssl.gstatic.com/docs/doclist/images/icon_11_image_list.png",
             "thumbnailLink": "",
             "title": "PB274997.jpg",
             "mimeType": "image/jpeg",
@@ -1496,7 +1428,6 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_68",
-            "iconLink": "https://ssl.gstatic.com/docs/doclist/images/icon_11_image_list.png",
             "thumbnailLink": "",
             "title": "P9049513.jpg",
             "mimeType": "image/jpeg",
@@ -1518,7 +1449,6 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_69",
-            "iconLink": "https://ssl.gstatic.com/docs/doclist/images/icon_11_image_list.png",
             "thumbnailLink": "",
             "title": "RIMG0241-arc.jpg",
             "mimeType": "image/jpeg",
@@ -1540,7 +1470,6 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_70",
-            "iconLink": "https://ssl.gstatic.com/docs/doclist/images/icon_11_image_list.png",
             "thumbnailLink": "",
             "title": "198358-R2-22A.jpg",
             "mimeType": "image/jpeg",
@@ -1559,7 +1488,6 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_71",
-            "iconLink": "https://ssl.gstatic.com/docs/doclist/images/icon_11_image_list.png",
             "thumbnailLink": "",
             "title": "PB274931.jpg",
             "mimeType": "image/jpeg",
@@ -1581,7 +1509,6 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_72",
-            "iconLink": "https://ssl.gstatic.com/docs/doclist/images/icon_11_image_list.png",
             "thumbnailLink": "",
             "title": "P6081894.jpg",
             "mimeType": "image/jpeg",
@@ -1603,7 +1530,6 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_73",
-            "iconLink": "https://ssl.gstatic.com/docs/doclist/images/icon_11_image_list.png",
             "thumbnailLink": "",
             "title": "P9049617.jpg",
             "mimeType": "image/jpeg",
@@ -1625,7 +1551,6 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_74",
-            "iconLink": "https://ssl.gstatic.com/docs/doclist/images/icon_11_image_list.png",
             "thumbnailLink": "",
             "title": "PB274986.jpg",
             "mimeType": "image/jpeg",
@@ -1647,7 +1572,6 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_75",
-            "iconLink": "https://ssl.gstatic.com/docs/doclist/images/icon_11_image_list.png",
             "thumbnailLink": "",
             "title": "P9304908-Edit.jpg",
             "mimeType": "image/jpeg",
@@ -1669,7 +1593,6 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_76",
-            "iconLink": "https://ssl.gstatic.com/docs/doclist/images/icon_11_image_list.png",
             "thumbnailLink": "",
             "title": "PB234638.jpg",
             "mimeType": "image/jpeg",
@@ -1691,7 +1614,6 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_77",
-            "iconLink": "https://ssl.gstatic.com/docs/doclist/images/icon_11_image_list.png",
             "thumbnailLink": "",
             "title": "PB275002.jpg",
             "mimeType": "image/jpeg",
@@ -1713,7 +1635,6 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_78",
-            "iconLink": "https://ssl.gstatic.com/docs/doclist/images/icon_11_image_list.png",
             "thumbnailLink": "",
             "title": "PB244720.jpg",
             "mimeType": "image/jpeg",
@@ -1735,7 +1656,6 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_79",
-            "iconLink": "https://ssl.gstatic.com/docs/doclist/images/icon_11_image_list.png",
             "thumbnailLink": "",
             "title": "PB244715.jpg",
             "mimeType": "image/jpeg",
@@ -1757,7 +1677,6 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_80",
-            "iconLink": "https://ssl.gstatic.com/docs/doclist/images/icon_11_image_list.png",
             "thumbnailLink": "",
             "title": "PB274959.jpg",
             "mimeType": "image/jpeg",
@@ -1779,7 +1698,6 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_81",
-            "iconLink": "https://ssl.gstatic.com/docs/doclist/images/icon_11_image_list.png",
             "thumbnailLink": "",
             "title": "RIMG0171-arc.jpg",
             "mimeType": "image/jpeg",
@@ -1801,7 +1719,6 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_82",
-            "iconLink": "https://ssl.gstatic.com/docs/doclist/images/icon_11_image_list.png",
             "thumbnailLink": "",
             "title": "RIMG0189-arc.jpg",
             "mimeType": "image/jpeg",
@@ -1823,7 +1740,6 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_83",
-            "iconLink": "https://ssl.gstatic.com/docs/doclist/images/icon_11_image_list.png",
             "thumbnailLink": "",
             "title": "P6081865.jpg",
             "mimeType": "image/jpeg",
@@ -1845,7 +1761,6 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_84",
-            "iconLink": "https://ssl.gstatic.com/docs/doclist/images/icon_11_image_list.png",
             "thumbnailLink": "",
             "title": "PB285054.jpg",
             "mimeType": "image/jpeg",
@@ -1867,7 +1782,6 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_85",
-            "iconLink": "https://ssl.gstatic.com/docs/doclist/images/icon_11_image_list.png",
             "thumbnailLink": "",
             "title": "IMGP0473.jpg",
             "mimeType": "image/jpeg",
@@ -1888,7 +1802,6 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_86",
-            "iconLink": "https://ssl.gstatic.com/docs/doclist/images/icon_11_image_list.png",
             "thumbnailLink": "",
             "title": "PB274979.jpg",
             "mimeType": "image/jpeg",
@@ -1910,7 +1823,6 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_87",
-            "iconLink": "https://ssl.gstatic.com/docs/doclist/images/icon_11_image_list.png",
             "thumbnailLink": "",
             "title": "PB224552.jpg",
             "mimeType": "image/jpeg",
@@ -1932,7 +1844,6 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_88",
-            "iconLink": "https://ssl.gstatic.com/docs/doclist/images/icon_11_image_list.png",
             "thumbnailLink": "",
             "title": "RIMG0256-arc.jpg",
             "mimeType": "image/jpeg",
@@ -1954,7 +1865,6 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_89",
-            "iconLink": "https://ssl.gstatic.com/docs/doclist/images/icon_11_image_list.png",
             "thumbnailLink": "",
             "title": "P6081870.jpg",
             "mimeType": "image/jpeg",
@@ -1976,7 +1886,6 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_90",
-            "iconLink": "https://ssl.gstatic.com/docs/doclist/images/icon_11_image_list.png",
             "thumbnailLink": "",
             "title": "PB275007.jpg",
             "mimeType": "image/jpeg",
@@ -1998,7 +1907,6 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_91",
-            "iconLink": "https://ssl.gstatic.com/docs/doclist/images/icon_11_image_list.png",
             "thumbnailLink": "",
             "title": "P6081872.jpg",
             "mimeType": "image/jpeg",
@@ -2020,7 +1928,6 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_92",
-            "iconLink": "https://ssl.gstatic.com/docs/doclist/images/icon_11_image_list.png",
             "thumbnailLink": "",
             "title": "PB274889.jpg",
             "mimeType": "image/jpeg",
@@ -2042,7 +1949,6 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_93",
-            "iconLink": "https://ssl.gstatic.com/docs/doclist/images/icon_11_image_list.png",
             "thumbnailLink": "",
             "title": "PB224508.jpg",
             "mimeType": "image/jpeg",
@@ -2064,7 +1970,6 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_94",
-            "iconLink": "https://ssl.gstatic.com/docs/doclist/images/icon_11_image_list.png",
             "thumbnailLink": "",
             "title": "P9049503.jpg",
             "mimeType": "image/jpeg",
@@ -2086,7 +1991,6 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_95",
-            "iconLink": "https://ssl.gstatic.com/docs/doclist/images/icon_11_image_list.png",
             "thumbnailLink": "",
             "title": "P9080483.jpg",
             "mimeType": "image/jpeg",
@@ -2108,7 +2012,6 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_96",
-            "iconLink": "https://ssl.gstatic.com/docs/doclist/images/icon_11_image_list.png",
             "thumbnailLink": "",
             "title": "PB274913.jpg",
             "mimeType": "image/jpeg",
@@ -2130,7 +2033,6 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_97",
-            "iconLink": "https://ssl.gstatic.com/docs/doclist/images/icon_11_image_list.png",
             "thumbnailLink": "",
             "title": "P8019350.jpg",
             "mimeType": "image/jpeg",
@@ -2152,7 +2054,6 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_98",
-            "iconLink": "https://ssl.gstatic.com/docs/doclist/images/icon_11_image_list.png",
             "thumbnailLink": "",
             "title": "P6081961.jpg",
             "mimeType": "image/jpeg",
@@ -2174,7 +2075,6 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_99",
-            "iconLink": "https://ssl.gstatic.com/docs/doclist/images/icon_11_image_list.png",
             "thumbnailLink": "",
             "title": "PB274966.jpg",
             "mimeType": "image/jpeg",
@@ -2196,7 +2096,6 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_100",
-            "iconLink": "https://ssl.gstatic.com/docs/doclist/images/icon_11_image_list.png",
             "thumbnailLink": "",
             "title": "PB244770.jpg",
             "mimeType": "image/jpeg",
@@ -2218,7 +2117,6 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_101",
-            "iconLink": "https://ssl.gstatic.com/docs/doclist/images/icon_11_image_list.png",
             "thumbnailLink": "",
             "title": "P9049463.jpg",
             "mimeType": "image/jpeg",
@@ -2240,7 +2138,6 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_102",
-            "iconLink": "https://ssl.gstatic.com/docs/doclist/images/icon_11_image_list.png",
             "thumbnailLink": "",
             "title": "P5040054.jpg",
             "mimeType": "image/jpeg",
@@ -2262,7 +2159,6 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_103",
-            "iconLink": "https://ssl.gstatic.com/docs/doclist/images/icon_11_image_list.png",
             "thumbnailLink": "",
             "title": "fh030012.jpg",
             "mimeType": "image/jpeg",
@@ -2283,7 +2179,6 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_104",
-            "iconLink": "https://ssl.gstatic.com/docs/doclist/images/icon_11_image_list.png",
             "thumbnailLink": "",
             "title": "IMGP0584.jpg",
             "mimeType": "image/jpeg",
@@ -2304,7 +2199,6 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_105",
-            "iconLink": "https://ssl.gstatic.com/docs/doclist/images/icon_11_image_list.png",
             "thumbnailLink": "",
             "title": "PB274994.jpg",
             "mimeType": "image/jpeg",
@@ -2326,7 +2220,6 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_106",
-            "iconLink": "https://ssl.gstatic.com/docs/doclist/images/icon_11_image_list.png",
             "thumbnailLink": "",
             "title": "P2126753.jpg",
             "mimeType": "image/jpeg",
@@ -2348,7 +2241,6 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_107",
-            "iconLink": "https://ssl.gstatic.com/docs/doclist/images/icon_11_image_list.png",
             "thumbnailLink": "",
             "title": "P7309241.jpg",
             "mimeType": "image/jpeg",
@@ -2370,7 +2262,6 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_108",
-            "iconLink": "https://ssl.gstatic.com/docs/doclist/images/icon_11_image_list.png",
             "thumbnailLink": "",
             "title": "P5040056.jpg",
             "mimeType": "image/jpeg",
@@ -2392,7 +2283,6 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_109",
-            "iconLink": "https://ssl.gstatic.com/docs/doclist/images/icon_11_image_list.png",
             "thumbnailLink": "",
             "title": "PB234653.jpg",
             "mimeType": "image/jpeg",
@@ -2414,7 +2304,6 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_110",
-            "iconLink": "https://ssl.gstatic.com/docs/doclist/images/icon_11_image_list.png",
             "thumbnailLink": "",
             "title": "IMGP0593.jpg",
             "mimeType": "image/jpeg",
@@ -2435,7 +2324,6 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_111",
-            "iconLink": "https://ssl.gstatic.com/docs/doclist/images/icon_11_image_list.png",
             "thumbnailLink": "",
             "title": "IMG_1350-yuko.jpg",
             "mimeType": "image/jpeg",
@@ -2461,7 +2349,6 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_112",
-            "iconLink": "https://ssl.gstatic.com/docs/doclist/images/icon_11_image_list.png",
             "thumbnailLink": "",
             "title": "IMG_2132-yuko.jpg",
             "mimeType": "image/jpeg",
@@ -2482,7 +2369,6 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_113",
-            "iconLink": "https://ssl.gstatic.com/docs/doclist/images/icon_11_image_list.png",
             "thumbnailLink": "",
             "title": "RIMG0380-arc.jpg",
             "mimeType": "image/jpeg",
@@ -2504,7 +2390,6 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_114",
-            "iconLink": "https://ssl.gstatic.com/docs/doclist/images/icon_11_image_list.png",
             "thumbnailLink": "",
             "title": "P6081931.jpg",
             "mimeType": "image/jpeg",
@@ -2526,7 +2411,6 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_115",
-            "iconLink": "https://ssl.gstatic.com/docs/doclist/images/icon_11_image_list.png",
             "thumbnailLink": "",
             "title": "PB274955.jpg",
             "mimeType": "image/jpeg",
@@ -2548,7 +2432,6 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_116",
-            "iconLink": "https://ssl.gstatic.com/docs/doclist/images/icon_11_image_list.png",
             "thumbnailLink": "",
             "title": "PB244719.jpg",
             "mimeType": "image/jpeg",
@@ -2570,7 +2453,6 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_117",
-            "iconLink": "https://ssl.gstatic.com/docs/doclist/images/icon_11_image_list.png",
             "thumbnailLink": "",
             "title": "PB224558.jpg",
             "mimeType": "image/jpeg",
@@ -2592,7 +2474,6 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_118",
-            "iconLink": "https://ssl.gstatic.com/docs/doclist/images/icon_11_image_list.png",
             "thumbnailLink": "",
             "title": "PB234621.jpg",
             "mimeType": "image/jpeg",
@@ -2614,7 +2495,6 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_119",
-            "iconLink": "https://ssl.gstatic.com/docs/doclist/images/icon_11_image_list.png",
             "thumbnailLink": "",
             "title": "PB214483.jpg",
             "mimeType": "image/jpeg",
@@ -2636,7 +2516,6 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_120",
-            "iconLink": "https://ssl.gstatic.com/docs/doclist/images/icon_11_image_list.png",
             "thumbnailLink": "",
             "title": "P9049569.jpg",
             "mimeType": "image/jpeg",
@@ -2658,7 +2537,6 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_121",
-            "iconLink": "https://ssl.gstatic.com/docs/doclist/images/icon_11_image_list.png",
             "thumbnailLink": "",
             "title": "P4271364.jpg",
             "mimeType": "image/jpeg",
@@ -2680,7 +2558,6 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_122",
-            "iconLink": "https://ssl.gstatic.com/docs/doclist/images/icon_11_image_list.png",
             "thumbnailLink": "",
             "title": "P7309218.jpg",
             "mimeType": "image/jpeg",
@@ -2702,7 +2579,6 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_123",
-            "iconLink": "https://ssl.gstatic.com/docs/doclist/images/icon_11_image_list.png",
             "thumbnailLink": "",
             "title": "PB234666.jpg",
             "mimeType": "image/jpeg",
@@ -2724,7 +2600,6 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_124",
-            "iconLink": "https://ssl.gstatic.com/docs/doclist/images/icon_11_image_list.png",
             "thumbnailLink": "",
             "title": "RIMG0113-arc.jpg",
             "mimeType": "image/jpeg",
@@ -2746,7 +2621,6 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_125",
-            "iconLink": "https://ssl.gstatic.com/docs/doclist/images/icon_11_image_list.png",
             "thumbnailLink": "",
             "title": "P5050215.jpg",
             "mimeType": "image/jpeg",
@@ -2768,7 +2642,6 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_126",
-            "iconLink": "https://ssl.gstatic.com/docs/doclist/images/icon_11_image_list.png",
             "thumbnailLink": "",
             "title": "PB244763.jpg",
             "mimeType": "image/jpeg",
@@ -2790,7 +2663,6 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_127",
-            "iconLink": "https://ssl.gstatic.com/docs/doclist/images/icon_11_image_list.png",
             "thumbnailLink": "",
             "title": "198358-R1-7A.jpg",
             "mimeType": "image/jpeg",
@@ -2809,7 +2681,6 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_128",
-            "iconLink": "https://ssl.gstatic.com/docs/doclist/images/icon_11_image_list.png",
             "thumbnailLink": "",
             "title": "IMG_7897.jpg",
             "mimeType": "image/jpeg",
@@ -2830,7 +2701,6 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_129",
-            "iconLink": "https://ssl.gstatic.com/docs/doclist/images/icon_11_image_list.png",
             "thumbnailLink": "",
             "title": "PB285040.jpg",
             "mimeType": "image/jpeg",
@@ -2852,7 +2722,6 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_130",
-            "iconLink": "https://ssl.gstatic.com/docs/doclist/images/icon_11_image_list.png",
             "thumbnailLink": "",
             "title": "PB224551.jpg",
             "mimeType": "image/jpeg",
@@ -2874,7 +2743,6 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_131",
-            "iconLink": "https://ssl.gstatic.com/docs/doclist/images/icon_11_image_list.png",
             "thumbnailLink": "",
             "title": "P9049486.jpg",
             "mimeType": "image/jpeg",
@@ -2896,7 +2764,6 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_132",
-            "iconLink": "https://ssl.gstatic.com/docs/doclist/images/icon_11_image_list.png",
             "thumbnailLink": "",
             "title": "P5260384.jpg",
             "mimeType": "image/jpeg",
@@ -2918,7 +2785,6 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_133",
-            "iconLink": "https://ssl.gstatic.com/docs/doclist/images/icon_11_image_list.png",
             "thumbnailLink": "",
             "title": "P9284835.jpg",
             "mimeType": "image/jpeg",
@@ -2940,7 +2806,6 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_134",
-            "iconLink": "https://ssl.gstatic.com/docs/doclist/images/icon_11_image_list.png",
             "thumbnailLink": "",
             "title": "PB244699.jpg",
             "mimeType": "image/jpeg",
@@ -2962,7 +2827,6 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_135",
-            "iconLink": "https://ssl.gstatic.com/docs/doclist/images/icon_11_image_list.png",
             "thumbnailLink": "",
             "title": "P5050179.jpg",
             "mimeType": "image/jpeg",
@@ -2984,7 +2848,6 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_136",
-            "iconLink": "https://ssl.gstatic.com/docs/doclist/images/icon_11_image_list.png",
             "thumbnailLink": "",
             "title": "PB234694.jpg",
             "mimeType": "image/jpeg",
@@ -3006,7 +2869,6 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_137",
-            "iconLink": "https://ssl.gstatic.com/docs/doclist/images/icon_11_image_list.png",
             "thumbnailLink": "",
             "title": "P8019354.jpg",
             "mimeType": "image/jpeg",
@@ -3028,7 +2890,6 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_138",
-            "iconLink": "https://ssl.gstatic.com/docs/doclist/images/icon_11_image_list.png",
             "thumbnailLink": "",
             "title": "RIMG0287-arc.jpg",
             "mimeType": "image/jpeg",
@@ -3050,7 +2911,6 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_139",
-            "iconLink": "https://ssl.gstatic.com/docs/doclist/images/icon_11_image_list.png",
             "thumbnailLink": "",
             "title": "RIMG0274-arc.jpg",
             "mimeType": "image/jpeg",
@@ -3072,7 +2932,6 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_140",
-            "iconLink": "https://ssl.gstatic.com/docs/doclist/images/icon_11_image_list.png",
             "thumbnailLink": "",
             "title": "PB285035.jpg",
             "mimeType": "image/jpeg",
@@ -3094,7 +2953,6 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_141",
-            "iconLink": "https://ssl.gstatic.com/docs/doclist/images/icon_11_image_list.png",
             "thumbnailLink": "",
             "title": "IMG_2144-yuko.jpg",
             "mimeType": "image/jpeg",
@@ -3120,7 +2978,6 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_142",
-            "iconLink": "https://ssl.gstatic.com/docs/doclist/images/icon_11_image_list.png",
             "thumbnailLink": "",
             "title": "PB244759.jpg",
             "mimeType": "image/jpeg",
@@ -3142,7 +2999,6 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_143",
-            "iconLink": "https://ssl.gstatic.com/docs/doclist/images/icon_11_image_list.png",
             "thumbnailLink": "",
             "title": "P1010033-yuko.jpg",
             "mimeType": "image/jpeg",
@@ -3168,7 +3024,6 @@ window.FotomooFixtures.files = {
     items: [
         {
             "id": "file_144",
-            "iconLink": "https://ssl.gstatic.com/docs/doclist/images/icon_11_image_list.png",
             "thumbnailLink": "",
             "title": "P1000579.jpg",
             "mimeType": "image/jpeg",
@@ -3189,7 +3044,6 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_145",
-            "iconLink": "https://ssl.gstatic.com/docs/doclist/images/icon_11_image_list.png",
             "thumbnailLink": "",
             "title": "P1010087-yuko.jpg",
             "mimeType": "image/jpeg",
@@ -3210,7 +3064,6 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_146",
-            "iconLink": "https://ssl.gstatic.com/docs/doclist/images/icon_11_image_list.png",
             "thumbnailLink": "",
             "title": "P1010109-yuko.jpg",
             "mimeType": "image/jpeg",
@@ -3231,7 +3084,6 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_147",
-            "iconLink": "https://ssl.gstatic.com/docs/doclist/images/icon_11_image_list.png",
             "thumbnailLink": "",
             "title": "P1000975.jpg",
             "mimeType": "image/jpeg",
@@ -3252,7 +3104,6 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_148",
-            "iconLink": "https://ssl.gstatic.com/docs/doclist/images/icon_11_image_list.png",
             "thumbnailLink": "",
             "title": "IMG_1695-yuko.jpg",
             "mimeType": "image/jpeg",
@@ -3273,7 +3124,6 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_149",
-            "iconLink": "https://ssl.gstatic.com/docs/doclist/images/icon_11_image_list.png",
             "thumbnailLink": "",
             "title": "P1010026-yuko.jpg",
             "mimeType": "image/jpeg",
@@ -3294,7 +3144,6 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_150",
-            "iconLink": "https://ssl.gstatic.com/docs/doclist/images/icon_11_image_list.png",
             "thumbnailLink": "",
             "title": "P1000135.jpg",
             "mimeType": "image/jpeg",
@@ -3315,7 +3164,6 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_151",
-            "iconLink": "https://ssl.gstatic.com/docs/doclist/images/icon_11_image_list.png",
             "thumbnailLink": "",
             "title": "IMG_2510-yuko.jpg",
             "mimeType": "image/jpeg",
@@ -3336,7 +3184,6 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_152",
-            "iconLink": "https://ssl.gstatic.com/docs/doclist/images/icon_11_image_list.png",
             "thumbnailLink": "",
             "title": "P9059844.jpg",
             "mimeType": "image/jpeg",
@@ -3358,7 +3205,6 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_153",
-            "iconLink": "https://ssl.gstatic.com/docs/doclist/images/icon_11_image_list.png",
             "thumbnailLink": "",
             "title": "P1000009.jpg",
             "mimeType": "image/jpeg",
@@ -3379,7 +3225,6 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_154",
-            "iconLink": "https://ssl.gstatic.com/docs/doclist/images/icon_11_image_list.png",
             "thumbnailLink": "",
             "title": "P1010021-yuko.jpg",
             "mimeType": "image/jpeg",
@@ -3400,7 +3245,6 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_155",
-            "iconLink": "https://ssl.gstatic.com/docs/doclist/images/icon_11_image_list.png",
             "thumbnailLink": "",
             "title": "P1000352.jpg",
             "mimeType": "image/jpeg",
@@ -3421,7 +3265,6 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_156",
-            "iconLink": "https://ssl.gstatic.com/docs/doclist/images/icon_11_image_list.png",
             "thumbnailLink": "",
             "title": "IMG_2489-yuko.jpg",
             "mimeType": "image/jpeg",
@@ -3442,7 +3285,6 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_157",
-            "iconLink": "https://ssl.gstatic.com/docs/doclist/images/icon_11_image_list.png",
             "thumbnailLink": "",
             "title": "P1000512.jpg",
             "mimeType": "image/jpeg",
@@ -3463,7 +3305,6 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_158",
-            "iconLink": "https://ssl.gstatic.com/docs/doclist/images/icon_11_image_list.png",
             "thumbnailLink": "",
             "title": "IMG_2484-yuko.jpg",
             "mimeType": "image/jpeg",
@@ -3484,7 +3325,6 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_159",
-            "iconLink": "https://ssl.gstatic.com/docs/doclist/images/icon_11_image_list.png",
             "thumbnailLink": "",
             "title": "IMG_2518-yuko.jpg",
             "mimeType": "image/jpeg",
@@ -3505,7 +3345,6 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_160",
-            "iconLink": "https://ssl.gstatic.com/docs/doclist/images/icon_11_image_list.png",
             "thumbnailLink": "",
             "title": "IMG_1993-yuko.jpg",
             "mimeType": "image/jpeg",
@@ -3526,7 +3365,6 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_161",
-            "iconLink": "https://ssl.gstatic.com/docs/doclist/images/icon_11_image_list.png",
             "thumbnailLink": "",
             "title": "P1000970.jpg",
             "mimeType": "image/jpeg",
@@ -3547,7 +3385,6 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_162",
-            "iconLink": "https://ssl.gstatic.com/docs/doclist/images/icon_11_image_list.png",
             "thumbnailLink": "",
             "title": "P1010122-yuko.jpg",
             "mimeType": "image/jpeg",
@@ -3568,7 +3405,6 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_163",
-            "iconLink": "https://ssl.gstatic.com/docs/doclist/images/icon_11_image_list.png",
             "thumbnailLink": "",
             "title": "IMG_2466-yuko.jpg",
             "mimeType": "image/jpeg",
@@ -3589,7 +3425,6 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_164",
-            "iconLink": "https://ssl.gstatic.com/docs/doclist/images/icon_11_image_list.png",
             "thumbnailLink": "",
             "title": "P9059858.jpg",
             "mimeType": "image/jpeg",
@@ -3611,7 +3446,6 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_165",
-            "iconLink": "https://ssl.gstatic.com/docs/doclist/images/icon_11_image_list.png",
             "thumbnailLink": "",
             "title": "IMG_2531-yuko.jpg",
             "mimeType": "image/jpeg",
@@ -3632,7 +3466,6 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_166",
-            "iconLink": "https://ssl.gstatic.com/docs/doclist/images/icon_11_image_list.png",
             "thumbnailLink": "",
             "title": "P1010003-yuko.jpg",
             "mimeType": "image/jpeg",
@@ -3653,7 +3486,6 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_167",
-            "iconLink": "https://ssl.gstatic.com/docs/doclist/images/icon_11_image_list.png",
             "thumbnailLink": "",
             "title": "P9049711.jpg",
             "mimeType": "image/jpeg",
@@ -3675,7 +3507,6 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_168",
-            "iconLink": "https://ssl.gstatic.com/docs/doclist/images/icon_11_image_list.png",
             "thumbnailLink": "",
             "title": "IMG_1576.jpg",
             "mimeType": "image/jpeg",
@@ -3701,7 +3532,6 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_169",
-            "iconLink": "https://ssl.gstatic.com/docs/doclist/images/icon_11_image_list.png",
             "thumbnailLink": "",
             "title": "P1000383.jpg",
             "mimeType": "image/jpeg",
@@ -3722,7 +3552,6 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_170",
-            "iconLink": "https://ssl.gstatic.com/docs/doclist/images/icon_11_image_list.png",
             "thumbnailLink": "",
             "title": "IMG_2582-yuko.jpg",
             "mimeType": "image/jpeg",
@@ -3743,7 +3572,6 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_171",
-            "iconLink": "https://ssl.gstatic.com/docs/doclist/images/icon_11_image_list.png",
             "thumbnailLink": "",
             "title": "IMG_2448-yuko.jpg",
             "mimeType": "image/jpeg",
@@ -3764,7 +3592,6 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_172",
-            "iconLink": "https://ssl.gstatic.com/docs/doclist/images/icon_11_image_list.png",
             "thumbnailLink": "",
             "title": "IMG_2615-yuko.jpg",
             "mimeType": "image/jpeg",
@@ -3785,7 +3612,6 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_173",
-            "iconLink": "https://ssl.gstatic.com/docs/doclist/images/icon_11_image_list.png",
             "thumbnailLink": "",
             "title": "P1010117-yuko.jpg",
             "mimeType": "image/jpeg",
@@ -3806,7 +3632,6 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_174",
-            "iconLink": "https://ssl.gstatic.com/docs/doclist/images/icon_11_image_list.png",
             "thumbnailLink": "",
             "title": "P9049672.jpg",
             "mimeType": "image/jpeg",
@@ -3828,7 +3653,6 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_175",
-            "iconLink": "https://ssl.gstatic.com/docs/doclist/images/icon_11_image_list.png",
             "thumbnailLink": "",
             "title": "P9059872.jpg",
             "mimeType": "image/jpeg",
@@ -3850,7 +3674,6 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_176",
-            "iconLink": "https://ssl.gstatic.com/docs/doclist/images/icon_11_image_list.png",
             "thumbnailLink": "",
             "title": "P1010045-yuko.jpg",
             "mimeType": "image/jpeg",
@@ -3871,7 +3694,6 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_177",
-            "iconLink": "https://ssl.gstatic.com/docs/doclist/images/icon_11_image_list.png",
             "thumbnailLink": "",
             "title": "P9059868.jpg",
             "mimeType": "image/jpeg",
@@ -3893,7 +3715,6 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_178",
-            "iconLink": "https://ssl.gstatic.com/docs/doclist/images/icon_11_image_list.png",
             "thumbnailLink": "",
             "title": "P7299918.jpg",
             "mimeType": "image/jpeg",
@@ -3915,7 +3736,6 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_179",
-            "iconLink": "https://ssl.gstatic.com/docs/doclist/images/icon_11_image_list.png",
             "thumbnailLink": "",
             "title": "P7300071.jpg",
             "mimeType": "image/jpeg",
@@ -3937,7 +3757,6 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_180",
-            "iconLink": "https://ssl.gstatic.com/docs/doclist/images/icon_11_image_list.png",
             "thumbnailLink": "",
             "title": "P1000049.jpg",
             "mimeType": "image/jpeg",
@@ -3958,7 +3777,6 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_181",
-            "iconLink": "https://ssl.gstatic.com/docs/doclist/images/icon_11_image_list.png",
             "thumbnailLink": "",
             "title": "P9059874.jpg",
             "mimeType": "image/jpeg",
@@ -3980,7 +3798,6 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_182",
-            "iconLink": "https://ssl.gstatic.com/docs/doclist/images/icon_11_image_list.png",
             "thumbnailLink": "",
             "title": "P1010032-yuko.jpg",
             "mimeType": "image/jpeg",
@@ -4001,7 +3818,6 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_183",
-            "iconLink": "https://ssl.gstatic.com/docs/doclist/images/icon_11_image_list.png",
             "thumbnailLink": "",
             "title": "IMG_1973-yuko.jpg",
             "mimeType": "image/jpeg",
@@ -4022,7 +3838,6 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_184",
-            "iconLink": "https://ssl.gstatic.com/docs/doclist/images/icon_11_image_list.png",
             "thumbnailLink": "",
             "title": "P1010108-yuko.jpg",
             "mimeType": "image/jpeg",
@@ -4043,7 +3858,6 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_185",
-            "iconLink": "https://ssl.gstatic.com/docs/doclist/images/icon_11_image_list.png",
             "thumbnailLink": "",
             "title": "P9059785.jpg",
             "mimeType": "image/jpeg",
@@ -4065,7 +3879,6 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_186",
-            "iconLink": "https://ssl.gstatic.com/docs/doclist/images/icon_11_image_list.png",
             "thumbnailLink": "",
             "title": "P1010084-yuko.jpg",
             "mimeType": "image/jpeg",
@@ -4086,7 +3899,6 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_187",
-            "iconLink": "https://ssl.gstatic.com/docs/doclist/images/icon_11_image_list.png",
             "thumbnailLink": "",
             "title": "IMG_2463-yuko.jpg",
             "mimeType": "image/jpeg",
@@ -4107,7 +3919,6 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_188",
-            "iconLink": "https://ssl.gstatic.com/docs/doclist/images/icon_11_image_list.png",
             "thumbnailLink": "",
             "title": "P1010105-yuko.jpg",
             "mimeType": "image/jpeg",
@@ -4128,7 +3939,6 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_189",
-            "iconLink": "https://ssl.gstatic.com/docs/doclist/images/icon_11_image_list.png",
             "thumbnailLink": "",
             "title": "IMG_2479-yuko.jpg",
             "mimeType": "image/jpeg",
@@ -4149,7 +3959,6 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_190",
-            "iconLink": "https://ssl.gstatic.com/docs/doclist/images/icon_11_image_list.png",
             "thumbnailLink": "",
             "title": "IMG_1991-yuko.jpg",
             "mimeType": "image/jpeg",
@@ -4170,7 +3979,6 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_191",
-            "iconLink": "https://ssl.gstatic.com/docs/doclist/images/icon_11_image_list.png",
             "thumbnailLink": "",
             "title": "P1000326.jpg",
             "mimeType": "image/jpeg",
@@ -4191,7 +3999,6 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_192",
-            "iconLink": "https://ssl.gstatic.com/docs/doclist/images/icon_11_image_list.png",
             "thumbnailLink": "",
             "title": "IMG_2496-yuko.jpg",
             "mimeType": "image/jpeg",
@@ -4212,7 +4019,6 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_193",
-            "iconLink": "https://ssl.gstatic.com/docs/doclist/images/icon_11_image_list.png",
             "thumbnailLink": "",
             "title": "IMG_2492-yuko.jpg",
             "mimeType": "image/jpeg",
@@ -4233,7 +4039,6 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_194",
-            "iconLink": "https://ssl.gstatic.com/docs/doclist/images/icon_11_image_list.png",
             "thumbnailLink": "",
             "title": "P1010068-yuko.jpg",
             "mimeType": "image/jpeg",
@@ -4254,7 +4059,6 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_195",
-            "iconLink": "https://ssl.gstatic.com/docs/doclist/images/icon_11_image_list.png",
             "thumbnailLink": "",
             "title": "IMG_2634-yuko.jpg",
             "mimeType": "image/jpeg",
@@ -4275,7 +4079,6 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_196",
-            "iconLink": "https://ssl.gstatic.com/docs/doclist/images/icon_11_image_list.png",
             "thumbnailLink": "",
             "title": "P5010402.jpg",
             "mimeType": "image/jpeg",
@@ -4297,7 +4100,6 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_197",
-            "iconLink": "https://ssl.gstatic.com/docs/doclist/images/icon_11_image_list.png",
             "thumbnailLink": "",
             "title": "P5010392.jpg",
             "mimeType": "image/jpeg",
@@ -4319,7 +4121,6 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_198",
-            "iconLink": "https://ssl.gstatic.com/docs/doclist/images/icon_11_image_list.png",
             "thumbnailLink": "",
             "title": "P5010372.jpg",
             "mimeType": "image/jpeg",
@@ -4341,7 +4142,6 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_199",
-            "iconLink": "https://ssl.gstatic.com/docs/doclist/images/icon_11_image_list.png",
             "thumbnailLink": "",
             "title": "P5010342.jpg",
             "mimeType": "image/jpeg",
@@ -4363,7 +4163,6 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_200",
-            "iconLink": "https://ssl.gstatic.com/docs/doclist/images/icon_11_image_list.png",
             "thumbnailLink": "",
             "title": "P4300261.jpg",
             "mimeType": "image/jpeg",
@@ -4385,7 +4184,6 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_201",
-            "iconLink": "https://ssl.gstatic.com/docs/doclist/images/icon_11_image_list.png",
             "thumbnailLink": "",
             "title": "P4300291.jpg",
             "mimeType": "image/jpeg",
@@ -4407,7 +4205,6 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_202",
-            "iconLink": "https://ssl.gstatic.com/docs/doclist/images/icon_11_image_list.png",
             "thumbnailLink": "",
             "title": "P4300250.jpg",
             "mimeType": "image/jpeg",
@@ -4429,7 +4226,6 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_203",
-            "iconLink": "https://ssl.gstatic.com/docs/doclist/images/icon_11_image_list.png",
             "thumbnailLink": "",
             "title": "P4300226.jpg",
             "mimeType": "image/jpeg",
@@ -4451,7 +4247,6 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_204",
-            "iconLink": "https://ssl.gstatic.com/docs/doclist/images/icon_11_image_list.png",
             "thumbnailLink": "",
             "title": "P4300305.jpg",
             "mimeType": "image/jpeg",
@@ -4473,7 +4268,6 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_205",
-            "iconLink": "https://ssl.gstatic.com/docs/doclist/images/icon_11_image_list.png",
             "thumbnailLink": "",
             "title": "P5010397.jpg",
             "mimeType": "image/jpeg",
@@ -4495,7 +4289,6 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_206",
-            "iconLink": "https://ssl.gstatic.com/docs/doclist/images/icon_11_image_list.png",
             "thumbnailLink": "",
             "title": "P4300297.jpg",
             "mimeType": "image/jpeg",
@@ -4517,7 +4310,6 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_207",
-            "iconLink": "https://ssl.gstatic.com/docs/doclist/images/icon_11_image_list.png",
             "thumbnailLink": "",
             "title": "P7310131.jpg",
             "mimeType": "image/jpeg",
@@ -4539,7 +4331,6 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_208",
-            "iconLink": "https://ssl.gstatic.com/docs/doclist/images/icon_11_image_list.png",
             "thumbnailLink": "",
             "title": "P5010357.jpg",
             "mimeType": "image/jpeg",
@@ -4561,7 +4352,6 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_209",
-            "iconLink": "https://ssl.gstatic.com/docs/doclist/images/icon_11_image_list.png",
             "thumbnailLink": "",
             "title": "P4300268.jpg",
             "mimeType": "image/jpeg",
@@ -4583,7 +4373,6 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_210",
-            "iconLink": "https://ssl.gstatic.com/docs/doclist/images/icon_11_image_list.png",
             "thumbnailLink": "",
             "title": "P4300276.jpg",
             "mimeType": "image/jpeg",
@@ -4605,7 +4394,6 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_211",
-            "iconLink": "https://ssl.gstatic.com/docs/doclist/images/icon_11_image_list.png",
             "thumbnailLink": "",
             "title": "P1020021.jpg",
             "mimeType": "image/jpeg",
@@ -4626,7 +4414,6 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_212",
-            "iconLink": "https://ssl.gstatic.com/docs/doclist/images/icon_11_image_list.png",
             "thumbnailLink": "",
             "title": "P5010329.jpg",
             "mimeType": "image/jpeg",
@@ -4648,7 +4435,6 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_213",
-            "iconLink": "https://ssl.gstatic.com/docs/doclist/images/icon_11_image_list.png",
             "thumbnailLink": "",
             "title": "IMG_0477.jpg",
             "mimeType": "image/jpeg",
@@ -4674,7 +4460,6 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_214",
-            "iconLink": "https://ssl.gstatic.com/docs/doclist/images/icon_11_image_list.png",
             "thumbnailLink": "",
             "title": "rome-marie-flowers.jpg",
             "mimeType": "image/jpeg",
@@ -4696,7 +4481,6 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_215",
-            "iconLink": "https://ssl.gstatic.com/docs/doclist/images/icon_11_image_list.png",
             "thumbnailLink": "",
             "title": "P4300280.jpg",
             "mimeType": "image/jpeg",
@@ -4718,7 +4502,6 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_216",
-            "iconLink": "https://ssl.gstatic.com/docs/doclist/images/icon_11_image_list.png",
             "thumbnailLink": "",
             "title": "P4300292.jpg",
             "mimeType": "image/jpeg",
@@ -4740,7 +4523,6 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_217",
-            "iconLink": "https://ssl.gstatic.com/docs/doclist/images/icon_11_image_list.png",
             "thumbnailLink": "",
             "title": "P4300289.jpg",
             "mimeType": "image/jpeg",
@@ -4762,7 +4544,6 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_218",
-            "iconLink": "https://ssl.gstatic.com/docs/doclist/images/icon_11_image_list.png",
             "thumbnailLink": "",
             "title": "P5010374.jpg",
             "mimeType": "image/jpeg",
@@ -4784,7 +4565,6 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_219",
-            "iconLink": "https://ssl.gstatic.com/docs/doclist/images/icon_11_image_list.png",
             "thumbnailLink": "",
             "title": "P5010364.jpg",
             "mimeType": "image/jpeg",
@@ -4806,7 +4586,6 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_220",
-            "iconLink": "https://ssl.gstatic.com/docs/doclist/images/icon_11_image_list.png",
             "thumbnailLink": "",
             "title": "P5010345.jpg",
             "mimeType": "image/jpeg",
@@ -4828,7 +4607,6 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_221",
-            "iconLink": "https://ssl.gstatic.com/docs/doclist/images/icon_11_image_list.png",
             "thumbnailLink": "",
             "title": "P4300292.jpg",
             "mimeType": "image/jpeg",
@@ -4850,7 +4628,6 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_222",
-            "iconLink": "https://ssl.gstatic.com/docs/doclist/images/icon_11_image_list.png",
             "thumbnailLink": "",
             "title": "P4300293.jpg",
             "mimeType": "image/jpeg",
@@ -4872,7 +4649,6 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_223",
-            "iconLink": "https://ssl.gstatic.com/docs/doclist/images/icon_11_image_list.png",
             "thumbnailLink": "",
             "title": "P4300231.jpg",
             "mimeType": "image/jpeg",
@@ -4894,7 +4670,6 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_224",
-            "iconLink": "https://ssl.gstatic.com/docs/doclist/images/icon_11_image_list.png",
             "thumbnailLink": "",
             "title": "P5010432.jpg",
             "mimeType": "image/jpeg",
@@ -4916,7 +4691,6 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_225",
-            "iconLink": "https://ssl.gstatic.com/docs/doclist/images/icon_11_image_list.png",
             "thumbnailLink": "",
             "title": "P5020475.jpg",
             "mimeType": "image/jpeg",
@@ -4938,7 +4712,6 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_226",
-            "iconLink": "https://ssl.gstatic.com/docs/doclist/images/icon_11_image_list.png",
             "thumbnailLink": "",
             "title": "P5020471.jpg",
             "mimeType": "image/jpeg",
@@ -4960,7 +4733,6 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_227",
-            "iconLink": "https://ssl.gstatic.com/docs/doclist/images/icon_11_image_list.png",
             "thumbnailLink": "",
             "title": "IMG_0507.jpg",
             "mimeType": "image/jpeg",
@@ -4986,7 +4758,6 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_228",
-            "iconLink": "https://ssl.gstatic.com/docs/doclist/images/icon_11_image_list.png",
             "thumbnailLink": "",
             "title": "P5020572.jpg",
             "mimeType": "image/jpeg",
@@ -5008,7 +4779,6 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_229",
-            "iconLink": "https://ssl.gstatic.com/docs/doclist/images/icon_11_image_list.png",
             "thumbnailLink": "",
             "title": "P5030637.jpg",
             "mimeType": "image/jpeg",
@@ -5030,7 +4800,6 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_230",
-            "iconLink": "https://ssl.gstatic.com/docs/doclist/images/icon_11_image_list.png",
             "thumbnailLink": "",
             "title": "P5020459.jpg",
             "mimeType": "image/jpeg",
@@ -5052,7 +4821,6 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_231",
-            "iconLink": "https://ssl.gstatic.com/docs/doclist/images/icon_11_image_list.png",
             "thumbnailLink": "",
             "title": "P5020578.jpg",
             "mimeType": "image/jpeg",
@@ -5074,7 +4842,6 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_232",
-            "iconLink": "https://ssl.gstatic.com/docs/doclist/images/icon_11_image_list.png",
             "thumbnailLink": "",
             "title": "P5010416.jpg",
             "mimeType": "image/jpeg",
@@ -5096,7 +4863,6 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_233",
-            "iconLink": "https://ssl.gstatic.com/docs/doclist/images/icon_11_image_list.png",
             "thumbnailLink": "",
             "title": "P5020502.jpg",
             "mimeType": "image/jpeg",
@@ -5118,7 +4884,6 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_234",
-            "iconLink": "https://ssl.gstatic.com/docs/doclist/images/icon_11_image_list.png",
             "thumbnailLink": "",
             "title": "P5020492.jpg",
             "mimeType": "image/jpeg",
@@ -5140,7 +4905,6 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_235",
-            "iconLink": "https://ssl.gstatic.com/docs/doclist/images/icon_11_image_list.png",
             "thumbnailLink": "",
             "title": "P5030621.jpg",
             "mimeType": "image/jpeg",
@@ -5162,7 +4926,6 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_236",
-            "iconLink": "https://ssl.gstatic.com/docs/doclist/images/icon_11_image_list.png",
             "thumbnailLink": "",
             "title": "P5030625.jpg",
             "mimeType": "image/jpeg",
@@ -5184,7 +4947,6 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_237",
-            "iconLink": "https://ssl.gstatic.com/docs/doclist/images/icon_11_image_list.png",
             "thumbnailLink": "",
             "title": "P5020562.jpg",
             "mimeType": "image/jpeg",
@@ -5206,7 +4968,6 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_238",
-            "iconLink": "https://ssl.gstatic.com/docs/doclist/images/icon_11_image_list.png",
             "thumbnailLink": "",
             "title": "P5020467.jpg",
             "mimeType": "image/jpeg",
@@ -5228,7 +4989,6 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_239",
-            "iconLink": "https://ssl.gstatic.com/docs/doclist/images/icon_11_image_list.png",
             "thumbnailLink": "",
             "title": "P5030610.jpg",
             "mimeType": "image/jpeg",
@@ -5250,7 +5010,6 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_240",
-            "iconLink": "https://ssl.gstatic.com/docs/doclist/images/icon_11_image_list.png",
             "thumbnailLink": "",
             "title": "P5030602.jpg",
             "mimeType": "image/jpeg",
@@ -5272,7 +5031,6 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_241",
-            "iconLink": "https://ssl.gstatic.com/docs/doclist/images/icon_11_image_list.png",
             "thumbnailLink": "",
             "title": "P5010452.jpg",
             "mimeType": "image/jpeg",
@@ -5294,7 +5052,6 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_242",
-            "iconLink": "https://ssl.gstatic.com/docs/doclist/images/icon_11_image_list.png",
             "thumbnailLink": "",
             "title": "P5020536.jpg",
             "mimeType": "image/jpeg",
@@ -5316,7 +5073,6 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_243",
-            "iconLink": "https://ssl.gstatic.com/docs/doclist/images/icon_11_image_list.png",
             "thumbnailLink": "",
             "title": "P5020530.jpg",
             "mimeType": "image/jpeg",
@@ -5338,7 +5094,6 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_244",
-            "iconLink": "https://ssl.gstatic.com/docs/doclist/images/icon_11_image_list.png",
             "thumbnailLink": "",
             "title": "P5010424.jpg",
             "mimeType": "image/jpeg",
@@ -5360,7 +5115,6 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_245",
-            "iconLink": "https://ssl.gstatic.com/docs/doclist/images/icon_11_image_list.png",
             "thumbnailLink": "",
             "title": "P5030646.jpg",
             "mimeType": "image/jpeg",
@@ -5382,7 +5136,6 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_246",
-            "iconLink": "https://ssl.gstatic.com/docs/doclist/images/icon_11_image_list.png",
             "thumbnailLink": "",
             "title": "P5020482.jpg",
             "mimeType": "image/jpeg",
@@ -5404,7 +5157,6 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_247",
-            "iconLink": "https://ssl.gstatic.com/docs/doclist/images/icon_11_image_list.png",
             "thumbnailLink": "",
             "title": "P5020479.jpg",
             "mimeType": "image/jpeg",
@@ -5426,7 +5178,6 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_248",
-            "iconLink": "https://ssl.gstatic.com/docs/doclist/images/icon_11_image_list.png",
             "thumbnailLink": "",
             "title": "P5030583.jpg",
             "mimeType": "image/jpeg",
@@ -5448,7 +5199,6 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_249",
-            "iconLink": "https://ssl.gstatic.com/docs/doclist/images/icon_11_image_list.png",
             "thumbnailLink": "",
             "title": "P5080836.jpg",
             "mimeType": "image/jpeg",
@@ -5470,7 +5220,6 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_250",
-            "iconLink": "https://ssl.gstatic.com/docs/doclist/images/icon_11_image_list.png",
             "thumbnailLink": "",
             "title": "P5060799.jpg",
             "mimeType": "image/jpeg",
@@ -5492,7 +5241,6 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_251",
-            "iconLink": "https://ssl.gstatic.com/docs/doclist/images/icon_11_image_list.png",
             "thumbnailLink": "",
             "title": "P5100924.jpg",
             "mimeType": "image/jpeg",
@@ -5514,7 +5262,6 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_252",
-            "iconLink": "https://ssl.gstatic.com/docs/doclist/images/icon_11_image_list.png",
             "thumbnailLink": "",
             "title": "P5050774.jpg",
             "mimeType": "image/jpeg",
@@ -5536,7 +5283,6 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_253",
-            "iconLink": "https://ssl.gstatic.com/docs/doclist/images/icon_11_image_list.png",
             "thumbnailLink": "",
             "title": "P5040693.jpg",
             "mimeType": "image/jpeg",
@@ -5558,7 +5304,6 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_254",
-            "iconLink": "https://ssl.gstatic.com/docs/doclist/images/icon_11_image_list.png",
             "thumbnailLink": "",
             "title": "panalama.jpg",
             "mimeType": "image/jpeg",
@@ -5578,7 +5323,6 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_255",
-            "iconLink": "https://ssl.gstatic.com/docs/doclist/images/icon_11_image_list.png",
             "thumbnailLink": "",
             "title": "P5050762.jpg",
             "mimeType": "image/jpeg",
@@ -5600,7 +5344,6 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_256",
-            "iconLink": "https://ssl.gstatic.com/docs/doclist/images/icon_11_image_list.png",
             "thumbnailLink": "",
             "title": "P5040707.jpg",
             "mimeType": "image/jpeg",
@@ -5622,7 +5365,6 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_257",
-            "iconLink": "https://ssl.gstatic.com/docs/doclist/images/icon_11_image_list.png",
             "thumbnailLink": "",
             "title": "P5190026.jpg",
             "mimeType": "image/jpeg",
@@ -5644,7 +5386,6 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_258",
-            "iconLink": "https://ssl.gstatic.com/docs/doclist/images/icon_11_image_list.png",
             "thumbnailLink": "",
             "title": "P5190017.jpg",
             "mimeType": "image/jpeg",
@@ -5666,7 +5407,6 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_259",
-            "iconLink": "https://ssl.gstatic.com/docs/doclist/images/icon_11_image_list.png",
             "thumbnailLink": "",
             "title": "P5030651.jpg",
             "mimeType": "image/jpeg",
@@ -5688,7 +5428,6 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_260",
-            "iconLink": "https://ssl.gstatic.com/docs/doclist/images/icon_11_image_list.png",
             "thumbnailLink": "",
             "title": "P5060797.jpg",
             "mimeType": "image/jpeg",
@@ -5710,7 +5449,6 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_261",
-            "iconLink": "https://ssl.gstatic.com/docs/doclist/images/icon_11_image_list.png",
             "thumbnailLink": "",
             "title": "P5060793.jpg",
             "mimeType": "image/jpeg",
@@ -5732,7 +5470,6 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_262",
-            "iconLink": "https://ssl.gstatic.com/docs/doclist/images/icon_11_image_list.png",
             "thumbnailLink": "",
             "title": "P5080812.jpg",
             "mimeType": "image/jpeg",
@@ -5754,7 +5491,6 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_263",
-            "iconLink": "https://ssl.gstatic.com/docs/doclist/images/icon_11_image_list.png",
             "thumbnailLink": "",
             "title": "P5030657.jpg",
             "mimeType": "image/jpeg",
@@ -5776,7 +5512,6 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_264",
-            "iconLink": "https://ssl.gstatic.com/docs/doclist/images/icon_11_image_list.png",
             "thumbnailLink": "",
             "title": "P5180001.jpg",
             "mimeType": "image/jpeg",
@@ -5798,7 +5533,6 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_265",
-            "iconLink": "https://ssl.gstatic.com/docs/doclist/images/icon_11_image_list.png",
             "thumbnailLink": "",
             "title": "P5040698.jpg",
             "mimeType": "image/jpeg",
@@ -5820,7 +5554,6 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_266",
-            "iconLink": "https://ssl.gstatic.com/docs/doclist/images/icon_11_image_list.png",
             "thumbnailLink": "",
             "title": "P5100926.jpg",
             "mimeType": "image/jpeg",
@@ -5842,7 +5575,6 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_267",
-            "iconLink": "https://ssl.gstatic.com/docs/doclist/images/icon_11_image_list.png",
             "thumbnailLink": "",
             "title": "P5030681.jpg",
             "mimeType": "image/jpeg",
@@ -5864,7 +5596,6 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_268",
-            "iconLink": "https://ssl.gstatic.com/docs/doclist/images/icon_11_image_list.png",
             "thumbnailLink": "",
             "title": "P5100922.jpg",
             "mimeType": "image/jpeg",
@@ -5886,7 +5617,6 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_269",
-            "iconLink": "https://ssl.gstatic.com/docs/doclist/images/icon_11_image_list.png",
             "thumbnailLink": "",
             "title": "P5040687.jpg",
             "mimeType": "image/jpeg",
@@ -5908,7 +5638,6 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_270",
-            "iconLink": "https://ssl.gstatic.com/docs/doclist/images/icon_11_image_list.png",
             "thumbnailLink": "",
             "title": "P5080813.jpg",
             "mimeType": "image/jpeg",
@@ -5930,7 +5659,6 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_271",
-            "iconLink": "https://ssl.gstatic.com/docs/doclist/images/icon_11_image_list.png",
             "thumbnailLink": "",
             "title": "P5050752.jpg",
             "mimeType": "image/jpeg",
@@ -5952,7 +5680,6 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_272",
-            "iconLink": "https://ssl.gstatic.com/docs/doclist/images/icon_11_image_list.png",
             "thumbnailLink": "",
             "title": "P7270031.jpg",
             "mimeType": "image/jpeg",
@@ -5974,7 +5701,6 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_273",
-            "iconLink": "https://ssl.gstatic.com/docs/doclist/images/icon_11_image_list.png",
             "thumbnailLink": "",
             "title": "IMG_0709.jpg",
             "mimeType": "image/jpeg",
@@ -6000,7 +5726,6 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_274",
-            "iconLink": "https://ssl.gstatic.com/docs/doclist/images/icon_11_image_list.png",
             "thumbnailLink": "",
             "title": "P7270148.jpg",
             "mimeType": "image/jpeg",
@@ -6022,7 +5747,6 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_275",
-            "iconLink": "https://ssl.gstatic.com/docs/doclist/images/icon_11_image_list.png",
             "thumbnailLink": "",
             "title": "P7270074.jpg",
             "mimeType": "image/jpeg",
@@ -6044,7 +5768,6 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_276",
-            "iconLink": "https://ssl.gstatic.com/docs/doclist/images/icon_11_image_list.png",
             "thumbnailLink": "",
             "title": "P6220024.jpg",
             "mimeType": "image/jpeg",
@@ -6066,7 +5789,6 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_277",
-            "iconLink": "https://ssl.gstatic.com/docs/doclist/images/icon_11_image_list.png",
             "thumbnailLink": "",
             "title": "IMG_0651.jpg",
             "mimeType": "image/jpeg",
@@ -6092,7 +5814,6 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_278",
-            "iconLink": "https://ssl.gstatic.com/docs/doclist/images/icon_11_image_list.png",
             "thumbnailLink": "",
             "title": "P7270039.jpg",
             "mimeType": "image/jpeg",
@@ -6114,7 +5835,6 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_279",
-            "iconLink": "https://ssl.gstatic.com/docs/doclist/images/icon_11_image_list.png",
             "thumbnailLink": "",
             "title": "P5190037.jpg",
             "mimeType": "image/jpeg",
@@ -6136,7 +5856,6 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_280",
-            "iconLink": "https://ssl.gstatic.com/docs/doclist/images/icon_11_image_list.png",
             "thumbnailLink": "",
             "title": "IMG_0670.jpg",
             "mimeType": "image/jpeg",
@@ -6162,7 +5881,6 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_281",
-            "iconLink": "https://ssl.gstatic.com/docs/doclist/images/icon_11_image_list.png",
             "thumbnailLink": "",
             "title": "P7260022.jpg",
             "mimeType": "image/jpeg",
@@ -6184,7 +5902,6 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_282",
-            "iconLink": "https://ssl.gstatic.com/docs/doclist/images/icon_11_image_list.png",
             "thumbnailLink": "",
             "title": "P6220014.jpg",
             "mimeType": "image/jpeg",
@@ -6206,7 +5923,6 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_283",
-            "iconLink": "https://ssl.gstatic.com/docs/doclist/images/icon_11_image_list.png",
             "thumbnailLink": "",
             "title": "P7270088.jpg",
             "mimeType": "image/jpeg",
@@ -6228,7 +5944,6 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_284",
-            "iconLink": "https://ssl.gstatic.com/docs/doclist/images/icon_11_image_list.png",
             "thumbnailLink": "",
             "title": "IMG_0619.jpg",
             "mimeType": "image/jpeg",
@@ -6254,7 +5969,6 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_285",
-            "iconLink": "https://ssl.gstatic.com/docs/doclist/images/icon_11_image_list.png",
             "thumbnailLink": "",
             "title": "IMG_0677.jpg",
             "mimeType": "image/jpeg",
@@ -6280,7 +5994,6 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_286",
-            "iconLink": "https://ssl.gstatic.com/docs/doclist/images/icon_11_image_list.png",
             "thumbnailLink": "",
             "title": "P7150092.jpg",
             "mimeType": "image/jpeg",
@@ -6302,7 +6015,6 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_287",
-            "iconLink": "https://ssl.gstatic.com/docs/doclist/images/icon_11_image_list.png",
             "thumbnailLink": "",
             "title": "P7260025.jpg",
             "mimeType": "image/jpeg",
@@ -6324,7 +6036,6 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_288",
-            "iconLink": "https://ssl.gstatic.com/docs/doclist/images/icon_11_image_list.png",
             "thumbnailLink": "",
             "title": "P7260024.jpg",
             "mimeType": "image/jpeg",
@@ -6346,7 +6057,6 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_289",
-            "iconLink": "https://ssl.gstatic.com/docs/doclist/images/icon_11_image_list.png",
             "thumbnailLink": "",
             "title": "IMG_0718.jpg",
             "mimeType": "image/jpeg",
@@ -6372,7 +6082,6 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_290",
-            "iconLink": "https://ssl.gstatic.com/docs/doclist/images/icon_11_image_list.png",
             "thumbnailLink": "",
             "title": "P7260021.jpg",
             "mimeType": "image/jpeg",
@@ -6394,7 +6103,6 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_291",
-            "iconLink": "https://ssl.gstatic.com/docs/doclist/images/icon_11_image_list.png",
             "thumbnailLink": "",
             "title": "P5270035.jpg",
             "mimeType": "image/jpeg",
@@ -6416,7 +6124,6 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_292",
-            "iconLink": "https://ssl.gstatic.com/docs/doclist/images/icon_11_image_list.png",
             "thumbnailLink": "",
             "title": "P7270047.jpg",
             "mimeType": "image/jpeg",
@@ -6438,7 +6145,6 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_293",
-            "iconLink": "https://ssl.gstatic.com/docs/doclist/images/icon_11_image_list.png",
             "thumbnailLink": "",
             "title": "P7260016.jpg",
             "mimeType": "image/jpeg",
@@ -6460,7 +6166,6 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_294",
-            "iconLink": "https://ssl.gstatic.com/docs/doclist/images/icon_11_image_list.png",
             "thumbnailLink": "",
             "title": "IMG_0703.jpg",
             "mimeType": "image/jpeg",
@@ -6486,7 +6191,6 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_295",
-            "iconLink": "https://ssl.gstatic.com/docs/doclist/images/icon_11_image_list.png",
             "thumbnailLink": "",
             "title": "P7270054.jpg",
             "mimeType": "image/jpeg",
@@ -6508,7 +6212,6 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_296",
-            "iconLink": "https://ssl.gstatic.com/docs/doclist/images/icon_11_image_list.png",
             "thumbnailLink": "",
             "title": "P5270034.jpg",
             "mimeType": "image/jpeg",
@@ -6530,7 +6233,6 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_297",
-            "iconLink": "https://ssl.gstatic.com/docs/doclist/images/icon_11_image_list.png",
             "thumbnailLink": "",
             "title": "IMG_0644.jpg",
             "mimeType": "image/jpeg",
@@ -6556,7 +6258,6 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_298",
-            "iconLink": "https://ssl.gstatic.com/docs/doclist/images/icon_11_image_list.png",
             "thumbnailLink": "",
             "title": "IMG_0740.jpg",
             "mimeType": "image/jpeg",
@@ -6582,7 +6283,6 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_299",
-            "iconLink": "https://ssl.gstatic.com/docs/doclist/images/icon_11_image_list.png",
             "thumbnailLink": "",
             "title": "IMG_0758.jpg",
             "mimeType": "image/jpeg",
@@ -6608,7 +6308,6 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_300",
-            "iconLink": "https://ssl.gstatic.com/docs/doclist/images/icon_11_image_list.png",
             "thumbnailLink": "",
             "title": "P6220026.jpg",
             "mimeType": "image/jpeg",
@@ -6630,7 +6329,6 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_301",
-            "iconLink": "https://ssl.gstatic.com/docs/doclist/images/icon_11_image_list.png",
             "thumbnailLink": "",
             "title": "P7150097.jpg",
             "mimeType": "image/jpeg",
@@ -6652,7 +6350,6 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_302",
-            "iconLink": "https://ssl.gstatic.com/docs/doclist/images/icon_11_image_list.png",
             "thumbnailLink": "",
             "title": "P6220022.jpg",
             "mimeType": "image/jpeg",
@@ -6674,7 +6371,6 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_303",
-            "iconLink": "https://ssl.gstatic.com/docs/doclist/images/icon_11_image_list.png",
             "thumbnailLink": "",
             "title": "P7150101.jpg",
             "mimeType": "image/jpeg",
@@ -6696,7 +6392,6 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_304",
-            "iconLink": "https://ssl.gstatic.com/docs/doclist/images/icon_11_image_list.png",
             "thumbnailLink": "",
             "title": "P8270030.jpg",
             "mimeType": "image/jpeg",
@@ -6718,7 +6413,6 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_305",
-            "iconLink": "https://ssl.gstatic.com/docs/doclist/images/icon_11_image_list.png",
             "thumbnailLink": "",
             "title": "P7280197.jpg",
             "mimeType": "image/jpeg",
@@ -6740,7 +6434,6 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_306",
-            "iconLink": "https://ssl.gstatic.com/docs/doclist/images/icon_11_image_list.png",
             "thumbnailLink": "",
             "title": "P7280171.jpg",
             "mimeType": "image/jpeg",
@@ -6762,7 +6455,6 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_307",
-            "iconLink": "https://ssl.gstatic.com/docs/doclist/images/icon_11_image_list.png",
             "thumbnailLink": "",
             "title": "IMG_0847.jpg",
             "mimeType": "image/jpeg",
@@ -6788,7 +6480,6 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_308",
-            "iconLink": "https://ssl.gstatic.com/docs/doclist/images/icon_11_image_list.png",
             "thumbnailLink": "",
             "title": "IMG_0835.jpg",
             "mimeType": "image/jpeg",
@@ -6814,7 +6505,6 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_309",
-            "iconLink": "https://ssl.gstatic.com/docs/doclist/images/icon_11_image_list.png",
             "thumbnailLink": "",
             "title": "P7280183.jpg",
             "mimeType": "image/jpeg",
@@ -6836,7 +6526,6 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_310",
-            "iconLink": "https://ssl.gstatic.com/docs/doclist/images/icon_11_image_list.png",
             "thumbnailLink": "",
             "title": "P9220258.jpg",
             "mimeType": "image/jpeg",
@@ -6858,7 +6547,6 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_311",
-            "iconLink": "https://ssl.gstatic.com/docs/doclist/images/icon_11_image_list.png",
             "thumbnailLink": "",
             "title": "P8270015.jpg",
             "mimeType": "image/jpeg",
@@ -6880,7 +6568,6 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_312",
-            "iconLink": "https://ssl.gstatic.com/docs/doclist/images/icon_11_image_list.png",
             "thumbnailLink": "",
             "title": "P9220154.jpg",
             "mimeType": "image/jpeg",
@@ -6902,7 +6589,6 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_313",
-            "iconLink": "https://ssl.gstatic.com/docs/doclist/images/icon_11_image_list.png",
             "thumbnailLink": "",
             "title": "P8270017.jpg",
             "mimeType": "image/jpeg",
@@ -6924,7 +6610,6 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_314",
-            "iconLink": "https://ssl.gstatic.com/docs/doclist/images/icon_11_image_list.png",
             "thumbnailLink": "",
             "title": "IMG_0810.jpg",
             "mimeType": "image/jpeg",
@@ -6950,7 +6635,6 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_315",
-            "iconLink": "https://ssl.gstatic.com/docs/doclist/images/icon_11_image_list.png",
             "thumbnailLink": "",
             "title": "P7280173.jpg",
             "mimeType": "image/jpeg",
@@ -6972,7 +6656,6 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_316",
-            "iconLink": "https://ssl.gstatic.com/docs/doclist/images/icon_11_image_list.png",
             "thumbnailLink": "",
             "title": "P8040214.jpg",
             "mimeType": "image/jpeg",
@@ -6994,7 +6677,6 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_317",
-            "iconLink": "https://ssl.gstatic.com/docs/doclist/images/icon_11_image_list.png",
             "thumbnailLink": "",
             "title": "P8270020.jpg",
             "mimeType": "image/jpeg",
@@ -7016,7 +6698,6 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_318",
-            "iconLink": "https://ssl.gstatic.com/docs/doclist/images/icon_11_image_list.png",
             "thumbnailLink": "",
             "title": "P7290203.jpg",
             "mimeType": "image/jpeg",
@@ -7038,7 +6719,6 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_319",
-            "iconLink": "https://ssl.gstatic.com/docs/doclist/images/icon_11_image_list.png",
             "thumbnailLink": "",
             "title": "P8270025.jpg",
             "mimeType": "image/jpeg",
@@ -7060,7 +6740,6 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_320",
-            "iconLink": "https://ssl.gstatic.com/docs/doclist/images/icon_11_image_list.png",
             "thumbnailLink": "",
             "title": "P9220141.jpg",
             "mimeType": "image/jpeg",
@@ -7082,7 +6761,6 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_321",
-            "iconLink": "https://ssl.gstatic.com/docs/doclist/images/icon_11_image_list.png",
             "thumbnailLink": "",
             "title": "P8270038.jpg",
             "mimeType": "image/jpeg",
@@ -7104,7 +6782,6 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_322",
-            "iconLink": "https://ssl.gstatic.com/docs/doclist/images/icon_11_image_list.png",
             "thumbnailLink": "",
             "title": "P8040222.jpg",
             "mimeType": "image/jpeg",
@@ -7126,7 +6803,6 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_323",
-            "iconLink": "https://ssl.gstatic.com/docs/doclist/images/icon_11_image_list.png",
             "thumbnailLink": "",
             "title": "IMG_0842.jpg",
             "mimeType": "image/jpeg",
@@ -7147,7 +6823,6 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_324",
-            "iconLink": "https://ssl.gstatic.com/docs/doclist/images/icon_11_image_list.png",
             "thumbnailLink": "",
             "title": "P7280176.jpg",
             "mimeType": "image/jpeg",
@@ -7169,7 +6844,6 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_325",
-            "iconLink": "https://ssl.gstatic.com/docs/doclist/images/icon_11_image_list.png",
             "thumbnailLink": "",
             "title": "P7280200.jpg",
             "mimeType": "image/jpeg",
@@ -7191,7 +6865,6 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_326",
-            "iconLink": "https://ssl.gstatic.com/docs/doclist/images/icon_11_image_list.png",
             "thumbnailLink": "",
             "title": "P7280195.jpg",
             "mimeType": "image/jpeg",
@@ -7213,7 +6886,6 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_327",
-            "iconLink": "https://ssl.gstatic.com/docs/doclist/images/icon_11_image_list.png",
             "thumbnailLink": "",
             "title": "P8270027.jpg",
             "mimeType": "image/jpeg",
@@ -7235,7 +6907,6 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_328",
-            "iconLink": "https://ssl.gstatic.com/docs/doclist/images/icon_11_image_list.png",
             "thumbnailLink": "",
             "title": "P8270034.jpg",
             "mimeType": "image/jpeg",
@@ -7257,7 +6928,6 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_329",
-            "iconLink": "https://ssl.gstatic.com/docs/doclist/images/icon_11_image_list.png",
             "thumbnailLink": "",
             "title": "IMG_0822.jpg",
             "mimeType": "image/jpeg",
@@ -7283,7 +6953,6 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_330",
-            "iconLink": "https://ssl.gstatic.com/docs/doclist/images/icon_11_image_list.png",
             "thumbnailLink": "",
             "title": "P7280199.jpg",
             "mimeType": "image/jpeg",
@@ -7305,7 +6974,6 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_331",
-            "iconLink": "https://ssl.gstatic.com/docs/doclist/images/icon_11_image_list.png",
             "thumbnailLink": "",
             "title": "IMG_0873.jpg",
             "mimeType": "image/jpeg",
@@ -7331,7 +6999,6 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_332",
-            "iconLink": "https://ssl.gstatic.com/docs/doclist/images/icon_11_image_list.png",
             "thumbnailLink": "",
             "title": "IMG_0866.jpg",
             "mimeType": "image/jpeg",
@@ -7357,7 +7024,6 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_333",
-            "iconLink": "https://ssl.gstatic.com/docs/doclist/images/icon_11_image_list.png",
             "thumbnailLink": "",
             "title": "P7280172.jpg",
             "mimeType": "image/jpeg",
@@ -7379,7 +7045,6 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_334",
-            "iconLink": "https://ssl.gstatic.com/docs/doclist/images/icon_11_image_list.png",
             "thumbnailLink": "",
             "title": "PA200188.jpg",
             "mimeType": "image/jpeg",
@@ -7401,7 +7066,6 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_335",
-            "iconLink": "https://ssl.gstatic.com/docs/doclist/images/icon_11_image_list.png",
             "thumbnailLink": "",
             "title": "PA200200.jpg",
             "mimeType": "image/jpeg",
@@ -7423,7 +7087,6 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_336",
-            "iconLink": "https://ssl.gstatic.com/docs/doclist/images/icon_11_image_list.png",
             "thumbnailLink": "",
             "title": "P9220261.jpg",
             "mimeType": "image/jpeg",
@@ -7445,7 +7108,6 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_337",
-            "iconLink": "https://ssl.gstatic.com/docs/doclist/images/icon_11_image_list.png",
             "thumbnailLink": "",
             "title": "P9220360.jpg",
             "mimeType": "image/jpeg",
@@ -7467,7 +7129,6 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_338",
-            "iconLink": "https://ssl.gstatic.com/docs/doclist/images/icon_11_image_list.png",
             "thumbnailLink": "",
             "title": "P9230017.jpg",
             "mimeType": "image/jpeg",
@@ -7489,7 +7150,6 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_339",
-            "iconLink": "https://ssl.gstatic.com/docs/doclist/images/icon_11_image_list.png",
             "thumbnailLink": "",
             "title": "PA210242.jpg",
             "mimeType": "image/jpeg",
@@ -7511,7 +7171,6 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_340",
-            "iconLink": "https://ssl.gstatic.com/docs/doclist/images/icon_11_image_list.png",
             "thumbnailLink": "",
             "title": "P9220523.jpg",
             "mimeType": "image/jpeg",
@@ -7533,7 +7192,6 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_341",
-            "iconLink": "https://ssl.gstatic.com/docs/doclist/images/icon_11_image_list.png",
             "thumbnailLink": "",
             "title": "PA200214.jpg",
             "mimeType": "image/jpeg",
@@ -7555,7 +7213,6 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_342",
-            "iconLink": "https://ssl.gstatic.com/docs/doclist/images/icon_11_image_list.png",
             "thumbnailLink": "",
             "title": "P9230024.jpg",
             "mimeType": "image/jpeg",
@@ -7577,7 +7234,6 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_343",
-            "iconLink": "https://ssl.gstatic.com/docs/doclist/images/icon_11_image_list.png",
             "thumbnailLink": "",
             "title": "P9220301.jpg",
             "mimeType": "image/jpeg",
@@ -7599,7 +7255,6 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_344",
-            "iconLink": "https://ssl.gstatic.com/docs/doclist/images/icon_11_image_list.png",
             "thumbnailLink": "",
             "title": "P9220265.jpg",
             "mimeType": "image/jpeg",
@@ -7621,7 +7276,6 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_345",
-            "iconLink": "https://ssl.gstatic.com/docs/doclist/images/icon_11_image_list.png",
             "thumbnailLink": "",
             "title": "PA210238.jpg",
             "mimeType": "image/jpeg",
@@ -7643,7 +7297,6 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_346",
-            "iconLink": "https://ssl.gstatic.com/docs/doclist/images/icon_11_image_list.png",
             "thumbnailLink": "",
             "title": "P9290043.jpg",
             "mimeType": "image/jpeg",
@@ -7665,7 +7318,6 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_347",
-            "iconLink": "https://ssl.gstatic.com/docs/doclist/images/icon_11_image_list.png",
             "thumbnailLink": "",
             "title": "P9220259.jpg",
             "mimeType": "image/jpeg",
@@ -7687,7 +7339,6 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_348",
-            "iconLink": "https://ssl.gstatic.com/docs/doclist/images/icon_11_image_list.png",
             "thumbnailLink": "",
             "title": "PA070132.jpg",
             "mimeType": "image/jpeg",
@@ -7709,7 +7360,6 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_349",
-            "iconLink": "https://ssl.gstatic.com/docs/doclist/images/icon_11_image_list.png",
             "thumbnailLink": "",
             "title": "IMG_0900.jpg",
             "mimeType": "image/jpeg",
@@ -7735,7 +7385,6 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_350",
-            "iconLink": "https://ssl.gstatic.com/docs/doclist/images/icon_11_image_list.png",
             "thumbnailLink": "",
             "title": "PA070177.jpg",
             "mimeType": "image/jpeg",
@@ -7757,7 +7406,6 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_351",
-            "iconLink": "https://ssl.gstatic.com/docs/doclist/images/icon_11_image_list.png",
             "thumbnailLink": "",
             "title": "PA210233.jpg",
             "mimeType": "image/jpeg",
@@ -7783,7 +7431,6 @@ window.FotomooFixtures.files = {
     items: [
         {
             "id": "file_352",
-            "iconLink": "https://ssl.gstatic.com/docs/doclist/images/icon_11_image_list.png",
             "thumbnailLink": "",
             "title": "P9290034.jpg",
             "mimeType": "image/jpeg",
@@ -7805,7 +7452,6 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_353",
-            "iconLink": "https://ssl.gstatic.com/docs/doclist/images/icon_11_image_list.png",
             "thumbnailLink": "",
             "title": "PA210226.jpg",
             "mimeType": "image/jpeg",
@@ -7827,7 +7473,6 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_354",
-            "iconLink": "https://ssl.gstatic.com/docs/doclist/images/icon_11_image_list.png",
             "thumbnailLink": "",
             "title": "P9220264.jpg",
             "mimeType": "image/jpeg",
@@ -7849,7 +7494,6 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_355",
-            "iconLink": "https://ssl.gstatic.com/docs/doclist/images/icon_11_image_list.png",
             "thumbnailLink": "",
             "title": "PA200213.jpg",
             "mimeType": "image/jpeg",
@@ -7871,7 +7515,6 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_356",
-            "iconLink": "https://ssl.gstatic.com/docs/doclist/images/icon_11_image_list.png",
             "thumbnailLink": "",
             "title": "P9300069.jpg",
             "mimeType": "image/jpeg",
@@ -7893,7 +7536,6 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_357",
-            "iconLink": "https://ssl.gstatic.com/docs/doclist/images/icon_11_image_list.png",
             "thumbnailLink": "",
             "title": "P9290031.jpg",
             "mimeType": "image/jpeg",
@@ -7915,7 +7557,6 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_358",
-            "iconLink": "https://ssl.gstatic.com/docs/doclist/images/icon_11_image_list.png",
             "thumbnailLink": "",
             "title": "P9220502.jpg",
             "mimeType": "image/jpeg",
@@ -7937,7 +7578,6 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_359",
-            "iconLink": "https://ssl.gstatic.com/docs/doclist/images/icon_11_image_list.png",
             "thumbnailLink": "",
             "title": "IMG_0885.jpg",
             "mimeType": "image/jpeg",
@@ -7963,7 +7603,6 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_360",
-            "iconLink": "https://ssl.gstatic.com/docs/doclist/images/icon_11_image_list.png",
             "thumbnailLink": "",
             "title": "P3200429.jpg",
             "mimeType": "image/jpeg",
@@ -7985,7 +7624,6 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_361",
-            "iconLink": "https://ssl.gstatic.com/docs/doclist/images/icon_11_image_list.png",
             "thumbnailLink": "",
             "title": "IMG_0063.jpg",
             "mimeType": "image/jpeg",
@@ -8011,7 +7649,6 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_362",
-            "iconLink": "https://ssl.gstatic.com/docs/doclist/images/icon_11_image_list.png",
             "thumbnailLink": "",
             "title": "IMG_0055.jpg",
             "mimeType": "image/jpeg",
@@ -8032,7 +7669,6 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_363",
-            "iconLink": "https://ssl.gstatic.com/docs/doclist/images/icon_11_image_list.png",
             "thumbnailLink": "",
             "title": "P3230464.jpg",
             "mimeType": "image/jpeg",
@@ -8054,7 +7690,6 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_364",
-            "iconLink": "https://ssl.gstatic.com/docs/doclist/images/icon_11_image_list.png",
             "thumbnailLink": "",
             "title": "P1190097.jpg",
             "mimeType": "image/jpeg",
@@ -8076,7 +7711,6 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_365",
-            "iconLink": "https://ssl.gstatic.com/docs/doclist/images/icon_11_image_list.png",
             "thumbnailLink": "",
             "title": "IMG_0305.jpg",
             "mimeType": "image/jpeg",
@@ -8102,7 +7736,6 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_366",
-            "iconLink": "https://ssl.gstatic.com/docs/doclist/images/icon_11_image_list.png",
             "thumbnailLink": "",
             "title": "P3230473.jpg",
             "mimeType": "image/jpeg",
@@ -8124,7 +7757,6 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_367",
-            "iconLink": "https://ssl.gstatic.com/docs/doclist/images/icon_11_image_list.png",
             "thumbnailLink": "",
             "title": "IMG_0402.jpg",
             "mimeType": "image/jpeg",
@@ -8150,7 +7782,6 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_368",
-            "iconLink": "https://ssl.gstatic.com/docs/doclist/images/icon_11_image_list.png",
             "thumbnailLink": "",
             "title": "IMG_0057.jpg",
             "mimeType": "image/jpeg",
@@ -8176,7 +7807,6 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_369",
-            "iconLink": "https://ssl.gstatic.com/docs/doclist/images/icon_11_image_list.png",
             "thumbnailLink": "",
             "title": "P3230435.jpg",
             "mimeType": "image/jpeg",
@@ -8198,7 +7828,6 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_370",
-            "iconLink": "https://ssl.gstatic.com/docs/doclist/images/icon_11_image_list.png",
             "thumbnailLink": "",
             "title": "IMG_0262.jpg",
             "mimeType": "image/jpeg",
@@ -8224,7 +7853,6 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_371",
-            "iconLink": "https://ssl.gstatic.com/docs/doclist/images/icon_11_image_list.png",
             "thumbnailLink": "",
             "title": "IMG_0210.jpg",
             "mimeType": "image/jpeg",
@@ -8250,7 +7878,6 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_372",
-            "iconLink": "https://ssl.gstatic.com/docs/doclist/images/icon_11_image_list.png",
             "thumbnailLink": "",
             "title": "PC080077.jpg",
             "mimeType": "image/jpeg",
@@ -8272,7 +7899,6 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_373",
-            "iconLink": "https://ssl.gstatic.com/docs/doclist/images/icon_11_image_list.png",
             "thumbnailLink": "",
             "title": "IMG_0010.jpg",
             "mimeType": "image/jpeg",
@@ -8298,7 +7924,6 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_374",
-            "iconLink": "https://ssl.gstatic.com/docs/doclist/images/icon_11_image_list.png",
             "thumbnailLink": "",
             "title": "P3230476.jpg",
             "mimeType": "image/jpeg",
@@ -8320,7 +7945,6 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_375",
-            "iconLink": "https://ssl.gstatic.com/docs/doclist/images/icon_11_image_list.png",
             "thumbnailLink": "",
             "title": "P1190112.jpg",
             "mimeType": "image/jpeg",
@@ -8342,7 +7966,6 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_376",
-            "iconLink": "https://ssl.gstatic.com/docs/doclist/images/icon_11_image_list.png",
             "thumbnailLink": "",
             "title": "IMG_0258.jpg",
             "mimeType": "image/jpeg",
@@ -8368,7 +7991,6 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_377",
-            "iconLink": "https://ssl.gstatic.com/docs/doclist/images/icon_11_image_list.png",
             "thumbnailLink": "",
             "title": "P3200427.jpg",
             "mimeType": "image/jpeg",
@@ -8390,7 +8012,6 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_378",
-            "iconLink": "https://ssl.gstatic.com/docs/doclist/images/icon_11_image_list.png",
             "thumbnailLink": "",
             "title": "PC030017.jpg",
             "mimeType": "image/jpeg",
@@ -8412,7 +8033,6 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_379",
-            "iconLink": "https://ssl.gstatic.com/docs/doclist/images/icon_11_image_list.png",
             "thumbnailLink": "",
             "title": "IMG_0020.jpg",
             "mimeType": "image/jpeg",
@@ -8431,7 +8051,6 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_380",
-            "iconLink": "https://ssl.gstatic.com/docs/doclist/images/icon_11_image_list.png",
             "thumbnailLink": "",
             "title": "P3230459.jpg",
             "mimeType": "image/jpeg",
@@ -8453,7 +8072,6 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_381",
-            "iconLink": "https://ssl.gstatic.com/docs/doclist/images/icon_11_image_list.png",
             "thumbnailLink": "",
             "title": "IMG_0426.jpg",
             "mimeType": "image/jpeg",
@@ -8479,7 +8097,6 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_382",
-            "iconLink": "https://ssl.gstatic.com/docs/doclist/images/icon_11_image_list.png",
             "thumbnailLink": "",
             "title": "PC040044.jpg",
             "mimeType": "image/jpeg",
@@ -8501,7 +8118,6 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_383",
-            "iconLink": "https://ssl.gstatic.com/docs/doclist/images/icon_11_image_list.png",
             "thumbnailLink": "",
             "title": "P3230440.jpg",
             "mimeType": "image/jpeg",
@@ -8523,7 +8139,6 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_384",
-            "iconLink": "https://ssl.gstatic.com/docs/doclist/images/icon_11_image_list.png",
             "thumbnailLink": "",
             "title": "P3230472.jpg",
             "mimeType": "image/jpeg",
@@ -8545,7 +8160,6 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_385",
-            "iconLink": "https://ssl.gstatic.com/docs/doclist/images/icon_11_image_list.png",
             "thumbnailLink": "",
             "title": "PC040039.jpg",
             "mimeType": "image/jpeg",
@@ -8567,7 +8181,6 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_386",
-            "iconLink": "https://ssl.gstatic.com/docs/doclist/images/icon_11_image_list.png",
             "thumbnailLink": "",
             "title": "PC080081.jpg",
             "mimeType": "image/jpeg",
@@ -8589,7 +8202,6 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_387",
-            "iconLink": "https://ssl.gstatic.com/docs/doclist/images/icon_11_image_list.png",
             "thumbnailLink": "",
             "title": "P3230469.jpg",
             "mimeType": "image/jpeg",
@@ -8611,7 +8223,6 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_388",
-            "iconLink": "https://ssl.gstatic.com/docs/doclist/images/icon_11_image_list.png",
             "thumbnailLink": "",
             "title": "IMG_0196.jpg",
             "mimeType": "image/jpeg",
@@ -8637,7 +8248,6 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_389",
-            "iconLink": "https://ssl.gstatic.com/docs/doclist/images/icon_11_image_list.png",
             "thumbnailLink": "",
             "title": "IMG_0231.jpg",
             "mimeType": "image/jpeg",
@@ -8663,7 +8273,6 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_390",
-            "iconLink": "https://ssl.gstatic.com/docs/doclist/images/icon_11_image_list.png",
             "thumbnailLink": "",
             "title": "PC010007.jpg",
             "mimeType": "image/jpeg",
@@ -8685,7 +8294,6 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_391",
-            "iconLink": "https://ssl.gstatic.com/docs/doclist/images/icon_11_image_list.png",
             "thumbnailLink": "",
             "title": "P3200428.jpg",
             "mimeType": "image/jpeg",
@@ -8707,7 +8315,6 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_392",
-            "iconLink": "https://ssl.gstatic.com/docs/doclist/images/icon_11_image_list.png",
             "thumbnailLink": "",
             "title": "PC040061.jpg",
             "mimeType": "image/jpeg",
@@ -8729,7 +8336,6 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_393",
-            "iconLink": "https://ssl.gstatic.com/docs/doclist/images/icon_11_image_list.png",
             "thumbnailLink": "",
             "title": "PC040029.jpg",
             "mimeType": "image/jpeg",
@@ -8751,7 +8357,6 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_394",
-            "iconLink": "https://ssl.gstatic.com/docs/doclist/images/icon_11_image_list.png",
             "thumbnailLink": "",
             "title": "IMG_0295.jpg",
             "mimeType": "image/jpeg",
@@ -8777,7 +8382,6 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_395",
-            "iconLink": "https://ssl.gstatic.com/docs/doclist/images/icon_11_image_list.png",
             "thumbnailLink": "",
             "title": "P3200424.jpg",
             "mimeType": "image/jpeg",
@@ -8799,7 +8403,6 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_396",
-            "iconLink": "https://ssl.gstatic.com/docs/doclist/images/icon_11_image_list.png",
             "thumbnailLink": "",
             "title": "IMG_0023.jpg",
             "mimeType": "image/jpeg",
@@ -8825,7 +8428,6 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_397",
-            "iconLink": "https://ssl.gstatic.com/docs/doclist/images/icon_11_image_list.png",
             "thumbnailLink": "",
             "title": "PC080079.jpg",
             "mimeType": "image/jpeg",
@@ -8847,7 +8449,6 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_398",
-            "iconLink": "https://ssl.gstatic.com/docs/doclist/images/icon_11_image_list.png",
             "thumbnailLink": "",
             "title": "IMG_0198.jpg",
             "mimeType": "image/jpeg",
@@ -8873,7 +8474,6 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_399",
-            "iconLink": "https://ssl.gstatic.com/docs/doclist/images/icon_11_image_list.png",
             "thumbnailLink": "",
             "title": "PC020016.jpg",
             "mimeType": "image/jpeg",
@@ -8895,7 +8495,6 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_400",
-            "iconLink": "https://ssl.gstatic.com/docs/doclist/images/icon_11_image_list.png",
             "thumbnailLink": "",
             "title": "PC040045.jpg",
             "mimeType": "image/jpeg",
@@ -8917,7 +8516,6 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_401",
-            "iconLink": "https://ssl.gstatic.com/docs/doclist/images/icon_11_image_list.png",
             "thumbnailLink": "",
             "title": "P3200418.jpg",
             "mimeType": "image/jpeg",
@@ -8939,7 +8537,6 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_402",
-            "iconLink": "https://ssl.gstatic.com/docs/doclist/images/icon_11_image_list.png",
             "thumbnailLink": "",
             "title": "P3230452.jpg",
             "mimeType": "image/jpeg",
@@ -8961,7 +8558,6 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_403",
-            "iconLink": "https://ssl.gstatic.com/docs/doclist/images/icon_11_image_list.png",
             "thumbnailLink": "",
             "title": "P3230481.jpg",
             "mimeType": "image/jpeg",
@@ -8983,7 +8579,6 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_404",
-            "iconLink": "https://ssl.gstatic.com/docs/doclist/images/icon_11_image_list.png",
             "thumbnailLink": "",
             "title": "Photo 2013-03-28 10.22.10 午前.jpg",
             "mimeType": "image/jpeg",
@@ -9009,7 +8604,6 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_405",
-            "iconLink": "https://ssl.gstatic.com/docs/doclist/images/icon_11_image_list.png",
             "thumbnailLink": "",
             "title": "PC010005.ORF",
             "mimeType": "image/x-olympus-orf",
@@ -9029,7 +8623,6 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_406",
-            "iconLink": "https://ssl.gstatic.com/docs/doclist/images/icon_11_image_list.png",
             "thumbnailLink": "",
             "title": "PC010003.ORF",
             "mimeType": "image/x-olympus-orf",
@@ -9049,7 +8642,6 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_407",
-            "iconLink": "https://ssl.gstatic.com/docs/doclist/images/icon_11_image_list.png",
             "thumbnailLink": "",
             "title": "Photo 2013-02-28 01.16.26 午後.png",
             "mimeType": "image/png",
@@ -9067,7 +8659,6 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_408",
-            "iconLink": "https://ssl.gstatic.com/docs/doclist/images/icon_11_image_list.png",
             "thumbnailLink": "",
             "title": "Photo 2013-02-26 09.58.42 午前.jpg",
             "mimeType": "image/jpeg",
@@ -9093,7 +8684,6 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_409",
-            "iconLink": "https://ssl.gstatic.com/docs/doclist/images/icon_11_image_list.png",
             "thumbnailLink": "",
             "title": "maries-dinner.jpg",
             "mimeType": "image/jpeg",
