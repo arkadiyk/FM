@@ -6,7 +6,7 @@
       {{#each file in allFiles}}
         <tr class="info">
           <td>{{view FM.SelectFolderCheckbox filesBinding="file.files"}}</td>
-          <td colspan="4">
+          <td colspan="5">
             {{#each file.titles}}
               <span class="badge badge-info">{{this}}</span>
             {{/each}}
@@ -19,7 +19,15 @@
             <td>{{fileSize}}</td>
             <td>{{imageMediaMetadata.date}}</td>
             <td>{{imageMediaMetadata.width}}&times;{{imageMediaMetadata.height}}</td>
-            <td>{{#if address.isLoaded}}{{address.formattedAddress}}{{/if}}</td>
+            <td>
+              {{#if address}}
+                {{#if address.isLoaded}}
+                  {{address.formattedAddress}}
+                {{else}}
+                  loading address
+                {{/if}}
+              {{/if}}
+            </td>
           </tr>
         {{/each}}
       {{/each}}

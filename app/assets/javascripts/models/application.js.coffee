@@ -35,9 +35,9 @@ FM.Folder.reopenClass
 FM.File = Ember.Object.extend
   selected: true
   address: (->
-    return null if @get("latitude")
-    FM.Address.create(latitude: @get("latitude"), longitude: @get("longitude"))
-  ).property('latitude')
+    return null unless @get("imageMediaMetadata.location.latitude")
+    FM.Address.find(@get("imageMediaMetadata.location.latitude"), @get("imageMediaMetadata.location.longitude"))
+  ).property()
 
 FM.File.reopenClass
   find: (fid) -> FM.drive.findImageFile(fid)
@@ -55,14 +55,67 @@ FM.viewMode = FM.ViewMode.create({})
 FM.Address = Ember.Object.extend
   init: ->
     @set('isLoaded', false)
-    @load()
+  formattedAddress: (->
+    console.log('fa0',@get('details'), @get('details.1'),@get('details.1.formatted_address'))
+    @get('details.1.formatted_address')
+  ).property('details')
 
-  load: ->
-    latlng = new google.maps.LatLng(@get("latitude"),@get("longitude"))
-    FM.geocoder.geocode {'latLng': latlng}, (results, status) =>
-      console.log(results, status)
-      @set('formattedAddress', results[1].formatted_address) if(status == 'OK')
-      @set('isLoaded', true)
+
+
+
+FM.Address.reopenClass
+  _aChache: Ember.Map.create({})
+  _aQueue: []
+  find: (latitude, longitude) ->
+    rr = (n) -> (Math.round(n * 1000) / 1000)
+    console.log(latitude, longitude)
+    [lat, lon] = [rr(latitude), rr(longitude)]
+    key = "#{lat},#{lon}"
+    addr = @_aChache.get(key)
+    unless addr
+      addr = FM.Address.create {latitude,longitude}
+      @queue(addr)
+      @_aChache.set(key, addr)
+      console.log('new:', key)
+    else
+      console.log('found!:', key)
+    addr
+
+  _queue_running: false
+  _timeout: 400
+  queue: (addr) ->
+    console.log('queue', @_queue_running, @_aQueue.length)
+    process = =>
+      @_queue_running = true
+      if @_aQueue.length
+        addr = @_aQueue.shift()
+        @load addr.get("latitude"), addr.get("longitude"), (results, status) =>
+          console.log('got:', results, status)
+          if status == 'OVER_QUERY_LIMIT'
+            @_aQueue.push(addr)
+            console.log('retrying:', @_timeout * 4)
+            setTimeout  process, (@_timeout * 4)
+          else
+            if(status == 'OK')
+              addr.setProperties(details: results)
+            else
+              addr.set('error', status)
+
+            addr.set('isLoaded', true)
+            setTimeout process, @_timeout
+
+      else
+        console.log('Stopping the queue')
+        @_queue_running = false
+
+    @_aQueue.push(addr)
+    setTimeout(process, 500) unless @_queue_running
+    @_queue_running = true
+
+  load: (lat,lon,callback) ->
+    console.log(lat,lon)
+    latlng = new google.maps.LatLng(lat,lon)
+    FM.geocoder.geocode {'latLng': latlng}, callback
 
 
 
