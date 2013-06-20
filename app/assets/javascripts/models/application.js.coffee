@@ -109,13 +109,14 @@ FM.Address.reopenClass
         @_queue_running = false
 
     @_aQueue.push(addr)
-    setTimeout(process, 500) unless @_queue_running
+    setTimeout(process, 100) unless @_queue_running
     @_queue_running = true
 
   load: (lat,lon,callback) ->
     console.log(lat,lon)
-    latlng = new google.maps.LatLng(lat,lon)
-    FM.geocoder.geocode {'latLng': latlng}, callback
+#    latlng = new google.maps.LatLng(lat,lon)
+#    FM.geocoder.geocode {'latLng': latlng}, callback
+    callback(null, 'DISABLED')
 
 
 
