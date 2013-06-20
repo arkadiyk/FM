@@ -25,7 +25,7 @@ window.gapi.client = {
       insert: (params) ->
         execute: (callback) ->
           console.log "calling files.insert with ", params.resource
-          if Math.ceil(Math.random() * 5) == 3
+          if Math.floor(Math.random() * 5) < 1
             ret = {error: { code: 403, message: 'Random Fail', errors: [{reason: 'userRateLimitExceeded'}]} }
           else
             ret = {id: 'g' + (new Date()).getTime() + Math.floor((Math.random()*100)+1), title: params.resource.title}
@@ -34,10 +34,10 @@ window.gapi.client = {
       patch: (params) ->
         execute: (callback) ->
           console.log "calling files.patch with ", params
-          if Math.ceil(Math.random() * 5) == 3
+          if Math.floor(Math.random() * 5) < 1
             ret = {error: { code: 403, message: 'Random Fail', errors: [{reason: 'userRateLimitExceeded'}]} }
           else
-            ret = {id: params.resource.id, title: params.resource.title}
+            ret = {id: params.fileId, title: 'the title'}
           setTimeout ( ->  callback(ret) ), 900
 
 

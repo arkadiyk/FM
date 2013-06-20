@@ -121,8 +121,9 @@ FM.Drive = Ember.Object.extend
       @_linkFile(file, new_folder, (ret) -> console.log('linked:', ret)) for file in folder_def.files
       @get('driveFolderObjectCache').set(new_folder_json.id, new_folder)
       root.get('childIds').push(new_folder_json.id)
-      root.get('children').pushObject(new_folder)
+      #root.get('children').pushObject(new_folder)
       for child in folder_def.children
+        console.log('creating subtree', child)
         @createTree(child, new_folder)
 
   _authorize: (success_callback) ->
@@ -148,7 +149,7 @@ FM.Drive = Ember.Object.extend
         else if result.error.code == 401
           console.log("reathorizing #{method}:", result)
           @_authorize(=> @_execute(method, params, success_callback, error_callback))
-        else if result.error.code == 403
+        #else if result.error.code == 403
         else
           console.log("ERROR!", result)
           error_callback(result) if error_callback

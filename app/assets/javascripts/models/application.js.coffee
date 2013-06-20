@@ -12,7 +12,7 @@ FM.Folder = Ember.Object.extend
     count += f.get('totalFileCount') for f in @get('children')
 
     count
-  ).property('children.@each','files.@each')
+  ).property() # 'children.@each','files.@each'
 
   allFiles: (->
     parents = []; list = []
@@ -38,6 +38,20 @@ FM.File = Ember.Object.extend
     return null unless @get("imageMediaMetadata.location.latitude")
     FM.Address.find(@get("imageMediaMetadata.location.latitude"), @get("imageMediaMetadata.location.longitude"))
   ).property()
+  year: (->
+    date = @get('imageMediaMetadata.date')
+    if date
+      (@get('imageMediaMetadata.date').split(' ')[0]).split(':')[0]
+    else
+      "unknown"
+  ).property('imageMediaMetadata.date')
+  month: (->
+    date = @get('imageMediaMetadata.date')
+    if date
+      (@get('imageMediaMetadata.date').split(' ')[0]).split(':')[1]
+    else
+      "unknown"
+  ).property('imageMediaMetadata.date')
 
 FM.File.reopenClass
   find: (fid) -> FM.drive.findImageFile(fid)
