@@ -25,13 +25,19 @@ window.gapi.client = {
       insert: (params) ->
         execute: (callback) ->
           console.log "calling files.insert with ", params.resource
-          ret = {id: 'g' + (new Date()).getTime() + Math.floor((Math.random()*100)+1), title: params.resource.title}
-          FotomooFixtures.folders.page0.items.push(ret)
+          if Math.ceil(Math.random() * 5) == 3
+            ret = {error: { code: 403, message: 'Random Fail', errors: [{reason: 'userRateLimitExceeded'}]} }
+          else
+            ret = {id: 'g' + (new Date()).getTime() + Math.floor((Math.random()*100)+1), title: params.resource.title}
+            FotomooFixtures.folders.page0.items.push(ret)
           setTimeout ( ->  callback(ret) ), 900
       patch: (params) ->
         execute: (callback) ->
           console.log "calling files.patch with ", params
-          ret = {id: params.resource.id, title: params.resource.title}
+          if Math.ceil(Math.random() * 5) == 3
+            ret = {error: { code: 403, message: 'Random Fail', errors: [{reason: 'userRateLimitExceeded'}]} }
+          else
+            ret = {id: params.resource.id, title: params.resource.title}
           setTimeout ( ->  callback(ret) ), 900
 
 
