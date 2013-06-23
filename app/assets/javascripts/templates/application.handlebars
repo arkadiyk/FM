@@ -11,11 +11,13 @@
   <div class="panels">
     <div class="files-panel">
       {{outlet "files"}}
+        <br />
     </div>
     <div class="folders-panel">
       <ul class="nav nav-list">
         {{outlet}}
       </ul>
+        {{view FM.CopyProgressView}}
     </div>
   </div>
 </div>

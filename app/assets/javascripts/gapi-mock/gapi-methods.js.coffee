@@ -34,7 +34,7 @@ window.gapi.client = {
       patch: (params) ->
         execute: (callback) ->
           console.log "calling files.patch with ", params
-          if Math.floor(Math.random() * 5) < 1
+          if Math.floor(Math.random() * 7) < 1
             ret = {error: { code: 403, message: 'Random Fail', errors: [{reason: 'userRateLimitExceeded'}]} }
           else
             ret = {id: params.fileId, title: 'the title'}

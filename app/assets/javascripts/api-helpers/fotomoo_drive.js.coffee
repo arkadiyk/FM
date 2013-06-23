@@ -187,14 +187,14 @@ FM.Drive = Ember.Object.extend
     @_queue('files.insert', params, callback)
 
 
-  _execQueue: []
+  execQueue: []
   _isQueueRunning: false
   _queue: (method, params, callback) ->
-    console.log('Q:', method, params, @get('_isQueueRunning'), @get('_execQueue'))
+    console.log('Adding to Q:', method, params, @get('_isQueueRunning'), @get('execQueue.length'))
     process = =>
       @set('_isQueueRunning',true)
-      if @get('_execQueue').length
-        [mthod, param, callb] = @get('_execQueue').shift()
+      if @get('execQueue.length')
+        [mthod, param, callb] = @get('execQueue').shiftObject()
         @_execute mthod, param, ((result) ->
           console.log('q success', mthod, param, result);
           setTimeout(process, 10)
@@ -203,8 +203,8 @@ FM.Drive = Ember.Object.extend
           if result.error.code == 403 and
           (result.error.errors[0].reason ==  'rateLimitExceeded' or result.error.errors[0].reason == 'userRateLimitExceeded')
             console.log('got 403, retrying', mthod, param, result)
-            @get('_execQueue').push([mthod, param, callb])
-            setTimeout(process, 1000)
+            @get('execQueue').pushObject([mthod, param, callb])
+            setTimeout(process, 2000)
           else
             console.log('q Unknown Error', mthod, param, result)
         )
@@ -212,7 +212,7 @@ FM.Drive = Ember.Object.extend
         console.log('Q: Stopping the queue')
         @set('_isQueueRunning',false)
 
-    @get('_execQueue').push([method, params, callback])
+    @get('execQueue').pushObject([method, params, callback])
     setTimeout(process, 10) unless @get('_isQueueRunning')
     @set('_isQueueRunning',true)
 
