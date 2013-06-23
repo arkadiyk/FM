@@ -79,7 +79,6 @@ FM.Address = Ember.Object.extend
 
 FM.Address.reopenClass
   _aChache: Ember.Map.create({})
-  _aQueue: []
   find: (latitude, longitude) ->
     rr = (n) -> (Math.round(n * 1000) / 1000)
     console.log(latitude, longitude)
@@ -95,6 +94,7 @@ FM.Address.reopenClass
       console.log('found!:', key)
     addr
 
+  _aQueue: []
   _queue_running: false
   _timeout: 400
   queue: (addr) ->
