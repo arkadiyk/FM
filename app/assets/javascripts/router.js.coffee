@@ -1,4 +1,5 @@
 FM.Router.map ->
+  @route 'about', {path: '/about'}
   @resource 'setup', ->
     @resource 'files', {path: '/:folder_id'}, ->
       @route 'list'
@@ -6,10 +7,15 @@ FM.Router.map ->
 
 FM.IndexRoute = Ember.Route.extend
   redirect: ->
-    @transitionTo 'setup' # unless FM.drive.get('Fotomoo Folder')
+    @transitionTo 'about' # unless FM.drive.get('Fotomoo Folder')
 
 FM.SetupRoute = Ember.Route.extend
-  model: -> FM.Folder.find('root')
+  model: -> FM.drive.rootFolder()
+
+FM.LoadingRoute = Ember.Route.extend
+  enter: ->
+  exit: -> Ember.$('#load').remove()
+
 
 FM.FilesRoute = Ember.Route.extend
   model: (fid) ->

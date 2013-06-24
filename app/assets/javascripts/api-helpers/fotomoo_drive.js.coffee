@@ -106,6 +106,34 @@ FM.Drive = Ember.Object.extend
 
   findFolder: (fid) -> @get('driveFolderObjectCache').get(fid)
   findImageFile: (fid) -> @get('driveImageFileObjectCache').get(fid)
+  rootFolder: ->
+    root = @findFolder('root')
+    return root if root
+    execute = (resolve, reject) =>
+      @apiLoaded().then =>
+        console.log('autorize')
+        # FM.geocoder = new google.maps.Geocoder()
+        @authorize()
+      .then =>
+        console.log('load assets')
+        @loadAssets()
+      .then =>
+        rt = @findFolder('root')
+        console.log('root found', rt)
+        resolve(rt)
+      .then null, (error_message) ->
+        reject(error_message)
+    new Ember.RSVP.Promise(execute)
+
+    #    .then ->
+    #      Ember.$('#load').remove()
+    #      FM.advanceReadiness()
+    #    .then null, (error_message) ->
+    #      console.log("ERROR:", error_message)
+    #      Ember.$('#load-message').text(error_message)
+
+
+
 
   allSelectedImages: ->
     selected = []
