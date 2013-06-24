@@ -17,3 +17,6 @@ FM.SelectFolderCheckbox = Em.Checkbox.extend
 
 FM.CopyProgressView = Ember.View.extend
   completed: (-> "width: #{FM.drive.get('completed')}%").property('FM.drive.completed')
+  didInsertElement: -> @$('.modal').modal(keyboard: false, backdrop: 'static')
+  willDestroyElement: -> @$('.modal').modal('hide')
+

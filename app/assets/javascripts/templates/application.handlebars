@@ -17,10 +17,9 @@
       <ul class="nav nav-list">
         {{outlet}}
       </ul>
-      {{#if FM.drive.isQueueRunning}}
-        <h1>HH</h1>
-        {{render 'copy-progress'}}
-      {{/if}}
     </div>
   </div>
 </div>
+{{#if FM.drive.isQueueRunning}}
+  {{render 'copy-progress'}}
+{{/if}}
