@@ -18,10 +18,5 @@ FM.LoadingRoute = Ember.Route.extend
 
 
 FM.FilesRoute = Ember.Route.extend
-  model: (fid) ->
-    FM.Folder.find(fid.folder_id) if fid
-  renderTemplate: ->
-    @render 'files',
-      into: "application"
-      outlet: "files"
+  model: (fid) -> FM.Folder.find(fid.folder_id) if fid
 

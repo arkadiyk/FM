@@ -1,16 +1,37 @@
-{{log this}}
-<button class="btn" {{action copyFiles}}>Create Hierarchies</button>
-<li class="nav-header">Setup</li>
-<li>
-  {{#if childrenWithPictures.length}}
-  <i {{bindAttr class=":pull-left :folder-icon isExpanded:icon-folder-open:icon-folder-close"}} {{action toggle}}></i>
-  {{else}}
-  <i class="pull-left icon-folder-close" style="opacity: 0.4; margin-top: 3px"></i>
-  {{/if}}
+<div id="wrapper">
+    <div class="panels">
+        <div class="files-panel">
+            {{outlet}}
+            <br />
+        </div>
+        <div class="folders-panel">
+            <ul class="nav nav-list">
 
-  {{#linkTo files this}}{{title}}{{/linkTo}}
 
-  {{#if isExpanded}}
-  {{control "folderList" content}}
-  {{/if}}
-</li>
+
+                <button class="btn" {{action copyFiles}}>Create Hierarchies</button>
+                <li class="nav-header">Setup</li>
+                <li>
+                    {{#if childrenWithPictures.length}}
+                    <i {{bindAttr class=":pull-left :folder-icon isExpanded:icon-folder-open:icon-folder-close"}} {{action toggle}}></i>
+                    {{else}}
+                    <i class="pull-left icon-folder-close" style="opacity: 0.4; margin-top: 3px"></i>
+                    {{/if}}
+
+                    {{#linkTo files this}}{{title}}{{/linkTo}}
+
+                    {{#if isExpanded}}
+                    {{control "folderList" content}}
+                    {{/if}}
+                </li>
+
+
+
+            </ul>
+        </div>
+    </div>
+</div>
+
+
+
+

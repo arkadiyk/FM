@@ -7,19 +7,9 @@
   </div>
 </div>
 
-<div id="wrapper">
-  <div class="panels">
-    <div class="files-panel">
-      {{outlet "files"}}
-        <br />
-    </div>
-    <div class="folders-panel">
-      <ul class="nav nav-list">
-        {{outlet}}
-      </ul>
-    </div>
-  </div>
-</div>
+{{outlet}}
+
+
 {{#if FM.drive.isQueueRunning}}
   {{render 'copy-progress'}}
 {{/if}}
