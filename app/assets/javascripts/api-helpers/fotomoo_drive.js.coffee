@@ -188,16 +188,21 @@ FM.Drive = Ember.Object.extend
 
 
   execQueue: []
-  _isQueueRunning: false
+  isQueueRunning: false
+  copiedCount: 0
+  fileJustCopied: ''
+
   _queue: (method, params, callback) ->
-    console.log('Adding to Q:', method, params, @get('_isQueueRunning'), @get('execQueue.length'))
+    console.log('Adding to Q:', method, params, @get('isQueueRunning'), @get('execQueue.length'))
     process = =>
-      @set('_isQueueRunning',true)
+      @set('isQueueRunning',true)
       if @get('execQueue.length')
         [mthod, param, callb] = @get('execQueue').shiftObject()
-        @_execute mthod, param, ((result) ->
-          console.log('q success', mthod, param, result);
+        @_execute mthod, param, ((result) =>
+          console.log('q success', mthod, param, result)
           setTimeout(process, 10)
+          @set('fileJustCopied', result.id)
+          @incrementProperty('copiedCount')
           callb(result)
         ), ((result) =>
           if result.error.code == 403 and
@@ -210,12 +215,16 @@ FM.Drive = Ember.Object.extend
         )
       else
         console.log('Q: Stopping the queue')
-        @set('_isQueueRunning',false)
+        @set('isQueueRunning',false)
+        @set('copiedCount', 0)
 
     @get('execQueue').pushObject([method, params, callback])
-    setTimeout(process, 10) unless @get('_isQueueRunning')
-    @set('_isQueueRunning',true)
+    setTimeout(process, 10) unless @get('isQueueRunning')
+    @set('isQueueRunning',true)
 
+  completed: (->
+    Math.round(@get('copiedCount') * 100 / (@get('newFileCount') + @get('newFolderCount')))
+  ).property('newFileCount', 'newFolderCount',  'copiedCount')
 
 
 

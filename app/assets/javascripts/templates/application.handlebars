@@ -17,7 +17,10 @@
       <ul class="nav nav-list">
         {{outlet}}
       </ul>
-        {{view FM.CopyProgressView}}
+      {{#if FM.drive.isQueueRunning}}
+        <h1>HH</h1>
+        {{render 'copy-progress'}}
+      {{/if}}
     </div>
   </div>
 </div>

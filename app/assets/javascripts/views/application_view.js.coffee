@@ -16,18 +16,4 @@ FM.SelectFolderCheckbox = Em.Checkbox.extend
   ).observes('checked')
 
 FM.CopyProgressView = Ember.View.extend
-  templateName: 'copy-progress'
-  didInsertElement: ->
-    @set('queued', 0)
-    FM.drive.addObserver 'execQueue.length', =>
-      console.log('=============== 1 queue changed:', FM.drive.get('execQueue.length'), FM.drive.get('newFileCount'), FM.drive.get('newFolderCount'))
-      @set('queued', FM.drive.get('execQueue.length'))
-
-  willDestroyElement: ->
-    FM.drive.removeObserver 'execQueue.length'
-
-  completed: (->
-    complete = Math.round(@get('queued') * 100 / (FM.drive.get('newFileCount') + FM.drive.get('newFolderCount')))
-    console.log('COMPLETE %%%%%%%%%%', complete, @get('queued'), FM.drive.get('newFileCount'), FM.drive.get('newFolderCount'))
-    complete
-  ).property('queued')
+  completed: (-> "width: #{FM.drive.get('completed')}%").property('FM.drive.completed')

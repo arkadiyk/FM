@@ -1,8 +1,14 @@
-<h1>Progress</h1>
-<h2>{{completed}}</h2>
-<h3>{{queued}}</h3>
-        <br>
-zz: {{FM.drive.newFileCount}}
-        <br>
-kk: {{FM.drive.newFolderCount}}
-        -----
+<div class="modal" tabindex="-1" role="dialog" >
+  <div class="modal-header">
+    <h3>Progress</h3>
+  </div>
+  <div class="modal-body">
+    <div class="well well-large well-transparent lead">
+      <div class="progress progress-striped active">
+        <div class="bar" {{bindAttr style="view.completed"}}></div>
+      </div>
+      <p>File processed: {{FM.drive.fileJustCopied}}</p>
+    </div>
+  </div>
+</div>
+

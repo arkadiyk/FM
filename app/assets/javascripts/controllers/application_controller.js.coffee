@@ -41,3 +41,5 @@ FM.SetupController = FM.FolderController.extend
     FM.drive.set('newFolderCount', folder_count)
     FM.drive.set('newFileCount', file_count)
     FM.drive.createTree(pics_root, FM.Folder.find('root'))
+
+
