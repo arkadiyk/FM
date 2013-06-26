@@ -4,7 +4,7 @@ FM.FileGridView = Ember.ListView.extend
     'overflow-y': 'auto'
 
   height: 500
-  rowHeight: 180
+  rowHeight: 170
   elementWidth: 240
   width: 960
   itemViewClass: Ember.ListItemView.extend({templateName: "file_grid_item"})

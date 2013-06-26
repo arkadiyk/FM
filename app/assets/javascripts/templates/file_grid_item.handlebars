@@ -1,6 +1,6 @@
 {{#if isFile}}
 <div style="position: relative">
-  <img src="/assets/thumbnail1.jpg">
+  <img style="max-width: 220px; max-height: 165px" {{bindAttr src="thumbnailLink"}}>
   <span style="position: absolute; bottom: 5px; left: 5px; opacity: 0.6;" class="badge">{{title}}</span>
   <span style="position: absolute; top: 2px; left: 5px">
     {{view Ember.Checkbox}}
