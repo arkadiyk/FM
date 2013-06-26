@@ -11,9 +11,9 @@
 // GO AFTER THE REQUIRES BELOW.
 //
 //= require jquery
-//= require jquery-ui
+//= --quire jquery-ui
 //= require twitter/bootstrap
 //= require handlebars
 //= require ember
-//= require ember-table
+//= require list-view
 //= require fm

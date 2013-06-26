@@ -5,7 +5,7 @@ window.FotomooFixtures.files = {
     items: [
         {
             "id": "file_0",
-            "thumbnailLink": "",
+            "thumbnailLink": "/assets/thumbnail1.jpg",
             "title": "PB274930.jpg",
             "mimeType": "image/jpeg",
             "description": "OLYMPUS DIGITAL CAMERA         ",
@@ -26,7 +26,7 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_1",
-            "thumbnailLink": "",
+            "thumbnailLink": "/assets/thumbnail1.jpg",
             "title": "P5040127.jpg",
             "mimeType": "image/jpeg",
             "description": "OLYMPUS DIGITAL CAMERA         ",
@@ -47,7 +47,7 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_2",
-            "thumbnailLink": "",
+            "thumbnailLink": "/assets/thumbnail1.jpg",
             "title": "PB275015.jpg",
             "mimeType": "image/jpeg",
             "description": "OLYMPUS DIGITAL CAMERA         ",
@@ -68,7 +68,7 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_3",
-            "thumbnailLink": "",
+            "thumbnailLink": "/assets/thumbnail1.jpg",
             "title": "PB244708.jpg",
             "mimeType": "image/jpeg",
             "description": "OLYMPUS DIGITAL CAMERA         ",
@@ -89,7 +89,7 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_4",
-            "thumbnailLink": "",
+            "thumbnailLink": "/assets/thumbnail1.jpg",
             "title": "P5260376.jpg",
             "mimeType": "image/jpeg",
             "description": "OLYMPUS DIGITAL CAMERA         ",
@@ -110,7 +110,7 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_5",
-            "thumbnailLink": "",
+            "thumbnailLink": "/assets/thumbnail1.jpg",
             "title": "PB224565.jpg",
             "mimeType": "image/jpeg",
             "description": "OLYMPUS DIGITAL CAMERA         ",
@@ -131,7 +131,7 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_6",
-            "thumbnailLink": "",
+            "thumbnailLink": "/assets/thumbnail1.jpg",
             "title": "PB274920.jpg",
             "mimeType": "image/jpeg",
             "description": "OLYMPUS DIGITAL CAMERA         ",
@@ -152,7 +152,7 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_7",
-            "thumbnailLink": "",
+            "thumbnailLink": "/assets/thumbnail1.jpg",
             "title": "P6081924.jpg",
             "mimeType": "image/jpeg",
             "description": "OLYMPUS DIGITAL CAMERA         ",
@@ -173,7 +173,7 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_8",
-            "thumbnailLink": "",
+            "thumbnailLink": "/assets/thumbnail1.jpg",
             "title": "P5040053.jpg",
             "mimeType": "image/jpeg",
             "description": "OLYMPUS DIGITAL CAMERA         ",
@@ -194,7 +194,7 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_9",
-            "thumbnailLink": "",
+            "thumbnailLink": "/assets/thumbnail1.jpg",
             "title": "P6081876.jpg",
             "mimeType": "image/jpeg",
             "description": "OLYMPUS DIGITAL CAMERA         ",
@@ -215,7 +215,7 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_10",
-            "thumbnailLink": "",
+            "thumbnailLink": "/assets/thumbnail1.jpg",
             "title": "PB224540.jpg",
             "mimeType": "image/jpeg",
             "description": "OLYMPUS DIGITAL CAMERA         ",
@@ -236,7 +236,7 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_11",
-            "thumbnailLink": "",
+            "thumbnailLink": "/assets/thumbnail1.jpg",
             "title": "P9049549.jpg",
             "mimeType": "image/jpeg",
             "description": "OLYMPUS DIGITAL CAMERA         ",
@@ -257,7 +257,7 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_12",
-            "thumbnailLink": "",
+            "thumbnailLink": "/assets/thumbnail1.jpg",
             "title": "IMGP0484.jpg",
             "mimeType": "image/jpeg",
             "parents": [
@@ -277,7 +277,7 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_13",
-            "thumbnailLink": "",
+            "thumbnailLink": "/assets/thumbnail1.jpg",
             "title": "P5040060.jpg",
             "mimeType": "image/jpeg",
             "description": "OLYMPUS DIGITAL CAMERA         ",
@@ -298,7 +298,7 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_14",
-            "thumbnailLink": "",
+            "thumbnailLink": "/assets/thumbnail1.jpg",
             "title": "PB244723.jpg",
             "mimeType": "image/jpeg",
             "description": "OLYMPUS DIGITAL CAMERA         ",
@@ -319,7 +319,7 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_15",
-            "thumbnailLink": "",
+            "thumbnailLink": "/assets/thumbnail1.jpg",
             "title": "PB214484.jpg",
             "mimeType": "image/jpeg",
             "description": "OLYMPUS DIGITAL CAMERA         ",
@@ -340,7 +340,7 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_16",
-            "thumbnailLink": "",
+            "thumbnailLink": "/assets/thumbnail1.jpg",
             "title": "PB234582.jpg",
             "mimeType": "image/jpeg",
             "description": "OLYMPUS DIGITAL CAMERA         ",
@@ -361,7 +361,7 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_17",
-            "thumbnailLink": "",
+            "thumbnailLink": "/assets/thumbnail1.jpg",
             "title": "PB234641.jpg",
             "mimeType": "image/jpeg",
             "description": "OLYMPUS DIGITAL CAMERA         ",
@@ -382,7 +382,7 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_18",
-            "thumbnailLink": "",
+            "thumbnailLink": "/assets/thumbnail1.jpg",
             "title": "PB244760.jpg",
             "mimeType": "image/jpeg",
             "description": "OLYMPUS DIGITAL CAMERA         ",
@@ -403,7 +403,7 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_19",
-            "thumbnailLink": "",
+            "thumbnailLink": "/assets/thumbnail1.jpg",
             "title": "P6081887.jpg",
             "mimeType": "image/jpeg",
             "description": "OLYMPUS DIGITAL CAMERA         ",
@@ -424,7 +424,7 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_20",
-            "thumbnailLink": "",
+            "thumbnailLink": "/assets/thumbnail1.jpg",
             "title": "RIMG0361-arc.jpg",
             "mimeType": "image/jpeg",
             "description": "Exif_JPEG_PICTURE                                              ",
@@ -445,7 +445,7 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_21",
-            "thumbnailLink": "",
+            "thumbnailLink": "/assets/thumbnail1.jpg",
             "title": "RIMG0150-arc.jpg",
             "mimeType": "image/jpeg",
             "description": "Exif_JPEG_PICTURE                                              ",
@@ -466,7 +466,7 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_22",
-            "thumbnailLink": "",
+            "thumbnailLink": "/assets/thumbnail1.jpg",
             "title": "P9049467.jpg",
             "mimeType": "image/jpeg",
             "description": "OLYMPUS DIGITAL CAMERA         ",
@@ -487,7 +487,7 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_23",
-            "thumbnailLink": "",
+            "thumbnailLink": "/assets/thumbnail1.jpg",
             "title": "P9049596.jpg",
             "mimeType": "image/jpeg",
             "description": "OLYMPUS DIGITAL CAMERA         ",
@@ -508,7 +508,7 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_24",
-            "thumbnailLink": "",
+            "thumbnailLink": "/assets/thumbnail1.jpg",
             "title": "PB244710.jpg",
             "mimeType": "image/jpeg",
             "description": "OLYMPUS DIGITAL CAMERA         ",
@@ -529,7 +529,7 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_25",
-            "thumbnailLink": "",
+            "thumbnailLink": "/assets/thumbnail1.jpg",
             "title": "PB234687.jpg",
             "mimeType": "image/jpeg",
             "description": "OLYMPUS DIGITAL CAMERA         ",
@@ -550,7 +550,7 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_26",
-            "thumbnailLink": "",
+            "thumbnailLink": "/assets/thumbnail1.jpg",
             "title": "RIMG0223-arc.jpg",
             "mimeType": "image/jpeg",
             "description": "Exif_JPEG_PICTURE                                              ",
@@ -571,7 +571,7 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_27",
-            "thumbnailLink": "",
+            "thumbnailLink": "/assets/thumbnail1.jpg",
             "title": "P5040106.jpg",
             "mimeType": "image/jpeg",
             "description": "OLYMPUS DIGITAL CAMERA         ",
@@ -592,7 +592,7 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_28",
-            "thumbnailLink": "",
+            "thumbnailLink": "/assets/thumbnail1.jpg",
             "title": "P6081852.jpg",
             "mimeType": "image/jpeg",
             "description": "OLYMPUS DIGITAL CAMERA         ",
@@ -613,7 +613,7 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_29",
-            "thumbnailLink": "",
+            "thumbnailLink": "/assets/thumbnail1.jpg",
             "title": "PB274980.jpg",
             "mimeType": "image/jpeg",
             "description": "OLYMPUS DIGITAL CAMERA         ",
@@ -634,7 +634,7 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_30",
-            "thumbnailLink": "",
+            "thumbnailLink": "/assets/thumbnail1.jpg",
             "title": "P9049480.jpg",
             "mimeType": "image/jpeg",
             "description": "OLYMPUS DIGITAL CAMERA         ",
@@ -655,7 +655,7 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_31",
-            "thumbnailLink": "",
+            "thumbnailLink": "/assets/thumbnail1.jpg",
             "title": "P5050216.jpg",
             "mimeType": "image/jpeg",
             "description": "OLYMPUS DIGITAL CAMERA         ",
@@ -676,7 +676,7 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_32",
-            "thumbnailLink": "",
+            "thumbnailLink": "/assets/thumbnail1.jpg",
             "title": "PB274963.jpg",
             "mimeType": "image/jpeg",
             "description": "OLYMPUS DIGITAL CAMERA         ",
@@ -697,7 +697,7 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_33",
-            "thumbnailLink": "",
+            "thumbnailLink": "/assets/thumbnail1.jpg",
             "title": "PB224506.jpg",
             "mimeType": "image/jpeg",
             "description": "OLYMPUS DIGITAL CAMERA         ",
@@ -718,7 +718,7 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_34",
-            "thumbnailLink": "",
+            "thumbnailLink": "/assets/thumbnail1.jpg",
             "title": "IMGP0573.jpg",
             "mimeType": "image/jpeg",
             "parents": [
@@ -738,7 +738,7 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_35",
-            "thumbnailLink": "",
+            "thumbnailLink": "/assets/thumbnail1.jpg",
             "title": "P2126664.jpg",
             "mimeType": "image/jpeg",
             "description": "OLYMPUS DIGITAL CAMERA         ",
@@ -759,7 +759,7 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_36",
-            "thumbnailLink": "",
+            "thumbnailLink": "/assets/thumbnail1.jpg",
             "title": "PB264864.jpg",
             "mimeType": "image/jpeg",
             "description": "OLYMPUS DIGITAL CAMERA         ",
@@ -780,7 +780,7 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_37",
-            "thumbnailLink": "",
+            "thumbnailLink": "/assets/thumbnail1.jpg",
             "title": "PB234647.jpg",
             "mimeType": "image/jpeg",
             "description": "OLYMPUS DIGITAL CAMERA         ",
@@ -801,7 +801,7 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_38",
-            "thumbnailLink": "",
+            "thumbnailLink": "/assets/thumbnail1.jpg",
             "title": "P9049643.jpg",
             "mimeType": "image/jpeg",
             "description": "OLYMPUS DIGITAL CAMERA         ",
@@ -822,7 +822,7 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_39",
-            "thumbnailLink": "",
+            "thumbnailLink": "/assets/thumbnail1.jpg",
             "title": "P6081847.jpg",
             "mimeType": "image/jpeg",
             "description": "OLYMPUS DIGITAL CAMERA         ",
@@ -843,7 +843,7 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_40",
-            "thumbnailLink": "",
+            "thumbnailLink": "/assets/thumbnail1.jpg",
             "title": "RIMG0222-arc.jpg",
             "mimeType": "image/jpeg",
             "description": "Exif_JPEG_PICTURE                                              ",
@@ -864,7 +864,7 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_41",
-            "thumbnailLink": "",
+            "thumbnailLink": "/assets/thumbnail1.jpg",
             "title": "IMGP0438.jpg",
             "mimeType": "image/jpeg",
             "parents": [
@@ -884,7 +884,7 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_42",
-            "thumbnailLink": "",
+            "thumbnailLink": "/assets/thumbnail1.jpg",
             "title": "P5260379.jpg",
             "mimeType": "image/jpeg",
             "description": "OLYMPUS DIGITAL CAMERA         ",
@@ -905,7 +905,7 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_43",
-            "thumbnailLink": "",
+            "thumbnailLink": "/assets/thumbnail1.jpg",
             "title": "RIMG0229-arc.jpg",
             "mimeType": "image/jpeg",
             "description": "Exif_JPEG_PICTURE                                              ",
@@ -926,7 +926,7 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_44",
-            "thumbnailLink": "",
+            "thumbnailLink": "/assets/thumbnail1.jpg",
             "title": "P8019349.jpg",
             "mimeType": "image/jpeg",
             "description": "OLYMPUS DIGITAL CAMERA         ",
@@ -947,7 +947,7 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_45",
-            "thumbnailLink": "",
+            "thumbnailLink": "/assets/thumbnail1.jpg",
             "title": "P6081945.jpg",
             "mimeType": "image/jpeg",
             "description": "OLYMPUS DIGITAL CAMERA         ",
@@ -968,7 +968,7 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_46",
-            "thumbnailLink": "",
+            "thumbnailLink": "/assets/thumbnail1.jpg",
             "title": "P6081923.jpg",
             "mimeType": "image/jpeg",
             "description": "OLYMPUS DIGITAL CAMERA         ",
@@ -989,7 +989,7 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_47",
-            "thumbnailLink": "",
+            "thumbnailLink": "/assets/thumbnail1.jpg",
             "title": "P5260382.jpg",
             "mimeType": "image/jpeg",
             "description": "OLYMPUS DIGITAL CAMERA         ",
@@ -1010,7 +1010,7 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_48",
-            "thumbnailLink": "",
+            "thumbnailLink": "/assets/thumbnail1.jpg",
             "title": "P6081936.jpg",
             "mimeType": "image/jpeg",
             "description": "OLYMPUS DIGITAL CAMERA         ",
@@ -1031,7 +1031,7 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_49",
-            "thumbnailLink": "",
+            "thumbnailLink": "/assets/thumbnail1.jpg",
             "title": "PB224550.jpg",
             "mimeType": "image/jpeg",
             "description": "OLYMPUS DIGITAL CAMERA         ",
@@ -1052,7 +1052,7 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_50",
-            "thumbnailLink": "",
+            "thumbnailLink": "/assets/thumbnail1.jpg",
             "title": "IMGP0453.jpg",
             "mimeType": "image/jpeg",
             "parents": [
@@ -1072,7 +1072,7 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_51",
-            "thumbnailLink": "",
+            "thumbnailLink": "/assets/thumbnail1.jpg",
             "title": "PB285053.jpg",
             "mimeType": "image/jpeg",
             "description": "OLYMPUS DIGITAL CAMERA         ",
@@ -1093,7 +1093,7 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_52",
-            "thumbnailLink": "",
+            "thumbnailLink": "/assets/thumbnail1.jpg",
             "title": "IMGP0425.jpg",
             "mimeType": "image/jpeg",
             "parents": [
@@ -1113,7 +1113,7 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_53",
-            "thumbnailLink": "",
+            "thumbnailLink": "/assets/thumbnail1.jpg",
             "title": "PB274899.jpg",
             "mimeType": "image/jpeg",
             "description": "OLYMPUS DIGITAL CAMERA         ",
@@ -1134,7 +1134,7 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_54",
-            "thumbnailLink": "",
+            "thumbnailLink": "/assets/thumbnail1.jpg",
             "title": "PB244714.jpg",
             "mimeType": "image/jpeg",
             "description": "OLYMPUS DIGITAL CAMERA         ",
@@ -1155,7 +1155,7 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_55",
-            "thumbnailLink": "",
+            "thumbnailLink": "/assets/thumbnail1.jpg",
             "title": "P9049459.jpg",
             "mimeType": "image/jpeg",
             "description": "OLYMPUS DIGITAL CAMERA         ",
@@ -1176,7 +1176,7 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_56",
-            "thumbnailLink": "",
+            "thumbnailLink": "/assets/thumbnail1.jpg",
             "title": "P6081877.jpg",
             "mimeType": "image/jpeg",
             "description": "OLYMPUS DIGITAL CAMERA         ",
@@ -1197,7 +1197,7 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_57",
-            "thumbnailLink": "",
+            "thumbnailLink": "/assets/thumbnail1.jpg",
             "title": "P6081849.jpg",
             "mimeType": "image/jpeg",
             "description": "OLYMPUS DIGITAL CAMERA         ",
@@ -1218,7 +1218,7 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_58",
-            "thumbnailLink": "",
+            "thumbnailLink": "/assets/thumbnail1.jpg",
             "title": "PB274957.jpg",
             "mimeType": "image/jpeg",
             "description": "OLYMPUS DIGITAL CAMERA         ",
@@ -1239,7 +1239,7 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_59",
-            "thumbnailLink": "",
+            "thumbnailLink": "/assets/thumbnail1.jpg",
             "title": "P6081874.jpg",
             "mimeType": "image/jpeg",
             "description": "OLYMPUS DIGITAL CAMERA         ",
@@ -1260,7 +1260,7 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_60",
-            "thumbnailLink": "",
+            "thumbnailLink": "/assets/thumbnail1.jpg",
             "title": "PB244712.jpg",
             "mimeType": "image/jpeg",
             "description": "OLYMPUS DIGITAL CAMERA         ",
@@ -1281,7 +1281,7 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_61",
-            "thumbnailLink": "",
+            "thumbnailLink": "/assets/thumbnail1.jpg",
             "title": "P6081948.jpg",
             "mimeType": "image/jpeg",
             "description": "OLYMPUS DIGITAL CAMERA         ",
@@ -1302,7 +1302,7 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_62",
-            "thumbnailLink": "",
+            "thumbnailLink": "/assets/thumbnail1.jpg",
             "title": "PB274909.jpg",
             "mimeType": "image/jpeg",
             "description": "OLYMPUS DIGITAL CAMERA         ",
@@ -1323,7 +1323,7 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_63",
-            "thumbnailLink": "",
+            "thumbnailLink": "/assets/thumbnail1.jpg",
             "title": "P9049453.jpg",
             "mimeType": "image/jpeg",
             "description": "OLYMPUS DIGITAL CAMERA         ",
@@ -1344,7 +1344,7 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_64",
-            "thumbnailLink": "",
+            "thumbnailLink": "/assets/thumbnail1.jpg",
             "title": "RIMG0279-arc.jpg",
             "mimeType": "image/jpeg",
             "description": "Exif_JPEG_PICTURE                                              ",
@@ -1365,7 +1365,7 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_65",
-            "thumbnailLink": "",
+            "thumbnailLink": "/assets/thumbnail1.jpg",
             "title": "PB224525.jpg",
             "mimeType": "image/jpeg",
             "description": "OLYMPUS DIGITAL CAMERA         ",
@@ -1386,7 +1386,7 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_66",
-            "thumbnailLink": "",
+            "thumbnailLink": "/assets/thumbnail1.jpg",
             "title": "PB285041.jpg",
             "mimeType": "image/jpeg",
             "description": "OLYMPUS DIGITAL CAMERA         ",
@@ -1407,7 +1407,7 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_67",
-            "thumbnailLink": "",
+            "thumbnailLink": "/assets/thumbnail1.jpg",
             "title": "PB274997.jpg",
             "mimeType": "image/jpeg",
             "description": "OLYMPUS DIGITAL CAMERA         ",
@@ -1428,7 +1428,7 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_68",
-            "thumbnailLink": "",
+            "thumbnailLink": "/assets/thumbnail1.jpg",
             "title": "P9049513.jpg",
             "mimeType": "image/jpeg",
             "description": "OLYMPUS DIGITAL CAMERA         ",
@@ -1449,7 +1449,7 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_69",
-            "thumbnailLink": "",
+            "thumbnailLink": "/assets/thumbnail1.jpg",
             "title": "RIMG0241-arc.jpg",
             "mimeType": "image/jpeg",
             "description": "Exif_JPEG_PICTURE                                              ",
@@ -1470,7 +1470,7 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_70",
-            "thumbnailLink": "",
+            "thumbnailLink": "/assets/thumbnail1.jpg",
             "title": "198358-R2-22A.jpg",
             "mimeType": "image/jpeg",
             "parents": [
@@ -1488,7 +1488,7 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_71",
-            "thumbnailLink": "",
+            "thumbnailLink": "/assets/thumbnail1.jpg",
             "title": "PB274931.jpg",
             "mimeType": "image/jpeg",
             "description": "OLYMPUS DIGITAL CAMERA         ",
@@ -1509,7 +1509,7 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_72",
-            "thumbnailLink": "",
+            "thumbnailLink": "/assets/thumbnail1.jpg",
             "title": "P6081894.jpg",
             "mimeType": "image/jpeg",
             "description": "OLYMPUS DIGITAL CAMERA         ",
@@ -1530,7 +1530,7 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_73",
-            "thumbnailLink": "",
+            "thumbnailLink": "/assets/thumbnail1.jpg",
             "title": "P9049617.jpg",
             "mimeType": "image/jpeg",
             "description": "OLYMPUS DIGITAL CAMERA         ",
@@ -1551,7 +1551,7 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_74",
-            "thumbnailLink": "",
+            "thumbnailLink": "/assets/thumbnail1.jpg",
             "title": "PB274986.jpg",
             "mimeType": "image/jpeg",
             "description": "OLYMPUS DIGITAL CAMERA         ",
@@ -1572,7 +1572,7 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_75",
-            "thumbnailLink": "",
+            "thumbnailLink": "/assets/thumbnail1.jpg",
             "title": "P9304908-Edit.jpg",
             "mimeType": "image/jpeg",
             "description": "OLYMPUS DIGITAL CAMERA",
@@ -1593,7 +1593,7 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_76",
-            "thumbnailLink": "",
+            "thumbnailLink": "/assets/thumbnail1.jpg",
             "title": "PB234638.jpg",
             "mimeType": "image/jpeg",
             "description": "OLYMPUS DIGITAL CAMERA         ",
@@ -1614,7 +1614,7 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_77",
-            "thumbnailLink": "",
+            "thumbnailLink": "/assets/thumbnail1.jpg",
             "title": "PB275002.jpg",
             "mimeType": "image/jpeg",
             "description": "OLYMPUS DIGITAL CAMERA         ",
@@ -1635,7 +1635,7 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_78",
-            "thumbnailLink": "",
+            "thumbnailLink": "/assets/thumbnail1.jpg",
             "title": "PB244720.jpg",
             "mimeType": "image/jpeg",
             "description": "OLYMPUS DIGITAL CAMERA         ",
@@ -1656,7 +1656,7 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_79",
-            "thumbnailLink": "",
+            "thumbnailLink": "/assets/thumbnail1.jpg",
             "title": "PB244715.jpg",
             "mimeType": "image/jpeg",
             "description": "OLYMPUS DIGITAL CAMERA         ",
@@ -1677,7 +1677,7 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_80",
-            "thumbnailLink": "",
+            "thumbnailLink": "/assets/thumbnail1.jpg",
             "title": "PB274959.jpg",
             "mimeType": "image/jpeg",
             "description": "OLYMPUS DIGITAL CAMERA         ",
@@ -1698,7 +1698,7 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_81",
-            "thumbnailLink": "",
+            "thumbnailLink": "/assets/thumbnail1.jpg",
             "title": "RIMG0171-arc.jpg",
             "mimeType": "image/jpeg",
             "description": "Exif_JPEG_PICTURE                                              ",
@@ -1719,7 +1719,7 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_82",
-            "thumbnailLink": "",
+            "thumbnailLink": "/assets/thumbnail1.jpg",
             "title": "RIMG0189-arc.jpg",
             "mimeType": "image/jpeg",
             "description": "Exif_JPEG_PICTURE                                              ",
@@ -1740,7 +1740,7 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_83",
-            "thumbnailLink": "",
+            "thumbnailLink": "/assets/thumbnail1.jpg",
             "title": "P6081865.jpg",
             "mimeType": "image/jpeg",
             "description": "OLYMPUS DIGITAL CAMERA         ",
@@ -1761,7 +1761,7 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_84",
-            "thumbnailLink": "",
+            "thumbnailLink": "/assets/thumbnail1.jpg",
             "title": "PB285054.jpg",
             "mimeType": "image/jpeg",
             "description": "OLYMPUS DIGITAL CAMERA         ",
@@ -1782,7 +1782,7 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_85",
-            "thumbnailLink": "",
+            "thumbnailLink": "/assets/thumbnail1.jpg",
             "title": "IMGP0473.jpg",
             "mimeType": "image/jpeg",
             "parents": [
@@ -1802,7 +1802,7 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_86",
-            "thumbnailLink": "",
+            "thumbnailLink": "/assets/thumbnail1.jpg",
             "title": "PB274979.jpg",
             "mimeType": "image/jpeg",
             "description": "OLYMPUS DIGITAL CAMERA         ",
@@ -1823,7 +1823,7 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_87",
-            "thumbnailLink": "",
+            "thumbnailLink": "/assets/thumbnail1.jpg",
             "title": "PB224552.jpg",
             "mimeType": "image/jpeg",
             "description": "OLYMPUS DIGITAL CAMERA         ",
@@ -1844,7 +1844,7 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_88",
-            "thumbnailLink": "",
+            "thumbnailLink": "/assets/thumbnail1.jpg",
             "title": "RIMG0256-arc.jpg",
             "mimeType": "image/jpeg",
             "description": "Exif_JPEG_PICTURE                                              ",
@@ -1865,7 +1865,7 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_89",
-            "thumbnailLink": "",
+            "thumbnailLink": "/assets/thumbnail1.jpg",
             "title": "P6081870.jpg",
             "mimeType": "image/jpeg",
             "description": "OLYMPUS DIGITAL CAMERA         ",
@@ -1886,7 +1886,7 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_90",
-            "thumbnailLink": "",
+            "thumbnailLink": "/assets/thumbnail1.jpg",
             "title": "PB275007.jpg",
             "mimeType": "image/jpeg",
             "description": "OLYMPUS DIGITAL CAMERA         ",
@@ -1907,7 +1907,7 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_91",
-            "thumbnailLink": "",
+            "thumbnailLink": "/assets/thumbnail1.jpg",
             "title": "P6081872.jpg",
             "mimeType": "image/jpeg",
             "description": "OLYMPUS DIGITAL CAMERA         ",
@@ -1928,7 +1928,7 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_92",
-            "thumbnailLink": "",
+            "thumbnailLink": "/assets/thumbnail1.jpg",
             "title": "PB274889.jpg",
             "mimeType": "image/jpeg",
             "description": "OLYMPUS DIGITAL CAMERA         ",
@@ -1949,7 +1949,7 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_93",
-            "thumbnailLink": "",
+            "thumbnailLink": "/assets/thumbnail1.jpg",
             "title": "PB224508.jpg",
             "mimeType": "image/jpeg",
             "description": "OLYMPUS DIGITAL CAMERA         ",
@@ -1970,7 +1970,7 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_94",
-            "thumbnailLink": "",
+            "thumbnailLink": "/assets/thumbnail1.jpg",
             "title": "P9049503.jpg",
             "mimeType": "image/jpeg",
             "description": "OLYMPUS DIGITAL CAMERA         ",
@@ -1991,7 +1991,7 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_95",
-            "thumbnailLink": "",
+            "thumbnailLink": "/assets/thumbnail1.jpg",
             "title": "P9080483.jpg",
             "mimeType": "image/jpeg",
             "description": "OLYMPUS DIGITAL CAMERA         ",
@@ -2012,7 +2012,7 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_96",
-            "thumbnailLink": "",
+            "thumbnailLink": "/assets/thumbnail1.jpg",
             "title": "PB274913.jpg",
             "mimeType": "image/jpeg",
             "description": "OLYMPUS DIGITAL CAMERA         ",
@@ -2033,7 +2033,7 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_97",
-            "thumbnailLink": "",
+            "thumbnailLink": "/assets/thumbnail1.jpg",
             "title": "P8019350.jpg",
             "mimeType": "image/jpeg",
             "description": "OLYMPUS DIGITAL CAMERA         ",
@@ -2054,7 +2054,7 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_98",
-            "thumbnailLink": "",
+            "thumbnailLink": "/assets/thumbnail1.jpg",
             "title": "P6081961.jpg",
             "mimeType": "image/jpeg",
             "description": "OLYMPUS DIGITAL CAMERA         ",
@@ -2075,7 +2075,7 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_99",
-            "thumbnailLink": "",
+            "thumbnailLink": "/assets/thumbnail1.jpg",
             "title": "PB274966.jpg",
             "mimeType": "image/jpeg",
             "description": "OLYMPUS DIGITAL CAMERA         ",
@@ -2096,7 +2096,7 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_100",
-            "thumbnailLink": "",
+            "thumbnailLink": "/assets/thumbnail1.jpg",
             "title": "PB244770.jpg",
             "mimeType": "image/jpeg",
             "description": "OLYMPUS DIGITAL CAMERA         ",
@@ -2117,7 +2117,7 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_101",
-            "thumbnailLink": "",
+            "thumbnailLink": "/assets/thumbnail1.jpg",
             "title": "P9049463.jpg",
             "mimeType": "image/jpeg",
             "description": "OLYMPUS DIGITAL CAMERA         ",
@@ -2138,7 +2138,7 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_102",
-            "thumbnailLink": "",
+            "thumbnailLink": "/assets/thumbnail1.jpg",
             "title": "P5040054.jpg",
             "mimeType": "image/jpeg",
             "description": "OLYMPUS DIGITAL CAMERA         ",
@@ -2159,7 +2159,7 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_103",
-            "thumbnailLink": "",
+            "thumbnailLink": "/assets/thumbnail1.jpg",
             "title": "fh030012.jpg",
             "mimeType": "image/jpeg",
             "parents": [
@@ -2179,7 +2179,7 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_104",
-            "thumbnailLink": "",
+            "thumbnailLink": "/assets/thumbnail1.jpg",
             "title": "IMGP0584.jpg",
             "mimeType": "image/jpeg",
             "parents": [
@@ -2199,7 +2199,7 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_105",
-            "thumbnailLink": "",
+            "thumbnailLink": "/assets/thumbnail1.jpg",
             "title": "PB274994.jpg",
             "mimeType": "image/jpeg",
             "description": "OLYMPUS DIGITAL CAMERA         ",
@@ -2220,7 +2220,7 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_106",
-            "thumbnailLink": "",
+            "thumbnailLink": "/assets/thumbnail1.jpg",
             "title": "P2126753.jpg",
             "mimeType": "image/jpeg",
             "description": "OLYMPUS DIGITAL CAMERA         ",
@@ -2241,7 +2241,7 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_107",
-            "thumbnailLink": "",
+            "thumbnailLink": "/assets/thumbnail1.jpg",
             "title": "P7309241.jpg",
             "mimeType": "image/jpeg",
             "description": "OLYMPUS DIGITAL CAMERA         ",
@@ -2262,7 +2262,7 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_108",
-            "thumbnailLink": "",
+            "thumbnailLink": "/assets/thumbnail1.jpg",
             "title": "P5040056.jpg",
             "mimeType": "image/jpeg",
             "description": "OLYMPUS DIGITAL CAMERA         ",
@@ -2283,7 +2283,7 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_109",
-            "thumbnailLink": "",
+            "thumbnailLink": "/assets/thumbnail1.jpg",
             "title": "PB234653.jpg",
             "mimeType": "image/jpeg",
             "description": "OLYMPUS DIGITAL CAMERA         ",
@@ -2304,7 +2304,7 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_110",
-            "thumbnailLink": "",
+            "thumbnailLink": "/assets/thumbnail1.jpg",
             "title": "IMGP0593.jpg",
             "mimeType": "image/jpeg",
             "parents": [
@@ -2324,7 +2324,7 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_111",
-            "thumbnailLink": "",
+            "thumbnailLink": "/assets/thumbnail1.jpg",
             "title": "IMG_1350-yuko.jpg",
             "mimeType": "image/jpeg",
             "parents": [
@@ -2349,7 +2349,7 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_112",
-            "thumbnailLink": "",
+            "thumbnailLink": "/assets/thumbnail1.jpg",
             "title": "IMG_2132-yuko.jpg",
             "mimeType": "image/jpeg",
             "parents": [
@@ -2369,7 +2369,7 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_113",
-            "thumbnailLink": "",
+            "thumbnailLink": "/assets/thumbnail1.jpg",
             "title": "RIMG0380-arc.jpg",
             "mimeType": "image/jpeg",
             "description": "Exif_JPEG_PICTURE                                              ",
@@ -2390,7 +2390,7 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_114",
-            "thumbnailLink": "",
+            "thumbnailLink": "/assets/thumbnail1.jpg",
             "title": "P6081931.jpg",
             "mimeType": "image/jpeg",
             "description": "OLYMPUS DIGITAL CAMERA         ",
@@ -2411,7 +2411,7 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_115",
-            "thumbnailLink": "",
+            "thumbnailLink": "/assets/thumbnail1.jpg",
             "title": "PB274955.jpg",
             "mimeType": "image/jpeg",
             "description": "OLYMPUS DIGITAL CAMERA         ",
@@ -2432,7 +2432,7 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_116",
-            "thumbnailLink": "",
+            "thumbnailLink": "/assets/thumbnail1.jpg",
             "title": "PB244719.jpg",
             "mimeType": "image/jpeg",
             "description": "OLYMPUS DIGITAL CAMERA         ",
@@ -2453,7 +2453,7 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_117",
-            "thumbnailLink": "",
+            "thumbnailLink": "/assets/thumbnail1.jpg",
             "title": "PB224558.jpg",
             "mimeType": "image/jpeg",
             "description": "OLYMPUS DIGITAL CAMERA         ",
@@ -2474,7 +2474,7 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_118",
-            "thumbnailLink": "",
+            "thumbnailLink": "/assets/thumbnail1.jpg",
             "title": "PB234621.jpg",
             "mimeType": "image/jpeg",
             "description": "OLYMPUS DIGITAL CAMERA         ",
@@ -2495,7 +2495,7 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_119",
-            "thumbnailLink": "",
+            "thumbnailLink": "/assets/thumbnail1.jpg",
             "title": "PB214483.jpg",
             "mimeType": "image/jpeg",
             "description": "OLYMPUS DIGITAL CAMERA         ",
@@ -2516,7 +2516,7 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_120",
-            "thumbnailLink": "",
+            "thumbnailLink": "/assets/thumbnail1.jpg",
             "title": "P9049569.jpg",
             "mimeType": "image/jpeg",
             "description": "OLYMPUS DIGITAL CAMERA         ",
@@ -2537,7 +2537,7 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_121",
-            "thumbnailLink": "",
+            "thumbnailLink": "/assets/thumbnail1.jpg",
             "title": "P4271364.jpg",
             "mimeType": "image/jpeg",
             "description": "OLYMPUS DIGITAL CAMERA         ",
@@ -2558,7 +2558,7 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_122",
-            "thumbnailLink": "",
+            "thumbnailLink": "/assets/thumbnail1.jpg",
             "title": "P7309218.jpg",
             "mimeType": "image/jpeg",
             "description": "OLYMPUS DIGITAL CAMERA         ",
@@ -2579,7 +2579,7 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_123",
-            "thumbnailLink": "",
+            "thumbnailLink": "/assets/thumbnail1.jpg",
             "title": "PB234666.jpg",
             "mimeType": "image/jpeg",
             "description": "OLYMPUS DIGITAL CAMERA         ",
@@ -2600,7 +2600,7 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_124",
-            "thumbnailLink": "",
+            "thumbnailLink": "/assets/thumbnail1.jpg",
             "title": "RIMG0113-arc.jpg",
             "mimeType": "image/jpeg",
             "description": "Exif_JPEG_PICTURE                                              ",
@@ -2621,7 +2621,7 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_125",
-            "thumbnailLink": "",
+            "thumbnailLink": "/assets/thumbnail1.jpg",
             "title": "P5050215.jpg",
             "mimeType": "image/jpeg",
             "description": "OLYMPUS DIGITAL CAMERA         ",
@@ -2642,7 +2642,7 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_126",
-            "thumbnailLink": "",
+            "thumbnailLink": "/assets/thumbnail1.jpg",
             "title": "PB244763.jpg",
             "mimeType": "image/jpeg",
             "description": "OLYMPUS DIGITAL CAMERA         ",
@@ -2663,7 +2663,7 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_127",
-            "thumbnailLink": "",
+            "thumbnailLink": "/assets/thumbnail1.jpg",
             "title": "198358-R1-7A.jpg",
             "mimeType": "image/jpeg",
             "parents": [
@@ -2681,7 +2681,7 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_128",
-            "thumbnailLink": "",
+            "thumbnailLink": "/assets/thumbnail1.jpg",
             "title": "IMG_7897.jpg",
             "mimeType": "image/jpeg",
             "parents": [
@@ -2701,7 +2701,7 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_129",
-            "thumbnailLink": "",
+            "thumbnailLink": "/assets/thumbnail1.jpg",
             "title": "PB285040.jpg",
             "mimeType": "image/jpeg",
             "description": "OLYMPUS DIGITAL CAMERA         ",
@@ -2722,7 +2722,7 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_130",
-            "thumbnailLink": "",
+            "thumbnailLink": "/assets/thumbnail1.jpg",
             "title": "PB224551.jpg",
             "mimeType": "image/jpeg",
             "description": "OLYMPUS DIGITAL CAMERA         ",
@@ -2743,7 +2743,7 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_131",
-            "thumbnailLink": "",
+            "thumbnailLink": "/assets/thumbnail1.jpg",
             "title": "P9049486.jpg",
             "mimeType": "image/jpeg",
             "description": "OLYMPUS DIGITAL CAMERA         ",
@@ -2764,7 +2764,7 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_132",
-            "thumbnailLink": "",
+            "thumbnailLink": "/assets/thumbnail1.jpg",
             "title": "P5260384.jpg",
             "mimeType": "image/jpeg",
             "description": "OLYMPUS DIGITAL CAMERA         ",
@@ -2785,7 +2785,7 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_133",
-            "thumbnailLink": "",
+            "thumbnailLink": "/assets/thumbnail1.jpg",
             "title": "P9284835.jpg",
             "mimeType": "image/jpeg",
             "description": "OLYMPUS DIGITAL CAMERA         ",
@@ -2806,7 +2806,7 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_134",
-            "thumbnailLink": "",
+            "thumbnailLink": "/assets/thumbnail1.jpg",
             "title": "PB244699.jpg",
             "mimeType": "image/jpeg",
             "description": "OLYMPUS DIGITAL CAMERA         ",
@@ -2827,7 +2827,7 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_135",
-            "thumbnailLink": "",
+            "thumbnailLink": "/assets/thumbnail1.jpg",
             "title": "P5050179.jpg",
             "mimeType": "image/jpeg",
             "description": "OLYMPUS DIGITAL CAMERA         ",
@@ -2848,7 +2848,7 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_136",
-            "thumbnailLink": "",
+            "thumbnailLink": "/assets/thumbnail1.jpg",
             "title": "PB234694.jpg",
             "mimeType": "image/jpeg",
             "description": "OLYMPUS DIGITAL CAMERA         ",
@@ -2869,7 +2869,7 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_137",
-            "thumbnailLink": "",
+            "thumbnailLink": "/assets/thumbnail1.jpg",
             "title": "P8019354.jpg",
             "mimeType": "image/jpeg",
             "description": "OLYMPUS DIGITAL CAMERA         ",
@@ -2890,7 +2890,7 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_138",
-            "thumbnailLink": "",
+            "thumbnailLink": "/assets/thumbnail1.jpg",
             "title": "RIMG0287-arc.jpg",
             "mimeType": "image/jpeg",
             "description": "Exif_JPEG_PICTURE                                              ",
@@ -2911,7 +2911,7 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_139",
-            "thumbnailLink": "",
+            "thumbnailLink": "/assets/thumbnail1.jpg",
             "title": "RIMG0274-arc.jpg",
             "mimeType": "image/jpeg",
             "description": "Exif_JPEG_PICTURE                                              ",
@@ -2932,7 +2932,7 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_140",
-            "thumbnailLink": "",
+            "thumbnailLink": "/assets/thumbnail1.jpg",
             "title": "PB285035.jpg",
             "mimeType": "image/jpeg",
             "description": "OLYMPUS DIGITAL CAMERA         ",
@@ -2953,7 +2953,7 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_141",
-            "thumbnailLink": "",
+            "thumbnailLink": "/assets/thumbnail1.jpg",
             "title": "IMG_2144-yuko.jpg",
             "mimeType": "image/jpeg",
             "parents": [
@@ -2978,7 +2978,7 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_142",
-            "thumbnailLink": "",
+            "thumbnailLink": "/assets/thumbnail1.jpg",
             "title": "PB244759.jpg",
             "mimeType": "image/jpeg",
             "description": "OLYMPUS DIGITAL CAMERA         ",
@@ -2999,7 +2999,7 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_143",
-            "thumbnailLink": "",
+            "thumbnailLink": "/assets/thumbnail1.jpg",
             "title": "P1010033-yuko.jpg",
             "mimeType": "image/jpeg",
             "parents": [
@@ -3024,7 +3024,7 @@ window.FotomooFixtures.files = {
     items: [
         {
             "id": "file_144",
-            "thumbnailLink": "",
+            "thumbnailLink": "/assets/thumbnail1.jpg",
             "title": "P1000579.jpg",
             "mimeType": "image/jpeg",
             "parents": [
@@ -3044,7 +3044,7 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_145",
-            "thumbnailLink": "",
+            "thumbnailLink": "/assets/thumbnail1.jpg",
             "title": "P1010087-yuko.jpg",
             "mimeType": "image/jpeg",
             "parents": [
@@ -3064,7 +3064,7 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_146",
-            "thumbnailLink": "",
+            "thumbnailLink": "/assets/thumbnail1.jpg",
             "title": "P1010109-yuko.jpg",
             "mimeType": "image/jpeg",
             "parents": [
@@ -3084,7 +3084,7 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_147",
-            "thumbnailLink": "",
+            "thumbnailLink": "/assets/thumbnail1.jpg",
             "title": "P1000975.jpg",
             "mimeType": "image/jpeg",
             "parents": [
@@ -3104,7 +3104,7 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_148",
-            "thumbnailLink": "",
+            "thumbnailLink": "/assets/thumbnail1.jpg",
             "title": "IMG_1695-yuko.jpg",
             "mimeType": "image/jpeg",
             "parents": [
@@ -3124,7 +3124,7 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_149",
-            "thumbnailLink": "",
+            "thumbnailLink": "/assets/thumbnail1.jpg",
             "title": "P1010026-yuko.jpg",
             "mimeType": "image/jpeg",
             "parents": [
@@ -3144,7 +3144,7 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_150",
-            "thumbnailLink": "",
+            "thumbnailLink": "/assets/thumbnail1.jpg",
             "title": "P1000135.jpg",
             "mimeType": "image/jpeg",
             "parents": [
@@ -3164,7 +3164,7 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_151",
-            "thumbnailLink": "",
+            "thumbnailLink": "/assets/thumbnail1.jpg",
             "title": "IMG_2510-yuko.jpg",
             "mimeType": "image/jpeg",
             "parents": [
@@ -3184,7 +3184,7 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_152",
-            "thumbnailLink": "",
+            "thumbnailLink": "/assets/thumbnail1.jpg",
             "title": "P9059844.jpg",
             "mimeType": "image/jpeg",
             "description": "OLYMPUS DIGITAL CAMERA         ",
@@ -3205,7 +3205,7 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_153",
-            "thumbnailLink": "",
+            "thumbnailLink": "/assets/thumbnail1.jpg",
             "title": "P1000009.jpg",
             "mimeType": "image/jpeg",
             "parents": [
@@ -3225,7 +3225,7 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_154",
-            "thumbnailLink": "",
+            "thumbnailLink": "/assets/thumbnail1.jpg",
             "title": "P1010021-yuko.jpg",
             "mimeType": "image/jpeg",
             "parents": [
@@ -3245,7 +3245,7 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_155",
-            "thumbnailLink": "",
+            "thumbnailLink": "/assets/thumbnail1.jpg",
             "title": "P1000352.jpg",
             "mimeType": "image/jpeg",
             "parents": [
@@ -3265,7 +3265,7 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_156",
-            "thumbnailLink": "",
+            "thumbnailLink": "/assets/thumbnail1.jpg",
             "title": "IMG_2489-yuko.jpg",
             "mimeType": "image/jpeg",
             "parents": [
@@ -3285,7 +3285,7 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_157",
-            "thumbnailLink": "",
+            "thumbnailLink": "/assets/thumbnail1.jpg",
             "title": "P1000512.jpg",
             "mimeType": "image/jpeg",
             "parents": [
@@ -3305,7 +3305,7 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_158",
-            "thumbnailLink": "",
+            "thumbnailLink": "/assets/thumbnail1.jpg",
             "title": "IMG_2484-yuko.jpg",
             "mimeType": "image/jpeg",
             "parents": [
@@ -3325,7 +3325,7 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_159",
-            "thumbnailLink": "",
+            "thumbnailLink": "/assets/thumbnail1.jpg",
             "title": "IMG_2518-yuko.jpg",
             "mimeType": "image/jpeg",
             "parents": [
@@ -3345,7 +3345,7 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_160",
-            "thumbnailLink": "",
+            "thumbnailLink": "/assets/thumbnail1.jpg",
             "title": "IMG_1993-yuko.jpg",
             "mimeType": "image/jpeg",
             "parents": [
@@ -3365,7 +3365,7 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_161",
-            "thumbnailLink": "",
+            "thumbnailLink": "/assets/thumbnail1.jpg",
             "title": "P1000970.jpg",
             "mimeType": "image/jpeg",
             "parents": [
@@ -3385,7 +3385,7 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_162",
-            "thumbnailLink": "",
+            "thumbnailLink": "/assets/thumbnail1.jpg",
             "title": "P1010122-yuko.jpg",
             "mimeType": "image/jpeg",
             "parents": [
@@ -3405,7 +3405,7 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_163",
-            "thumbnailLink": "",
+            "thumbnailLink": "/assets/thumbnail1.jpg",
             "title": "IMG_2466-yuko.jpg",
             "mimeType": "image/jpeg",
             "parents": [
@@ -3425,7 +3425,7 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_164",
-            "thumbnailLink": "",
+            "thumbnailLink": "/assets/thumbnail1.jpg",
             "title": "P9059858.jpg",
             "mimeType": "image/jpeg",
             "description": "OLYMPUS DIGITAL CAMERA         ",
@@ -3446,7 +3446,7 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_165",
-            "thumbnailLink": "",
+            "thumbnailLink": "/assets/thumbnail1.jpg",
             "title": "IMG_2531-yuko.jpg",
             "mimeType": "image/jpeg",
             "parents": [
@@ -3466,7 +3466,7 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_166",
-            "thumbnailLink": "",
+            "thumbnailLink": "/assets/thumbnail1.jpg",
             "title": "P1010003-yuko.jpg",
             "mimeType": "image/jpeg",
             "parents": [
@@ -3486,7 +3486,7 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_167",
-            "thumbnailLink": "",
+            "thumbnailLink": "/assets/thumbnail1.jpg",
             "title": "P9049711.jpg",
             "mimeType": "image/jpeg",
             "description": "OLYMPUS DIGITAL CAMERA         ",
@@ -3507,7 +3507,7 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_168",
-            "thumbnailLink": "",
+            "thumbnailLink": "/assets/thumbnail1.jpg",
             "title": "IMG_1576.jpg",
             "mimeType": "image/jpeg",
             "parents": [
@@ -3532,7 +3532,7 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_169",
-            "thumbnailLink": "",
+            "thumbnailLink": "/assets/thumbnail1.jpg",
             "title": "P1000383.jpg",
             "mimeType": "image/jpeg",
             "parents": [
@@ -3552,7 +3552,7 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_170",
-            "thumbnailLink": "",
+            "thumbnailLink": "/assets/thumbnail1.jpg",
             "title": "IMG_2582-yuko.jpg",
             "mimeType": "image/jpeg",
             "parents": [
@@ -3572,7 +3572,7 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_171",
-            "thumbnailLink": "",
+            "thumbnailLink": "/assets/thumbnail1.jpg",
             "title": "IMG_2448-yuko.jpg",
             "mimeType": "image/jpeg",
             "parents": [
@@ -3592,7 +3592,7 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_172",
-            "thumbnailLink": "",
+            "thumbnailLink": "/assets/thumbnail1.jpg",
             "title": "IMG_2615-yuko.jpg",
             "mimeType": "image/jpeg",
             "parents": [
@@ -3612,7 +3612,7 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_173",
-            "thumbnailLink": "",
+            "thumbnailLink": "/assets/thumbnail1.jpg",
             "title": "P1010117-yuko.jpg",
             "mimeType": "image/jpeg",
             "parents": [
@@ -3632,7 +3632,7 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_174",
-            "thumbnailLink": "",
+            "thumbnailLink": "/assets/thumbnail1.jpg",
             "title": "P9049672.jpg",
             "mimeType": "image/jpeg",
             "description": "OLYMPUS DIGITAL CAMERA         ",
@@ -3653,7 +3653,7 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_175",
-            "thumbnailLink": "",
+            "thumbnailLink": "/assets/thumbnail1.jpg",
             "title": "P9059872.jpg",
             "mimeType": "image/jpeg",
             "description": "OLYMPUS DIGITAL CAMERA         ",
@@ -3674,7 +3674,7 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_176",
-            "thumbnailLink": "",
+            "thumbnailLink": "/assets/thumbnail1.jpg",
             "title": "P1010045-yuko.jpg",
             "mimeType": "image/jpeg",
             "parents": [
@@ -3694,7 +3694,7 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_177",
-            "thumbnailLink": "",
+            "thumbnailLink": "/assets/thumbnail1.jpg",
             "title": "P9059868.jpg",
             "mimeType": "image/jpeg",
             "description": "OLYMPUS DIGITAL CAMERA         ",
@@ -3715,7 +3715,7 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_178",
-            "thumbnailLink": "",
+            "thumbnailLink": "/assets/thumbnail1.jpg",
             "title": "P7299918.jpg",
             "mimeType": "image/jpeg",
             "description": "OLYMPUS DIGITAL CAMERA         ",
@@ -3736,7 +3736,7 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_179",
-            "thumbnailLink": "",
+            "thumbnailLink": "/assets/thumbnail1.jpg",
             "title": "P7300071.jpg",
             "mimeType": "image/jpeg",
             "description": "OLYMPUS DIGITAL CAMERA         ",
@@ -3757,7 +3757,7 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_180",
-            "thumbnailLink": "",
+            "thumbnailLink": "/assets/thumbnail1.jpg",
             "title": "P1000049.jpg",
             "mimeType": "image/jpeg",
             "parents": [
@@ -3777,7 +3777,7 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_181",
-            "thumbnailLink": "",
+            "thumbnailLink": "/assets/thumbnail1.jpg",
             "title": "P9059874.jpg",
             "mimeType": "image/jpeg",
             "description": "OLYMPUS DIGITAL CAMERA         ",
@@ -3798,7 +3798,7 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_182",
-            "thumbnailLink": "",
+            "thumbnailLink": "/assets/thumbnail1.jpg",
             "title": "P1010032-yuko.jpg",
             "mimeType": "image/jpeg",
             "parents": [
@@ -3818,7 +3818,7 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_183",
-            "thumbnailLink": "",
+            "thumbnailLink": "/assets/thumbnail1.jpg",
             "title": "IMG_1973-yuko.jpg",
             "mimeType": "image/jpeg",
             "parents": [
@@ -3838,7 +3838,7 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_184",
-            "thumbnailLink": "",
+            "thumbnailLink": "/assets/thumbnail1.jpg",
             "title": "P1010108-yuko.jpg",
             "mimeType": "image/jpeg",
             "parents": [
@@ -3858,7 +3858,7 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_185",
-            "thumbnailLink": "",
+            "thumbnailLink": "/assets/thumbnail1.jpg",
             "title": "P9059785.jpg",
             "mimeType": "image/jpeg",
             "description": "OLYMPUS DIGITAL CAMERA         ",
@@ -3879,7 +3879,7 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_186",
-            "thumbnailLink": "",
+            "thumbnailLink": "/assets/thumbnail1.jpg",
             "title": "P1010084-yuko.jpg",
             "mimeType": "image/jpeg",
             "parents": [
@@ -3899,7 +3899,7 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_187",
-            "thumbnailLink": "",
+            "thumbnailLink": "/assets/thumbnail1.jpg",
             "title": "IMG_2463-yuko.jpg",
             "mimeType": "image/jpeg",
             "parents": [
@@ -3919,7 +3919,7 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_188",
-            "thumbnailLink": "",
+            "thumbnailLink": "/assets/thumbnail1.jpg",
             "title": "P1010105-yuko.jpg",
             "mimeType": "image/jpeg",
             "parents": [
@@ -3939,7 +3939,7 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_189",
-            "thumbnailLink": "",
+            "thumbnailLink": "/assets/thumbnail1.jpg",
             "title": "IMG_2479-yuko.jpg",
             "mimeType": "image/jpeg",
             "parents": [
@@ -3959,7 +3959,7 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_190",
-            "thumbnailLink": "",
+            "thumbnailLink": "/assets/thumbnail1.jpg",
             "title": "IMG_1991-yuko.jpg",
             "mimeType": "image/jpeg",
             "parents": [
@@ -3979,7 +3979,7 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_191",
-            "thumbnailLink": "",
+            "thumbnailLink": "/assets/thumbnail1.jpg",
             "title": "P1000326.jpg",
             "mimeType": "image/jpeg",
             "parents": [
@@ -3999,7 +3999,7 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_192",
-            "thumbnailLink": "",
+            "thumbnailLink": "/assets/thumbnail1.jpg",
             "title": "IMG_2496-yuko.jpg",
             "mimeType": "image/jpeg",
             "parents": [
@@ -4019,7 +4019,7 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_193",
-            "thumbnailLink": "",
+            "thumbnailLink": "/assets/thumbnail1.jpg",
             "title": "IMG_2492-yuko.jpg",
             "mimeType": "image/jpeg",
             "parents": [
@@ -4039,7 +4039,7 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_194",
-            "thumbnailLink": "",
+            "thumbnailLink": "/assets/thumbnail1.jpg",
             "title": "P1010068-yuko.jpg",
             "mimeType": "image/jpeg",
             "parents": [
@@ -4059,7 +4059,7 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_195",
-            "thumbnailLink": "",
+            "thumbnailLink": "/assets/thumbnail1.jpg",
             "title": "IMG_2634-yuko.jpg",
             "mimeType": "image/jpeg",
             "parents": [
@@ -4079,7 +4079,7 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_196",
-            "thumbnailLink": "",
+            "thumbnailLink": "/assets/thumbnail1.jpg",
             "title": "P5010402.jpg",
             "mimeType": "image/jpeg",
             "description": "OLYMPUS DIGITAL CAMERA         ",
@@ -4100,7 +4100,7 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_197",
-            "thumbnailLink": "",
+            "thumbnailLink": "/assets/thumbnail1.jpg",
             "title": "P5010392.jpg",
             "mimeType": "image/jpeg",
             "description": "OLYMPUS DIGITAL CAMERA         ",
@@ -4121,7 +4121,7 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_198",
-            "thumbnailLink": "",
+            "thumbnailLink": "/assets/thumbnail1.jpg",
             "title": "P5010372.jpg",
             "mimeType": "image/jpeg",
             "description": "OLYMPUS DIGITAL CAMERA         ",
@@ -4142,7 +4142,7 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_199",
-            "thumbnailLink": "",
+            "thumbnailLink": "/assets/thumbnail1.jpg",
             "title": "P5010342.jpg",
             "mimeType": "image/jpeg",
             "description": "OLYMPUS DIGITAL CAMERA         ",
@@ -4163,7 +4163,7 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_200",
-            "thumbnailLink": "",
+            "thumbnailLink": "/assets/thumbnail1.jpg",
             "title": "P4300261.jpg",
             "mimeType": "image/jpeg",
             "description": "OLYMPUS DIGITAL CAMERA         ",
@@ -4184,7 +4184,7 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_201",
-            "thumbnailLink": "",
+            "thumbnailLink": "/assets/thumbnail1.jpg",
             "title": "P4300291.jpg",
             "mimeType": "image/jpeg",
             "description": "OLYMPUS DIGITAL CAMERA         ",
@@ -4205,7 +4205,7 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_202",
-            "thumbnailLink": "",
+            "thumbnailLink": "/assets/thumbnail1.jpg",
             "title": "P4300250.jpg",
             "mimeType": "image/jpeg",
             "description": "OLYMPUS DIGITAL CAMERA         ",
@@ -4226,7 +4226,7 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_203",
-            "thumbnailLink": "",
+            "thumbnailLink": "/assets/thumbnail1.jpg",
             "title": "P4300226.jpg",
             "mimeType": "image/jpeg",
             "description": "OLYMPUS DIGITAL CAMERA         ",
@@ -4247,7 +4247,7 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_204",
-            "thumbnailLink": "",
+            "thumbnailLink": "/assets/thumbnail1.jpg",
             "title": "P4300305.jpg",
             "mimeType": "image/jpeg",
             "description": "OLYMPUS DIGITAL CAMERA         ",
@@ -4268,7 +4268,7 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_205",
-            "thumbnailLink": "",
+            "thumbnailLink": "/assets/thumbnail1.jpg",
             "title": "P5010397.jpg",
             "mimeType": "image/jpeg",
             "description": "OLYMPUS DIGITAL CAMERA         ",
@@ -4289,7 +4289,7 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_206",
-            "thumbnailLink": "",
+            "thumbnailLink": "/assets/thumbnail1.jpg",
             "title": "P4300297.jpg",
             "mimeType": "image/jpeg",
             "description": "OLYMPUS DIGITAL CAMERA         ",
@@ -4310,7 +4310,7 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_207",
-            "thumbnailLink": "",
+            "thumbnailLink": "/assets/thumbnail1.jpg",
             "title": "P7310131.jpg",
             "mimeType": "image/jpeg",
             "description": "OLYMPUS DIGITAL CAMERA         ",
@@ -4331,7 +4331,7 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_208",
-            "thumbnailLink": "",
+            "thumbnailLink": "/assets/thumbnail1.jpg",
             "title": "P5010357.jpg",
             "mimeType": "image/jpeg",
             "description": "OLYMPUS DIGITAL CAMERA         ",
@@ -4352,7 +4352,7 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_209",
-            "thumbnailLink": "",
+            "thumbnailLink": "/assets/thumbnail1.jpg",
             "title": "P4300268.jpg",
             "mimeType": "image/jpeg",
             "description": "OLYMPUS DIGITAL CAMERA         ",
@@ -4373,7 +4373,7 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_210",
-            "thumbnailLink": "",
+            "thumbnailLink": "/assets/thumbnail1.jpg",
             "title": "P4300276.jpg",
             "mimeType": "image/jpeg",
             "description": "OLYMPUS DIGITAL CAMERA         ",
@@ -4394,7 +4394,7 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_211",
-            "thumbnailLink": "",
+            "thumbnailLink": "/assets/thumbnail1.jpg",
             "title": "P1020021.jpg",
             "mimeType": "image/jpeg",
             "parents": [
@@ -4414,7 +4414,7 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_212",
-            "thumbnailLink": "",
+            "thumbnailLink": "/assets/thumbnail1.jpg",
             "title": "P5010329.jpg",
             "mimeType": "image/jpeg",
             "description": "OLYMPUS DIGITAL CAMERA         ",
@@ -4435,7 +4435,7 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_213",
-            "thumbnailLink": "",
+            "thumbnailLink": "/assets/thumbnail1.jpg",
             "title": "IMG_0477.jpg",
             "mimeType": "image/jpeg",
             "parents": [
@@ -4460,7 +4460,7 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_214",
-            "thumbnailLink": "",
+            "thumbnailLink": "/assets/thumbnail1.jpg",
             "title": "rome-marie-flowers.jpg",
             "mimeType": "image/jpeg",
             "description": "OLYMPUS DIGITAL CAMERA         ",
@@ -4481,7 +4481,7 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_215",
-            "thumbnailLink": "",
+            "thumbnailLink": "/assets/thumbnail1.jpg",
             "title": "P4300280.jpg",
             "mimeType": "image/jpeg",
             "description": "OLYMPUS DIGITAL CAMERA         ",
@@ -4502,7 +4502,7 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_216",
-            "thumbnailLink": "",
+            "thumbnailLink": "/assets/thumbnail1.jpg",
             "title": "P4300292.jpg",
             "mimeType": "image/jpeg",
             "description": "OLYMPUS DIGITAL CAMERA         ",
@@ -4523,7 +4523,7 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_217",
-            "thumbnailLink": "",
+            "thumbnailLink": "/assets/thumbnail1.jpg",
             "title": "P4300289.jpg",
             "mimeType": "image/jpeg",
             "description": "OLYMPUS DIGITAL CAMERA         ",
@@ -4544,7 +4544,7 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_218",
-            "thumbnailLink": "",
+            "thumbnailLink": "/assets/thumbnail1.jpg",
             "title": "P5010374.jpg",
             "mimeType": "image/jpeg",
             "description": "OLYMPUS DIGITAL CAMERA         ",
@@ -4565,7 +4565,7 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_219",
-            "thumbnailLink": "",
+            "thumbnailLink": "/assets/thumbnail1.jpg",
             "title": "P5010364.jpg",
             "mimeType": "image/jpeg",
             "description": "OLYMPUS DIGITAL CAMERA         ",
@@ -4586,7 +4586,7 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_220",
-            "thumbnailLink": "",
+            "thumbnailLink": "/assets/thumbnail1.jpg",
             "title": "P5010345.jpg",
             "mimeType": "image/jpeg",
             "description": "OLYMPUS DIGITAL CAMERA         ",
@@ -4607,7 +4607,7 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_221",
-            "thumbnailLink": "",
+            "thumbnailLink": "/assets/thumbnail1.jpg",
             "title": "P4300292.jpg",
             "mimeType": "image/jpeg",
             "description": "OLYMPUS DIGITAL CAMERA         ",
@@ -4628,7 +4628,7 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_222",
-            "thumbnailLink": "",
+            "thumbnailLink": "/assets/thumbnail1.jpg",
             "title": "P4300293.jpg",
             "mimeType": "image/jpeg",
             "description": "OLYMPUS DIGITAL CAMERA         ",
@@ -4649,7 +4649,7 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_223",
-            "thumbnailLink": "",
+            "thumbnailLink": "/assets/thumbnail1.jpg",
             "title": "P4300231.jpg",
             "mimeType": "image/jpeg",
             "description": "OLYMPUS DIGITAL CAMERA         ",
@@ -4670,7 +4670,7 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_224",
-            "thumbnailLink": "",
+            "thumbnailLink": "/assets/thumbnail1.jpg",
             "title": "P5010432.jpg",
             "mimeType": "image/jpeg",
             "description": "OLYMPUS DIGITAL CAMERA         ",
@@ -4691,7 +4691,7 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_225",
-            "thumbnailLink": "",
+            "thumbnailLink": "/assets/thumbnail1.jpg",
             "title": "P5020475.jpg",
             "mimeType": "image/jpeg",
             "description": "OLYMPUS DIGITAL CAMERA         ",
@@ -4712,7 +4712,7 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_226",
-            "thumbnailLink": "",
+            "thumbnailLink": "/assets/thumbnail1.jpg",
             "title": "P5020471.jpg",
             "mimeType": "image/jpeg",
             "description": "OLYMPUS DIGITAL CAMERA         ",
@@ -4733,7 +4733,7 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_227",
-            "thumbnailLink": "",
+            "thumbnailLink": "/assets/thumbnail1.jpg",
             "title": "IMG_0507.jpg",
             "mimeType": "image/jpeg",
             "parents": [
@@ -4758,7 +4758,7 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_228",
-            "thumbnailLink": "",
+            "thumbnailLink": "/assets/thumbnail1.jpg",
             "title": "P5020572.jpg",
             "mimeType": "image/jpeg",
             "description": "OLYMPUS DIGITAL CAMERA         ",
@@ -4779,7 +4779,7 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_229",
-            "thumbnailLink": "",
+            "thumbnailLink": "/assets/thumbnail1.jpg",
             "title": "P5030637.jpg",
             "mimeType": "image/jpeg",
             "description": "OLYMPUS DIGITAL CAMERA         ",
@@ -4800,7 +4800,7 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_230",
-            "thumbnailLink": "",
+            "thumbnailLink": "/assets/thumbnail1.jpg",
             "title": "P5020459.jpg",
             "mimeType": "image/jpeg",
             "description": "OLYMPUS DIGITAL CAMERA         ",
@@ -4821,7 +4821,7 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_231",
-            "thumbnailLink": "",
+            "thumbnailLink": "/assets/thumbnail1.jpg",
             "title": "P5020578.jpg",
             "mimeType": "image/jpeg",
             "description": "OLYMPUS DIGITAL CAMERA         ",
@@ -4842,7 +4842,7 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_232",
-            "thumbnailLink": "",
+            "thumbnailLink": "/assets/thumbnail1.jpg",
             "title": "P5010416.jpg",
             "mimeType": "image/jpeg",
             "description": "OLYMPUS DIGITAL CAMERA         ",
@@ -4863,7 +4863,7 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_233",
-            "thumbnailLink": "",
+            "thumbnailLink": "/assets/thumbnail1.jpg",
             "title": "P5020502.jpg",
             "mimeType": "image/jpeg",
             "description": "OLYMPUS DIGITAL CAMERA         ",
@@ -4884,7 +4884,7 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_234",
-            "thumbnailLink": "",
+            "thumbnailLink": "/assets/thumbnail1.jpg",
             "title": "P5020492.jpg",
             "mimeType": "image/jpeg",
             "description": "OLYMPUS DIGITAL CAMERA         ",
@@ -4905,7 +4905,7 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_235",
-            "thumbnailLink": "",
+            "thumbnailLink": "/assets/thumbnail1.jpg",
             "title": "P5030621.jpg",
             "mimeType": "image/jpeg",
             "description": "OLYMPUS DIGITAL CAMERA         ",
@@ -4926,7 +4926,7 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_236",
-            "thumbnailLink": "",
+            "thumbnailLink": "/assets/thumbnail1.jpg",
             "title": "P5030625.jpg",
             "mimeType": "image/jpeg",
             "description": "OLYMPUS DIGITAL CAMERA         ",
@@ -4947,7 +4947,7 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_237",
-            "thumbnailLink": "",
+            "thumbnailLink": "/assets/thumbnail1.jpg",
             "title": "P5020562.jpg",
             "mimeType": "image/jpeg",
             "description": "OLYMPUS DIGITAL CAMERA         ",
@@ -4968,7 +4968,7 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_238",
-            "thumbnailLink": "",
+            "thumbnailLink": "/assets/thumbnail1.jpg",
             "title": "P5020467.jpg",
             "mimeType": "image/jpeg",
             "description": "OLYMPUS DIGITAL CAMERA         ",
@@ -4989,7 +4989,7 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_239",
-            "thumbnailLink": "",
+            "thumbnailLink": "/assets/thumbnail1.jpg",
             "title": "P5030610.jpg",
             "mimeType": "image/jpeg",
             "description": "OLYMPUS DIGITAL CAMERA         ",
@@ -5010,7 +5010,7 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_240",
-            "thumbnailLink": "",
+            "thumbnailLink": "/assets/thumbnail1.jpg",
             "title": "P5030602.jpg",
             "mimeType": "image/jpeg",
             "description": "OLYMPUS DIGITAL CAMERA         ",
@@ -5031,7 +5031,7 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_241",
-            "thumbnailLink": "",
+            "thumbnailLink": "/assets/thumbnail1.jpg",
             "title": "P5010452.jpg",
             "mimeType": "image/jpeg",
             "description": "OLYMPUS DIGITAL CAMERA         ",
@@ -5052,7 +5052,7 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_242",
-            "thumbnailLink": "",
+            "thumbnailLink": "/assets/thumbnail1.jpg",
             "title": "P5020536.jpg",
             "mimeType": "image/jpeg",
             "description": "OLYMPUS DIGITAL CAMERA         ",
@@ -5073,7 +5073,7 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_243",
-            "thumbnailLink": "",
+            "thumbnailLink": "/assets/thumbnail1.jpg",
             "title": "P5020530.jpg",
             "mimeType": "image/jpeg",
             "description": "OLYMPUS DIGITAL CAMERA         ",
@@ -5094,7 +5094,7 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_244",
-            "thumbnailLink": "",
+            "thumbnailLink": "/assets/thumbnail1.jpg",
             "title": "P5010424.jpg",
             "mimeType": "image/jpeg",
             "description": "OLYMPUS DIGITAL CAMERA         ",
@@ -5115,7 +5115,7 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_245",
-            "thumbnailLink": "",
+            "thumbnailLink": "/assets/thumbnail1.jpg",
             "title": "P5030646.jpg",
             "mimeType": "image/jpeg",
             "description": "OLYMPUS DIGITAL CAMERA         ",
@@ -5136,7 +5136,7 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_246",
-            "thumbnailLink": "",
+            "thumbnailLink": "/assets/thumbnail1.jpg",
             "title": "P5020482.jpg",
             "mimeType": "image/jpeg",
             "description": "OLYMPUS DIGITAL CAMERA         ",
@@ -5157,7 +5157,7 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_247",
-            "thumbnailLink": "",
+            "thumbnailLink": "/assets/thumbnail1.jpg",
             "title": "P5020479.jpg",
             "mimeType": "image/jpeg",
             "description": "OLYMPUS DIGITAL CAMERA         ",
@@ -5178,7 +5178,7 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_248",
-            "thumbnailLink": "",
+            "thumbnailLink": "/assets/thumbnail1.jpg",
             "title": "P5030583.jpg",
             "mimeType": "image/jpeg",
             "description": "OLYMPUS DIGITAL CAMERA         ",
@@ -5199,7 +5199,7 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_249",
-            "thumbnailLink": "",
+            "thumbnailLink": "/assets/thumbnail1.jpg",
             "title": "P5080836.jpg",
             "mimeType": "image/jpeg",
             "description": "OLYMPUS DIGITAL CAMERA         ",
@@ -5220,7 +5220,7 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_250",
-            "thumbnailLink": "",
+            "thumbnailLink": "/assets/thumbnail1.jpg",
             "title": "P5060799.jpg",
             "mimeType": "image/jpeg",
             "description": "OLYMPUS DIGITAL CAMERA         ",
@@ -5241,7 +5241,7 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_251",
-            "thumbnailLink": "",
+            "thumbnailLink": "/assets/thumbnail1.jpg",
             "title": "P5100924.jpg",
             "mimeType": "image/jpeg",
             "description": "OLYMPUS DIGITAL CAMERA         ",
@@ -5262,7 +5262,7 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_252",
-            "thumbnailLink": "",
+            "thumbnailLink": "/assets/thumbnail1.jpg",
             "title": "P5050774.jpg",
             "mimeType": "image/jpeg",
             "description": "OLYMPUS DIGITAL CAMERA         ",
@@ -5283,7 +5283,7 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_253",
-            "thumbnailLink": "",
+            "thumbnailLink": "/assets/thumbnail1.jpg",
             "title": "P5040693.jpg",
             "mimeType": "image/jpeg",
             "description": "OLYMPUS DIGITAL CAMERA         ",
@@ -5304,7 +5304,7 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_254",
-            "thumbnailLink": "",
+            "thumbnailLink": "/assets/thumbnail1.jpg",
             "title": "panalama.jpg",
             "mimeType": "image/jpeg",
             "parents": [
@@ -5323,7 +5323,7 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_255",
-            "thumbnailLink": "",
+            "thumbnailLink": "/assets/thumbnail1.jpg",
             "title": "P5050762.jpg",
             "mimeType": "image/jpeg",
             "description": "OLYMPUS DIGITAL CAMERA         ",
@@ -5344,7 +5344,7 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_256",
-            "thumbnailLink": "",
+            "thumbnailLink": "/assets/thumbnail1.jpg",
             "title": "P5040707.jpg",
             "mimeType": "image/jpeg",
             "description": "OLYMPUS DIGITAL CAMERA         ",
@@ -5365,7 +5365,7 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_257",
-            "thumbnailLink": "",
+            "thumbnailLink": "/assets/thumbnail1.jpg",
             "title": "P5190026.jpg",
             "mimeType": "image/jpeg",
             "description": "OLYMPUS DIGITAL CAMERA         ",
@@ -5386,7 +5386,7 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_258",
-            "thumbnailLink": "",
+            "thumbnailLink": "/assets/thumbnail1.jpg",
             "title": "P5190017.jpg",
             "mimeType": "image/jpeg",
             "description": "OLYMPUS DIGITAL CAMERA         ",
@@ -5407,7 +5407,7 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_259",
-            "thumbnailLink": "",
+            "thumbnailLink": "/assets/thumbnail1.jpg",
             "title": "P5030651.jpg",
             "mimeType": "image/jpeg",
             "description": "OLYMPUS DIGITAL CAMERA         ",
@@ -5428,7 +5428,7 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_260",
-            "thumbnailLink": "",
+            "thumbnailLink": "/assets/thumbnail1.jpg",
             "title": "P5060797.jpg",
             "mimeType": "image/jpeg",
             "description": "OLYMPUS DIGITAL CAMERA         ",
@@ -5449,7 +5449,7 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_261",
-            "thumbnailLink": "",
+            "thumbnailLink": "/assets/thumbnail1.jpg",
             "title": "P5060793.jpg",
             "mimeType": "image/jpeg",
             "description": "OLYMPUS DIGITAL CAMERA         ",
@@ -5470,7 +5470,7 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_262",
-            "thumbnailLink": "",
+            "thumbnailLink": "/assets/thumbnail1.jpg",
             "title": "P5080812.jpg",
             "mimeType": "image/jpeg",
             "description": "OLYMPUS DIGITAL CAMERA         ",
@@ -5491,7 +5491,7 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_263",
-            "thumbnailLink": "",
+            "thumbnailLink": "/assets/thumbnail1.jpg",
             "title": "P5030657.jpg",
             "mimeType": "image/jpeg",
             "description": "OLYMPUS DIGITAL CAMERA         ",
@@ -5512,7 +5512,7 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_264",
-            "thumbnailLink": "",
+            "thumbnailLink": "/assets/thumbnail1.jpg",
             "title": "P5180001.jpg",
             "mimeType": "image/jpeg",
             "description": "OLYMPUS DIGITAL CAMERA         ",
@@ -5533,7 +5533,7 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_265",
-            "thumbnailLink": "",
+            "thumbnailLink": "/assets/thumbnail1.jpg",
             "title": "P5040698.jpg",
             "mimeType": "image/jpeg",
             "description": "OLYMPUS DIGITAL CAMERA         ",
@@ -5554,7 +5554,7 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_266",
-            "thumbnailLink": "",
+            "thumbnailLink": "/assets/thumbnail1.jpg",
             "title": "P5100926.jpg",
             "mimeType": "image/jpeg",
             "description": "OLYMPUS DIGITAL CAMERA         ",
@@ -5575,7 +5575,7 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_267",
-            "thumbnailLink": "",
+            "thumbnailLink": "/assets/thumbnail1.jpg",
             "title": "P5030681.jpg",
             "mimeType": "image/jpeg",
             "description": "OLYMPUS DIGITAL CAMERA         ",
@@ -5596,7 +5596,7 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_268",
-            "thumbnailLink": "",
+            "thumbnailLink": "/assets/thumbnail1.jpg",
             "title": "P5100922.jpg",
             "mimeType": "image/jpeg",
             "description": "OLYMPUS DIGITAL CAMERA         ",
@@ -5617,7 +5617,7 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_269",
-            "thumbnailLink": "",
+            "thumbnailLink": "/assets/thumbnail1.jpg",
             "title": "P5040687.jpg",
             "mimeType": "image/jpeg",
             "description": "OLYMPUS DIGITAL CAMERA         ",
@@ -5638,7 +5638,7 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_270",
-            "thumbnailLink": "",
+            "thumbnailLink": "/assets/thumbnail1.jpg",
             "title": "P5080813.jpg",
             "mimeType": "image/jpeg",
             "description": "OLYMPUS DIGITAL CAMERA         ",
@@ -5659,7 +5659,7 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_271",
-            "thumbnailLink": "",
+            "thumbnailLink": "/assets/thumbnail1.jpg",
             "title": "P5050752.jpg",
             "mimeType": "image/jpeg",
             "description": "OLYMPUS DIGITAL CAMERA         ",
@@ -5680,7 +5680,7 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_272",
-            "thumbnailLink": "",
+            "thumbnailLink": "/assets/thumbnail1.jpg",
             "title": "P7270031.jpg",
             "mimeType": "image/jpeg",
             "description": "OLYMPUS DIGITAL CAMERA         ",
@@ -5701,7 +5701,7 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_273",
-            "thumbnailLink": "",
+            "thumbnailLink": "/assets/thumbnail1.jpg",
             "title": "IMG_0709.jpg",
             "mimeType": "image/jpeg",
             "parents": [
@@ -5726,7 +5726,7 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_274",
-            "thumbnailLink": "",
+            "thumbnailLink": "/assets/thumbnail1.jpg",
             "title": "P7270148.jpg",
             "mimeType": "image/jpeg",
             "description": "OLYMPUS DIGITAL CAMERA         ",
@@ -5747,7 +5747,7 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_275",
-            "thumbnailLink": "",
+            "thumbnailLink": "/assets/thumbnail1.jpg",
             "title": "P7270074.jpg",
             "mimeType": "image/jpeg",
             "description": "OLYMPUS DIGITAL CAMERA         ",
@@ -5768,7 +5768,7 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_276",
-            "thumbnailLink": "",
+            "thumbnailLink": "/assets/thumbnail1.jpg",
             "title": "P6220024.jpg",
             "mimeType": "image/jpeg",
             "description": "OLYMPUS DIGITAL CAMERA         ",
@@ -5789,7 +5789,7 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_277",
-            "thumbnailLink": "",
+            "thumbnailLink": "/assets/thumbnail1.jpg",
             "title": "IMG_0651.jpg",
             "mimeType": "image/jpeg",
             "parents": [
@@ -5814,7 +5814,7 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_278",
-            "thumbnailLink": "",
+            "thumbnailLink": "/assets/thumbnail1.jpg",
             "title": "P7270039.jpg",
             "mimeType": "image/jpeg",
             "description": "OLYMPUS DIGITAL CAMERA         ",
@@ -5835,7 +5835,7 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_279",
-            "thumbnailLink": "",
+            "thumbnailLink": "/assets/thumbnail1.jpg",
             "title": "P5190037.jpg",
             "mimeType": "image/jpeg",
             "description": "OLYMPUS DIGITAL CAMERA         ",
@@ -5856,7 +5856,7 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_280",
-            "thumbnailLink": "",
+            "thumbnailLink": "/assets/thumbnail1.jpg",
             "title": "IMG_0670.jpg",
             "mimeType": "image/jpeg",
             "parents": [
@@ -5881,7 +5881,7 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_281",
-            "thumbnailLink": "",
+            "thumbnailLink": "/assets/thumbnail1.jpg",
             "title": "P7260022.jpg",
             "mimeType": "image/jpeg",
             "description": "OLYMPUS DIGITAL CAMERA         ",
@@ -5902,7 +5902,7 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_282",
-            "thumbnailLink": "",
+            "thumbnailLink": "/assets/thumbnail1.jpg",
             "title": "P6220014.jpg",
             "mimeType": "image/jpeg",
             "description": "OLYMPUS DIGITAL CAMERA         ",
@@ -5923,7 +5923,7 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_283",
-            "thumbnailLink": "",
+            "thumbnailLink": "/assets/thumbnail1.jpg",
             "title": "P7270088.jpg",
             "mimeType": "image/jpeg",
             "description": "OLYMPUS DIGITAL CAMERA         ",
@@ -5944,7 +5944,7 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_284",
-            "thumbnailLink": "",
+            "thumbnailLink": "/assets/thumbnail1.jpg",
             "title": "IMG_0619.jpg",
             "mimeType": "image/jpeg",
             "parents": [
@@ -5969,7 +5969,7 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_285",
-            "thumbnailLink": "",
+            "thumbnailLink": "/assets/thumbnail1.jpg",
             "title": "IMG_0677.jpg",
             "mimeType": "image/jpeg",
             "parents": [
@@ -5994,7 +5994,7 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_286",
-            "thumbnailLink": "",
+            "thumbnailLink": "/assets/thumbnail1.jpg",
             "title": "P7150092.jpg",
             "mimeType": "image/jpeg",
             "description": "OLYMPUS DIGITAL CAMERA         ",
@@ -6015,7 +6015,7 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_287",
-            "thumbnailLink": "",
+            "thumbnailLink": "/assets/thumbnail1.jpg",
             "title": "P7260025.jpg",
             "mimeType": "image/jpeg",
             "description": "OLYMPUS DIGITAL CAMERA         ",
@@ -6036,7 +6036,7 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_288",
-            "thumbnailLink": "",
+            "thumbnailLink": "/assets/thumbnail1.jpg",
             "title": "P7260024.jpg",
             "mimeType": "image/jpeg",
             "description": "OLYMPUS DIGITAL CAMERA         ",
@@ -6057,7 +6057,7 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_289",
-            "thumbnailLink": "",
+            "thumbnailLink": "/assets/thumbnail1.jpg",
             "title": "IMG_0718.jpg",
             "mimeType": "image/jpeg",
             "parents": [
@@ -6082,7 +6082,7 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_290",
-            "thumbnailLink": "",
+            "thumbnailLink": "/assets/thumbnail1.jpg",
             "title": "P7260021.jpg",
             "mimeType": "image/jpeg",
             "description": "OLYMPUS DIGITAL CAMERA         ",
@@ -6103,7 +6103,7 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_291",
-            "thumbnailLink": "",
+            "thumbnailLink": "/assets/thumbnail1.jpg",
             "title": "P5270035.jpg",
             "mimeType": "image/jpeg",
             "description": "OLYMPUS DIGITAL CAMERA         ",
@@ -6124,7 +6124,7 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_292",
-            "thumbnailLink": "",
+            "thumbnailLink": "/assets/thumbnail1.jpg",
             "title": "P7270047.jpg",
             "mimeType": "image/jpeg",
             "description": "OLYMPUS DIGITAL CAMERA         ",
@@ -6145,7 +6145,7 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_293",
-            "thumbnailLink": "",
+            "thumbnailLink": "/assets/thumbnail1.jpg",
             "title": "P7260016.jpg",
             "mimeType": "image/jpeg",
             "description": "OLYMPUS DIGITAL CAMERA         ",
@@ -6166,7 +6166,7 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_294",
-            "thumbnailLink": "",
+            "thumbnailLink": "/assets/thumbnail1.jpg",
             "title": "IMG_0703.jpg",
             "mimeType": "image/jpeg",
             "parents": [
@@ -6191,7 +6191,7 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_295",
-            "thumbnailLink": "",
+            "thumbnailLink": "/assets/thumbnail1.jpg",
             "title": "P7270054.jpg",
             "mimeType": "image/jpeg",
             "description": "OLYMPUS DIGITAL CAMERA         ",
@@ -6212,7 +6212,7 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_296",
-            "thumbnailLink": "",
+            "thumbnailLink": "/assets/thumbnail1.jpg",
             "title": "P5270034.jpg",
             "mimeType": "image/jpeg",
             "description": "OLYMPUS DIGITAL CAMERA         ",
@@ -6233,7 +6233,7 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_297",
-            "thumbnailLink": "",
+            "thumbnailLink": "/assets/thumbnail1.jpg",
             "title": "IMG_0644.jpg",
             "mimeType": "image/jpeg",
             "parents": [
@@ -6258,7 +6258,7 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_298",
-            "thumbnailLink": "",
+            "thumbnailLink": "/assets/thumbnail1.jpg",
             "title": "IMG_0740.jpg",
             "mimeType": "image/jpeg",
             "parents": [
@@ -6283,7 +6283,7 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_299",
-            "thumbnailLink": "",
+            "thumbnailLink": "/assets/thumbnail1.jpg",
             "title": "IMG_0758.jpg",
             "mimeType": "image/jpeg",
             "parents": [
@@ -6308,7 +6308,7 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_300",
-            "thumbnailLink": "",
+            "thumbnailLink": "/assets/thumbnail1.jpg",
             "title": "P6220026.jpg",
             "mimeType": "image/jpeg",
             "description": "OLYMPUS DIGITAL CAMERA         ",
@@ -6329,7 +6329,7 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_301",
-            "thumbnailLink": "",
+            "thumbnailLink": "/assets/thumbnail1.jpg",
             "title": "P7150097.jpg",
             "mimeType": "image/jpeg",
             "description": "OLYMPUS DIGITAL CAMERA         ",
@@ -6350,7 +6350,7 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_302",
-            "thumbnailLink": "",
+            "thumbnailLink": "/assets/thumbnail1.jpg",
             "title": "P6220022.jpg",
             "mimeType": "image/jpeg",
             "description": "OLYMPUS DIGITAL CAMERA         ",
@@ -6371,7 +6371,7 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_303",
-            "thumbnailLink": "",
+            "thumbnailLink": "/assets/thumbnail1.jpg",
             "title": "P7150101.jpg",
             "mimeType": "image/jpeg",
             "description": "OLYMPUS DIGITAL CAMERA         ",
@@ -6392,7 +6392,7 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_304",
-            "thumbnailLink": "",
+            "thumbnailLink": "/assets/thumbnail1.jpg",
             "title": "P8270030.jpg",
             "mimeType": "image/jpeg",
             "description": "OLYMPUS DIGITAL CAMERA         ",
@@ -6413,7 +6413,7 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_305",
-            "thumbnailLink": "",
+            "thumbnailLink": "/assets/thumbnail1.jpg",
             "title": "P7280197.jpg",
             "mimeType": "image/jpeg",
             "description": "OLYMPUS DIGITAL CAMERA         ",
@@ -6434,7 +6434,7 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_306",
-            "thumbnailLink": "",
+            "thumbnailLink": "/assets/thumbnail1.jpg",
             "title": "P7280171.jpg",
             "mimeType": "image/jpeg",
             "description": "OLYMPUS DIGITAL CAMERA         ",
@@ -6455,7 +6455,7 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_307",
-            "thumbnailLink": "",
+            "thumbnailLink": "/assets/thumbnail1.jpg",
             "title": "IMG_0847.jpg",
             "mimeType": "image/jpeg",
             "parents": [
@@ -6480,7 +6480,7 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_308",
-            "thumbnailLink": "",
+            "thumbnailLink": "/assets/thumbnail1.jpg",
             "title": "IMG_0835.jpg",
             "mimeType": "image/jpeg",
             "parents": [
@@ -6505,7 +6505,7 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_309",
-            "thumbnailLink": "",
+            "thumbnailLink": "/assets/thumbnail1.jpg",
             "title": "P7280183.jpg",
             "mimeType": "image/jpeg",
             "description": "OLYMPUS DIGITAL CAMERA         ",
@@ -6526,7 +6526,7 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_310",
-            "thumbnailLink": "",
+            "thumbnailLink": "/assets/thumbnail1.jpg",
             "title": "P9220258.jpg",
             "mimeType": "image/jpeg",
             "description": "OLYMPUS DIGITAL CAMERA         ",
@@ -6547,7 +6547,7 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_311",
-            "thumbnailLink": "",
+            "thumbnailLink": "/assets/thumbnail1.jpg",
             "title": "P8270015.jpg",
             "mimeType": "image/jpeg",
             "description": "OLYMPUS DIGITAL CAMERA         ",
@@ -6568,7 +6568,7 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_312",
-            "thumbnailLink": "",
+            "thumbnailLink": "/assets/thumbnail1.jpg",
             "title": "P9220154.jpg",
             "mimeType": "image/jpeg",
             "description": "OLYMPUS DIGITAL CAMERA         ",
@@ -6589,7 +6589,7 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_313",
-            "thumbnailLink": "",
+            "thumbnailLink": "/assets/thumbnail1.jpg",
             "title": "P8270017.jpg",
             "mimeType": "image/jpeg",
             "description": "OLYMPUS DIGITAL CAMERA         ",
@@ -6610,7 +6610,7 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_314",
-            "thumbnailLink": "",
+            "thumbnailLink": "/assets/thumbnail1.jpg",
             "title": "IMG_0810.jpg",
             "mimeType": "image/jpeg",
             "parents": [
@@ -6635,7 +6635,7 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_315",
-            "thumbnailLink": "",
+            "thumbnailLink": "/assets/thumbnail1.jpg",
             "title": "P7280173.jpg",
             "mimeType": "image/jpeg",
             "description": "OLYMPUS DIGITAL CAMERA         ",
@@ -6656,7 +6656,7 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_316",
-            "thumbnailLink": "",
+            "thumbnailLink": "/assets/thumbnail1.jpg",
             "title": "P8040214.jpg",
             "mimeType": "image/jpeg",
             "description": "OLYMPUS DIGITAL CAMERA         ",
@@ -6677,7 +6677,7 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_317",
-            "thumbnailLink": "",
+            "thumbnailLink": "/assets/thumbnail1.jpg",
             "title": "P8270020.jpg",
             "mimeType": "image/jpeg",
             "description": "OLYMPUS DIGITAL CAMERA         ",
@@ -6698,7 +6698,7 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_318",
-            "thumbnailLink": "",
+            "thumbnailLink": "/assets/thumbnail1.jpg",
             "title": "P7290203.jpg",
             "mimeType": "image/jpeg",
             "description": "OLYMPUS DIGITAL CAMERA         ",
@@ -6719,7 +6719,7 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_319",
-            "thumbnailLink": "",
+            "thumbnailLink": "/assets/thumbnail1.jpg",
             "title": "P8270025.jpg",
             "mimeType": "image/jpeg",
             "description": "OLYMPUS DIGITAL CAMERA         ",
@@ -6740,7 +6740,7 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_320",
-            "thumbnailLink": "",
+            "thumbnailLink": "/assets/thumbnail1.jpg",
             "title": "P9220141.jpg",
             "mimeType": "image/jpeg",
             "description": "OLYMPUS DIGITAL CAMERA         ",
@@ -6761,7 +6761,7 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_321",
-            "thumbnailLink": "",
+            "thumbnailLink": "/assets/thumbnail1.jpg",
             "title": "P8270038.jpg",
             "mimeType": "image/jpeg",
             "description": "OLYMPUS DIGITAL CAMERA         ",
@@ -6782,7 +6782,7 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_322",
-            "thumbnailLink": "",
+            "thumbnailLink": "/assets/thumbnail1.jpg",
             "title": "P8040222.jpg",
             "mimeType": "image/jpeg",
             "description": "OLYMPUS DIGITAL CAMERA         ",
@@ -6803,7 +6803,7 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_323",
-            "thumbnailLink": "",
+            "thumbnailLink": "/assets/thumbnail1.jpg",
             "title": "IMG_0842.jpg",
             "mimeType": "image/jpeg",
             "parents": [
@@ -6823,7 +6823,7 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_324",
-            "thumbnailLink": "",
+            "thumbnailLink": "/assets/thumbnail1.jpg",
             "title": "P7280176.jpg",
             "mimeType": "image/jpeg",
             "description": "OLYMPUS DIGITAL CAMERA         ",
@@ -6844,7 +6844,7 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_325",
-            "thumbnailLink": "",
+            "thumbnailLink": "/assets/thumbnail1.jpg",
             "title": "P7280200.jpg",
             "mimeType": "image/jpeg",
             "description": "OLYMPUS DIGITAL CAMERA         ",
@@ -6865,7 +6865,7 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_326",
-            "thumbnailLink": "",
+            "thumbnailLink": "/assets/thumbnail1.jpg",
             "title": "P7280195.jpg",
             "mimeType": "image/jpeg",
             "description": "OLYMPUS DIGITAL CAMERA         ",
@@ -6886,7 +6886,7 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_327",
-            "thumbnailLink": "",
+            "thumbnailLink": "/assets/thumbnail1.jpg",
             "title": "P8270027.jpg",
             "mimeType": "image/jpeg",
             "description": "OLYMPUS DIGITAL CAMERA         ",
@@ -6907,7 +6907,7 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_328",
-            "thumbnailLink": "",
+            "thumbnailLink": "/assets/thumbnail1.jpg",
             "title": "P8270034.jpg",
             "mimeType": "image/jpeg",
             "description": "OLYMPUS DIGITAL CAMERA         ",
@@ -6928,7 +6928,7 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_329",
-            "thumbnailLink": "",
+            "thumbnailLink": "/assets/thumbnail1.jpg",
             "title": "IMG_0822.jpg",
             "mimeType": "image/jpeg",
             "parents": [
@@ -6953,7 +6953,7 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_330",
-            "thumbnailLink": "",
+            "thumbnailLink": "/assets/thumbnail1.jpg",
             "title": "P7280199.jpg",
             "mimeType": "image/jpeg",
             "description": "OLYMPUS DIGITAL CAMERA         ",
@@ -6974,7 +6974,7 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_331",
-            "thumbnailLink": "",
+            "thumbnailLink": "/assets/thumbnail1.jpg",
             "title": "IMG_0873.jpg",
             "mimeType": "image/jpeg",
             "parents": [
@@ -6999,7 +6999,7 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_332",
-            "thumbnailLink": "",
+            "thumbnailLink": "/assets/thumbnail1.jpg",
             "title": "IMG_0866.jpg",
             "mimeType": "image/jpeg",
             "parents": [
@@ -7024,7 +7024,7 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_333",
-            "thumbnailLink": "",
+            "thumbnailLink": "/assets/thumbnail1.jpg",
             "title": "P7280172.jpg",
             "mimeType": "image/jpeg",
             "description": "OLYMPUS DIGITAL CAMERA         ",
@@ -7045,7 +7045,7 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_334",
-            "thumbnailLink": "",
+            "thumbnailLink": "/assets/thumbnail1.jpg",
             "title": "PA200188.jpg",
             "mimeType": "image/jpeg",
             "description": "OLYMPUS DIGITAL CAMERA         ",
@@ -7066,7 +7066,7 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_335",
-            "thumbnailLink": "",
+            "thumbnailLink": "/assets/thumbnail1.jpg",
             "title": "PA200200.jpg",
             "mimeType": "image/jpeg",
             "description": "OLYMPUS DIGITAL CAMERA         ",
@@ -7087,7 +7087,7 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_336",
-            "thumbnailLink": "",
+            "thumbnailLink": "/assets/thumbnail1.jpg",
             "title": "P9220261.jpg",
             "mimeType": "image/jpeg",
             "description": "OLYMPUS DIGITAL CAMERA         ",
@@ -7108,7 +7108,7 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_337",
-            "thumbnailLink": "",
+            "thumbnailLink": "/assets/thumbnail1.jpg",
             "title": "P9220360.jpg",
             "mimeType": "image/jpeg",
             "description": "OLYMPUS DIGITAL CAMERA         ",
@@ -7129,7 +7129,7 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_338",
-            "thumbnailLink": "",
+            "thumbnailLink": "/assets/thumbnail1.jpg",
             "title": "P9230017.jpg",
             "mimeType": "image/jpeg",
             "description": "OLYMPUS DIGITAL CAMERA         ",
@@ -7150,7 +7150,7 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_339",
-            "thumbnailLink": "",
+            "thumbnailLink": "/assets/thumbnail1.jpg",
             "title": "PA210242.jpg",
             "mimeType": "image/jpeg",
             "description": "OLYMPUS DIGITAL CAMERA         ",
@@ -7171,7 +7171,7 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_340",
-            "thumbnailLink": "",
+            "thumbnailLink": "/assets/thumbnail1.jpg",
             "title": "P9220523.jpg",
             "mimeType": "image/jpeg",
             "description": "OLYMPUS DIGITAL CAMERA         ",
@@ -7192,7 +7192,7 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_341",
-            "thumbnailLink": "",
+            "thumbnailLink": "/assets/thumbnail1.jpg",
             "title": "PA200214.jpg",
             "mimeType": "image/jpeg",
             "description": "OLYMPUS DIGITAL CAMERA         ",
@@ -7213,7 +7213,7 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_342",
-            "thumbnailLink": "",
+            "thumbnailLink": "/assets/thumbnail1.jpg",
             "title": "P9230024.jpg",
             "mimeType": "image/jpeg",
             "description": "OLYMPUS DIGITAL CAMERA         ",
@@ -7234,7 +7234,7 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_343",
-            "thumbnailLink": "",
+            "thumbnailLink": "/assets/thumbnail1.jpg",
             "title": "P9220301.jpg",
             "mimeType": "image/jpeg",
             "description": "OLYMPUS DIGITAL CAMERA         ",
@@ -7255,7 +7255,7 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_344",
-            "thumbnailLink": "",
+            "thumbnailLink": "/assets/thumbnail1.jpg",
             "title": "P9220265.jpg",
             "mimeType": "image/jpeg",
             "description": "OLYMPUS DIGITAL CAMERA         ",
@@ -7276,7 +7276,7 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_345",
-            "thumbnailLink": "",
+            "thumbnailLink": "/assets/thumbnail1.jpg",
             "title": "PA210238.jpg",
             "mimeType": "image/jpeg",
             "description": "OLYMPUS DIGITAL CAMERA         ",
@@ -7297,7 +7297,7 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_346",
-            "thumbnailLink": "",
+            "thumbnailLink": "/assets/thumbnail1.jpg",
             "title": "P9290043.jpg",
             "mimeType": "image/jpeg",
             "description": "OLYMPUS DIGITAL CAMERA         ",
@@ -7318,7 +7318,7 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_347",
-            "thumbnailLink": "",
+            "thumbnailLink": "/assets/thumbnail1.jpg",
             "title": "P9220259.jpg",
             "mimeType": "image/jpeg",
             "description": "OLYMPUS DIGITAL CAMERA         ",
@@ -7339,7 +7339,7 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_348",
-            "thumbnailLink": "",
+            "thumbnailLink": "/assets/thumbnail1.jpg",
             "title": "PA070132.jpg",
             "mimeType": "image/jpeg",
             "description": "OLYMPUS DIGITAL CAMERA         ",
@@ -7360,7 +7360,7 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_349",
-            "thumbnailLink": "",
+            "thumbnailLink": "/assets/thumbnail1.jpg",
             "title": "IMG_0900.jpg",
             "mimeType": "image/jpeg",
             "parents": [
@@ -7385,7 +7385,7 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_350",
-            "thumbnailLink": "",
+            "thumbnailLink": "/assets/thumbnail1.jpg",
             "title": "PA070177.jpg",
             "mimeType": "image/jpeg",
             "description": "OLYMPUS DIGITAL CAMERA         ",
@@ -7406,7 +7406,7 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_351",
-            "thumbnailLink": "",
+            "thumbnailLink": "/assets/thumbnail1.jpg",
             "title": "PA210233.jpg",
             "mimeType": "image/jpeg",
             "description": "OLYMPUS DIGITAL CAMERA         ",
@@ -7431,7 +7431,7 @@ window.FotomooFixtures.files = {
     items: [
         {
             "id": "file_352",
-            "thumbnailLink": "",
+            "thumbnailLink": "/assets/thumbnail1.jpg",
             "title": "P9290034.jpg",
             "mimeType": "image/jpeg",
             "description": "OLYMPUS DIGITAL CAMERA         ",
@@ -7452,7 +7452,7 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_353",
-            "thumbnailLink": "",
+            "thumbnailLink": "/assets/thumbnail1.jpg",
             "title": "PA210226.jpg",
             "mimeType": "image/jpeg",
             "description": "OLYMPUS DIGITAL CAMERA         ",
@@ -7473,7 +7473,7 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_354",
-            "thumbnailLink": "",
+            "thumbnailLink": "/assets/thumbnail1.jpg",
             "title": "P9220264.jpg",
             "mimeType": "image/jpeg",
             "description": "OLYMPUS DIGITAL CAMERA         ",
@@ -7494,7 +7494,7 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_355",
-            "thumbnailLink": "",
+            "thumbnailLink": "/assets/thumbnail1.jpg",
             "title": "PA200213.jpg",
             "mimeType": "image/jpeg",
             "description": "OLYMPUS DIGITAL CAMERA         ",
@@ -7515,7 +7515,7 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_356",
-            "thumbnailLink": "",
+            "thumbnailLink": "/assets/thumbnail1.jpg",
             "title": "P9300069.jpg",
             "mimeType": "image/jpeg",
             "description": "OLYMPUS DIGITAL CAMERA         ",
@@ -7536,7 +7536,7 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_357",
-            "thumbnailLink": "",
+            "thumbnailLink": "/assets/thumbnail1.jpg",
             "title": "P9290031.jpg",
             "mimeType": "image/jpeg",
             "description": "OLYMPUS DIGITAL CAMERA         ",
@@ -7557,7 +7557,7 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_358",
-            "thumbnailLink": "",
+            "thumbnailLink": "/assets/thumbnail1.jpg",
             "title": "P9220502.jpg",
             "mimeType": "image/jpeg",
             "description": "OLYMPUS DIGITAL CAMERA         ",
@@ -7578,7 +7578,7 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_359",
-            "thumbnailLink": "",
+            "thumbnailLink": "/assets/thumbnail1.jpg",
             "title": "IMG_0885.jpg",
             "mimeType": "image/jpeg",
             "parents": [
@@ -7603,7 +7603,7 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_360",
-            "thumbnailLink": "",
+            "thumbnailLink": "/assets/thumbnail1.jpg",
             "title": "P3200429.jpg",
             "mimeType": "image/jpeg",
             "description": "OLYMPUS DIGITAL CAMERA         ",
@@ -7624,7 +7624,7 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_361",
-            "thumbnailLink": "",
+            "thumbnailLink": "/assets/thumbnail1.jpg",
             "title": "IMG_0063.jpg",
             "mimeType": "image/jpeg",
             "parents": [
@@ -7649,7 +7649,7 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_362",
-            "thumbnailLink": "",
+            "thumbnailLink": "/assets/thumbnail1.jpg",
             "title": "IMG_0055.jpg",
             "mimeType": "image/jpeg",
             "parents": [
@@ -7669,7 +7669,7 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_363",
-            "thumbnailLink": "",
+            "thumbnailLink": "/assets/thumbnail1.jpg",
             "title": "P3230464.jpg",
             "mimeType": "image/jpeg",
             "description": "OLYMPUS DIGITAL CAMERA         ",
@@ -7690,7 +7690,7 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_364",
-            "thumbnailLink": "",
+            "thumbnailLink": "/assets/thumbnail1.jpg",
             "title": "P1190097.jpg",
             "mimeType": "image/jpeg",
             "description": "OLYMPUS DIGITAL CAMERA         ",
@@ -7711,7 +7711,7 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_365",
-            "thumbnailLink": "",
+            "thumbnailLink": "/assets/thumbnail1.jpg",
             "title": "IMG_0305.jpg",
             "mimeType": "image/jpeg",
             "parents": [
@@ -7736,7 +7736,7 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_366",
-            "thumbnailLink": "",
+            "thumbnailLink": "/assets/thumbnail1.jpg",
             "title": "P3230473.jpg",
             "mimeType": "image/jpeg",
             "description": "OLYMPUS DIGITAL CAMERA         ",
@@ -7757,7 +7757,7 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_367",
-            "thumbnailLink": "",
+            "thumbnailLink": "/assets/thumbnail1.jpg",
             "title": "IMG_0402.jpg",
             "mimeType": "image/jpeg",
             "parents": [
@@ -7782,7 +7782,7 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_368",
-            "thumbnailLink": "",
+            "thumbnailLink": "/assets/thumbnail1.jpg",
             "title": "IMG_0057.jpg",
             "mimeType": "image/jpeg",
             "parents": [
@@ -7807,7 +7807,7 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_369",
-            "thumbnailLink": "",
+            "thumbnailLink": "/assets/thumbnail1.jpg",
             "title": "P3230435.jpg",
             "mimeType": "image/jpeg",
             "description": "OLYMPUS DIGITAL CAMERA         ",
@@ -7828,7 +7828,7 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_370",
-            "thumbnailLink": "",
+            "thumbnailLink": "/assets/thumbnail1.jpg",
             "title": "IMG_0262.jpg",
             "mimeType": "image/jpeg",
             "parents": [
@@ -7853,7 +7853,7 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_371",
-            "thumbnailLink": "",
+            "thumbnailLink": "/assets/thumbnail1.jpg",
             "title": "IMG_0210.jpg",
             "mimeType": "image/jpeg",
             "parents": [
@@ -7878,7 +7878,7 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_372",
-            "thumbnailLink": "",
+            "thumbnailLink": "/assets/thumbnail1.jpg",
             "title": "PC080077.jpg",
             "mimeType": "image/jpeg",
             "description": "OLYMPUS DIGITAL CAMERA         ",
@@ -7899,7 +7899,7 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_373",
-            "thumbnailLink": "",
+            "thumbnailLink": "/assets/thumbnail1.jpg",
             "title": "IMG_0010.jpg",
             "mimeType": "image/jpeg",
             "parents": [
@@ -7924,7 +7924,7 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_374",
-            "thumbnailLink": "",
+            "thumbnailLink": "/assets/thumbnail1.jpg",
             "title": "P3230476.jpg",
             "mimeType": "image/jpeg",
             "description": "OLYMPUS DIGITAL CAMERA         ",
@@ -7945,7 +7945,7 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_375",
-            "thumbnailLink": "",
+            "thumbnailLink": "/assets/thumbnail1.jpg",
             "title": "P1190112.jpg",
             "mimeType": "image/jpeg",
             "description": "OLYMPUS DIGITAL CAMERA         ",
@@ -7966,7 +7966,7 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_376",
-            "thumbnailLink": "",
+            "thumbnailLink": "/assets/thumbnail1.jpg",
             "title": "IMG_0258.jpg",
             "mimeType": "image/jpeg",
             "parents": [
@@ -7991,7 +7991,7 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_377",
-            "thumbnailLink": "",
+            "thumbnailLink": "/assets/thumbnail1.jpg",
             "title": "P3200427.jpg",
             "mimeType": "image/jpeg",
             "description": "OLYMPUS DIGITAL CAMERA         ",
@@ -8012,7 +8012,7 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_378",
-            "thumbnailLink": "",
+            "thumbnailLink": "/assets/thumbnail1.jpg",
             "title": "PC030017.jpg",
             "mimeType": "image/jpeg",
             "description": "OLYMPUS DIGITAL CAMERA         ",
@@ -8033,7 +8033,7 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_379",
-            "thumbnailLink": "",
+            "thumbnailLink": "/assets/thumbnail1.jpg",
             "title": "IMG_0020.jpg",
             "mimeType": "image/jpeg",
             "parents": [
@@ -8051,7 +8051,7 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_380",
-            "thumbnailLink": "",
+            "thumbnailLink": "/assets/thumbnail1.jpg",
             "title": "P3230459.jpg",
             "mimeType": "image/jpeg",
             "description": "OLYMPUS DIGITAL CAMERA         ",
@@ -8072,7 +8072,7 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_381",
-            "thumbnailLink": "",
+            "thumbnailLink": "/assets/thumbnail1.jpg",
             "title": "IMG_0426.jpg",
             "mimeType": "image/jpeg",
             "parents": [
@@ -8097,7 +8097,7 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_382",
-            "thumbnailLink": "",
+            "thumbnailLink": "/assets/thumbnail1.jpg",
             "title": "PC040044.jpg",
             "mimeType": "image/jpeg",
             "description": "OLYMPUS DIGITAL CAMERA         ",
@@ -8118,7 +8118,7 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_383",
-            "thumbnailLink": "",
+            "thumbnailLink": "/assets/thumbnail1.jpg",
             "title": "P3230440.jpg",
             "mimeType": "image/jpeg",
             "description": "OLYMPUS DIGITAL CAMERA         ",
@@ -8139,7 +8139,7 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_384",
-            "thumbnailLink": "",
+            "thumbnailLink": "/assets/thumbnail1.jpg",
             "title": "P3230472.jpg",
             "mimeType": "image/jpeg",
             "description": "OLYMPUS DIGITAL CAMERA         ",
@@ -8160,7 +8160,7 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_385",
-            "thumbnailLink": "",
+            "thumbnailLink": "/assets/thumbnail1.jpg",
             "title": "PC040039.jpg",
             "mimeType": "image/jpeg",
             "description": "OLYMPUS DIGITAL CAMERA         ",
@@ -8181,7 +8181,7 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_386",
-            "thumbnailLink": "",
+            "thumbnailLink": "/assets/thumbnail1.jpg",
             "title": "PC080081.jpg",
             "mimeType": "image/jpeg",
             "description": "OLYMPUS DIGITAL CAMERA         ",
@@ -8202,7 +8202,7 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_387",
-            "thumbnailLink": "",
+            "thumbnailLink": "/assets/thumbnail1.jpg",
             "title": "P3230469.jpg",
             "mimeType": "image/jpeg",
             "description": "OLYMPUS DIGITAL CAMERA         ",
@@ -8223,7 +8223,7 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_388",
-            "thumbnailLink": "",
+            "thumbnailLink": "/assets/thumbnail1.jpg",
             "title": "IMG_0196.jpg",
             "mimeType": "image/jpeg",
             "parents": [
@@ -8248,7 +8248,7 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_389",
-            "thumbnailLink": "",
+            "thumbnailLink": "/assets/thumbnail1.jpg",
             "title": "IMG_0231.jpg",
             "mimeType": "image/jpeg",
             "parents": [
@@ -8273,7 +8273,7 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_390",
-            "thumbnailLink": "",
+            "thumbnailLink": "/assets/thumbnail1.jpg",
             "title": "PC010007.jpg",
             "mimeType": "image/jpeg",
             "description": "OLYMPUS DIGITAL CAMERA         ",
@@ -8294,7 +8294,7 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_391",
-            "thumbnailLink": "",
+            "thumbnailLink": "/assets/thumbnail1.jpg",
             "title": "P3200428.jpg",
             "mimeType": "image/jpeg",
             "description": "OLYMPUS DIGITAL CAMERA         ",
@@ -8315,7 +8315,7 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_392",
-            "thumbnailLink": "",
+            "thumbnailLink": "/assets/thumbnail1.jpg",
             "title": "PC040061.jpg",
             "mimeType": "image/jpeg",
             "description": "OLYMPUS DIGITAL CAMERA         ",
@@ -8336,7 +8336,7 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_393",
-            "thumbnailLink": "",
+            "thumbnailLink": "/assets/thumbnail1.jpg",
             "title": "PC040029.jpg",
             "mimeType": "image/jpeg",
             "description": "OLYMPUS DIGITAL CAMERA         ",
@@ -8357,7 +8357,7 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_394",
-            "thumbnailLink": "",
+            "thumbnailLink": "/assets/thumbnail1.jpg",
             "title": "IMG_0295.jpg",
             "mimeType": "image/jpeg",
             "parents": [
@@ -8382,7 +8382,7 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_395",
-            "thumbnailLink": "",
+            "thumbnailLink": "/assets/thumbnail1.jpg",
             "title": "P3200424.jpg",
             "mimeType": "image/jpeg",
             "description": "OLYMPUS DIGITAL CAMERA         ",
@@ -8403,7 +8403,7 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_396",
-            "thumbnailLink": "",
+            "thumbnailLink": "/assets/thumbnail1.jpg",
             "title": "IMG_0023.jpg",
             "mimeType": "image/jpeg",
             "parents": [
@@ -8428,7 +8428,7 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_397",
-            "thumbnailLink": "",
+            "thumbnailLink": "/assets/thumbnail1.jpg",
             "title": "PC080079.jpg",
             "mimeType": "image/jpeg",
             "description": "OLYMPUS DIGITAL CAMERA         ",
@@ -8449,7 +8449,7 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_398",
-            "thumbnailLink": "",
+            "thumbnailLink": "/assets/thumbnail1.jpg",
             "title": "IMG_0198.jpg",
             "mimeType": "image/jpeg",
             "parents": [
@@ -8474,7 +8474,7 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_399",
-            "thumbnailLink": "",
+            "thumbnailLink": "/assets/thumbnail1.jpg",
             "title": "PC020016.jpg",
             "mimeType": "image/jpeg",
             "description": "OLYMPUS DIGITAL CAMERA         ",
@@ -8495,7 +8495,7 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_400",
-            "thumbnailLink": "",
+            "thumbnailLink": "/assets/thumbnail1.jpg",
             "title": "PC040045.jpg",
             "mimeType": "image/jpeg",
             "description": "OLYMPUS DIGITAL CAMERA         ",
@@ -8516,7 +8516,7 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_401",
-            "thumbnailLink": "",
+            "thumbnailLink": "/assets/thumbnail1.jpg",
             "title": "P3200418.jpg",
             "mimeType": "image/jpeg",
             "description": "OLYMPUS DIGITAL CAMERA         ",
@@ -8537,7 +8537,7 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_402",
-            "thumbnailLink": "",
+            "thumbnailLink": "/assets/thumbnail1.jpg",
             "title": "P3230452.jpg",
             "mimeType": "image/jpeg",
             "description": "OLYMPUS DIGITAL CAMERA         ",
@@ -8558,7 +8558,7 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_403",
-            "thumbnailLink": "",
+            "thumbnailLink": "/assets/thumbnail1.jpg",
             "title": "P3230481.jpg",
             "mimeType": "image/jpeg",
             "description": "OLYMPUS DIGITAL CAMERA         ",
@@ -8579,7 +8579,7 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_404",
-            "thumbnailLink": "",
+            "thumbnailLink": "/assets/thumbnail1.jpg",
             "title": "Photo 2013-03-28 10.22.10 午前.jpg",
             "mimeType": "image/jpeg",
             "parents": [
@@ -8604,7 +8604,7 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_405",
-            "thumbnailLink": "",
+            "thumbnailLink": "/assets/thumbnail1.jpg",
             "title": "PC010005.ORF",
             "mimeType": "image/x-olympus-orf",
             "parents": [
@@ -8623,7 +8623,7 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_406",
-            "thumbnailLink": "",
+            "thumbnailLink": "/assets/thumbnail1.jpg",
             "title": "PC010003.ORF",
             "mimeType": "image/x-olympus-orf",
             "parents": [
@@ -8642,7 +8642,7 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_407",
-            "thumbnailLink": "",
+            "thumbnailLink": "/assets/thumbnail1.jpg",
             "title": "Photo 2013-02-28 01.16.26 午後.png",
             "mimeType": "image/png",
             "parents": [
@@ -8659,7 +8659,7 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_408",
-            "thumbnailLink": "",
+            "thumbnailLink": "/assets/thumbnail1.jpg",
             "title": "Photo 2013-02-26 09.58.42 午前.jpg",
             "mimeType": "image/jpeg",
             "parents": [
@@ -8684,7 +8684,7 @@ window.FotomooFixtures.files = {
         },
         {
             "id": "file_409",
-            "thumbnailLink": "",
+            "thumbnailLink": "/assets/thumbnail1.jpg",
             "title": "maries-dinner.jpg",
             "mimeType": "image/jpeg",
             "parents": [

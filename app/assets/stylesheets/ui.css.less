@@ -40,8 +40,6 @@ text-shadow: 0 -1px 0 rgba(0,0,0,0.2);
 
 .files-panel {
   -webkit-transition: margin 0.3s ease-in, width 0.3s ease-in, left 0.3s ease-in, right 0.3s ease-in, opacity 0.3s ease-in;
-  min-height: 60em;
-  opacity: 99.9;
   position: absolute;
   right: 0px;
   left: 250px;
@@ -64,4 +62,12 @@ text-shadow: 0 -1px 0 rgba(0,0,0,0.2);
 .folder-icon {
   cursor:pointer;
   margin-top: 3px;
+}
+
+.ember-list-view {
+  overflow: auto;
+  position: relative;
+}
+.ember-list-item-view {
+  position: absolute;
 }

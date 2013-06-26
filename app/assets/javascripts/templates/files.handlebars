@@ -2,6 +2,10 @@
   <h3>Loading files ...</h3>
 {{else}}
   {{#if FM.drive.filesLoaded}}
+
+    {{view FM.FileGridView contentBinding="gridItems"}}
+
+    {{!--
     <table class="table table-condensed">
       {{#each file in allFiles}}
         <tr class="info">
@@ -28,12 +32,14 @@
                   loading address
                 {{/if}}
               {{/if}}
-              --}}
+              --  }}
             </td>
           </tr>
         {{/each}}
       {{/each}}
     </table>
+    --}}
+
   {{else}}
     <h3>Files are not loaded</h3>
   {{/if}}
