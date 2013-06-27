@@ -1,3 +1,18 @@
+#FM.FilesController = Ember.ObjectController.extend
+#  flatFiles: (->
+#    collect_all_files = (root, parents, list) ->
+#      p = parents.copy()
+#      p.push root.get('title')
+#      if root.get('files')
+#        list.push Ember.Object.create(id: root.get('id'), titles: p, files: root.get('files'), isDir: true)
+#      collect_all_files(child, p, list) for child in root.get('children')
+#
+#    parents = []; list = []; root = @get('content')
+#    collect_all_files(root, parents, list)
+#    list
+#  ).property('content')
+
+
 FM.GridElement = Ember.Object.extend
   isDir: (->
     @get('type') == 'dir'
@@ -12,8 +27,15 @@ FM.GridElement = Ember.Object.extend
     @get('type') == 'last_dir_filler'
   ).property('type')
 
+FM.GridElementController = Ember.ObjectController.extend
+  selectFile: (a) ->
+    console.log('SFF', a, @get('content'))
 
-FM.FilesController = Ember.ObjectController.extend
+
+FM.FilesGridController = Ember.ArrayController.extend
+  needs: ['files']
+  itemController: 'grid-element'
+
   cols: null
   collapsed: Ember.Set.create([])
 
@@ -25,8 +47,10 @@ FM.FilesController = Ember.ObjectController.extend
       @get('collapsed').add(id)
 
 
-  gridItems: (->
-    console.log('about to do content', @get('cols'))
+  content: (->
+    folder = @get('controllers.files.content')
+    console.log('getting file content:', folder)
+
     ret = []
     return ret unless @get('cols')
 
@@ -45,16 +69,17 @@ FM.FilesController = Ember.ObjectController.extend
           ret.push FM.GridElement.create( type: 'empty_filler', title: "e:#{i}" )
 
       ret.push(FM.GridElement.create( type: 'dir', titles: col.get('titles') ))
+
       for i in [1...(cols - 1)]
         ret.push FM.GridElement.create( type: 'dir_filler', title: "d:#{i}" )
       if cols > 1
         ret.push FM.GridElement.create( type: 'last_dir_filler', folder: col, isCollapsed: collapsed )
       current_col = 0
 
-    @get('allFiles').forEach (folder) =>
-      pushDir(folder)
-      unless @get('collapsed').contains(folder.get('id'))
-        folder.get('files').forEach (file) -> pushCol(file)
+    folder.get('flatFiles').forEach (fldr) =>
+      pushDir(fldr)
+      unless @get('collapsed').contains(fldr.get('id'))
+        fldr.get('files').forEach (fl) -> pushCol(fl)
     ret
-  ).property('cols', 'content', 'collapsed.[]')
+  ).property('cols', 'controllers.files.content', 'collapsed.[]')
 

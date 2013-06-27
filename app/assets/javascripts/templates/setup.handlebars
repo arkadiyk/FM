@@ -14,10 +14,10 @@
                     {{#if childrenWithPictures.length}}
                     <i {{bindAttr class=":pull-left :folder-icon isExpanded:icon-folder-open:icon-folder-close"}} {{action toggle}}></i>
                     {{else}}
-                    <i class="pull-left icon-folder-close" style="opacity: 0.4; margin-top: 3px"></i>
+                      <i class="pull-left icon-folder-close" style="opacity: 0.4; margin-top: 3px"></i>
                     {{/if}}
 
-                    {{#linkTo files this}}{{title}}{{/linkTo}}
+                    {{#linkTo files.grid this}}{{title}}{{/linkTo}}
 
                     {{#if isExpanded}}
                     {{control "folderList" content}}

@@ -14,7 +14,7 @@ FM.Folder = Ember.Object.extend
     count
   ).property() # 'children.@each','files.@each'
 
-  allFiles: (->
+  flatFiles: (->
     parents = []; list = []
     @_collect_all_files(parents, list)
     list

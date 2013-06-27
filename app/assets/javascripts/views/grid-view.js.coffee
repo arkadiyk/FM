@@ -7,7 +7,7 @@ FM.FileGridView = Ember.ListView.extend
   rowHeight: 170
   elementWidth: 240
   width: 960
-  itemViewClass: Ember.ListItemView.extend({templateName: "file_grid_item"})
+  itemViewClass: Ember.ListItemView.extend({templateName: "files/grid-item"})
 
   didInsertElement: ->
     @set('width', Ember.$('.files-panel').width())
@@ -18,6 +18,3 @@ FM.FileGridView = Ember.ListView.extend
   conumnCountObserver: (->
     @get('context').set('cols', @get('columnCount'))
   ).observes('columnCount')
-
-  doubleClick: ->
-    @set('width', @get('width') - 30)

@@ -3,42 +3,7 @@
 {{else}}
   {{#if FM.drive.filesLoaded}}
 
-    {{view FM.FileGridView contentBinding="gridItems"}}
-
-    {{!--
-    <table class="table table-condensed">
-      {{#each file in allFiles}}
-        <tr class="info">
-          <td>{{view FM.SelectFolderCheckbox filesBinding="file.files"}}</td>
-          <td colspan="5">
-            {{#each file.titles}}
-              <span class="badge badge-info">{{this}}</span>
-            {{/each}}
-          </td>
-        </tr>
-        {{#each file.files}}
-          <tr>
-            <td>{{view Ember.Checkbox checkedBinding="selected"}}</td>
-            <td>{{title}}</td>
-            <td>{{fileSize}}</td>
-            <td>{{imageMediaMetadata.date}}</td>
-            <td>{{imageMediaMetadata.width}}&times;{{imageMediaMetadata.height}}</td>
-            <td>
-              {{!--
-              {{#if address}}
-                {{#if address.isLoaded}}
-                  {{address.formattedAddress}}
-                {{else}}
-                  loading address
-                {{/if}}
-              {{/if}}
-              --  }}
-            </td>
-          </tr>
-        {{/each}}
-      {{/each}}
-    </table>
-    --}}
+    {{outlet}}
 
   {{else}}
     <h3>Files are not loaded</h3>
