@@ -9,12 +9,27 @@ FM.FileGridView = Ember.ListView.extend
   width: 960
   itemViewClass: Ember.ListItemView.extend({templateName: "files/grid-item"})
 
-  didInsertElement: ->
+
+  adjustLayout: ->
+    #todo take into account scroller bar width
     @set('width', Ember.$('.files-panel').width())
     @set('height', Ember.$(window).height() - 41)
     @get('context').set('cols', @get('columnCount'))
+
+  didInsertElement: ->
+    @adjustLayout()
+    Ember.$(window).on 'resize', @debouncer((=> @adjustLayout()), 200)
     @_super()
+
+  willDestroyElement: -> Ember.$(window).off('resize')
 
   conumnCountObserver: (->
     @get('context').set('cols', @get('columnCount'))
   ).observes('columnCount')
+
+  debouncer: (func, timeout) ->
+    timeoutID = null
+    return ->
+      clearTimeout( timeoutID )
+      timeoutID = setTimeout(func, timeout)
+
