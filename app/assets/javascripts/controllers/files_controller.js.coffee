@@ -14,27 +14,20 @@
 
 
 FM.GridElement = Ember.Object.extend
-  isDir: (->
-    @get('type') == 'dir'
-  ).property('type')
-  isDirFiller: (->
-    @get('type') == 'dir_filler'
-  ).property('type')
-  isEmptyFiller: (->
-    @get('type') == 'empty_filler'
-  ).property('type')
-  isLastDirFiller: (->
-    @get('type') == 'last_dir_filler'
-  ).property('type')
+  isFile:          (-> @get('type') == 'file' ).property('type')
+  isDir:           (-> @get('type') == 'dir' ).property('type')
+  isDirFiller:     (-> @get('type') == 'dir_filler' ).property('type')
+  isEmptyFiller:   (-> @get('type') == 'empty_filler' ).property('type')
+  isLastDirFiller: (-> @get('type') == 'last_dir_filler').property('type')
 
-FM.GridElementController = Ember.ObjectController.extend
-  selectFile: (a) ->
-    console.log('SFF', a, @get('content'))
+  isChoo: true
+  isChooObserver: (->
+    console.log("CHOO>>", @get('isChoo'), @)
+  ).observes('isChoo')
 
 
-FM.FilesGridController = Ember.ArrayController.extend
+FM.FilesGridController = Ember.ObjectController.extend
   needs: ['files']
-  itemController: 'grid-element'
 
   cols: null
   collapsed: Ember.Set.create([])
@@ -47,18 +40,19 @@ FM.FilesGridController = Ember.ArrayController.extend
       @get('collapsed').add(id)
 
 
-  content: (->
+  gridContent: (->
+    ret = []
+    return ret unless @get('cols')
+
     folder = @get('controllers.files.content')
     console.log('getting file content:', folder)
 
-    ret = []
-    return ret unless @get('cols')
 
     cols = @get('cols')
     current_col = 0
 
     pushCol = (col) ->
-      ret.push(col)
+      ret.push FM.GridElement.create( type: 'file', file: col )
       current_col++
       current_col = 0 if current_col == cols
 
