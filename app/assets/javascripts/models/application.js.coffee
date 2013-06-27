@@ -23,7 +23,7 @@ FM.Folder = Ember.Object.extend
   _collect_all_files: (parents, list) ->
     p = parents.copy()
     p.push @get('title')
-    list.push Ember.Object.create(titles: p, files: @get('files')) if @get('files')
+    list.push Ember.Object.create(id: @get('id'), titles: p, files: @get('files')) if @get('files')
     child._collect_all_files(p, list) for child in @get('children')
 
 

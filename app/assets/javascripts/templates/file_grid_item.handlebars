@@ -19,6 +19,16 @@
     </div>
 {{/if}}
 
+{{#if isLastDirFiller}}
+<div style="height: 20px; margin-top: 56px; margin-left: 176px;" >
+  <span style="line-height: 14px">
+    <span class="badge" {{action collapse this}} style="width: 25px">
+    <i {{bindAttr class=":icon-2x isCollapsed:icon-chevron-left:icon-chevron-down"}}"></i>
+    </span>
+  </span>
+</div>
+{{/if}}
+
 {{#if isDirFiller}}
 {{/if}}
 

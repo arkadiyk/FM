@@ -19,3 +19,5 @@ FM.FileGridView = Ember.ListView.extend
     @get('context').set('cols', @get('columnCount'))
   ).observes('columnCount')
 
+  doubleClick: ->
+    @set('width', @get('width') - 30)
