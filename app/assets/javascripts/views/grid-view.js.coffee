@@ -11,14 +11,20 @@ FM.FileGridView = Ember.ListView.extend
 
 
   adjustLayout: ->
-    #todo take into account scroller bar width
-    @set('width', Ember.$('.files-panel').width())
-    @set('height', Ember.$(window).height() - 41)
+    #take into account scroller bar width
+    old_overflow = document.body.style.overflow
+    document.body.style.overflow = "hidden"
+    curr_width = Ember.$('.files-panel').width()
+    curr_height = Ember.$(window).height() - 41
+    document.body.style.overflow = old_overflow
+
+    @set('width', curr_width)
+    @set('height', curr_height)
     @get('context').set('cols', @get('columnCount'))
 
   didInsertElement: ->
     @adjustLayout()
-    Ember.$(window).on 'resize', @debouncer((=> @adjustLayout()), 200)
+    Ember.$(window).on 'resize', @debouncer((=> @adjustLayout()), 100)
     @_super()
 
   willDestroyElement: -> Ember.$(window).off('resize')
