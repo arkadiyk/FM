@@ -14,16 +14,25 @@
 
 
 FM.GridElement = Ember.Object.extend
-  isFile:          (-> @get('type') == 'file' ).property('type')
-  isDir:           (-> @get('type') == 'dir' ).property('type')
   isDirFiller:     (-> @get('type') == 'dir_filler' ).property('type')
   isEmptyFiller:   (-> @get('type') == 'empty_filler' ).property('type')
   isLastDirFiller: (-> @get('type') == 'last_dir_filler').property('type')
 
-  isChoo: true
-  isChooObserver: (->
-    console.log("CHOO>>", @get('isChoo'), @)
-  ).observes('isChoo')
+FM.GridDirElement = Ember.Object.extend
+  isDir: true
+  isSelected: true
+  allFilesCount: (->
+    @get('folder.files.length')
+  ).property()
+  selectedFilesCount: (->
+    @get('folder.files').filterProperty('selected', true).get('length')
+  ).property('folder.files.@each.selected')
+  isAllSelected: (->
+    @get('allFilesCount') == @get('selectedFilesCount')
+  ).property('selectedFilesCount','allFilesCount')
+  selectLabel: (->
+    if @get('isAllSelected') then "Unselect All" else "Select All"
+  ).property('isAllSelected')
 
 
 FM.FilesGridController = Ember.ObjectController.extend
@@ -31,6 +40,10 @@ FM.FilesGridController = Ember.ObjectController.extend
 
   cols: null
   collapsed: Ember.Set.create([])
+
+  flipSelect: (folder) ->
+    select = !folder.get('isAllSelected')
+    folder.get('folder.files').forEach (f) -> f.set('selected', select)
 
   collapse: (folder) ->
     id = folder.get('folder.id')
@@ -52,7 +65,7 @@ FM.FilesGridController = Ember.ObjectController.extend
     current_col = 0
 
     pushCol = (col) ->
-      ret.push FM.GridElement.create( type: 'file', file: col )
+      ret.push col
       current_col++
       current_col = 0 if current_col == cols
 
@@ -60,12 +73,12 @@ FM.FilesGridController = Ember.ObjectController.extend
       collapsed = @get('collapsed').contains(col.get('id'))
       if current_col > 0
         for i in [current_col...cols]
-          ret.push FM.GridElement.create( type: 'empty_filler', title: "e:#{i}" )
+          ret.push FM.GridElement.create( type: 'empty_filler')
 
-      ret.push(FM.GridElement.create( type: 'dir', titles: col.get('titles') ))
+      ret.push(FM.GridDirElement.create( folder: col, titles: col.get('titles') ))
 
       for i in [1...(cols - 1)]
-        ret.push FM.GridElement.create( type: 'dir_filler', title: "d:#{i}" )
+        ret.push FM.GridElement.create( type: 'dir_filler')
       if cols > 1
         ret.push FM.GridElement.create( type: 'last_dir_filler', folder: col, isCollapsed: collapsed )
       current_col = 0

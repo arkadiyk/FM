@@ -1,9 +1,10 @@
 {{#if isFile}}
 <div style="position: relative">
-  <img style="max-width: 220px; max-height: 165px" {{bindAttr src="file.thumbnailLink"}}>
-  <span style="position: absolute; bottom: 5px; left: 5px; opacity: 0.6;" class="badge">{{file.title}}</span>
+  <img style="max-width: 220px; max-height: 165px" {{bindAttr src="thumbnailLink"}}>
+  <span style="position: absolute; bottom: 5px; left: 5px; opacity: 0.6;" class="badge">{{title}}</span>
   <span style="position: absolute; top: 2px; left: 5px">
-  {{input type=checkbox checked=isChoo}}
+    <strong>{{selected}}</strong>
+  {{input type=checkbox checked=selected}}
   </span>
 </div>
 {{/if}}
@@ -11,13 +12,16 @@
 {{#if isDir}}
     <div style="height: 20px; margin-top: 60px; margin-right: 10px;">
       <span style="line-height: 14px">
-          {{isChoo}}
-          {{input type=checkbox checked=isChoo}}
+        <button class="btn btn-mini" {{action flipSelect this}}>
+          {{!-- (very slow) #if isAllSelected}} Unselect All {{else}} Select All {{/if --}}
+          {{selectLabel}}
+        </button>
       </span>
       {{#each titles}}
         <span class="badge badge-info">{{this}}</span>
       {{/each}}
     </div>
+    <div>All: {{allFilesCount}} Selected: {{selectedFilesCount}}</div>
 {{/if}}
 
 {{#if isLastDirFiller}}
