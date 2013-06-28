@@ -24,10 +24,10 @@ FM.FileGridView = Ember.ListView.extend
 
   didInsertElement: ->
     @adjustLayout()
-    Ember.$(window).on 'resize', @debouncer((=> @adjustLayout()), 100)
+    Ember.$(window).on 'resize.grid_view', @debouncer((=> @adjustLayout()), 100)
     @_super()
 
-  willDestroyElement: -> Ember.$(window).off('resize')
+  willDestroyElement: -> Ember.$(window).off('resize.grid_view')
 
   conumnCountObserver: (->
     @get('context').set('cols', @get('columnCount'))
