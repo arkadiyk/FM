@@ -15,8 +15,16 @@ window.FotomooFixtures.folders =
       {id: "folder5",     title: "Folder Five",          parents: [{id: "folder0",   isRoot: true}]}
       {id: "folder3-1",   title: "Folder Three One",     parents: [{id: "folder3",   isRoot: false}]}
       {id: "folder3-2",   title: "Folder Three Two",     parents: [{id: "folder3",   isRoot: false}]}
-      {id: "folder6",     title: "Folder Six",           parents: [{id: "folder0",   isRoot: true}]}
-      {id: "folder6-1",   title: "#Fotomoo Pictures",     parents: [{id: "folder6",   isRoot: false}]}
+
+      {id: "folder-fm",   title: "Fotomoo Pictures",     parents: [{id: "folder0",   isRoot: true}]}
+
+      {id: "folder-2001",   title: "Folder 2001",        parents: [{id: "folder-fm",   isRoot: false}]}
+      {id: "folder-2007",   title: "Folder 2007",        parents: [{id: "folder-fm",   isRoot: false}]}
+      {id: "folder-2001-01",   title: "Folder 2001-01",       parents: [{id: "folder-2001",   isRoot: false}]}
+      {id: "folder-2001-04",   title: "Folder 2001-04",       parents: [{id: "folder-2001",   isRoot: false}]}
+      {id: "folder-2007-02",   title: "Folder 2007-02",       parents: [{id: "folder-2007",   isRoot: false}]}
+      {id: "folder-2007-03",   title: "Folder 2007-03",       parents: [{id: "folder-2007",   isRoot: false}]}
+      {id: "folder-2007-06",   title: "Folder 2007-06",       parents: [{id: "folder-2007",   isRoot: false}]}
       {id: "folder7",     title: "Folder Seven",         parents: [{id: "folder0",   isRoot: true}]}
       {id: "folder3-2-2", title: "Folder Three Two Two", parents: [{id: "folder3-2", isRoot: false}]}
     ]
