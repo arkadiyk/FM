@@ -23,7 +23,12 @@ FM.Folder = Ember.Object.extend
   _collect_all_files: (parents, list) ->
     p = parents.copy()
     p.push @get('title')
-    files = if @get('files') then @get('files').filter((e) -> !e.get('fotomoo')) else []
+    if @get('files')
+      files =  @get('files').filter((e) -> !e.get('fotomoo'))
+      fl.set('selected', true) for fl in files
+    else
+      files = []
+
     list.push(Ember.Object.create(id: @get('id'), titles: p, files: files)) if files.length > 0
     child._collect_all_files(p, list) for child in @get('children')
 
@@ -35,7 +40,7 @@ FM.Folder.reopenClass
 
 FM.File = Ember.Object.extend
   isFile: true
-  selected: true
+  selected: false
   address: (->
     return null unless @get("imageMediaMetadata.location.latitude")
     FM.Address.find(@get("imageMediaMetadata.location.latitude"), @get("imageMediaMetadata.location.longitude"))

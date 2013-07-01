@@ -7,13 +7,14 @@ FM.SetupController = FM.FolderController.extend
     root = {}
     selectedFiles = FM.drive.allSelectedImages()
     selectedFiles.forEach (file) ->
-      [year, month] = [file.get('year'), file.get('month')]
-      root[year] ||= {}
-      root[year][month] ||= []
-      root[year][month].push(file)
+      unless file.get('fotomoo')
+        [year, month] = [file.get('year'), file.get('month')]
+        root[year] ||= {}
+        root[year][month] ||= []
+        root[year][month].push(file)
 
     folder_count = 0; file_count = 0
-    pics_root = {title: "Fotomoo Pictures", children: [], files: []}
+    pics_root = {children: [], files: []}
     for year_name, months of root
       year_obj = {title: year_name, children: [], files: []}
       pics_root.children.push year_obj
@@ -26,7 +27,5 @@ FM.SetupController = FM.FolderController.extend
           month_obj.files.push file
           file_count++
 
-    FM.drive.set('newFolderCount', folder_count)
-    FM.drive.set('newFileCount', file_count)
-    FM.drive.createTree(pics_root, FM.Folder.find('root'))
+    FM.drive.createTreeHierarchy(pics_root, folder_count, file_count)
 

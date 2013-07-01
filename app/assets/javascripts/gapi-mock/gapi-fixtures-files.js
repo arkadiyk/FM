@@ -57,7 +57,7 @@ window.FotomooFixtures.files = {
                     "isRoot": false
                 },
                 {
-                    "id": "folder-2001-01",
+                    "id": "folder-2002-01",
                     "isRoot": false
                 }
             ],
@@ -82,7 +82,7 @@ window.FotomooFixtures.files = {
                     "isRoot": false
                 },
                 {
-                    "id": "folder-2001-01",
+                    "id": "folder-2002-01",
                     "isRoot": false
                 }
             ],
@@ -107,7 +107,7 @@ window.FotomooFixtures.files = {
                     "isRoot": false
                 },
                 {
-                    "id": "folder-2001-01",
+                    "id": "folder-2002-01",
                     "isRoot": false
                 }
             ],
@@ -132,7 +132,7 @@ window.FotomooFixtures.files = {
                     "isRoot": false
                 },
                 {
-                    "id": "folder-2001-01",
+                    "id": "folder-2002-01",
                     "isRoot": false
                 }
             ],
@@ -157,7 +157,7 @@ window.FotomooFixtures.files = {
                     "isRoot": false
                 },
                 {
-                    "id": "folder-2001-01",
+                    "id": "folder-2002-01",
                     "isRoot": false
                 }
             ],
@@ -182,7 +182,7 @@ window.FotomooFixtures.files = {
                     "isRoot": false
                 },
                 {
-                    "id": "folder-2001-04",
+                    "id": "folder-2002-05",
                     "isRoot": false
                 }
             ],
@@ -207,7 +207,7 @@ window.FotomooFixtures.files = {
                     "isRoot": false
                 },
                 {
-                    "id": "folder-2001-04",
+                    "id": "folder-2002-05",
                     "isRoot": false
                 }
             ],
@@ -232,7 +232,7 @@ window.FotomooFixtures.files = {
                     "isRoot": false
                 },
                 {
-                    "id": "folder-2001-04",
+                    "id": "folder-2002-05",
                     "isRoot": false
                 }
             ],
@@ -257,7 +257,7 @@ window.FotomooFixtures.files = {
                     "isRoot": false
                 },
                 {
-                    "id": "folder-2001-04",
+                    "id": "folder-2002-05",
                     "isRoot": false
                 }
             ],
@@ -282,7 +282,7 @@ window.FotomooFixtures.files = {
                     "isRoot": false
                 },
                 {
-                    "id": "folder-2001-04",
+                    "id": "folder-2002-05",
                     "isRoot": false
                 }
             ],
@@ -306,7 +306,7 @@ window.FotomooFixtures.files = {
                     "isRoot": false
                 },
                 {
-                    "id": "folder-2001-04",
+                    "id": "folder-2002-05",
                     "isRoot": false
                 }
             ],
@@ -331,7 +331,7 @@ window.FotomooFixtures.files = {
                     "isRoot": false
                 },
                 {
-                    "id": "folder-2001-04",
+                    "id": "folder-2002-05",
                     "isRoot": false
                 }
             ],
@@ -356,7 +356,7 @@ window.FotomooFixtures.files = {
                     "isRoot": false
                 },
                 {
-                    "id": "folder-2001-04",
+                    "id": "folder-2002-05",
                     "isRoot": false
                 }
             ],
@@ -381,7 +381,7 @@ window.FotomooFixtures.files = {
                     "isRoot": false
                 },
                 {
-                    "id": "folder-2007-02",
+                    "id": "folder-2012-02",
                     "isRoot": false
                 }
             ],
@@ -406,7 +406,7 @@ window.FotomooFixtures.files = {
                     "isRoot": false
                 },
                 {
-                    "id": "folder-2007-02",
+                    "id": "folder-2012-02",
                     "isRoot": false
                 }
             ],
@@ -431,7 +431,7 @@ window.FotomooFixtures.files = {
                     "isRoot": false
                 },
                 {
-                    "id": "folder-2007-02",
+                    "id": "folder-2012-02",
                     "isRoot": false
                 }
             ],
@@ -456,7 +456,7 @@ window.FotomooFixtures.files = {
                     "isRoot": false
                 },
                 {
-                    "id": "folder-2007-02",
+                    "id": "folder-2012-02",
                     "isRoot": false
                 }
             ],
@@ -481,7 +481,7 @@ window.FotomooFixtures.files = {
                     "isRoot": false
                 },
                 {
-                    "id": "folder-2007-02",
+                    "id": "folder-2012-02",
                     "isRoot": false
                 }
             ],
@@ -506,7 +506,7 @@ window.FotomooFixtures.files = {
                     "isRoot": false
                 },
                 {
-                    "id": "folder-2007-02",
+                    "id": "folder-2012-02",
                     "isRoot": false
                 }
             ],
@@ -531,7 +531,7 @@ window.FotomooFixtures.files = {
                     "isRoot": false
                 },
                 {
-                    "id": "folder-2007-02",
+                    "id": "folder-2012-02",
                     "isRoot": false
                 }
             ],
@@ -556,7 +556,7 @@ window.FotomooFixtures.files = {
                     "isRoot": false
                 },
                 {
-                    "id": "folder-2007-02",
+                    "id": "folder-2012-02",
                     "isRoot": false
                 }
             ],
@@ -581,7 +581,7 @@ window.FotomooFixtures.files = {
                     "isRoot": false
                 },
                 {
-                    "id": "folder-2007-02",
+                    "id": "folder-2012-02",
                     "isRoot": false
                 }
             ],
@@ -606,7 +606,7 @@ window.FotomooFixtures.files = {
                     "isRoot": false
                 },
                 {
-                    "id": "folder-2007-02",
+                    "id": "folder-2012-02",
                     "isRoot": false
                 }
             ],
@@ -631,7 +631,7 @@ window.FotomooFixtures.files = {
                     "isRoot": false
                 },
                 {
-                    "id": "folder-2007-02",
+                    "id": "folder-2012-02",
                     "isRoot": false
                 }
             ],
@@ -656,7 +656,7 @@ window.FotomooFixtures.files = {
                     "isRoot": false
                 },
                 {
-                    "id": "folder-2007-02",
+                    "id": "folder-2012-02",
                     "isRoot": false
                 }
             ],
@@ -681,7 +681,7 @@ window.FotomooFixtures.files = {
                     "isRoot": false
                 },
                 {
-                    "id": "folder-2007-02",
+                    "id": "folder-2012-02",
                     "isRoot": false
                 }
             ],
@@ -706,7 +706,7 @@ window.FotomooFixtures.files = {
                     "isRoot": false
                 },
                 {
-                    "id": "folder-2007-02",
+                    "id": "folder-2012-02",
                     "isRoot": false
                 }
             ],
@@ -731,7 +731,7 @@ window.FotomooFixtures.files = {
                     "isRoot": false
                 },
                 {
-                    "id": "folder-2007-02",
+                    "id": "folder-2012-02",
                     "isRoot": false
                 }
             ],
@@ -756,7 +756,7 @@ window.FotomooFixtures.files = {
                     "isRoot": false
                 },
                 {
-                    "id": "folder-2007-02",
+                    "id": "folder-2012-02",
                     "isRoot": false
                 }
             ],
@@ -781,7 +781,7 @@ window.FotomooFixtures.files = {
                     "isRoot": false
                 },
                 {
-                    "id": "folder-2007-02",
+                    "id": "folder-2012-02",
                     "isRoot": false
                 }
             ],
@@ -806,7 +806,7 @@ window.FotomooFixtures.files = {
                     "isRoot": false
                 },
                 {
-                    "id": "folder-2007-02",
+                    "id": "folder-2012-02",
                     "isRoot": false
                 }
             ],
@@ -831,7 +831,7 @@ window.FotomooFixtures.files = {
                     "isRoot": false
                 },
                 {
-                    "id": "folder-2007-02",
+                    "id": "folder-2012-02",
                     "isRoot": false
                 }
             ],
@@ -855,7 +855,7 @@ window.FotomooFixtures.files = {
                     "isRoot": false
                 },
                 {
-                    "id": "folder-2007-02",
+                    "id": "folder-2012-02",
                     "isRoot": false
                 }
             ],
@@ -880,7 +880,7 @@ window.FotomooFixtures.files = {
                     "isRoot": false
                 },
                 {
-                    "id": "folder-2007-03",
+                    "id": "folder-2012-03",
                     "isRoot": false
                 }
             ],
@@ -905,7 +905,7 @@ window.FotomooFixtures.files = {
                     "isRoot": false
                 },
                 {
-                    "id": "folder-2007-03",
+                    "id": "folder-2012-03",
                     "isRoot": false
                 }
             ],
@@ -930,7 +930,7 @@ window.FotomooFixtures.files = {
                     "isRoot": false
                 },
                 {
-                    "id": "folder-2007-03",
+                    "id": "folder-2012-03",
                     "isRoot": false
                 }
             ],
@@ -955,7 +955,7 @@ window.FotomooFixtures.files = {
                     "isRoot": false
                 },
                 {
-                    "id": "folder-2007-03",
+                    "id": "folder-2012-03",
                     "isRoot": false
                 }
             ],
@@ -980,7 +980,7 @@ window.FotomooFixtures.files = {
                     "isRoot": false
                 },
                 {
-                    "id": "folder-2007-03",
+                    "id": "folder-2012-03",
                     "isRoot": false
                 }
             ],
@@ -1005,7 +1005,7 @@ window.FotomooFixtures.files = {
                     "isRoot": false
                 },
                 {
-                    "id": "folder-2007-03",
+                    "id": "folder-2012-03",
                     "isRoot": false
                 }
             ],
@@ -1029,7 +1029,7 @@ window.FotomooFixtures.files = {
                     "isRoot": false
                 },
                 {
-                    "id": "folder-2007-03",
+                    "id": "folder-2012-03",
                     "isRoot": false
                 }
             ],
@@ -1054,7 +1054,7 @@ window.FotomooFixtures.files = {
                     "isRoot": false
                 },
                 {
-                    "id": "folder-2007-03",
+                    "id": "folder-2012-03",
                     "isRoot": false
                 }
             ],
@@ -1079,7 +1079,7 @@ window.FotomooFixtures.files = {
                     "isRoot": false
                 },
                 {
-                    "id": "folder-2007-03",
+                    "id": "folder-2012-03",
                     "isRoot": false
                 }
             ],
@@ -1104,7 +1104,7 @@ window.FotomooFixtures.files = {
                     "isRoot": false
                 },
                 {
-                    "id": "folder-2007-03",
+                    "id": "folder-2012-03",
                     "isRoot": false
                 }
             ],
@@ -1129,7 +1129,7 @@ window.FotomooFixtures.files = {
                     "isRoot": false
                 },
                 {
-                    "id": "folder-2007-03",
+                    "id": "folder-2012-03",
                     "isRoot": false
                 }
             ],
@@ -1154,7 +1154,7 @@ window.FotomooFixtures.files = {
                     "isRoot": false
                 },
                 {
-                    "id": "folder-2007-03",
+                    "id": "folder-2012-03",
                     "isRoot": false
                 }
             ],
@@ -1179,7 +1179,7 @@ window.FotomooFixtures.files = {
                     "isRoot": false
                 },
                 {
-                    "id": "folder-2007-03",
+                    "id": "folder-2012-03",
                     "isRoot": false
                 }
             ],
@@ -1204,7 +1204,7 @@ window.FotomooFixtures.files = {
                     "isRoot": false
                 },
                 {
-                    "id": "folder-2007-03",
+                    "id": "folder-2012-03",
                     "isRoot": false
                 }
             ],
@@ -1229,7 +1229,7 @@ window.FotomooFixtures.files = {
                     "isRoot": false
                 },
                 {
-                    "id": "folder-2007-03",
+                    "id": "folder-2012-03",
                     "isRoot": false
                 }
             ],
@@ -1253,7 +1253,7 @@ window.FotomooFixtures.files = {
                     "isRoot": false
                 },
                 {
-                    "id": "folder-2007-03",
+                    "id": "folder-2012-03",
                     "isRoot": false
                 }
             ],
@@ -1278,7 +1278,7 @@ window.FotomooFixtures.files = {
                     "isRoot": false
                 },
                 {
-                    "id": "folder-2007-03",
+                    "id": "folder-2012-03",
                     "isRoot": false
                 }
             ],
@@ -1302,7 +1302,7 @@ window.FotomooFixtures.files = {
                     "isRoot": false
                 },
                 {
-                    "id": "folder-2007-03",
+                    "id": "folder-2012-03",
                     "isRoot": false
                 }
             ],
@@ -1327,7 +1327,7 @@ window.FotomooFixtures.files = {
                     "isRoot": false
                 },
                 {
-                    "id": "folder-2007-03",
+                    "id": "folder-2012-03",
                     "isRoot": false
                 }
             ],
@@ -1352,7 +1352,7 @@ window.FotomooFixtures.files = {
                     "isRoot": false
                 },
                 {
-                    "id": "folder-2007-03",
+                    "id": "folder-2012-03",
                     "isRoot": false
                 }
             ],
@@ -1377,7 +1377,7 @@ window.FotomooFixtures.files = {
                     "isRoot": false
                 },
                 {
-                    "id": "folder-2007-03",
+                    "id": "folder-2012-03",
                     "isRoot": false
                 }
             ],
@@ -1402,7 +1402,7 @@ window.FotomooFixtures.files = {
                     "isRoot": false
                 },
                 {
-                    "id": "folder-2007-03",
+                    "id": "folder-2012-03",
                     "isRoot": false
                 }
             ],
@@ -1427,7 +1427,7 @@ window.FotomooFixtures.files = {
                     "isRoot": false
                 },
                 {
-                    "id": "folder-2007-03",
+                    "id": "folder-2012-03",
                     "isRoot": false
                 }
             ],
@@ -1452,7 +1452,7 @@ window.FotomooFixtures.files = {
                     "isRoot": false
                 },
                 {
-                    "id": "folder-2007-03",
+                    "id": "folder-2012-03",
                     "isRoot": false
                 }
             ],
@@ -1477,7 +1477,7 @@ window.FotomooFixtures.files = {
                     "isRoot": false
                 },
                 {
-                    "id": "folder-2007-03",
+                    "id": "folder-2012-03",
                     "isRoot": false
                 }
             ],
@@ -1502,7 +1502,7 @@ window.FotomooFixtures.files = {
                     "isRoot": false
                 },
                 {
-                    "id": "folder-2007-03",
+                    "id": "folder-2012-03",
                     "isRoot": false
                 }
             ],
@@ -1527,7 +1527,7 @@ window.FotomooFixtures.files = {
                     "isRoot": false
                 },
                 {
-                    "id": "folder-2007-03",
+                    "id": "folder-2012-03",
                     "isRoot": false
                 }
             ],
@@ -1552,7 +1552,7 @@ window.FotomooFixtures.files = {
                     "isRoot": false
                 },
                 {
-                    "id": "folder-2007-03",
+                    "id": "folder-2012-03",
                     "isRoot": false
                 }
             ],
@@ -1577,7 +1577,7 @@ window.FotomooFixtures.files = {
                     "isRoot": false
                 },
                 {
-                    "id": "folder-2007-03",
+                    "id": "folder-2012-03",
                     "isRoot": false
                 }
             ],
@@ -1602,7 +1602,7 @@ window.FotomooFixtures.files = {
                     "isRoot": false
                 },
                 {
-                    "id": "folder-2007-03",
+                    "id": "folder-2012-03",
                     "isRoot": false
                 }
             ],
@@ -1627,7 +1627,7 @@ window.FotomooFixtures.files = {
                     "isRoot": false
                 },
                 {
-                    "id": "folder-2007-03",
+                    "id": "folder-2012-03",
                     "isRoot": false
                 }
             ],
@@ -1652,7 +1652,7 @@ window.FotomooFixtures.files = {
                     "isRoot": false
                 },
                 {
-                    "id": "folder-2007-03",
+                    "id": "folder-2012-03",
                     "isRoot": false
                 }
             ],
@@ -1677,7 +1677,7 @@ window.FotomooFixtures.files = {
                     "isRoot": false
                 },
                 {
-                    "id": "folder-2007-03",
+                    "id": "folder-2012-03",
                     "isRoot": false
                 }
             ],
@@ -1702,7 +1702,7 @@ window.FotomooFixtures.files = {
                     "isRoot": false
                 },
                 {
-                    "id": "folder-2007-03",
+                    "id": "folder-2012-03",
                     "isRoot": false
                 }
             ],
@@ -1727,7 +1727,7 @@ window.FotomooFixtures.files = {
                     "isRoot": false
                 },
                 {
-                    "id": "folder-2007-03",
+                    "id": "folder-2012-03",
                     "isRoot": false
                 }
             ],
@@ -1751,7 +1751,7 @@ window.FotomooFixtures.files = {
                     "isRoot": false
                 },
                 {
-                    "id": "folder-2007-03",
+                    "id": "folder-2012-03",
                     "isRoot": false
                 }
             ],
@@ -1774,7 +1774,7 @@ window.FotomooFixtures.files = {
                     "isRoot": false
                 },
                 {
-                    "id": "folder-2007-03",
+                    "id": "folder-2012-03",
                     "isRoot": false
                 }
             ],
@@ -1799,7 +1799,7 @@ window.FotomooFixtures.files = {
                     "isRoot": false
                 },
                 {
-                    "id": "folder-2007-03",
+                    "id": "folder-2012-03",
                     "isRoot": false
                 }
             ],
@@ -1824,7 +1824,7 @@ window.FotomooFixtures.files = {
                     "isRoot": false
                 },
                 {
-                    "id": "folder-2007-03",
+                    "id": "folder-2012-03",
                     "isRoot": false
                 }
             ],
@@ -1849,7 +1849,7 @@ window.FotomooFixtures.files = {
                     "isRoot": false
                 },
                 {
-                    "id": "folder-2007-03",
+                    "id": "folder-2012-03",
                     "isRoot": false
                 }
             ],
@@ -1874,7 +1874,7 @@ window.FotomooFixtures.files = {
                     "isRoot": false
                 },
                 {
-                    "id": "folder-2007-03",
+                    "id": "folder-2012-03",
                     "isRoot": false
                 }
             ],
@@ -1899,7 +1899,7 @@ window.FotomooFixtures.files = {
                     "isRoot": false
                 },
                 {
-                    "id": "folder-2007-03",
+                    "id": "folder-2012-03",
                     "isRoot": false
                 }
             ],
@@ -1924,7 +1924,7 @@ window.FotomooFixtures.files = {
                     "isRoot": false
                 },
                 {
-                    "id": "folder-2007-03",
+                    "id": "folder-2012-03",
                     "isRoot": false
                 }
             ],
@@ -1949,7 +1949,7 @@ window.FotomooFixtures.files = {
                     "isRoot": false
                 },
                 {
-                    "id": "folder-2007-03",
+                    "id": "folder-2012-03",
                     "isRoot": false
                 }
             ],
@@ -1974,7 +1974,7 @@ window.FotomooFixtures.files = {
                     "isRoot": false
                 },
                 {
-                    "id": "folder-2007-03",
+                    "id": "folder-2012-03",
                     "isRoot": false
                 }
             ],
@@ -1999,7 +1999,7 @@ window.FotomooFixtures.files = {
                     "isRoot": false
                 },
                 {
-                    "id": "folder-2007-03",
+                    "id": "folder-2012-03",
                     "isRoot": false
                 }
             ],
@@ -2024,7 +2024,7 @@ window.FotomooFixtures.files = {
                     "isRoot": false
                 },
                 {
-                    "id": "folder-2007-03",
+                    "id": "folder-2012-03",
                     "isRoot": false
                 }
             ],
@@ -2049,7 +2049,7 @@ window.FotomooFixtures.files = {
                     "isRoot": false
                 },
                 {
-                    "id": "folder-2007-03",
+                    "id": "folder-2012-03",
                     "isRoot": false
                 }
             ],
@@ -2074,7 +2074,7 @@ window.FotomooFixtures.files = {
                     "isRoot": false
                 },
                 {
-                    "id": "folder-2007-03",
+                    "id": "folder-2012-03",
                     "isRoot": false
                 }
             ],
@@ -2099,7 +2099,7 @@ window.FotomooFixtures.files = {
                     "isRoot": false
                 },
                 {
-                    "id": "folder-2007-03",
+                    "id": "folder-2012-03",
                     "isRoot": false
                 }
             ],
@@ -2123,7 +2123,7 @@ window.FotomooFixtures.files = {
                     "isRoot": false
                 },
                 {
-                    "id": "folder-2007-03",
+                    "id": "folder-2012-03",
                     "isRoot": false
                 }
             ],
@@ -2148,7 +2148,7 @@ window.FotomooFixtures.files = {
                     "isRoot": false
                 },
                 {
-                    "id": "folder-2007-03",
+                    "id": "folder-2012-03",
                     "isRoot": false
                 }
             ],
@@ -2173,7 +2173,7 @@ window.FotomooFixtures.files = {
                     "isRoot": false
                 },
                 {
-                    "id": "folder-2007-03",
+                    "id": "folder-2012-03",
                     "isRoot": false
                 }
             ],
@@ -2198,7 +2198,7 @@ window.FotomooFixtures.files = {
                     "isRoot": false
                 },
                 {
-                    "id": "folder-2007-03",
+                    "id": "folder-2012-03",
                     "isRoot": false
                 }
             ],
@@ -2223,7 +2223,7 @@ window.FotomooFixtures.files = {
                     "isRoot": false
                 },
                 {
-                    "id": "folder-2007-03",
+                    "id": "folder-2012-03",
                     "isRoot": false
                 }
             ],
@@ -2248,7 +2248,7 @@ window.FotomooFixtures.files = {
                     "isRoot": false
                 },
                 {
-                    "id": "folder-2007-03",
+                    "id": "folder-2012-03",
                     "isRoot": false
                 }
             ],
@@ -2273,7 +2273,7 @@ window.FotomooFixtures.files = {
                     "isRoot": false
                 },
                 {
-                    "id": "folder-2007-03",
+                    "id": "folder-2012-03",
                     "isRoot": false
                 }
             ],
@@ -2298,7 +2298,7 @@ window.FotomooFixtures.files = {
                     "isRoot": false
                 },
                 {
-                    "id": "folder-2007-03",
+                    "id": "folder-2012-03",
                     "isRoot": false
                 }
             ],
@@ -2323,7 +2323,7 @@ window.FotomooFixtures.files = {
                     "isRoot": false
                 },
                 {
-                    "id": "folder-2007-03",
+                    "id": "folder-2012-03",
                     "isRoot": false
                 }
             ],
@@ -2348,7 +2348,7 @@ window.FotomooFixtures.files = {
                     "isRoot": false
                 },
                 {
-                    "id": "folder-2007-06",
+                    "id": "folder-2012-06",
                     "isRoot": false
                 }
             ],
@@ -2373,7 +2373,7 @@ window.FotomooFixtures.files = {
                     "isRoot": false
                 },
                 {
-                    "id": "folder-2007-06",
+                    "id": "folder-2012-06",
                     "isRoot": false
                 }
             ],
@@ -2398,7 +2398,7 @@ window.FotomooFixtures.files = {
                     "isRoot": false
                 },
                 {
-                    "id": "folder-2007-06",
+                    "id": "folder-2012-06",
                     "isRoot": false
                 }
             ],
@@ -2423,7 +2423,7 @@ window.FotomooFixtures.files = {
                     "isRoot": false
                 },
                 {
-                    "id": "folder-2007-06",
+                    "id": "folder-2012-06",
                     "isRoot": false
                 }
             ],
@@ -2448,7 +2448,7 @@ window.FotomooFixtures.files = {
                     "isRoot": false
                 },
                 {
-                    "id": "folder-2007-06",
+                    "id": "folder-2012-06",
                     "isRoot": false
                 }
             ],
@@ -2473,7 +2473,7 @@ window.FotomooFixtures.files = {
                     "isRoot": false
                 },
                 {
-                    "id": "folder-2007-06",
+                    "id": "folder-2012-06",
                     "isRoot": false
                 }
             ],
@@ -2498,7 +2498,7 @@ window.FotomooFixtures.files = {
                     "isRoot": false
                 },
                 {
-                    "id": "folder-2007-06",
+                    "id": "folder-2012-06",
                     "isRoot": false
                 }
             ],
@@ -2523,7 +2523,7 @@ window.FotomooFixtures.files = {
                     "isRoot": false
                 },
                 {
-                    "id": "folder-2007-06",
+                    "id": "folder-2012-06",
                     "isRoot": false
                 }
             ],
@@ -2548,7 +2548,7 @@ window.FotomooFixtures.files = {
                     "isRoot": false
                 },
                 {
-                    "id": "folder-2007-06",
+                    "id": "folder-2012-06",
                     "isRoot": false
                 }
             ],
@@ -2572,7 +2572,7 @@ window.FotomooFixtures.files = {
                     "isRoot": false
                 },
                 {
-                    "id": "folder-2007-06",
+                    "id": "folder-2012-06",
                     "isRoot": false
                 }
             ],
@@ -2596,7 +2596,7 @@ window.FotomooFixtures.files = {
                     "isRoot": false
                 },
                 {
-                    "id": "folder-2007-06",
+                    "id": "folder-2012-06",
                     "isRoot": false
                 }
             ],
@@ -2621,7 +2621,7 @@ window.FotomooFixtures.files = {
                     "isRoot": false
                 },
                 {
-                    "id": "folder-2007-06",
+                    "id": "folder-2012-06",
                     "isRoot": false
                 }
             ],
@@ -2646,7 +2646,7 @@ window.FotomooFixtures.files = {
                     "isRoot": false
                 },
                 {
-                    "id": "folder-2007-06",
+                    "id": "folder-2012-06",
                     "isRoot": false
                 }
             ],
@@ -2671,7 +2671,7 @@ window.FotomooFixtures.files = {
                     "isRoot": false
                 },
                 {
-                    "id": "folder-2007-06",
+                    "id": "folder-2012-06",
                     "isRoot": false
                 }
             ],
@@ -2696,7 +2696,7 @@ window.FotomooFixtures.files = {
                     "isRoot": false
                 },
                 {
-                    "id": "folder-2007-06",
+                    "id": "folder-2012-06",
                     "isRoot": false
                 }
             ],
@@ -2721,7 +2721,7 @@ window.FotomooFixtures.files = {
                     "isRoot": false
                 },
                 {
-                    "id": "folder-2007-06",
+                    "id": "folder-2012-06",
                     "isRoot": false
                 }
             ],
@@ -2745,7 +2745,7 @@ window.FotomooFixtures.files = {
                     "isRoot": false
                 },
                 {
-                    "id": "folder-2007-06",
+                    "id": "folder-2012-06",
                     "isRoot": false
                 }
             ],
@@ -2769,7 +2769,7 @@ window.FotomooFixtures.files = {
                     "isRoot": false
                 },
                 {
-                    "id": "folder-2007-06",
+                    "id": "folder-2012-06",
                     "isRoot": false
                 }
             ],
@@ -2798,7 +2798,7 @@ window.FotomooFixtures.files = {
                     "isRoot": false
                 },
                 {
-                    "id": "folder-2007-06",
+                    "id": "folder-2012-06",
                     "isRoot": false
                 }
             ],
@@ -2823,7 +2823,7 @@ window.FotomooFixtures.files = {
                     "isRoot": false
                 },
                 {
-                    "id": "folder-2007-06",
+                    "id": "folder-2012-06",
                     "isRoot": false
                 }
             ],
@@ -2848,7 +2848,7 @@ window.FotomooFixtures.files = {
                     "isRoot": false
                 },
                 {
-                    "id": "folder-2007-06",
+                    "id": "folder-2012-06",
                     "isRoot": false
                 }
             ],
@@ -2873,7 +2873,7 @@ window.FotomooFixtures.files = {
                     "isRoot": false
                 },
                 {
-                    "id": "folder-2007-06",
+                    "id": "folder-2012-06",
                     "isRoot": false
                 }
             ],
@@ -2898,7 +2898,7 @@ window.FotomooFixtures.files = {
                     "isRoot": false
                 },
                 {
-                    "id": "folder-2007-06",
+                    "id": "folder-2012-06",
                     "isRoot": false
                 }
             ],
@@ -2923,7 +2923,7 @@ window.FotomooFixtures.files = {
                     "isRoot": false
                 },
                 {
-                    "id": "folder-2007-06",
+                    "id": "folder-2012-06",
                     "isRoot": false
                 }
             ],
@@ -2948,7 +2948,7 @@ window.FotomooFixtures.files = {
                     "isRoot": false
                 },
                 {
-                    "id": "folder-2007-06",
+                    "id": "folder-2012-06",
                     "isRoot": false
                 }
             ],
@@ -2973,7 +2973,7 @@ window.FotomooFixtures.files = {
                     "isRoot": false
                 },
                 {
-                    "id": "folder-2007-06",
+                    "id": "folder-2012-06",
                     "isRoot": false
                 }
             ],
@@ -2998,7 +2998,7 @@ window.FotomooFixtures.files = {
                     "isRoot": false
                 },
                 {
-                    "id": "folder-2007-06",
+                    "id": "folder-2012-06",
                     "isRoot": false
                 }
             ],
@@ -3023,7 +3023,7 @@ window.FotomooFixtures.files = {
                     "isRoot": false
                 },
                 {
-                    "id": "folder-2007-06",
+                    "id": "folder-2012-06",
                     "isRoot": false
                 }
             ],
@@ -3048,7 +3048,7 @@ window.FotomooFixtures.files = {
                     "isRoot": false
                 },
                 {
-                    "id": "folder-2007-06",
+                    "id": "folder-2012-06",
                     "isRoot": false
                 }
             ],
@@ -3073,7 +3073,7 @@ window.FotomooFixtures.files = {
                     "isRoot": false
                 },
                 {
-                    "id": "folder-2007-06",
+                    "id": "folder-2012-06",
                     "isRoot": false
                 }
             ],
@@ -3098,7 +3098,7 @@ window.FotomooFixtures.files = {
                     "isRoot": false
                 },
                 {
-                    "id": "folder-2007-06",
+                    "id": "folder-2012-06",
                     "isRoot": false
                 }
             ],
@@ -3123,7 +3123,7 @@ window.FotomooFixtures.files = {
                     "isRoot": false
                 },
                 {
-                    "id": "folder-2007-06",
+                    "id": "folder-2012-06",
                     "isRoot": false
                 }
             ],
@@ -3148,7 +3148,7 @@ window.FotomooFixtures.files = {
                     "isRoot": false
                 },
                 {
-                    "id": "folder-2007-06",
+                    "id": "folder-2012-06",
                     "isRoot": false
                 }
             ],
@@ -3172,7 +3172,7 @@ window.FotomooFixtures.files = {
                     "isRoot": false
                 },
                 {
-                    "id": "folder-2007-06",
+                    "id": "folder-2012-06",
                     "isRoot": false
                 }
             ],
@@ -3194,7 +3194,7 @@ window.FotomooFixtures.files = {
                     "isRoot": false
                 },
                 {
-                    "id": "folder-2007-06",
+                    "id": "folder-2012-06",
                     "isRoot": false
                 }
             ],
@@ -3219,7 +3219,7 @@ window.FotomooFixtures.files = {
                     "isRoot": false
                 },
                 {
-                    "id": "folder-2007-06",
+                    "id": "folder-2012-06",
                     "isRoot": false
                 }
             ],
@@ -3244,7 +3244,7 @@ window.FotomooFixtures.files = {
                     "isRoot": false
                 },
                 {
-                    "id": "folder-2007-06",
+                    "id": "folder-2012-06",
                     "isRoot": false
                 }
             ],
@@ -3269,7 +3269,7 @@ window.FotomooFixtures.files = {
                     "isRoot": false
                 },
                 {
-                    "id": "folder-2007-06",
+                    "id": "folder-2012-06",
                     "isRoot": false
                 }
             ],
@@ -3294,7 +3294,7 @@ window.FotomooFixtures.files = {
                     "isRoot": false
                 },
                 {
-                    "id": "folder-2007-06",
+                    "id": "folder-2012-06",
                     "isRoot": false
                 }
             ],
@@ -3319,7 +3319,7 @@ window.FotomooFixtures.files = {
                     "isRoot": false
                 },
                 {
-                    "id": "folder-2007-06",
+                    "id": "folder-2012-06",
                     "isRoot": false
                 }
             ],
@@ -3344,7 +3344,7 @@ window.FotomooFixtures.files = {
                     "isRoot": false
                 },
                 {
-                    "id": "folder-2007-06",
+                    "id": "folder-2012-06",
                     "isRoot": false
                 }
             ],
@@ -3369,7 +3369,7 @@ window.FotomooFixtures.files = {
                     "isRoot": false
                 },
                 {
-                    "id": "folder-2007-06",
+                    "id": "folder-2012-06",
                     "isRoot": false
                 }
             ],
@@ -3394,7 +3394,7 @@ window.FotomooFixtures.files = {
                     "isRoot": false
                 },
                 {
-                    "id": "folder-2007-06",
+                    "id": "folder-2012-06",
                     "isRoot": false
                 }
             ],
@@ -3419,7 +3419,7 @@ window.FotomooFixtures.files = {
                     "isRoot": false
                 },
                 {
-                    "id": "folder-2007-06",
+                    "id": "folder-2012-06",
                     "isRoot": false
                 }
             ],
@@ -3444,7 +3444,7 @@ window.FotomooFixtures.files = {
                     "isRoot": false
                 },
                 {
-                    "id": "folder-2007-06",
+                    "id": "folder-2012-06",
                     "isRoot": false
                 }
             ],
@@ -3469,7 +3469,7 @@ window.FotomooFixtures.files = {
                     "isRoot": false
                 },
                 {
-                    "id": "folder-2007-06",
+                    "id": "folder-2012-06",
                     "isRoot": false
                 }
             ],
@@ -3494,7 +3494,7 @@ window.FotomooFixtures.files = {
                     "isRoot": false
                 },
                 {
-                    "id": "folder-2007-06",
+                    "id": "folder-2012-06",
                     "isRoot": false
                 }
             ],
@@ -3518,7 +3518,7 @@ window.FotomooFixtures.files = {
                     "isRoot": false
                 },
                 {
-                    "id": "folder-2007-06",
+                    "id": "folder-2012-06",
                     "isRoot": false
                 }
             ],
@@ -3548,7 +3548,7 @@ window.FotomooFixtures.files = {
                     "isRoot": false
                 },
                 {
-                    "id": "folder-2007-06",
+                    "id": "folder-2012-06",
                     "isRoot": false
                 }
             ],
@@ -3572,7 +3572,7 @@ window.FotomooFixtures.files = {
                     "isRoot": false
                 },
                 {
-                    "id": "folder-2007-06",
+                    "id": "folder-2012-06",
                     "isRoot": false
                 }
             ],
@@ -3601,7 +3601,7 @@ window.FotomooFixtures.files = {
                     "isRoot": false
                 },
                 {
-                    "id": "folder-2007-06",
+                    "id": "folder-2012-06",
                     "isRoot": false
                 }
             ],
@@ -3625,7 +3625,7 @@ window.FotomooFixtures.files = {
                     "isRoot": false
                 },
                 {
-                    "id": "folder-2007-06",
+                    "id": "folder-2012-06",
                     "isRoot": false
                 }
             ],
@@ -3649,7 +3649,7 @@ window.FotomooFixtures.files = {
                     "isRoot": false
                 },
                 {
-                    "id": "folder-2007-06",
+                    "id": "folder-2012-06",
                     "isRoot": false
                 }
             ],
@@ -3673,7 +3673,7 @@ window.FotomooFixtures.files = {
                     "isRoot": false
                 },
                 {
-                    "id": "folder-2007-06",
+                    "id": "folder-2012-06",
                     "isRoot": false
                 }
             ],
@@ -3697,7 +3697,7 @@ window.FotomooFixtures.files = {
                     "isRoot": false
                 },
                 {
-                    "id": "folder-2007-06",
+                    "id": "folder-2012-06",
                     "isRoot": false
                 }
             ],
@@ -3721,7 +3721,7 @@ window.FotomooFixtures.files = {
                     "isRoot": false
                 },
                 {
-                    "id": "folder-2007-06",
+                    "id": "folder-2012-06",
                     "isRoot": false
                 }
             ],
@@ -3745,7 +3745,7 @@ window.FotomooFixtures.files = {
                     "isRoot": false
                 },
                 {
-                    "id": "folder-2007-06",
+                    "id": "folder-2012-06",
                     "isRoot": false
                 }
             ],
@@ -3769,7 +3769,7 @@ window.FotomooFixtures.files = {
                     "isRoot": false
                 },
                 {
-                    "id": "folder-2007-06",
+                    "id": "folder-2012-06",
                     "isRoot": false
                 }
             ],
@@ -3794,7 +3794,7 @@ window.FotomooFixtures.files = {
                     "isRoot": false
                 },
                 {
-                    "id": "folder-2007-06",
+                    "id": "folder-2012-06",
                     "isRoot": false
                 }
             ],
@@ -3818,7 +3818,7 @@ window.FotomooFixtures.files = {
                     "isRoot": false
                 },
                 {
-                    "id": "folder-2007-06",
+                    "id": "folder-2012-06",
                     "isRoot": false
                 }
             ],
@@ -3842,7 +3842,7 @@ window.FotomooFixtures.files = {
                     "isRoot": false
                 },
                 {
-                    "id": "folder-2007-06",
+                    "id": "folder-2012-06",
                     "isRoot": false
                 }
             ],
@@ -3866,7 +3866,7 @@ window.FotomooFixtures.files = {
                     "isRoot": false
                 },
                 {
-                    "id": "folder-2007-06",
+                    "id": "folder-2012-06",
                     "isRoot": false
                 }
             ],
@@ -3890,7 +3890,7 @@ window.FotomooFixtures.files = {
                     "isRoot": false
                 },
                 {
-                    "id": "folder-2007-06",
+                    "id": "folder-2012-06",
                     "isRoot": false
                 }
             ],
@@ -3914,7 +3914,7 @@ window.FotomooFixtures.files = {
                     "isRoot": false
                 },
                 {
-                    "id": "folder-2007-06",
+                    "id": "folder-2012-06",
                     "isRoot": false
                 }
             ],
@@ -3938,7 +3938,7 @@ window.FotomooFixtures.files = {
                     "isRoot": false
                 },
                 {
-                    "id": "folder-2007-06",
+                    "id": "folder-2012-06",
                     "isRoot": false
                 }
             ],
@@ -3962,7 +3962,7 @@ window.FotomooFixtures.files = {
                     "isRoot": false
                 },
                 {
-                    "id": "folder-2007-06",
+                    "id": "folder-2012-06",
                     "isRoot": false
                 }
             ],
@@ -3986,7 +3986,7 @@ window.FotomooFixtures.files = {
                     "isRoot": false
                 },
                 {
-                    "id": "folder-2007-06",
+                    "id": "folder-2012-06",
                     "isRoot": false
                 }
             ],
@@ -4010,7 +4010,7 @@ window.FotomooFixtures.files = {
                     "isRoot": false
                 },
                 {
-                    "id": "folder-2007-06",
+                    "id": "folder-2012-06",
                     "isRoot": false
                 }
             ],
@@ -4034,7 +4034,7 @@ window.FotomooFixtures.files = {
                     "isRoot": false
                 },
                 {
-                    "id": "folder-2007-06",
+                    "id": "folder-2012-06",
                     "isRoot": false
                 }
             ],
@@ -4058,7 +4058,7 @@ window.FotomooFixtures.files = {
                     "isRoot": false
                 },
                 {
-                    "id": "folder-2007-06",
+                    "id": "folder-2012-06",
                     "isRoot": false
                 }
             ],
@@ -4083,7 +4083,7 @@ window.FotomooFixtures.files = {
                     "isRoot": false
                 },
                 {
-                    "id": "folder-2007-06",
+                    "id": "folder-2012-06",
                     "isRoot": false
                 }
             ],
@@ -4107,7 +4107,7 @@ window.FotomooFixtures.files = {
                     "isRoot": false
                 },
                 {
-                    "id": "folder-2007-06",
+                    "id": "folder-2012-06",
                     "isRoot": false
                 }
             ],
@@ -4131,7 +4131,7 @@ window.FotomooFixtures.files = {
                     "isRoot": false
                 },
                 {
-                    "id": "folder-2007-06",
+                    "id": "folder-2012-06",
                     "isRoot": false
                 }
             ],
@@ -4156,7 +4156,7 @@ window.FotomooFixtures.files = {
                     "isRoot": false
                 },
                 {
-                    "id": "folder-2007-06",
+                    "id": "folder-2012-06",
                     "isRoot": false
                 }
             ],
@@ -4180,7 +4180,7 @@ window.FotomooFixtures.files = {
                     "isRoot": false
                 },
                 {
-                    "id": "folder-2007-06",
+                    "id": "folder-2012-06",
                     "isRoot": false
                 }
             ],
@@ -4209,7 +4209,7 @@ window.FotomooFixtures.files = {
                     "isRoot": false
                 },
                 {
-                    "id": "folder-2007-06",
+                    "id": "folder-2012-06",
                     "isRoot": false
                 }
             ],
@@ -4233,7 +4233,7 @@ window.FotomooFixtures.files = {
                     "isRoot": false
                 },
                 {
-                    "id": "folder-2007-06",
+                    "id": "folder-2012-06",
                     "isRoot": false
                 }
             ],
@@ -4257,7 +4257,7 @@ window.FotomooFixtures.files = {
                     "isRoot": false
                 },
                 {
-                    "id": "folder-2007-06",
+                    "id": "folder-2012-06",
                     "isRoot": false
                 }
             ],
@@ -4281,7 +4281,7 @@ window.FotomooFixtures.files = {
                     "isRoot": false
                 },
                 {
-                    "id": "folder-2007-06",
+                    "id": "folder-2012-06",
                     "isRoot": false
                 }
             ],
@@ -4305,7 +4305,7 @@ window.FotomooFixtures.files = {
                     "isRoot": false
                 },
                 {
-                    "id": "folder-2007-06",
+                    "id": "folder-2012-06",
                     "isRoot": false
                 }
             ],
@@ -4330,7 +4330,7 @@ window.FotomooFixtures.files = {
                     "isRoot": false
                 },
                 {
-                    "id": "folder-2007-06",
+                    "id": "folder-2012-06",
                     "isRoot": false
                 }
             ],
@@ -4355,7 +4355,7 @@ window.FotomooFixtures.files = {
                     "isRoot": false
                 },
                 {
-                    "id": "folder-2007-06",
+                    "id": "folder-2012-06",
                     "isRoot": false
                 }
             ],
@@ -4379,7 +4379,7 @@ window.FotomooFixtures.files = {
                     "isRoot": false
                 },
                 {
-                    "id": "folder-2007-06",
+                    "id": "folder-2012-06",
                     "isRoot": false
                 }
             ],
@@ -4404,7 +4404,7 @@ window.FotomooFixtures.files = {
                     "isRoot": false
                 },
                 {
-                    "id": "folder-2007-06",
+                    "id": "folder-2012-06",
                     "isRoot": false
                 }
             ],
@@ -4429,7 +4429,7 @@ window.FotomooFixtures.files = {
                     "isRoot": false
                 },
                 {
-                    "id": "folder-2007-06",
+                    "id": "folder-2012-06",
                     "isRoot": false
                 }
             ],
@@ -4454,7 +4454,7 @@ window.FotomooFixtures.files = {
                     "isRoot": false
                 },
                 {
-                    "id": "folder-2007-06",
+                    "id": "folder-2012-06",
                     "isRoot": false
                 }
             ],
@@ -4478,7 +4478,7 @@ window.FotomooFixtures.files = {
                     "isRoot": false
                 },
                 {
-                    "id": "folder-2007-06",
+                    "id": "folder-2012-06",
                     "isRoot": false
                 }
             ],
@@ -4503,7 +4503,7 @@ window.FotomooFixtures.files = {
                     "isRoot": false
                 },
                 {
-                    "id": "folder-2007-06",
+                    "id": "folder-2012-06",
                     "isRoot": false
                 }
             ],
@@ -4527,7 +4527,7 @@ window.FotomooFixtures.files = {
                     "isRoot": false
                 },
                 {
-                    "id": "folder-2007-06",
+                    "id": "folder-2012-06",
                     "isRoot": false
                 }
             ],
@@ -4551,7 +4551,7 @@ window.FotomooFixtures.files = {
                     "isRoot": false
                 },
                 {
-                    "id": "folder-2007-06",
+                    "id": "folder-2012-06",
                     "isRoot": false
                 }
             ],
@@ -4575,7 +4575,7 @@ window.FotomooFixtures.files = {
                     "isRoot": false
                 },
                 {
-                    "id": "folder-2007-06",
+                    "id": "folder-2012-06",
                     "isRoot": false
                 }
             ],
@@ -4600,7 +4600,7 @@ window.FotomooFixtures.files = {
                     "isRoot": false
                 },
                 {
-                    "id": "folder-2007-06",
+                    "id": "folder-2012-06",
                     "isRoot": false
                 }
             ],
@@ -4624,7 +4624,7 @@ window.FotomooFixtures.files = {
                     "isRoot": false
                 },
                 {
-                    "id": "folder-2007-06",
+                    "id": "folder-2012-06",
                     "isRoot": false
                 }
             ],
@@ -4648,7 +4648,7 @@ window.FotomooFixtures.files = {
                     "isRoot": false
                 },
                 {
-                    "id": "folder-2007-06",
+                    "id": "folder-2012-06",
                     "isRoot": false
                 }
             ],
@@ -4672,7 +4672,7 @@ window.FotomooFixtures.files = {
                     "isRoot": false
                 },
                 {
-                    "id": "folder-2007-06",
+                    "id": "folder-2012-06",
                     "isRoot": false
                 }
             ],
@@ -4696,7 +4696,7 @@ window.FotomooFixtures.files = {
                     "isRoot": false
                 },
                 {
-                    "id": "folder-2007-06",
+                    "id": "folder-2012-06",
                     "isRoot": false
                 }
             ],
@@ -4720,7 +4720,7 @@ window.FotomooFixtures.files = {
                     "isRoot": false
                 },
                 {
-                    "id": "folder-2007-06",
+                    "id": "folder-2012-06",
                     "isRoot": false
                 }
             ],
@@ -4744,7 +4744,7 @@ window.FotomooFixtures.files = {
                     "isRoot": false
                 },
                 {
-                    "id": "folder-2007-06",
+                    "id": "folder-2012-06",
                     "isRoot": false
                 }
             ],
@@ -4768,7 +4768,7 @@ window.FotomooFixtures.files = {
                     "isRoot": false
                 },
                 {
-                    "id": "folder-2007-06",
+                    "id": "folder-2012-06",
                     "isRoot": false
                 }
             ],
@@ -4792,7 +4792,7 @@ window.FotomooFixtures.files = {
                     "isRoot": false
                 },
                 {
-                    "id": "folder-2007-06",
+                    "id": "folder-2012-06",
                     "isRoot": false
                 }
             ],
@@ -4816,7 +4816,7 @@ window.FotomooFixtures.files = {
                     "isRoot": false
                 },
                 {
-                    "id": "folder-2007-06",
+                    "id": "folder-2012-06",
                     "isRoot": false
                 }
             ],
@@ -4840,7 +4840,7 @@ window.FotomooFixtures.files = {
                     "isRoot": false
                 },
                 {
-                    "id": "folder-2007-06",
+                    "id": "folder-2012-06",
                     "isRoot": false
                 }
             ],
@@ -4865,7 +4865,7 @@ window.FotomooFixtures.files = {
                     "isRoot": false
                 },
                 {
-                    "id": "folder-2007-06",
+                    "id": "folder-2012-06",
                     "isRoot": false
                 }
             ],
@@ -4890,7 +4890,7 @@ window.FotomooFixtures.files = {
                     "isRoot": false
                 },
                 {
-                    "id": "folder-2007-06",
+                    "id": "folder-2012-06",
                     "isRoot": false
                 }
             ],
@@ -4915,7 +4915,7 @@ window.FotomooFixtures.files = {
                     "isRoot": false
                 },
                 {
-                    "id": "folder-2007-06",
+                    "id": "folder-2012-06",
                     "isRoot": false
                 }
             ],
@@ -4940,7 +4940,7 @@ window.FotomooFixtures.files = {
                     "isRoot": false
                 },
                 {
-                    "id": "folder-2007-06",
+                    "id": "folder-2012-06",
                     "isRoot": false
                 }
             ],
@@ -4965,7 +4965,7 @@ window.FotomooFixtures.files = {
                     "isRoot": false
                 },
                 {
-                    "id": "folder-2007-06",
+                    "id": "folder-2012-06",
                     "isRoot": false
                 }
             ],
@@ -4990,7 +4990,7 @@ window.FotomooFixtures.files = {
                     "isRoot": false
                 },
                 {
-                    "id": "folder-2007-06",
+                    "id": "folder-2012-06",
                     "isRoot": false
                 }
             ],
@@ -5015,7 +5015,7 @@ window.FotomooFixtures.files = {
                     "isRoot": false
                 },
                 {
-                    "id": "folder-2007-06",
+                    "id": "folder-2012-06",
                     "isRoot": false
                 }
             ],
@@ -5040,7 +5040,7 @@ window.FotomooFixtures.files = {
                     "isRoot": false
                 },
                 {
-                    "id": "folder-2007-06",
+                    "id": "folder-2012-06",
                     "isRoot": false
                 }
             ],
@@ -5065,7 +5065,7 @@ window.FotomooFixtures.files = {
                     "isRoot": false
                 },
                 {
-                    "id": "folder-2007-06",
+                    "id": "folder-2012-06",
                     "isRoot": false
                 }
             ],
@@ -5090,7 +5090,7 @@ window.FotomooFixtures.files = {
                     "isRoot": false
                 },
                 {
-                    "id": "folder-2007-06",
+                    "id": "folder-2012-06",
                     "isRoot": false
                 }
             ],
@@ -5115,7 +5115,7 @@ window.FotomooFixtures.files = {
                     "isRoot": false
                 },
                 {
-                    "id": "folder-2007-06",
+                    "id": "folder-2012-06",
                     "isRoot": false
                 }
             ],
@@ -5140,7 +5140,7 @@ window.FotomooFixtures.files = {
                     "isRoot": false
                 },
                 {
-                    "id": "folder-2007-06",
+                    "id": "folder-2012-06",
                     "isRoot": false
                 }
             ],
@@ -5165,7 +5165,7 @@ window.FotomooFixtures.files = {
                     "isRoot": false
                 },
                 {
-                    "id": "folder-2007-06",
+                    "id": "folder-2012-06",
                     "isRoot": false
                 }
             ],
@@ -5190,7 +5190,7 @@ window.FotomooFixtures.files = {
                     "isRoot": false
                 },
                 {
-                    "id": "folder-2007-06",
+                    "id": "folder-2012-06",
                     "isRoot": false
                 }
             ],
@@ -5215,7 +5215,7 @@ window.FotomooFixtures.files = {
                     "isRoot": false
                 },
                 {
-                    "id": "folder-2007-06",
+                    "id": "folder-2012-06",
                     "isRoot": false
                 }
             ],
@@ -5239,7 +5239,7 @@ window.FotomooFixtures.files = {
                     "isRoot": false
                 },
                 {
-                    "id": "folder-2007-06",
+                    "id": "folder-2012-06",
                     "isRoot": false
                 }
             ],
@@ -5264,7 +5264,7 @@ window.FotomooFixtures.files = {
                     "isRoot": false
                 },
                 {
-                    "id": "folder-2007-06",
+                    "id": "folder-2012-06",
                     "isRoot": false
                 }
             ],
@@ -5288,7 +5288,7 @@ window.FotomooFixtures.files = {
                     "isRoot": false
                 },
                 {
-                    "id": "folder-2007-06",
+                    "id": "folder-2012-06",
                     "isRoot": false
                 }
             ],
@@ -5318,7 +5318,7 @@ window.FotomooFixtures.files = {
                     "isRoot": false
                 },
                 {
-                    "id": "folder-2007-06",
+                    "id": "folder-2012-06",
                     "isRoot": false
                 }
             ],
@@ -5343,7 +5343,7 @@ window.FotomooFixtures.files = {
                     "isRoot": false
                 },
                 {
-                    "id": "folder-2007-06",
+                    "id": "folder-2012-06",
                     "isRoot": false
                 }
             ],
@@ -5368,7 +5368,7 @@ window.FotomooFixtures.files = {
                     "isRoot": false
                 },
                 {
-                    "id": "folder-2007-06",
+                    "id": "folder-2012-06",
                     "isRoot": false
                 }
             ],
@@ -5393,7 +5393,7 @@ window.FotomooFixtures.files = {
                     "isRoot": false
                 },
                 {
-                    "id": "folder-2007-02",
+                    "id": "folder-2012-02",
                     "isRoot": false
                 }
             ],
@@ -5418,7 +5418,7 @@ window.FotomooFixtures.files = {
                     "isRoot": false
                 },
                 {
-                    "id": "folder-2007-02",
+                    "id": "folder-2012-02",
                     "isRoot": false
                 }
             ],
@@ -5443,7 +5443,7 @@ window.FotomooFixtures.files = {
                     "isRoot": false
                 },
                 {
-                    "id": "folder-2007-02",
+                    "id": "folder-2012-02",
                     "isRoot": false
                 }
             ],
@@ -5468,7 +5468,7 @@ window.FotomooFixtures.files = {
                     "isRoot": false
                 },
                 {
-                    "id": "folder-2007-02",
+                    "id": "folder-2012-02",
                     "isRoot": false
                 }
             ],
@@ -5493,7 +5493,7 @@ window.FotomooFixtures.files = {
                     "isRoot": false
                 },
                 {
-                    "id": "folder-2007-02",
+                    "id": "folder-2012-02",
                     "isRoot": false
                 }
             ],
@@ -5518,7 +5518,7 @@ window.FotomooFixtures.files = {
                     "isRoot": false
                 },
                 {
-                    "id": "folder-2007-02",
+                    "id": "folder-2012-02",
                     "isRoot": false
                 }
             ],
@@ -5543,7 +5543,7 @@ window.FotomooFixtures.files = {
                     "isRoot": false
                 },
                 {
-                    "id": "folder-2007-02",
+                    "id": "folder-2012-02",
                     "isRoot": false
                 }
             ],
@@ -5568,7 +5568,7 @@ window.FotomooFixtures.files = {
                     "isRoot": false
                 },
                 {
-                    "id": "folder-2007-02",
+                    "id": "folder-2012-02",
                     "isRoot": false
                 }
             ],
@@ -5593,7 +5593,7 @@ window.FotomooFixtures.files = {
                     "isRoot": false
                 },
                 {
-                    "id": "folder-2007-02",
+                    "id": "folder-2012-02",
                     "isRoot": false
                 }
             ],
@@ -5618,7 +5618,7 @@ window.FotomooFixtures.files = {
                     "isRoot": false
                 },
                 {
-                    "id": "folder-2007-02",
+                    "id": "folder-2012-02",
                     "isRoot": false
                 }
             ],
@@ -5642,7 +5642,7 @@ window.FotomooFixtures.files = {
                     "isRoot": false
                 },
                 {
-                    "id": "folder-2007-02",
+                    "id": "folder-2012-02",
                     "isRoot": false
                 }
             ],
@@ -5672,7 +5672,7 @@ window.FotomooFixtures.files = {
                     "isRoot": false
                 },
                 {
-                    "id": "folder-2007-02",
+                    "id": "folder-2012-02",
                     "isRoot": false
                 }
             ],
@@ -5697,7 +5697,7 @@ window.FotomooFixtures.files = {
                     "isRoot": false
                 },
                 {
-                    "id": "folder-2007-02",
+                    "id": "folder-2012-02",
                     "isRoot": false
                 }
             ],
@@ -5722,7 +5722,7 @@ window.FotomooFixtures.files = {
                     "isRoot": false
                 },
                 {
-                    "id": "folder-2007-02",
+                    "id": "folder-2012-02",
                     "isRoot": false
                 }
             ],
@@ -5747,7 +5747,7 @@ window.FotomooFixtures.files = {
                     "isRoot": false
                 },
                 {
-                    "id": "folder-2007-02",
+                    "id": "folder-2012-02",
                     "isRoot": false
                 }
             ],
@@ -5772,7 +5772,7 @@ window.FotomooFixtures.files = {
                     "isRoot": false
                 },
                 {
-                    "id": "folder-2007-02",
+                    "id": "folder-2012-02",
                     "isRoot": false
                 }
             ],
@@ -5797,7 +5797,7 @@ window.FotomooFixtures.files = {
                     "isRoot": false
                 },
                 {
-                    "id": "folder-2007-02",
+                    "id": "folder-2012-02",
                     "isRoot": false
                 }
             ],
@@ -5822,7 +5822,7 @@ window.FotomooFixtures.files = {
                     "isRoot": false
                 },
                 {
-                    "id": "folder-2007-02",
+                    "id": "folder-2012-02",
                     "isRoot": false
                 }
             ],
@@ -5847,7 +5847,7 @@ window.FotomooFixtures.files = {
                     "isRoot": false
                 },
                 {
-                    "id": "folder-2007-02",
+                    "id": "folder-2012-02",
                     "isRoot": false
                 }
             ],
@@ -5872,7 +5872,7 @@ window.FotomooFixtures.files = {
                     "isRoot": false
                 },
                 {
-                    "id": "folder-2007-02",
+                    "id": "folder-2012-02",
                     "isRoot": false
                 }
             ],
@@ -5897,7 +5897,7 @@ window.FotomooFixtures.files = {
                     "isRoot": false
                 },
                 {
-                    "id": "folder-2007-02",
+                    "id": "folder-2012-02",
                     "isRoot": false
                 }
             ],
@@ -5922,7 +5922,7 @@ window.FotomooFixtures.files = {
                     "isRoot": false
                 },
                 {
-                    "id": "folder-2007-02",
+                    "id": "folder-2012-02",
                     "isRoot": false
                 }
             ],
@@ -5947,7 +5947,7 @@ window.FotomooFixtures.files = {
                     "isRoot": false
                 },
                 {
-                    "id": "folder-2007-02",
+                    "id": "folder-2012-02",
                     "isRoot": false
                 }
             ],
@@ -5972,7 +5972,7 @@ window.FotomooFixtures.files = {
                     "isRoot": false
                 },
                 {
-                    "id": "folder-2007-02",
+                    "id": "folder-2012-02",
                     "isRoot": false
                 }
             ],
@@ -5997,7 +5997,7 @@ window.FotomooFixtures.files = {
                     "isRoot": false
                 },
                 {
-                    "id": "folder-2007-02",
+                    "id": "folder-2012-02",
                     "isRoot": false
                 }
             ],
@@ -6022,7 +6022,7 @@ window.FotomooFixtures.files = {
                     "isRoot": false
                 },
                 {
-                    "id": "folder-2007-02",
+                    "id": "folder-2012-02",
                     "isRoot": false
                 }
             ],
@@ -6047,7 +6047,7 @@ window.FotomooFixtures.files = {
                     "isRoot": false
                 },
                 {
-                    "id": "folder-2007-02",
+                    "id": "folder-2012-02",
                     "isRoot": false
                 }
             ],
@@ -6072,7 +6072,7 @@ window.FotomooFixtures.files = {
                     "isRoot": false
                 },
                 {
-                    "id": "folder-2007-02",
+                    "id": "folder-2012-02",
                     "isRoot": false
                 }
             ],
@@ -6097,7 +6097,7 @@ window.FotomooFixtures.files = {
                     "isRoot": false
                 },
                 {
-                    "id": "folder-2007-02",
+                    "id": "folder-2012-02",
                     "isRoot": false
                 }
             ],
@@ -6122,7 +6122,7 @@ window.FotomooFixtures.files = {
                     "isRoot": false
                 },
                 {
-                    "id": "folder-2007-02",
+                    "id": "folder-2012-02",
                     "isRoot": false
                 }
             ],
@@ -6147,7 +6147,7 @@ window.FotomooFixtures.files = {
                     "isRoot": false
                 },
                 {
-                    "id": "folder-2007-02",
+                    "id": "folder-2012-02",
                     "isRoot": false
                 }
             ],
@@ -6172,7 +6172,7 @@ window.FotomooFixtures.files = {
                     "isRoot": false
                 },
                 {
-                    "id": "folder-2007-02",
+                    "id": "folder-2012-02",
                     "isRoot": false
                 }
             ],
@@ -6197,7 +6197,7 @@ window.FotomooFixtures.files = {
                     "isRoot": false
                 },
                 {
-                    "id": "folder-2007-02",
+                    "id": "folder-2012-02",
                     "isRoot": false
                 }
             ],
@@ -6222,7 +6222,7 @@ window.FotomooFixtures.files = {
                     "isRoot": false
                 },
                 {
-                    "id": "folder-2007-02",
+                    "id": "folder-2012-02",
                     "isRoot": false
                 }
             ],
@@ -6247,7 +6247,7 @@ window.FotomooFixtures.files = {
                     "isRoot": false
                 },
                 {
-                    "id": "folder-2007-02",
+                    "id": "folder-2012-02",
                     "isRoot": false
                 }
             ],
@@ -6272,7 +6272,7 @@ window.FotomooFixtures.files = {
                     "isRoot": false
                 },
                 {
-                    "id": "folder-2007-02",
+                    "id": "folder-2012-02",
                     "isRoot": false
                 }
             ],
@@ -6297,7 +6297,7 @@ window.FotomooFixtures.files = {
                     "isRoot": false
                 },
                 {
-                    "id": "folder-2007-02",
+                    "id": "folder-2012-02",
                     "isRoot": false
                 }
             ],
@@ -6321,7 +6321,7 @@ window.FotomooFixtures.files = {
                     "isRoot": false
                 },
                 {
-                    "id": "folder-2007-02",
+                    "id": "folder-2012-02",
                     "isRoot": false
                 }
             ],
@@ -6345,7 +6345,7 @@ window.FotomooFixtures.files = {
                     "isRoot": false
                 },
                 {
-                    "id": "folder-2007-02",
+                    "id": "folder-2012-02",
                     "isRoot": false
                 }
             ],
@@ -6370,7 +6370,7 @@ window.FotomooFixtures.files = {
                     "isRoot": false
                 },
                 {
-                    "id": "folder-2007-02",
+                    "id": "folder-2012-02",
                     "isRoot": false
                 }
             ],
@@ -6395,7 +6395,7 @@ window.FotomooFixtures.files = {
                     "isRoot": false
                 },
                 {
-                    "id": "folder-2007-02",
+                    "id": "folder-2012-02",
                     "isRoot": false
                 }
             ],
@@ -6420,7 +6420,7 @@ window.FotomooFixtures.files = {
                     "isRoot": false
                 },
                 {
-                    "id": "folder-2007-02",
+                    "id": "folder-2012-02",
                     "isRoot": false
                 }
             ],
@@ -6445,7 +6445,7 @@ window.FotomooFixtures.files = {
                     "isRoot": false
                 },
                 {
-                    "id": "folder-2007-02",
+                    "id": "folder-2012-02",
                     "isRoot": false
                 }
             ],
@@ -6470,7 +6470,7 @@ window.FotomooFixtures.files = {
                     "isRoot": false
                 },
                 {
-                    "id": "folder-2007-02",
+                    "id": "folder-2012-02",
                     "isRoot": false
                 }
             ],
@@ -6495,7 +6495,7 @@ window.FotomooFixtures.files = {
                     "isRoot": false
                 },
                 {
-                    "id": "folder-2007-02",
+                    "id": "folder-2012-02",
                     "isRoot": false
                 }
             ],
@@ -6520,7 +6520,7 @@ window.FotomooFixtures.files = {
                     "isRoot": false
                 },
                 {
-                    "id": "folder-2007-02",
+                    "id": "folder-2012-02",
                     "isRoot": false
                 }
             ],
@@ -6545,7 +6545,7 @@ window.FotomooFixtures.files = {
                     "isRoot": false
                 },
                 {
-                    "id": "folder-2007-02",
+                    "id": "folder-2012-02",
                     "isRoot": false
                 }
             ],
@@ -6570,7 +6570,7 @@ window.FotomooFixtures.files = {
                     "isRoot": false
                 },
                 {
-                    "id": "folder-2007-02",
+                    "id": "folder-2012-02",
                     "isRoot": false
                 }
             ],
@@ -6595,7 +6595,7 @@ window.FotomooFixtures.files = {
                     "isRoot": false
                 },
                 {
-                    "id": "folder-2007-02",
+                    "id": "folder-2012-02",
                     "isRoot": false
                 }
             ],
@@ -6620,7 +6620,7 @@ window.FotomooFixtures.files = {
                     "isRoot": false
                 },
                 {
-                    "id": "folder-2007-02",
+                    "id": "folder-2012-02",
                     "isRoot": false
                 }
             ],
@@ -6645,7 +6645,7 @@ window.FotomooFixtures.files = {
                     "isRoot": false
                 },
                 {
-                    "id": "folder-2007-02",
+                    "id": "folder-2012-02",
                     "isRoot": false
                 }
             ],
@@ -6670,7 +6670,7 @@ window.FotomooFixtures.files = {
                     "isRoot": false
                 },
                 {
-                    "id": "folder-2007-02",
+                    "id": "folder-2012-02",
                     "isRoot": false
                 }
             ],
@@ -6695,7 +6695,7 @@ window.FotomooFixtures.files = {
                     "isRoot": false
                 },
                 {
-                    "id": "folder-2007-02",
+                    "id": "folder-2012-02",
                     "isRoot": false
                 }
             ],
@@ -6720,7 +6720,7 @@ window.FotomooFixtures.files = {
                     "isRoot": false
                 },
                 {
-                    "id": "folder-2007-02",
+                    "id": "folder-2012-02",
                     "isRoot": false
                 }
             ],
@@ -6745,7 +6745,7 @@ window.FotomooFixtures.files = {
                     "isRoot": false
                 },
                 {
-                    "id": "folder-2007-02",
+                    "id": "folder-2012-02",
                     "isRoot": false
                 }
             ],
@@ -6770,7 +6770,7 @@ window.FotomooFixtures.files = {
                     "isRoot": false
                 },
                 {
-                    "id": "folder-2007-02",
+                    "id": "folder-2012-02",
                     "isRoot": false
                 }
             ],
@@ -6794,7 +6794,7 @@ window.FotomooFixtures.files = {
                     "isRoot": false
                 },
                 {
-                    "id": "folder-2007-02",
+                    "id": "folder-2012-02",
                     "isRoot": false
                 }
             ],
@@ -6824,7 +6824,7 @@ window.FotomooFixtures.files = {
                     "isRoot": false
                 },
                 {
-                    "id": "folder-2007-02",
+                    "id": "folder-2012-02",
                     "isRoot": false
                 }
             ],
@@ -6849,7 +6849,7 @@ window.FotomooFixtures.files = {
                     "isRoot": false
                 },
                 {
-                    "id": "folder-2007-02",
+                    "id": "folder-2012-02",
                     "isRoot": false
                 }
             ],
@@ -6874,7 +6874,7 @@ window.FotomooFixtures.files = {
                     "isRoot": false
                 },
                 {
-                    "id": "folder-2007-02",
+                    "id": "folder-2012-02",
                     "isRoot": false
                 }
             ],
@@ -6898,7 +6898,7 @@ window.FotomooFixtures.files = {
                     "isRoot": false
                 },
                 {
-                    "id": "folder-2007-02",
+                    "id": "folder-2012-02",
                     "isRoot": false
                 }
             ],
@@ -6928,7 +6928,7 @@ window.FotomooFixtures.files = {
                     "isRoot": false
                 },
                 {
-                    "id": "folder-2007-02",
+                    "id": "folder-2012-02",
                     "isRoot": false
                 }
             ],
@@ -6953,7 +6953,7 @@ window.FotomooFixtures.files = {
                     "isRoot": false
                 },
                 {
-                    "id": "folder-2007-02",
+                    "id": "folder-2012-02",
                     "isRoot": false
                 }
             ],
@@ -6977,7 +6977,7 @@ window.FotomooFixtures.files = {
                     "isRoot": false
                 },
                 {
-                    "id": "folder-2007-02",
+                    "id": "folder-2012-02",
                     "isRoot": false
                 }
             ],
@@ -7007,7 +7007,7 @@ window.FotomooFixtures.files = {
                     "isRoot": false
                 },
                 {
-                    "id": "folder-2007-02",
+                    "id": "folder-2012-02",
                     "isRoot": false
                 }
             ],
@@ -7032,7 +7032,7 @@ window.FotomooFixtures.files = {
                     "isRoot": false
                 },
                 {
-                    "id": "folder-2007-02",
+                    "id": "folder-2012-02",
                     "isRoot": false
                 }
             ],
@@ -7057,7 +7057,7 @@ window.FotomooFixtures.files = {
                     "isRoot": false
                 },
                 {
-                    "id": "folder-2007-02",
+                    "id": "folder-2012-02",
                     "isRoot": false
                 }
             ],
@@ -7081,7 +7081,7 @@ window.FotomooFixtures.files = {
                     "isRoot": false
                 },
                 {
-                    "id": "folder-2007-02",
+                    "id": "folder-2012-02",
                     "isRoot": false
                 }
             ],
@@ -7110,7 +7110,7 @@ window.FotomooFixtures.files = {
                     "isRoot": false
                 },
                 {
-                    "id": "folder-2007-02",
+                    "id": "folder-2012-02",
                     "isRoot": false
                 }
             ],
@@ -7140,7 +7140,7 @@ window.FotomooFixtures.files = {
                     "isRoot": false
                 },
                 {
-                    "id": "folder-2007-02",
+                    "id": "folder-2012-02",
                     "isRoot": false
                 }
             ],
@@ -7165,7 +7165,7 @@ window.FotomooFixtures.files = {
                     "isRoot": false
                 },
                 {
-                    "id": "folder-2007-02",
+                    "id": "folder-2012-02",
                     "isRoot": false
                 }
             ],
@@ -7190,7 +7190,7 @@ window.FotomooFixtures.files = {
                     "isRoot": false
                 },
                 {
-                    "id": "folder-2007-02",
+                    "id": "folder-2012-02",
                     "isRoot": false
                 }
             ],
@@ -7214,7 +7214,7 @@ window.FotomooFixtures.files = {
                     "isRoot": false
                 },
                 {
-                    "id": "folder-2007-02",
+                    "id": "folder-2012-02",
                     "isRoot": false
                 }
             ],
@@ -7244,7 +7244,7 @@ window.FotomooFixtures.files = {
                     "isRoot": false
                 },
                 {
-                    "id": "folder-2007-02",
+                    "id": "folder-2012-02",
                     "isRoot": false
                 }
             ],
@@ -7269,7 +7269,7 @@ window.FotomooFixtures.files = {
                     "isRoot": false
                 },
                 {
-                    "id": "folder-2007-02",
+                    "id": "folder-2012-02",
                     "isRoot": false
                 }
             ],
@@ -7294,7 +7294,7 @@ window.FotomooFixtures.files = {
                     "isRoot": false
                 },
                 {
-                    "id": "folder-2007-02",
+                    "id": "folder-2012-02",
                     "isRoot": false
                 }
             ],
@@ -7319,7 +7319,7 @@ window.FotomooFixtures.files = {
                     "isRoot": false
                 },
                 {
-                    "id": "folder-2007-02",
+                    "id": "folder-2012-02",
                     "isRoot": false
                 }
             ],
@@ -7343,7 +7343,7 @@ window.FotomooFixtures.files = {
                     "isRoot": false
                 },
                 {
-                    "id": "folder-2007-02",
+                    "id": "folder-2012-02",
                     "isRoot": false
                 }
             ],
@@ -7373,7 +7373,7 @@ window.FotomooFixtures.files = {
                     "isRoot": false
                 },
                 {
-                    "id": "folder-2007-02",
+                    "id": "folder-2012-02",
                     "isRoot": false
                 }
             ],
@@ -7398,7 +7398,7 @@ window.FotomooFixtures.files = {
                     "isRoot": false
                 },
                 {
-                    "id": "folder-2007-02",
+                    "id": "folder-2012-02",
                     "isRoot": false
                 }
             ],
@@ -7422,7 +7422,7 @@ window.FotomooFixtures.files = {
                     "isRoot": false
                 },
                 {
-                    "id": "folder-2007-02",
+                    "id": "folder-2012-02",
                     "isRoot": false
                 }
             ],
@@ -7451,7 +7451,7 @@ window.FotomooFixtures.files = {
                     "isRoot": false
                 },
                 {
-                    "id": "folder-2007-02",
+                    "id": "folder-2012-02",
                     "isRoot": false
                 }
             ],
@@ -7480,7 +7480,7 @@ window.FotomooFixtures.files = {
                     "isRoot": false
                 },
                 {
-                    "id": "folder-2007-02",
+                    "id": "folder-2012-02",
                     "isRoot": false
                 }
             ],
@@ -7510,7 +7510,7 @@ window.FotomooFixtures.files = {
                     "isRoot": false
                 },
                 {
-                    "id": "folder-2007-02",
+                    "id": "folder-2012-02",
                     "isRoot": false
                 }
             ],
@@ -7535,7 +7535,7 @@ window.FotomooFixtures.files = {
                     "isRoot": false
                 },
                 {
-                    "id": "folder-2007-02",
+                    "id": "folder-2012-02",
                     "isRoot": false
                 }
             ],
@@ -7560,7 +7560,7 @@ window.FotomooFixtures.files = {
                     "isRoot": false
                 },
                 {
-                    "id": "folder-2007-02",
+                    "id": "folder-2012-02",
                     "isRoot": false
                 }
             ],
@@ -7585,7 +7585,7 @@ window.FotomooFixtures.files = {
                     "isRoot": false
                 },
                 {
-                    "id": "folder-2007-02",
+                    "id": "folder-2012-02",
                     "isRoot": false
                 }
             ],
@@ -7610,7 +7610,7 @@ window.FotomooFixtures.files = {
                     "isRoot": false
                 },
                 {
-                    "id": "folder-2007-02",
+                    "id": "folder-2012-02",
                     "isRoot": false
                 }
             ],
@@ -7635,7 +7635,7 @@ window.FotomooFixtures.files = {
                     "isRoot": false
                 },
                 {
-                    "id": "folder-2007-02",
+                    "id": "folder-2012-02",
                     "isRoot": false
                 }
             ],
@@ -7660,7 +7660,7 @@ window.FotomooFixtures.files = {
                     "isRoot": false
                 },
                 {
-                    "id": "folder-2007-02",
+                    "id": "folder-2012-02",
                     "isRoot": false
                 }
             ],
@@ -7684,7 +7684,7 @@ window.FotomooFixtures.files = {
                     "isRoot": false
                 },
                 {
-                    "id": "folder-2007-02",
+                    "id": "folder-2012-02",
                     "isRoot": false
                 }
             ],
@@ -7713,7 +7713,7 @@ window.FotomooFixtures.files = {
                     "isRoot": false
                 },
                 {
-                    "id": "folder-2007-02",
+                    "id": "folder-2012-02",
                     "isRoot": false
                 }
             ],
@@ -7743,7 +7743,7 @@ window.FotomooFixtures.files = {
                     "isRoot": false
                 },
                 {
-                    "id": "folder-2007-02",
+                    "id": "folder-2012-02",
                     "isRoot": false
                 }
             ],
@@ -7768,7 +7768,7 @@ window.FotomooFixtures.files = {
                     "isRoot": false
                 },
                 {
-                    "id": "folder-2007-02",
+                    "id": "folder-2012-02",
                     "isRoot": false
                 }
             ],
@@ -7793,7 +7793,7 @@ window.FotomooFixtures.files = {
                     "isRoot": false
                 },
                 {
-                    "id": "folder-2007-02",
+                    "id": "folder-2012-02",
                     "isRoot": false
                 }
             ],
@@ -7818,7 +7818,7 @@ window.FotomooFixtures.files = {
                     "isRoot": false
                 },
                 {
-                    "id": "folder-2007-02",
+                    "id": "folder-2012-02",
                     "isRoot": false
                 }
             ],
@@ -7843,7 +7843,7 @@ window.FotomooFixtures.files = {
                     "isRoot": false
                 },
                 {
-                    "id": "folder-2007-02",
+                    "id": "folder-2012-02",
                     "isRoot": false
                 }
             ],
@@ -7867,7 +7867,7 @@ window.FotomooFixtures.files = {
                     "isRoot": false
                 },
                 {
-                    "id": "folder-2007-02",
+                    "id": "folder-2012-02",
                     "isRoot": false
                 }
             ],
@@ -7897,7 +7897,7 @@ window.FotomooFixtures.files = {
                     "isRoot": false
                 },
                 {
-                    "id": "folder-2007-02",
+                    "id": "folder-2012-02",
                     "isRoot": false
                 }
             ],
@@ -7922,7 +7922,7 @@ window.FotomooFixtures.files = {
                     "isRoot": false
                 },
                 {
-                    "id": "folder-2007-02",
+                    "id": "folder-2012-02",
                     "isRoot": false
                 }
             ],
@@ -7947,7 +7947,7 @@ window.FotomooFixtures.files = {
                     "isRoot": false
                 },
                 {
-                    "id": "folder-2007-02",
+                    "id": "folder-2012-02",
                     "isRoot": false
                 }
             ],
@@ -7972,7 +7972,7 @@ window.FotomooFixtures.files = {
                     "isRoot": false
                 },
                 {
-                    "id": "folder-2007-02",
+                    "id": "folder-2012-02",
                     "isRoot": false
                 }
             ],
@@ -7997,7 +7997,7 @@ window.FotomooFixtures.files = {
                     "isRoot": false
                 },
                 {
-                    "id": "folder-2007-02",
+                    "id": "folder-2012-02",
                     "isRoot": false
                 }
             ],
@@ -8022,7 +8022,7 @@ window.FotomooFixtures.files = {
                     "isRoot": false
                 },
                 {
-                    "id": "folder-2007-02",
+                    "id": "folder-2012-02",
                     "isRoot": false
                 }
             ],
@@ -8047,7 +8047,7 @@ window.FotomooFixtures.files = {
                     "isRoot": false
                 },
                 {
-                    "id": "folder-2007-02",
+                    "id": "folder-2012-02",
                     "isRoot": false
                 }
             ],
@@ -8072,7 +8072,7 @@ window.FotomooFixtures.files = {
                     "isRoot": false
                 },
                 {
-                    "id": "folder-2007-02",
+                    "id": "folder-2012-02",
                     "isRoot": false
                 }
             ],
@@ -8096,7 +8096,7 @@ window.FotomooFixtures.files = {
                     "isRoot": false
                 },
                 {
-                    "id": "folder-2007-02",
+                    "id": "folder-2012-02",
                     "isRoot": false
                 }
             ],
@@ -8121,7 +8121,7 @@ window.FotomooFixtures.files = {
                     "isRoot": false
                 },
                 {
-                    "id": "folder-2007-02",
+                    "id": "folder-2012-02",
                     "isRoot": false
                 }
             ],
@@ -8146,7 +8146,7 @@ window.FotomooFixtures.files = {
                     "isRoot": false
                 },
                 {
-                    "id": "folder-2007-02",
+                    "id": "folder-2012-02",
                     "isRoot": false
                 }
             ],
@@ -8171,7 +8171,7 @@ window.FotomooFixtures.files = {
                     "isRoot": false
                 },
                 {
-                    "id": "folder-2007-02",
+                    "id": "folder-2012-02",
                     "isRoot": false
                 }
             ],
@@ -8196,7 +8196,7 @@ window.FotomooFixtures.files = {
                     "isRoot": false
                 },
                 {
-                    "id": "folder-2007-02",
+                    "id": "folder-2012-02",
                     "isRoot": false
                 }
             ],
@@ -8221,7 +8221,7 @@ window.FotomooFixtures.files = {
                     "isRoot": false
                 },
                 {
-                    "id": "folder-2007-02",
+                    "id": "folder-2012-02",
                     "isRoot": false
                 }
             ],
@@ -8245,7 +8245,7 @@ window.FotomooFixtures.files = {
                     "isRoot": false
                 },
                 {
-                    "id": "folder-2007-02",
+                    "id": "folder-2012-02",
                     "isRoot": false
                 }
             ],
@@ -8275,7 +8275,7 @@ window.FotomooFixtures.files = {
                     "isRoot": false
                 },
                 {
-                    "id": "folder-2007-02",
+                    "id": "folder-2012-02",
                     "isRoot": false
                 }
             ],
@@ -8299,7 +8299,7 @@ window.FotomooFixtures.files = {
                     "isRoot": false
                 },
                 {
-                    "id": "folder-2007-02",
+                    "id": "folder-2012-02",
                     "isRoot": false
                 }
             ],
@@ -8328,7 +8328,7 @@ window.FotomooFixtures.files = {
                     "isRoot": false
                 },
                 {
-                    "id": "folder-2007-02",
+                    "id": "folder-2012-02",
                     "isRoot": false
                 }
             ],
@@ -8358,7 +8358,7 @@ window.FotomooFixtures.files = {
                     "isRoot": false
                 },
                 {
-                    "id": "folder-2007-02",
+                    "id": "folder-2012-02",
                     "isRoot": false
                 }
             ],
@@ -8383,7 +8383,7 @@ window.FotomooFixtures.files = {
                     "isRoot": false
                 },
                 {
-                    "id": "folder-2007-02",
+                    "id": "folder-2012-02",
                     "isRoot": false
                 }
             ],
@@ -8408,7 +8408,7 @@ window.FotomooFixtures.files = {
                     "isRoot": false
                 },
                 {
-                    "id": "folder-2007-02",
+                    "id": "folder-2012-02",
                     "isRoot": false
                 }
             ],
@@ -8433,7 +8433,7 @@ window.FotomooFixtures.files = {
                     "isRoot": false
                 },
                 {
-                    "id": "folder-2007-02",
+                    "id": "folder-2012-02",
                     "isRoot": false
                 }
             ],
@@ -8458,7 +8458,7 @@ window.FotomooFixtures.files = {
                     "isRoot": false
                 },
                 {
-                    "id": "folder-2007-02",
+                    "id": "folder-2012-02",
                     "isRoot": false
                 }
             ],
@@ -8483,7 +8483,7 @@ window.FotomooFixtures.files = {
                     "isRoot": false
                 },
                 {
-                    "id": "folder-2007-02",
+                    "id": "folder-2012-02",
                     "isRoot": false
                 }
             ],
@@ -8508,7 +8508,7 @@ window.FotomooFixtures.files = {
                     "isRoot": false
                 },
                 {
-                    "id": "folder-2007-02",
+                    "id": "folder-2012-02",
                     "isRoot": false
                 }
             ],
@@ -8533,7 +8533,7 @@ window.FotomooFixtures.files = {
                     "isRoot": false
                 },
                 {
-                    "id": "folder-2007-02",
+                    "id": "folder-2012-02",
                     "isRoot": false
                 }
             ],
@@ -8558,7 +8558,7 @@ window.FotomooFixtures.files = {
                     "isRoot": false
                 },
                 {
-                    "id": "folder-2007-02",
+                    "id": "folder-2012-02",
                     "isRoot": false
                 }
             ],
@@ -8583,7 +8583,7 @@ window.FotomooFixtures.files = {
                     "isRoot": false
                 },
                 {
-                    "id": "folder-2007-02",
+                    "id": "folder-2012-02",
                     "isRoot": false
                 }
             ],
@@ -8608,7 +8608,7 @@ window.FotomooFixtures.files = {
                     "isRoot": false
                 },
                 {
-                    "id": "folder-2007-02",
+                    "id": "folder-2012-02",
                     "isRoot": false
                 }
             ],
@@ -8633,7 +8633,7 @@ window.FotomooFixtures.files = {
                     "isRoot": false
                 },
                 {
-                    "id": "folder-2007-02",
+                    "id": "folder-2012-02",
                     "isRoot": false
                 }
             ],
@@ -8658,7 +8658,7 @@ window.FotomooFixtures.files = {
                     "isRoot": false
                 },
                 {
-                    "id": "folder-2007-02",
+                    "id": "folder-2012-02",
                     "isRoot": false
                 }
             ],
@@ -8683,7 +8683,7 @@ window.FotomooFixtures.files = {
                     "isRoot": false
                 },
                 {
-                    "id": "folder-2007-02",
+                    "id": "folder-2012-02",
                     "isRoot": false
                 }
             ],
@@ -8708,7 +8708,7 @@ window.FotomooFixtures.files = {
                     "isRoot": false
                 },
                 {
-                    "id": "folder-2007-02",
+                    "id": "folder-2012-02",
                     "isRoot": false
                 }
             ],
@@ -8733,7 +8733,7 @@ window.FotomooFixtures.files = {
                     "isRoot": false
                 },
                 {
-                    "id": "folder-2007-02",
+                    "id": "folder-2012-02",
                     "isRoot": false
                 }
             ],
@@ -8757,7 +8757,7 @@ window.FotomooFixtures.files = {
                     "isRoot": false
                 },
                 {
-                    "id": "folder-2007-02",
+                    "id": "folder-2012-02",
                     "isRoot": false
                 }
             ],
@@ -8787,7 +8787,7 @@ window.FotomooFixtures.files = {
                     "isRoot": false
                 },
                 {
-                    "id": "folder-2007-02",
+                    "id": "folder-2012-02",
                     "isRoot": false
                 }
             ],
@@ -8812,7 +8812,7 @@ window.FotomooFixtures.files = {
                     "isRoot": false
                 },
                 {
-                    "id": "folder-2007-02",
+                    "id": "folder-2012-02",
                     "isRoot": false
                 }
             ],
@@ -8841,7 +8841,7 @@ window.FotomooFixtures.files = {
                     "isRoot": false
                 },
                 {
-                    "id": "folder-2007-02",
+                    "id": "folder-2012-02",
                     "isRoot": false
                 }
             ],
@@ -8866,7 +8866,7 @@ window.FotomooFixtures.files = {
                     "isRoot": false
                 },
                 {
-                    "id": "folder-2007-02",
+                    "id": "folder-2012-02",
                     "isRoot": false
                 }
             ],
@@ -8891,7 +8891,7 @@ window.FotomooFixtures.files = {
                     "isRoot": false
                 },
                 {
-                    "id": "folder-2007-02",
+                    "id": "folder-2012-02",
                     "isRoot": false
                 }
             ],
@@ -8916,7 +8916,7 @@ window.FotomooFixtures.files = {
                     "isRoot": false
                 },
                 {
-                    "id": "folder-2007-02",
+                    "id": "folder-2012-02",
                     "isRoot": false
                 }
             ],
@@ -8941,7 +8941,7 @@ window.FotomooFixtures.files = {
                     "isRoot": false
                 },
                 {
-                    "id": "folder-2007-02",
+                    "id": "folder-2012-02",
                     "isRoot": false
                 }
             ],
@@ -8966,7 +8966,7 @@ window.FotomooFixtures.files = {
                     "isRoot": false
                 },
                 {
-                    "id": "folder-2007-02",
+                    "id": "folder-2012-02",
                     "isRoot": false
                 }
             ],
@@ -8991,7 +8991,7 @@ window.FotomooFixtures.files = {
                     "isRoot": false
                 },
                 {
-                    "id": "folder-2007-02",
+                    "id": "folder-2012-02",
                     "isRoot": false
                 }
             ],
@@ -9015,7 +9015,7 @@ window.FotomooFixtures.files = {
                     "isRoot": false
                 },
                 {
-                    "id": "folder-2007-02",
+                    "id": "folder-2012-02",
                     "isRoot": false
                 }
             ],
@@ -9045,7 +9045,7 @@ window.FotomooFixtures.files = {
                     "isRoot": false
                 },
                 {
-                    "id": "folder-2007-02",
+                    "id": "folder-2012-02",
                     "isRoot": false
                 }
             ],
@@ -9069,7 +9069,7 @@ window.FotomooFixtures.files = {
                     "isRoot": false
                 },
                 {
-                    "id": "folder-2007-02",
+                    "id": "folder-2012-02",
                     "isRoot": false
                 }
             ],
@@ -9098,7 +9098,7 @@ window.FotomooFixtures.files = {
                     "isRoot": false
                 },
                 {
-                    "id": "folder-2007-02",
+                    "id": "folder-2012-02",
                     "isRoot": false
                 }
             ],
@@ -9123,7 +9123,7 @@ window.FotomooFixtures.files = {
                     "isRoot": false
                 },
                 {
-                    "id": "folder-2007-02",
+                    "id": "folder-2012-02",
                     "isRoot": false
                 }
             ],
@@ -9148,7 +9148,7 @@ window.FotomooFixtures.files = {
                     "isRoot": false
                 },
                 {
-                    "id": "folder-2007-02",
+                    "id": "folder-2012-02",
                     "isRoot": false
                 }
             ],
@@ -9172,7 +9172,7 @@ window.FotomooFixtures.files = {
                     "isRoot": false
                 },
                 {
-                    "id": "folder-2007-02",
+                    "id": "folder-2012-02",
                     "isRoot": false
                 }
             ],
@@ -9202,7 +9202,7 @@ window.FotomooFixtures.files = {
                     "isRoot": false
                 },
                 {
-                    "id": "folder-2007-02",
+                    "id": "folder-2012-02",
                     "isRoot": false
                 }
             ],
@@ -9226,7 +9226,7 @@ window.FotomooFixtures.files = {
                     "isRoot": false
                 },
                 {
-                    "id": "folder-2007-02",
+                    "id": "folder-2012-02",
                     "isRoot": false
                 }
             ],
@@ -9255,7 +9255,7 @@ window.FotomooFixtures.files = {
                     "isRoot": false
                 },
                 {
-                    "id": "folder-2007-02",
+                    "id": "folder-2012-02",
                     "isRoot": false
                 }
             ],
@@ -9285,7 +9285,7 @@ window.FotomooFixtures.files = {
                     "isRoot": false
                 },
                 {
-                    "id": "folder-2007-02",
+                    "id": "folder-2012-02",
                     "isRoot": false
                 }
             ],
@@ -9309,7 +9309,7 @@ window.FotomooFixtures.files = {
                     "isRoot": false
                 },
                 {
-                    "id": "folder-2007-02",
+                    "id": "folder-2012-02",
                     "isRoot": false
                 }
             ],
@@ -9338,7 +9338,7 @@ window.FotomooFixtures.files = {
                     "isRoot": false
                 },
                 {
-                    "id": "folder-2007-02",
+                    "id": "folder-2012-02",
                     "isRoot": false
                 }
             ],
@@ -9368,7 +9368,7 @@ window.FotomooFixtures.files = {
                     "isRoot": false
                 },
                 {
-                    "id": "folder-2007-02",
+                    "id": "folder-2012-02",
                     "isRoot": false
                 }
             ],
@@ -9392,7 +9392,7 @@ window.FotomooFixtures.files = {
                     "isRoot": false
                 },
                 {
-                    "id": "folder-2007-02",
+                    "id": "folder-2012-02",
                     "isRoot": false
                 }
             ],
@@ -9422,7 +9422,7 @@ window.FotomooFixtures.files = {
                     "isRoot": false
                 },
                 {
-                    "id": "folder-2007-02",
+                    "id": "folder-2012-02",
                     "isRoot": false
                 }
             ],
@@ -9447,7 +9447,7 @@ window.FotomooFixtures.files = {
                     "isRoot": false
                 },
                 {
-                    "id": "folder-2007-02",
+                    "id": "folder-2012-02",
                     "isRoot": false
                 }
             ],
@@ -9471,7 +9471,7 @@ window.FotomooFixtures.files = {
                     "isRoot": false
                 },
                 {
-                    "id": "folder-2007-02",
+                    "id": "folder-2012-02",
                     "isRoot": false
                 }
             ],
@@ -9501,7 +9501,7 @@ window.FotomooFixtures.files = {
                     "isRoot": false
                 },
                 {
-                    "id": "folder-2007-02",
+                    "id": "folder-2012-02",
                     "isRoot": false
                 }
             ],
@@ -9526,7 +9526,7 @@ window.FotomooFixtures.files = {
                     "isRoot": false
                 },
                 {
-                    "id": "folder-2007-02",
+                    "id": "folder-2012-02",
                     "isRoot": false
                 }
             ],
@@ -9550,7 +9550,7 @@ window.FotomooFixtures.files = {
                     "isRoot": false
                 },
                 {
-                    "id": "folder-2007-02",
+                    "id": "folder-2012-02",
                     "isRoot": false
                 }
             ],
@@ -9573,7 +9573,7 @@ window.FotomooFixtures.files = {
                     "isRoot": false
                 },
                 {
-                    "id": "folder-2007-02",
+                    "id": "folder-2012-02",
                     "isRoot": false
                 }
             ],
@@ -9597,7 +9597,7 @@ window.FotomooFixtures.files = {
                     "isRoot": false
                 },
                 {
-                    "id": "folder-2007-02",
+                    "id": "folder-2012-02",
                     "isRoot": false
                 }
             ],
@@ -9627,7 +9627,7 @@ window.FotomooFixtures.files = {
                     "isRoot": false
                 },
                 {
-                    "id": "folder-2007-02",
+                    "id": "folder-2012-02",
                     "isRoot": false
                 }
             ],
@@ -9652,7 +9652,7 @@ window.FotomooFixtures.files = {
                     "isRoot": false
                 },
                 {
-                    "id": "folder-2007-02",
+                    "id": "folder-2012-02",
                     "isRoot": false
                 }
             ],
@@ -9677,7 +9677,7 @@ window.FotomooFixtures.files = {
                     "isRoot": false
                 },
                 {
-                    "id": "folder-2007-02",
+                    "id": "folder-2012-02",
                     "isRoot": false
                 }
             ],

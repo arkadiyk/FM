@@ -136,18 +136,35 @@ FM.Drive = Ember.Object.extend
       selected.push(file) if file.get('selected')
     selected
 
-  createTree: (folder_def, root) ->
-    folder_def.parents = [{id: root.get('id')}]
-    @_createFolder folder_def, (new_folder_json) =>
-      new_folder = FM.Folder.create(new_folder_json)
-      console.log('created', new_folder_json)
+  createTreeHierarchy: (root_folder, folder_count, file_count) ->
+    @set('newFolderCount', folder_count)
+    @set('newFileCount', file_count)
+
+    root = FM.Folder.find('root')
+    root_folder.title = 'Fotomoo Pictures'
+    @_createTree(root_folder, root)
+
+
+  _createTree: (folder_def, root) ->
+    process = (new_folder) =>
       @_linkFile(file, new_folder, (ret) -> console.log('linked:', ret)) for file in folder_def.files
-      @get('driveFolderObjectCache').set(new_folder_json.id, new_folder)
-      root.get('childIds').push(new_folder_json.id)
-      #root.get('children').pushObject(new_folder)
       for child in folder_def.children
         console.log('creating subtree', child)
-        @createTree(child, new_folder)
+        @_createTree(child, new_folder)
+
+    folder = root.get('children').filterProperty('title', folder_def.title).get('firstObject')
+    if folder
+      console.log("folder exists:", folder.get('id'), folder.get('title'))
+      process(folder)
+    else
+      folder_def.parents = [{id: root.get('id')}]
+      @_createFolder folder_def, (new_folder_json) =>
+        new_folder = FM.Folder.create(new_folder_json)
+        console.log('created', new_folder_json)
+        @get('driveFolderObjectCache').set(new_folder_json.id, new_folder)
+        root.get('childIds').push(new_folder_json.id)
+        #root.get('children').pushObject(new_folder)
+        process(new_folder)
 
   _authorize: (success_callback) ->
     CLIENT_ID = '865302316429.apps.googleusercontent.com'
