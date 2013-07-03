@@ -9,7 +9,7 @@
 
 
                 <button class="btn" {{action copyFiles}}>Create Hierarchies</button>
-                <li class="nav-header">Setup</li>
+                <li class="nav-header">{{#linkTo 'setup'}}Setup Summary{{/linkTo}}</li>
                 <li>
                     {{#if childrenWithPictures.length}}
                     <i {{bindAttr class=":pull-left :folder-icon isExpanded:icon-folder-open:icon-folder-close"}} {{action toggle}}></i>
@@ -17,7 +17,7 @@
                       <i class="pull-left icon-folder-close" style="opacity: 0.4; margin-top: 3px"></i>
                     {{/if}}
 
-                    {{#linkTo files.grid this}}{{title}}{{/linkTo}}
+                    {{partial 'folder_title'}}
 
                     {{#if isExpanded}}
                     {{control "folderList" content}}

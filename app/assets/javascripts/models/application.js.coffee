@@ -4,15 +4,25 @@ FM.Folder = Ember.Object.extend
   children: []
 
   childrenWithPictures: (->
-    f for f in @get('children') when f.get('totalFileCount') > 0
-  ).property('children.@each.totalFileCount')
+    f for f in @get('children') when !f.get('fotomoo') and f.get('filesToCopy') > 0
+  ).property('children.@each.filesToCopy')
+
+  filesToCopy: (->
+    @get('totalFileCount') - @get('fotomooFileCount')
+  ).property('totalFileCount', 'fotomooFileCount')
 
   totalFileCount: (->
     count = if @get('files') then @get('files').get('length') else 0
     count += f.get('totalFileCount') for f in @get('children')
-
     count
   ).property() # 'children.@each','files.@each'
+
+  fotomooFileCount: (->
+    count = if @get('files') then @get('files').filterProperty('fotomoo', true).get('length') else 0
+    count += f.get('fotomooFileCount') for f in @get('children')
+    count
+  ).property() # 'children.@each','files.@each'
+
 
   flatFiles: (->
     parents = []; list = []
