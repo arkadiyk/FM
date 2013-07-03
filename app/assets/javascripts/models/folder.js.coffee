@@ -23,6 +23,18 @@ FM.Folder = Ember.Object.extend
     count
   ).property() # 'children.@each','files.@each'
 
+  folderPath: (->
+    full_name = [@get('title')]
+    parent_ref = @.get('parents.0')
+    while parent_ref and not parent_ref?.isRoot
+      parent = FM.Folder.find(parent_ref.id)
+      full_name.unshift(parent.get('title'))
+      parent_ref = parent.get('parents.0')
+
+    full_name.unshift(FM.Folder.find('root').get('title'))
+    full_name
+  ).property('parents')
+
 
   flatFiles: (->
     parents = []; list = []
