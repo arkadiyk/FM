@@ -41,6 +41,10 @@ FM.Folder = Ember.Object.extend
     @get('children').filter (e) -> e.get('allChildrenUnprocessedFiles.length')
   ).property('allChildrenUnprocessedFiles', 'children.@each')
 
+  unprocessedFiles: ( ->
+    @get('files').filterProperty('isFotomoo', false)
+  ).property('files')
+
 
   folderPath: (->
     full_name = [@get('title')]

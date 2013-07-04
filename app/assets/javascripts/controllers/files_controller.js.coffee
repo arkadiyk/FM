@@ -20,16 +20,12 @@ FM.GridElement = Ember.Object.extend
 
 FM.GridDirElement = Ember.Object.extend
   isDir: true
-  isSelected: true
-  allFilesCount: (->
-    @get('folder.files.length')
-  ).property()
   selectedFilesCount: (->
-    @get('folder.files').filterProperty('selected', true).get('length')
-  ).property('folder.files.@each.selected')
+    @get('folder.unprocessedFiles').filterProperty('selected', true).get('length')
+  ).property('folder.unprocessedFiles.@each.selected')
   isAllSelected: (->
-    @get('allFilesCount') == @get('selectedFilesCount')
-  ).property('selectedFilesCount','allFilesCount')
+    @get('selectedFilesCount') == @get('folder.unprocessedFiles.length')
+  ).property('selectedFilesCount','folder.unprocessedFiles')
   selectLabel: (->
     if @get('isAllSelected') then "Unselect All" else "Select All"
   ).property('isAllSelected')
@@ -43,7 +39,7 @@ FM.FilesGridController = Ember.ObjectController.extend
 
   flipSelect: (folder) ->
     select = !folder.get('isAllSelected')
-    folder.get('folder.files').forEach (f) -> f.set('selected', select)
+    folder.get('folder.unprocessedFiles').forEach (f) -> f.set('selected', select)
 
   collapse: (folder) ->
     id = folder.get('folder.id')
@@ -58,8 +54,6 @@ FM.FilesGridController = Ember.ObjectController.extend
     return ret unless @get('cols')
 
     folder = @get('controllers.files.content')
-    console.log('getting file content:', folder)
-
 
     cols = @get('cols')
     current_col = 0
@@ -84,9 +78,12 @@ FM.FilesGridController = Ember.ObjectController.extend
       current_col = 0
 
     folder.get('flatChildren').forEach (fldr) =>
-      pushDir(fldr)
-      unless @get('collapsed').contains(fldr.get('id'))
-        fldr.get('files').forEach (fl) -> pushCol(fl)
+      if fldr.get('unprocessedFiles.length')
+        pushDir(fldr)
+        unless @get('collapsed').contains(fldr.get('id'))
+          fldr.get('unprocessedFiles').forEach (fl) ->
+            fl.set('selected', true)
+            pushCol(fl)
     ret
   ).property('cols', 'controllers.files.content', 'collapsed.[]')
 
