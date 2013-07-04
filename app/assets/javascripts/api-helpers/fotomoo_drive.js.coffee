@@ -62,16 +62,7 @@ FM.Drive = Ember.Object.extend
         for fid, folder of folders
           fo = FM.Folder.create(folder)
           @get('driveFolderObjectCache').set(fid, fo)
-          if folder.title == 'Fotomoo Pictures'
-            @set('fotomooFolder', fo)
-            fo.set('fotomoo', true)
 
-        for fid, folder of folders
-          continue unless folder.childIds
-          fo = @get('driveFolderObjectCache').get(fid)
-          for child_id in folder.childIds
-            child = @get('driveFolderObjectCache').get(child_id)
-            child.set('fotomoo', true) if fo.get('fotomoo')
 
         @setProperties(foldersLoading: false, foldersLoaded: true)
         resolve()
@@ -93,7 +84,6 @@ FM.Drive = Ember.Object.extend
           for parent in file_json.parents
             pid = if parent.isRoot then 'root' else parent.id
             folder = @findFolder(pid)
-            file.set('fotomoo',true) if folder.get('fotomoo')
             folder.set('files',[]) unless folder.get('files')
             folder.get('files').addObject(file)
 

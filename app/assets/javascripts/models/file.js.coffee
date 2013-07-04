@@ -2,6 +2,16 @@ FM.File = Ember.Object.extend
   isFile: true
   selected: false
 
+  parentObj: (->
+    @get('parents').map (parent_ref) ->
+      id = if parent_ref.isRoot then 'root' else parent_ref.id
+      FM.Folder.find(id)
+  ).property('parents')
+
+  isFotomoo: (->
+    @get('parentObj').someProperty('isFotomoo', true)
+  ).property('parentObj')
+
   address: (->
     return null unless @get("imageMediaMetadata.location.latitude")
     FM.Address.find(@get("imageMediaMetadata.location.latitude"), @get("imageMediaMetadata.location.longitude"))

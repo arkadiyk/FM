@@ -7,7 +7,7 @@ FM.SetupController = FM.FolderController.extend
     root = {}
     selectedFiles = FM.drive.allSelectedImages()
     selectedFiles.forEach (file) ->
-      unless file.get('fotomoo')
+      unless file.get('isFotomoo')
         [year, month] = [file.get('year'), file.get('month')]
         root[year] ||= {}
         root[year][month] ||= []

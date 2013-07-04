@@ -10,8 +10,19 @@ FM.Folder = Ember.Object.extend
     @set('childIds', []) unless @get('childIds')
 
   children: (->
-    @get('childIds').map (id) -> FM.drive.findFolder(id)
+    @get('childIds').map (id) -> FM.Folder.find(id)
   ).property('childIds.@each')
+
+  parentObj: (->
+    @get('parents').map (parent_ref) ->
+      id = if parent_ref.isRoot then 'root' else parent_ref.id
+      FM.Folder.find(id)
+  ).property('parents')
+
+  isFotomoo: (->
+    return true if @get('title') == 'Fotomoo Pictures'
+    @get('parentObj').someProperty('isFotomoo', true)
+  ).property('parentObj','title')
 
   allChildrenFiles: ( ->
     list = []
@@ -23,7 +34,7 @@ FM.Folder = Ember.Object.extend
   ).property('children.@each')
 
   allChildrenUnprocessedFiles: ( ->
-    @get('allChildrenFiles').filter (e) -> !e.get('fotomoo')
+    @get('allChildrenFiles').filterProperty('isFotomoo', false)
   ).property('allChildrenFiles')
 
   childrenWithUnprocessedFiles: ( ->
