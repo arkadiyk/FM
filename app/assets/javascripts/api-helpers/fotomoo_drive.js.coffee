@@ -52,7 +52,7 @@ FM.Drive = Ember.Object.extend
     @set('statusMessage', 'Loading Folders ...')
     execute = (resolve) =>
       process_folders = (folders) =>
-        folders.root = {id: 'root', title: 'Root Folder', childIds: [], files: [], parents:[]}
+        folders.root = {id: 'root', title: 'Root Folder', parents: []}
         for fid, folder of folders
           for parent in folder.parents
             pid = if parent.isRoot then 'root' else parent.id
@@ -69,12 +69,9 @@ FM.Drive = Ember.Object.extend
         for fid, folder of folders
           continue unless folder.childIds
           fo = @get('driveFolderObjectCache').get(fid)
-          children = []
           for child_id in folder.childIds
             child = @get('driveFolderObjectCache').get(child_id)
             child.set('fotomoo', true) if fo.get('fotomoo')
-            children.push child
-          fo.set('children',children)
 
         @setProperties(foldersLoading: false, foldersLoaded: true)
         resolve()
@@ -163,7 +160,6 @@ FM.Drive = Ember.Object.extend
         console.log('created', new_folder_json)
         @get('driveFolderObjectCache').set(new_folder_json.id, new_folder)
         root.get('childIds').push(new_folder_json.id)
-        #root.get('children').pushObject(new_folder)
         process(new_folder)
 
   _authorize: (success_callback) ->

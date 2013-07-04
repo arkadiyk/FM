@@ -75,7 +75,7 @@ FM.FilesGridController = Ember.ObjectController.extend
         for i in [current_col...cols]
           ret.push FM.GridElement.create( type: 'empty_filler')
 
-      ret.push(FM.GridDirElement.create( folder: col, titles: col.get('titles') ))
+      ret.push(FM.GridDirElement.create( folder: col, titles: col.get('folderPath') ))
 
       for i in [1...(cols - 1)]
         ret.push FM.GridElement.create( type: 'dir_filler')
@@ -83,7 +83,7 @@ FM.FilesGridController = Ember.ObjectController.extend
         ret.push FM.GridElement.create( type: 'last_dir_filler', folder: col, isCollapsed: collapsed )
       current_col = 0
 
-    folder.get('flatFiles').forEach (fldr) =>
+    folder.get('flatChildren').forEach (fldr) =>
       pushDir(fldr)
       unless @get('collapsed').contains(fldr.get('id'))
         fldr.get('files').forEach (fl) -> pushCol(fl)

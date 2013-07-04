@@ -1,27 +1,35 @@
 FM.Folder = Ember.Object.extend
   files: null
-  childIds: []
-  children: []
+  childIds: null
+  parents: null
 
-  childrenWithPictures: (->
-    f for f in @get('children') when !f.get('fotomoo') and f.get('filesToCopy') > 0
-  ).property('children.@each.filesToCopy')
+  init: () ->
+    @_super()
+    @set('parents', []) unless @get('parents')
+    @set('files', []) unless @get('files')
+    @set('childIds', []) unless @get('childIds')
 
-  filesToCopy: (->
-    @get('totalFileCount') - @get('fotomooFileCount')
-  ).property('totalFileCount', 'fotomooFileCount')
+  children: (->
+    @get('childIds').map (id) -> FM.drive.findFolder(id)
+  ).property('childIds.@each')
 
-  totalFileCount: (->
-    count = if @get('files') then @get('files').get('length') else 0
-    count += f.get('totalFileCount') for f in @get('children')
-    count
-  ).property() # 'children.@each','files.@each'
+  allChildrenFiles: ( ->
+    list = []
+    list.push(file) for file in @get('files')
+    @get('children').forEach (child) ->
+      child.get('allChildrenFiles').forEach (fl) ->
+        list.push(fl)
+    list
+  ).property('children.@each')
 
-  fotomooFileCount: (->
-    count = if @get('files') then @get('files').filterProperty('fotomoo', true).get('length') else 0
-    count += f.get('fotomooFileCount') for f in @get('children')
-    count
-  ).property() # 'children.@each','files.@each'
+  allChildrenUnprocessedFiles: ( ->
+    @get('allChildrenFiles').filter (e) -> !e.get('fotomoo')
+  ).property('allChildrenFiles')
+
+  childrenWithUnprocessedFiles: ( ->
+    @get('children').filter (e) -> e.get('allChildrenUnprocessedFiles.length')
+  ).property('allChildrenUnprocessedFiles', 'children.@each')
+
 
   folderPath: (->
     full_name = [@get('title')]
@@ -36,24 +44,14 @@ FM.Folder = Ember.Object.extend
   ).property('parents')
 
 
-  flatFiles: (->
-    parents = []; list = []
-    @_collect_all_files(parents, list)
+  flatChildren: (->
+    list = []
+    if @get('allChildrenUnprocessedFiles.length')
+      list.push(@)
+      @get('children').forEach (child) ->
+        child.get('flatChildren').forEach (fc) -> list.push(fc)
     list
-  ).property('children.@each','files.@each')
-
-  _collect_all_files: (parents, list) ->
-    p = parents.copy()
-    p.push @get('title')
-    if @get('files')
-      files =  @get('files').filter((e) -> !e.get('fotomoo'))
-      fl.set('selected', true) for fl in files
-    else
-      files = []
-
-    list.push(Ember.Object.create(id: @get('id'), titles: p, files: files)) if files.length > 0
-    child._collect_all_files(p, list) for child in @get('children')
-
+  ).property('children.@each')
 
 
 FM.Folder.reopenClass
