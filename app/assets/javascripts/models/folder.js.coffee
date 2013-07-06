@@ -37,6 +37,10 @@ FM.Folder = Ember.Object.extend
     @get('allChildrenFiles').filterProperty('isFotomoo', false)
   ).property('allChildrenFiles')
 
+  allChildrenSelectedFiles: ( ->
+    @get('allChildrenFiles').filterProperty('selected', true)
+  ).property('allChildrenFiles', 'allChildrenFiles.@each.selected')
+
   childrenWithUnprocessedFiles: ( ->
     @get('children').filter (e) -> e.get('allChildrenUnprocessedFiles.length')
   ).property('allChildrenUnprocessedFiles', 'children.@each')
@@ -44,6 +48,10 @@ FM.Folder = Ember.Object.extend
   unprocessedFiles: ( ->
     @get('files').filterProperty('isFotomoo', false)
   ).property('files')
+
+  selectedFiles: ( ->
+    @get('files').filterProperty('selected', true)
+  ).property('files', 'files.@each.selected')
 
 
   folderPath: (->

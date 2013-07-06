@@ -1,1 +1,39 @@
-<h1>SETUP</h1>
+
+<div class="well span10 offset1" style="margin-top: 30px">
+    <button class="btn btn-info pull-right" {{action copyFiles}}>Copy Images</button>
+    <span class="pull-left"><h3>Setup Summary</h3></span>
+    <table class="table table-hover">
+        <tr>
+            <td>Total Images</td>
+            <td>{{allChildrenFiles.length}}</td>
+        </tr>
+        <tr>
+            <td>Images not yet managed by Fotomoo</td>
+            <td>{{allChildrenUnprocessedFiles.length}}</td>
+        </tr>
+        <tr>
+            <td>Will be copied into Fotomoo</td>
+            <td>{{allChildrenSelectedFiles.length}}</td>
+        </tr>
+    </table>
+    <span class="pull-left"><h3>Setup Details</h3></span>
+    <table class="table table-hover">
+        <tr>
+            <th>Folder</th>
+            <th>Total</th>
+            <th>Not Managed</th>
+            <th>To Copy</th>
+        </tr>
+        {{#each flatChildren}}
+            <tr>
+                <td>
+                    {{#each folderPath}}<span class="badge badge-info">{{this}}</span>{{/each}}
+                </td>
+                <td>{{files.length}}</td>
+                <td>{{unprocessedFiles.length}}</td>
+                <td>{{selectedFiles.length}}</td>
+            </tr>
+        {{/each}}
+    </table>
+
+</div>

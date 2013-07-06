@@ -12,6 +12,9 @@ FM.IndexRoute = Ember.Route.extend
 FM.SetupRoute = Ember.Route.extend
   model: -> FM.drive.rootFolder()
 
+FM.SetupIndexRoute = Ember.Route.extend
+  model: -> FM.drive.rootFolder()
+
 FM.LoadingRoute = Ember.Route.extend
   enter: ->
   exit: -> Ember.$('#load').remove()
