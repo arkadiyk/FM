@@ -134,7 +134,11 @@ FM.Drive = Ember.Object.extend
 
   _createTree: (folder_def, root) ->
     process = (new_folder) =>
-      @_linkFile(file, new_folder, (ret) -> console.log('linked:', ret)) for file in folder_def.files
+      for file in folder_def.files
+        @_linkFile(file, new_folder, (ret) ->
+          #file.set('selected', false)
+          console.log('linked:', ret))
+
       for child in folder_def.children
         console.log('creating subtree', child)
         @_createTree(child, new_folder)
@@ -147,7 +151,7 @@ FM.Drive = Ember.Object.extend
       folder_def.parents = [{id: root.get('id')}]
       @_createFolder folder_def, (new_folder_json) =>
         new_folder = FM.Folder.create(new_folder_json)
-        console.log('created', new_folder_json)
+        console.log('created', new_folder.get('title'), new_folder.get('parents.length'), new_folder.get('parentObj.length'))
         @get('driveFolderObjectCache').set(new_folder_json.id, new_folder)
         root.get('childIds').push(new_folder_json.id)
         process(new_folder)
@@ -171,14 +175,14 @@ FM.Drive = Ember.Object.extend
         if not result
           success_callback({items:[]})
         else if not result.error
-          success_callback(result)
+          Ember.run(-> success_callback(result))
         else if result.error.code == 401
           console.log("reathorizing #{method}:", result)
           @_authorize(=> @_execute(method, params, success_callback, error_callback))
         #else if result.error.code == 403
         else
           console.log("ERROR!", result)
-          error_callback(result) if error_callback
+          Ember.run( -> error_callback(result)) if error_callback
         @decrementProperty('activeCallCount')
 
   _loadFiles: (params, complete_callback) ->
@@ -196,11 +200,13 @@ FM.Drive = Ember.Object.extend
 
 
   _linkFile: (file, folder, callback) ->
+    file.get('parents').pushObject(id: folder.get('id'), isRoot: false)
+    file.set('selected', false)
     params =
       fileId: file.get('id')
       fields: 'id,title'
       resource:
-        parents: [{id: file.get('parents.firstObject.id')}, {id: folder.get('id')}]
+        parents: file.get('parents')
     @_queue('files.patch', params, callback)
 
   _createFolder: (folder, callback) ->
@@ -235,7 +241,7 @@ FM.Drive = Ember.Object.extend
           (result.error.errors[0].reason ==  'rateLimitExceeded' or result.error.errors[0].reason == 'userRateLimitExceeded')
             console.log('got 403, retrying', mthod, param, result)
             @get('execQueue').pushObject([mthod, param, callb])
-            setTimeout(process, 2000)
+            setTimeout(process, 1000)
           else
             console.log('q Unknown Error', mthod, param, result)
         )

@@ -17,12 +17,12 @@ FM.Folder = Ember.Object.extend
     @get('parents').map (parent_ref) ->
       id = if parent_ref.isRoot then 'root' else parent_ref.id
       FM.Folder.find(id)
-  ).property('parents')
+  ).property('parents', 'parents.[]', 'parents.@each.id')
 
   isFotomoo: (->
     return true if @get('title') == 'Fotomoo Pictures'
     @get('parentObj').someProperty('isFotomoo', true)
-  ).property('parentObj','title')
+  ).property('title', 'parentObj', 'parentObj.[]', 'parentObj.@each.isFotomoo')
 
   allChildrenFiles: ( ->
     list = []
@@ -31,11 +31,11 @@ FM.Folder = Ember.Object.extend
       child.get('allChildrenFiles').forEach (fl) ->
         list.push(fl)
     list
-  ).property('children.@each')
+  ).property('children.@each', 'files.@each')
 
   allChildrenUnprocessedFiles: ( ->
     @get('allChildrenFiles').filterProperty('isFotomoo', false)
-  ).property('allChildrenFiles')
+  ).property('allChildrenFiles', 'allChildrenFiles.@each.isFotomoo')
 
   allChildrenSelectedFiles: ( ->
     @get('allChildrenFiles').filterProperty('selected', true)
@@ -47,11 +47,11 @@ FM.Folder = Ember.Object.extend
 
   unprocessedFiles: ( ->
     @get('files').filterProperty('isFotomoo', false)
-  ).property('files')
+  ).property('files.@each.isFotomoo')
 
   selectedFiles: ( ->
     @get('files').filterProperty('selected', true)
-  ).property('files', 'files.@each.selected')
+  ).property('files','files.@each.selected')
 
 
   folderPath: (->
@@ -62,7 +62,6 @@ FM.Folder = Ember.Object.extend
       full_name.unshift(parent.get('title'))
       parent_ref = parent.get('parents.0')
 
-    full_name.unshift(FM.Folder.find('root').get('title'))
     full_name
   ).property('parents')
 

@@ -8,12 +8,6 @@ FM.FolderView = Ember.View.extend
   templateName: 'folder'
   classNames: ['tree-node']
 
-FM.SelectFolderCheckbox = Em.Checkbox.extend
-  checked: true
-  checkedObserver: ( ->
-    checked = @get('checked')
-    file.set('selected', checked) for file in @get('files')
-  ).observes('checked')
 
 FM.CopyProgressView = Ember.View.extend
   completed: (-> "width: #{FM.drive.get('completed')}%").property('FM.drive.completed')

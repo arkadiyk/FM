@@ -2,7 +2,7 @@ if (!window.FotomooFixtures) window.FotomooFixtures = {}
 window.FotomooFixtures.files = {
   page0: {
     nextPageToken: "nextFilePageToken1",
-    items: [
+      items: [
         {
             "id": "file_0",
             "thumbnailLink": "/assets/thumbnail1.jpg",
@@ -118,6 +118,56 @@ window.FotomooFixtures.files = {
                 "date": "2002:05:26 10:15:28",
                 "cameraMake": "OLYMPUS OPTICAL CO.,LTD",
                 "cameraModel": "E-10        "
+            }
+        }
+      /*
+        {
+            "id": "file_102",
+            "thumbnailLink": "/assets/thumbnail1.jpg",
+            "title": "P5040054.jpg",
+            "mimeType": "image/jpeg",
+            "description": "OLYMPUS DIGITAL CAMERA         ",
+            "parents": [
+                {
+                    "id": "folder3-2-1",
+                    "isRoot": false
+                },
+                {
+                    "id": "folder-2012-06",
+                    "isRoot": false
+                }
+            ],
+            "fileSize": "289508",
+            "imageMediaMetadata": {
+                "width": 1024,
+                "height": 768,
+                "date": "2002:05:04 14:09:40",
+                "cameraMake": "OLYMPUS OPTICAL CO.,LTD",
+                "cameraModel": "E-10        "
+            }
+        },
+        {
+            "id": "file_103",
+            "thumbnailLink": "/assets/thumbnail1.jpg",
+            "title": "fh030012.jpg",
+            "mimeType": "image/jpeg",
+            "parents": [
+                {
+                    "id": "folder3-2-1",
+                    "isRoot": false
+                },
+                {
+                    "id": "folder-2012-06",
+                    "isRoot": false
+                }
+            ],
+            "fileSize": "317788",
+            "imageMediaMetadata": {
+                "width": 1024,
+                "height": 686,
+                "date": "2006:08:06 14:49:12",
+                "cameraMake": "FUJI PHOTO FILM CO., LTD.",
+                "cameraModel": "SP-3000"
             }
         },
         {
@@ -2537,55 +2587,6 @@ window.FotomooFixtures.files = {
             }
         },
         {
-            "id": "file_102",
-            "thumbnailLink": "/assets/thumbnail1.jpg",
-            "title": "P5040054.jpg",
-            "mimeType": "image/jpeg",
-            "description": "OLYMPUS DIGITAL CAMERA         ",
-            "parents": [
-                {
-                    "id": "folder3-2-1",
-                    "isRoot": false
-                },
-                {
-                    "id": "folder-2012-06",
-                    "isRoot": false
-                }
-            ],
-            "fileSize": "289508",
-            "imageMediaMetadata": {
-                "width": 1024,
-                "height": 768,
-                "date": "2002:05:04 14:09:40",
-                "cameraMake": "OLYMPUS OPTICAL CO.,LTD",
-                "cameraModel": "E-10        "
-            }
-        },
-        {
-            "id": "file_103",
-            "thumbnailLink": "/assets/thumbnail1.jpg",
-            "title": "fh030012.jpg",
-            "mimeType": "image/jpeg",
-            "parents": [
-                {
-                    "id": "folder3-2-1",
-                    "isRoot": false
-                },
-                {
-                    "id": "folder-2012-06",
-                    "isRoot": false
-                }
-            ],
-            "fileSize": "317788",
-            "imageMediaMetadata": {
-                "width": 1024,
-                "height": 686,
-                "date": "2006:08:06 14:49:12",
-                "cameraMake": "FUJI PHOTO FILM CO., LTD.",
-                "cameraModel": "SP-3000"
-            }
-        },
-        {
             "id": "file_104",
             "thumbnailLink": "/assets/thumbnail1.jpg",
             "title": "IMGP0584.jpg",
@@ -3585,11 +3586,13 @@ window.FotomooFixtures.files = {
                 "cameraModel": "DMC-LX5"
             }
         }
+       */
     ]
   },
   nextFilePageToken1: {
     nextPageToken: "nextFilePageToken2",
     items: [
+
         {
             "id": "file_144",
             "thumbnailLink": "/assets/thumbnail1.jpg",
@@ -3598,10 +3601,6 @@ window.FotomooFixtures.files = {
             "parents": [
                 {
                     "id": "folder3-2-1",
-                    "isRoot": false
-                },
-                {
-                    "id": "folder-2012-06",
                     "isRoot": false
                 }
             ],
@@ -3613,7 +3612,8 @@ window.FotomooFixtures.files = {
                 "cameraMake": "Panasonic",
                 "cameraModel": "DMC-LX5"
             }
-        },
+        }
+        /*
         {
             "id": "file_145",
             "thumbnailLink": "/assets/thumbnail1.jpg",
@@ -8825,6 +8825,7 @@ window.FotomooFixtures.files = {
                 "cameraModel": "E-M5            "
             }
         }
+ */
     ]
   },
   nextFilePageToken2: {

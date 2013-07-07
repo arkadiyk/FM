@@ -3,9 +3,10 @@ FM.SetupController = FM.FolderController.extend
     @_super()
     @set('isExpanded', true)
 
+FM.SetupIndexController = FM.FolderController.extend
   copyFiles: ->
     root = {}
-    selectedFiles = FM.drive.allSelectedImages()
+    selectedFiles = FM.Folder.find('root').get('allChildrenSelectedFiles')
     selectedFiles.forEach (file) ->
       unless file.get('isFotomoo')
         [year, month] = [file.get('year'), file.get('month')]

@@ -1,18 +1,3 @@
-#FM.FilesController = Ember.ObjectController.extend
-#  flatFiles: (->
-#    collect_all_files = (root, parents, list) ->
-#      p = parents.copy()
-#      p.push root.get('title')
-#      if root.get('files')
-#        list.push Ember.Object.create(id: root.get('id'), titles: p, files: root.get('files'), isDir: true)
-#      collect_all_files(child, p, list) for child in root.get('children')
-#
-#    parents = []; list = []; root = @get('content')
-#    collect_all_files(root, parents, list)
-#    list
-#  ).property('content')
-
-
 FM.GridElement = Ember.Object.extend
   isDirFiller:     (-> @get('type') == 'dir_filler' ).property('type')
   isEmptyFiller:   (-> @get('type') == 'empty_filler' ).property('type')
@@ -20,12 +5,9 @@ FM.GridElement = Ember.Object.extend
 
 FM.GridDirElement = Ember.Object.extend
   isDir: true
-  selectedFilesCount: (->
-    @get('folder.unprocessedFiles').filterProperty('selected', true).get('length')
-  ).property('folder.unprocessedFiles.@each.selected')
   isAllSelected: (->
-    @get('selectedFilesCount') == @get('folder.unprocessedFiles.length')
-  ).property('selectedFilesCount','folder.unprocessedFiles')
+    @get('folder.selectedFiles.length') == @get('folder.unprocessedFiles.length')
+  ).property('folder.selectedFiles','folder.unprocessedFiles')
   selectLabel: (->
     if @get('isAllSelected') then "Unselect All" else "Select All"
   ).property('isAllSelected')
@@ -85,5 +67,5 @@ FM.FilesGridController = Ember.ObjectController.extend
             fl.set('selected', true)
             pushCol(fl)
     ret
-  ).property('cols', 'controllers.files.content', 'collapsed.[]')
+  ).property('cols', 'controllers.files.content', 'collapsed.[]', 'controllers.files.content.flatChildren.@each.unprocessedFiles.length')
 
