@@ -2,16 +2,41 @@ FM.Address = Ember.Object.extend
   init: ->
     @set('isLoaded', false)
   formattedAddress: (->
-    console.log('fa0',@get('details'), @get('details.1'),@get('details.1.formatted_address'))
+    console.log('fa0', @get('details.1.formatted_address'))
     @get('details.1.formatted_address')
   ).property('details')
+
+  country: (->
+    @get('_parts').country
+  ).property('_parts')
+
+  pref: (->
+    @get('_parts').pref
+  ).property('_parts')
+
+  city: (->
+    @get('_parts').city
+  ).property('_parts')
+
+  _parts: (->
+    parts = {}
+    details = @get('details')
+    if details
+      details.forEach (detail) ->
+        detail.address_components.forEach (comp) ->
+          parts.country = comp.long_name if comp.types[0] == 'country'
+          parts.pref =  comp.long_name if comp.types[0] == 'administrative_area_level_1'
+          parts.city =  comp.long_name if comp.types[0] == 'locality'
+    parts
+  ).property('details')
+
+
 
 
 FM.Address.reopenClass
   _aChache: Ember.Map.create({})
   find: (latitude, longitude) ->
-    rr = (n) -> (Math.round(n * 1000) / 1000)
-    console.log(latitude, longitude)
+    rr = (n) -> (Math.round(n * 100) / 100)
     [lat, lon] = [rr(latitude), rr(longitude)]
     key = "#{lat},#{lon}"
     addr = @_aChache.get(key)
@@ -57,8 +82,7 @@ FM.Address.reopenClass
     @_queue_running = true
 
   load: (lat,lon,callback) ->
-    console.log(lat,lon)
-    #    latlng = new google.maps.LatLng(lat,lon)
-    #    FM.geocoder.geocode {'latLng': latlng}, callback
-    callback(null, 'DISABLED')
+    FM.geocoder = new google.maps.Geocoder() unless FM.geocoder
+    latlng = new google.maps.LatLng(lat,lon)
+    FM.geocoder.geocode {'latLng': latlng}, callback
 

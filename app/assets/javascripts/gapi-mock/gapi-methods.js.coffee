@@ -46,3 +46,10 @@ window.gapi.client = {
 
 
 }
+
+window.google =
+  maps:
+    Geocoder: ->
+      geocode: (params, callback) ->
+        callback FotomooFixtures.locations[Math.floor(Math.random() * 31)].results, "OK"
+    LatLng: ->
