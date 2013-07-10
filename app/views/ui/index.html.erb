@@ -1,7 +1,12 @@
 
 <% if @api == 'real' %>
     <script type="text/javascript" src="https://apis.google.com/js/client.js"></script>
-    <!-- script src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false"></script -->
+    <script type="text/javascript">
+      window.GLOCSCRIPT = "https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false"
+    </script>
 <% else %>
     <%= javascript_include_tag 'gapi-mock' %>
+    <script type="text/javascript">
+        window.GLOCSCRIPT = "/assets/google-maps-api-mock.js"
+    </script>
 <% end %>

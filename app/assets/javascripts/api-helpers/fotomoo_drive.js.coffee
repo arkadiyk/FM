@@ -107,7 +107,6 @@ FM.Drive = Ember.Object.extend
     return root if root
     execute = (resolve, reject) =>
       @apiLoaded().then =>
-        # FM.geocoder = new google.maps.Geocoder()
         @authorize()
       .then =>
         @loadAssets()

@@ -43,13 +43,4 @@ window.gapi.client = {
           else
             ret = {id: params.fileId, title: 'the title'}
           setTimeout ( ->  callback(ret) ), 10
-
-
 }
-
-window.google =
-  maps:
-    Geocoder: ->
-      geocode: (params, callback) ->
-        callback FotomooFixtures.locations[Math.floor(Math.random() * 31)].results, "OK"
-    LatLng: ->
