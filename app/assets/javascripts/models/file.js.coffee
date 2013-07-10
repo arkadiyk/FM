@@ -1,6 +1,9 @@
 FM.File = Ember.Object.extend
   isFile: true
   selected: false
+  init: ->
+    @_super(arguments)
+    @get('address')
 
   parentObj: (->
     @get('parents').map (parent_ref) ->

@@ -28,5 +28,6 @@ FM.SetupIndexController = FM.FolderController.extend
           month_obj.files.push file
           file_count++
 
-    FM.drive.createTreeHierarchy(pics_root, folder_count, file_count)
+    FM.locationService.loadAll ->
+      FM.drive.createTreeHierarchy(pics_root, folder_count, file_count)
 

@@ -14,3 +14,7 @@
 {{#if FM.drive.isQueueRunning}}
   {{render 'copy-progress'}}
 {{/if}}
+
+{{#if FM.locationService.toProcessCount}}
+  {{render 'location-service-progress'}}
+{{/if}}
