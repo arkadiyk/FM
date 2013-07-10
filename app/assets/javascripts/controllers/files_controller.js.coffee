@@ -63,9 +63,7 @@ FM.FilesGridController = Ember.ObjectController.extend
       if fldr.get('unprocessedFiles.length')
         pushDir(fldr)
         unless @get('collapsed').contains(fldr.get('id'))
-          fldr.get('unprocessedFiles').forEach (fl) ->
-            fl.set('selected', true)
-            pushCol(fl)
+          fldr.get('unprocessedFiles').forEach (fl) -> pushCol(fl)
     ret
   ).property('cols', 'controllers.files.content', 'collapsed.[]', 'controllers.files.content.flatChildren.@each.unprocessedFiles.length')
 

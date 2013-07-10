@@ -3,31 +3,36 @@ FM.LocationService = Ember.Object.extend
   find: (latitude, longitude) ->
     rr = (n) -> (Math.round(n * 100) / 100)
     [lat, lon] = [rr(latitude), rr(longitude)]
-    key = "#{lat},#{lon}"
-    addr = @_aChache.get(key)
+    id = "#{lat},#{lon}"
+    addr = @_aChache.get(id)
     unless addr
-      addr = FM.Address.create {latitude,longitude}
-      @_aChache.set(key, addr)
+      addr = FM.Address.create {id,latitude,longitude}
+      @_aChache.set(id, addr)
     addr
 
-  loadAll: (complete_callback) ->
+  loadSelected: (complete_callback) ->
+    selectedAddresses = Ember.Map.create({})
+    FM.Folder.find('root').get('allChildrenSelectedFiles').forEach (file) ->
+      address = file.get('address')
+      selectedAddresses.set(address.get('id'), address) if address
+
     addresses = []
-    @_aChache.forEach (key, addr) ->
+    selectedAddresses.forEach (id, addr) ->
       addresses.push(addr) unless addr.get('isLoaded')
 
     if window.google and google.maps
-      @_loadAll(addresses, complete_callback)
+      @_load(addresses, complete_callback)
     else
       Ember.$.getScript(GLOCSCRIPT).then =>
         @geocoder = new google.maps.Geocoder()
-        @_loadAll(addresses, complete_callback)
+        @_load(addresses, complete_callback)
 
 
   toProcessCount: 0
   processedCount: 0
   addressObtained: ''
 
-  _loadAll: (addresses, complete_callback) ->
+  _load: (addresses, complete_callback) ->
     try_count = 0
     timeout = 400
     current_timeout = timeout

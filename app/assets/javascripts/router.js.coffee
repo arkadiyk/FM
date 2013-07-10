@@ -11,6 +11,9 @@ FM.IndexRoute = Ember.Route.extend
 
 FM.SetupRoute = Ember.Route.extend
   model: -> FM.drive.rootFolder()
+  setupController: (controller, model) ->
+    controller.set('content', model)
+    controller.selectUnprocessedFiles()
 
 FM.SetupIndexRoute = Ember.Route.extend
   model: -> FM.drive.rootFolder()
