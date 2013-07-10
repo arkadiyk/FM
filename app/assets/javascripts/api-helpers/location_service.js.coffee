@@ -44,7 +44,9 @@ FM.LocationService = Ember.Object.extend
               addr_json = @_parseResponse(results)
               addr.setProperties addr_json
               @set('addressObtained', addr_json.formattedAddresses[1])
+              @incrementProperty('processedCount')
               try_count = 0
+              current_timeout = timeout
             when 'OVER_QUERY_LIMIT'
               if try_count > 5
                 addr.setProperties(isError: true, errorMessage: "QUERY_LIMIT failed more than 5 times")
@@ -64,7 +66,6 @@ FM.LocationService = Ember.Object.extend
                 current_timeout = (timeout * 10 * try_count)
 
           addr.set('isLoaded', true)
-          @incrementProperty('processedCount')
           setTimeout process, current_timeout
       else
         @set('toProcessCount', 0)
