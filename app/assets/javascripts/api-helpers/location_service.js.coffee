@@ -23,9 +23,10 @@ FM.LocationService = Ember.Object.extend
     if window.google and google.maps
       @_load(addresses, complete_callback)
     else
-      Ember.$.getScript(GLOCSCRIPT).then =>
-        @geocoder = new google.maps.Geocoder()
-        @_load(addresses, complete_callback)
+      Ember.$.getScript GLOCSCRIPT, =>
+        google.load 'maps', '3.exp', other_params: 'sensor=false', callback: =>
+          @geocoder = new google.maps.Geocoder()
+          @_load(addresses, complete_callback)
 
 
   toProcessCount: 0
@@ -34,7 +35,7 @@ FM.LocationService = Ember.Object.extend
 
   _load: (addresses, complete_callback) ->
     try_count = 0
-    timeout = 400
+    timeout = 500
     current_timeout = timeout
     @set('toProcessCount', addresses.length)
     @set('processedCount', 0)
@@ -59,7 +60,7 @@ FM.LocationService = Ember.Object.extend
               else
                 try_count++
                 addresses.push(addr)
-                current_timeout = (timeout * 3 * try_count)
+                current_timeout = (timeout * 10 * try_count)
                 @set('addressObtained', "Google Map API query limit reached. Retrying")
             else
               if try_count > 3
@@ -68,7 +69,7 @@ FM.LocationService = Ember.Object.extend
               else
                 try_count++
                 addresses.push(addr)
-                current_timeout = (timeout * 10 * try_count)
+                current_timeout = (timeout * 20 * try_count)
 
           addr.set('isLoaded', true)
           setTimeout process, current_timeout
