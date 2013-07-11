@@ -14,22 +14,25 @@
 {{/if}}
 
 {{#if isDir}}
-    <div style="height: 20px; margin-top: 60px; margin-right: 10px;">
-      <span style="line-height: 14px">
-        <button class="btn btn-mini" {{action flipSelect this}}>
-          {{!-- (very slow) #if isAllSelected}} Unselect All {{else}} Select All {{/if --}}
-          {{selectLabel}}
-        </button>
-      </span>
+    <div style="height: 20px; margin: 70px 10px 10px 0">
       {{#each titles}}
         <span class="badge badge-info">{{this}}</span>
       {{/each}}
     </div>
-    <div>All: {{folder.unprocessedFiles.length}} Selected: {{folder.selectedFiles.length}}</div>
+    <div>
+        <span style="line-height: 14px">
+        <button class="btn btn-mini" style="width: 100px" {{action flipSelect this}}>
+          {{!-- (very slow) #if isAllSelected}} Unselect All {{else}} Select All {{/if --}}
+          {{selectLabel}}
+        </button>
+      </span>
+      <span class="label label-inverse" style="margin: 0 3px 0 15px; padding: 3px 15px; font-weight: normal">Unprocessed in the folder: {{folder.unprocessedFiles.length}}</span>
+      <span class="label label-inverse" style="margin: 0 3px 0 0; padding: 3px 15px; font-weight: normal">Selected: {{folder.selectedFiles.length}}</span>
+    </div>
 {{/if}}
 
 {{#if isLastDirFiller}}
-<div style="height: 20px; margin-top: 56px; margin-left: 176px;" >
+<div style="height: 20px; margin-top: 66px; margin-left: 176px;" >
   <span style="line-height: 14px">
     <span class="badge" {{action collapse this}} style="width: 25px">
     <i {{bindAttr class=":icon-2x isCollapsed:icon-chevron-left:icon-chevron-down"}}"></i>
