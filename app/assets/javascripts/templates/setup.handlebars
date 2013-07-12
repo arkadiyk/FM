@@ -7,8 +7,9 @@
             <ul class="nav nav-list">
 
 
-
-                <li class="nav-header">{{#linkTo 'setup'}}Setup Summary{{/linkTo}}</li>
+                <li class="nav-header">&nbsp;</li>
+                <li style="font-size: larger">{{#linkTo 'setup.index'}}<strong>Organize!{{/linkTo}}</strong></li>
+                <li class="nav-header">Select Images to organize</li>
                 <li>
                     {{#if childrenWithPictures.length}}
                     <i {{bindAttr class=":pull-left :folder-icon isExpanded:icon-folder-open:icon-folder-close"}} {{action toggle}}></i>
