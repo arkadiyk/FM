@@ -1,5 +1,9 @@
 FM.Router.map ->
+  @route 'info', {path: '/info'}
   @route 'about', {path: '/about'}
+  @route 'readme', {path: '/readme'}
+  @route 'manage', {path: '/manage'}
+  @route 'feedback', {path: '/feedback'}
   @resource 'setup', ->
     @resource 'files', {path: '/:folder_id'}, ->
       @route 'list'
