@@ -135,15 +135,15 @@ FM.Drive = Ember.Object.extend
   _createTree: (folder_def, root) ->
     process = (new_folder) =>
       for file in folder_def.files
-        @_linkFile(file, new_folder, (ret) ->
-          #file.set('selected', false)
-          console.log('linked:', ret))
+        file.get('parents').pushObject(id: new_folder.get('id'), isRoot: false)
+        file.set('selected', false)
+        file.set('dirty', true)
 
       for child in folder_def.children
-        console.log('creating subtree', child)
-        @_createTree(child, new_folder)
+          console.log('creating subtree', child)
+          @_createTree(child, new_folder)
 
-    folder = root.get('children').filterProperty('title', folder_def.title).get('firstObject')
+    folder = root.get('children').findProperty('title', folder_def.title)
     if folder
       console.log("folder exists:", folder.get('id'), folder.get('title'))
       process(folder)
@@ -200,8 +200,6 @@ FM.Drive = Ember.Object.extend
 
 
   _linkFile: (file, folder, callback) ->
-    file.get('parents').pushObject(id: folder.get('id'), isRoot: false)
-    file.set('selected', false)
     params =
       fileId: file.get('id')
       fields: 'id,title'
