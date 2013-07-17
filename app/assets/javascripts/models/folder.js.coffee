@@ -20,17 +20,11 @@ FM.Folder = Ember.Object.extend
       FM.Folder.find(id)
   ).property('parents', 'parents.[]', 'parents.@each.id')
 
-#  isFotomoo: (->
-#    return true if @get('title') == 'Fotomoo Pictures'
-#    @get('parentObj').someProperty('isFotomoo', true)
-#  ).property('title', 'parentObj', 'parentObj.[]', 'parentObj.@each.isFotomoo')
 
   allChildrenFiles: ( ->
     list = []
-    list.push(file) for file in @get('files')
-    @get('children').forEach (child) ->
-      child.get('allChildrenFiles').forEach (fl) ->
-        list.push(fl)
+    list.addObjects(@get('files'))
+    @get('children').forEach (child) -> list.addObjects(child.get('allChildrenFiles'))
     list
   ).property('children.@each', 'files.@each')
 
@@ -75,9 +69,8 @@ FM.Folder = Ember.Object.extend
   flatChildren: (->
     list = []
     if @get('allChildrenUnprocessedFiles.length')
-      list.push(@)
-      @get('children').forEach (child) ->
-        child.get('flatChildren').forEach (fc) -> list.push(fc)
+      list.addObject(@)
+      @get('children').forEach (child) -> list.addObjects(child.get('flatChildren'))
     list
   ).property('children.@each')
 
