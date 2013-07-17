@@ -1,13 +1,13 @@
 FM.LocationService = Ember.Object.extend
-  _aChache: Ember.Map.create({})
+  _aCache: Ember.Map.create({})
   find: (latitude, longitude) ->
     rr = (n) -> (Math.round(n * 100) / 100)
     [lat, lon] = [rr(latitude), rr(longitude)]
     id = "#{lat},#{lon}"
-    addr = @_aChache.get(id)
+    addr = @_aCache.get(id)
     unless addr
       addr = FM.Address.create {id,latitude,longitude}
-      @_aChache.set(id, addr)
+      @_aCache.set(id, addr)
     addr
 
   loadSelected: (complete_callback) ->
