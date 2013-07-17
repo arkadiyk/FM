@@ -10,6 +10,6 @@ FM.SetupController = FM.FolderController.extend
 
 FM.SetupIndexController = FM.FolderController.extend
   copyFiles: ->
-    FM.locationService.loadSelected ->
-      FM.drive.createTreeHierarchy()
+    #FM.locationService.loadSelected ->
+    FM.drive.createTreeHierarchy()
 

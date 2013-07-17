@@ -2,6 +2,7 @@ FM.Folder = Ember.Object.extend
   files: null
   childIds: null
   parents: null
+  isFotomoo: false
 
   init: () ->
     @_super()
@@ -19,10 +20,10 @@ FM.Folder = Ember.Object.extend
       FM.Folder.find(id)
   ).property('parents', 'parents.[]', 'parents.@each.id')
 
-  isFotomoo: (->
-    return true if @get('title') == 'Fotomoo Pictures'
-    @get('parentObj').someProperty('isFotomoo', true)
-  ).property('title', 'parentObj', 'parentObj.[]', 'parentObj.@each.isFotomoo')
+#  isFotomoo: (->
+#    return true if @get('title') == 'Fotomoo Pictures'
+#    @get('parentObj').someProperty('isFotomoo', true)
+#  ).property('title', 'parentObj', 'parentObj.[]', 'parentObj.@each.isFotomoo')
 
   allChildrenFiles: ( ->
     list = []

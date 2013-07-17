@@ -1,5 +1,6 @@
 FM.Drive = Ember.Object.extend
   driveFolderObjectCache: Ember.Map.create({})
+  driveFolderTitleCache: Ember.Map.create({})
   driveImageFileObjectCache: Ember.Map.create({})
   userProfile: Ember.Object.create()
   activeCallCount: 0
@@ -62,7 +63,13 @@ FM.Drive = Ember.Object.extend
         for fid, folder of folders
           fo = FM.Folder.create(folder)
           @get('driveFolderObjectCache').set(fid, fo)
+          @get('driveFolderTitleCache').set(folder.title, fo)
 
+        mark_children = (ch) ->
+          ch.set('isFotomoo', true)
+          ch.get('children').forEach (child) -> mark_children(child)
+        fotomoo_root = @get('driveFolderTitleCache').get('Fotomoo Pictures')
+        mark_children(fotomoo_root)
 
         @setProperties(foldersLoading: false, foldersLoaded: true)
         resolve()
@@ -185,8 +192,7 @@ FM.Drive = Ember.Object.extend
       @_saveDirtyFiles() if @get('processedFolderCount') < 0
 
 
-
-    folder = root.get('children').findProperty('title', folder_def.title)
+    folder = @get('driveFolderTitleCache').get(folder_def.title)
     if folder
       console.log("folder exists:", folder.get('id'), folder.get('title'))
       process_folder(folder)
@@ -194,6 +200,7 @@ FM.Drive = Ember.Object.extend
       folder_def.parents = [{id: root.get('id')}]
       @_createFolder folder_def, (new_folder_json) =>
         new_folder = FM.Folder.create(new_folder_json)
+        new_folder.set('isFotomoo', true)
         console.log('created', new_folder.get('title'), new_folder.get('parents.length'), new_folder.get('parentObj.length'))
         @get('driveFolderObjectCache').set(new_folder_json.id, new_folder)
         root.get('childIds').push(new_folder_json.id)
@@ -238,7 +245,7 @@ FM.Drive = Ember.Object.extend
         @_execute('files.list', params, callback)
       else
         complete_callback(files)
-    @_execute('files.list', params, callback)
+    @_execute('files.list', params, callback, (r) -> alert("Error code:#{r.code}\nPlease reload the page" ))
 
 
 
@@ -248,6 +255,10 @@ FM.Drive = Ember.Object.extend
       fields: 'id,title'
       resource:
         parents: file.get('parents')
+    if file.get('address') and file.get('address.formattedAddresses') and file.get('address.formattedAddresses').join
+      params.resource.indexableText =
+        text: file.get('address.formattedAddresses').join(";\n")
+
     @_queue('files.patch', params, callback)
 
   _createFolder: (folder, callback) ->
@@ -261,14 +272,14 @@ FM.Drive = Ember.Object.extend
 
 
   execQueue: []
-  isQueueRunning: false
+  isQueueRunning: 0
   copiedCount: 0
   fileJustCopied: ''
+  queueErrorTryCount: 0
 
   _queue: (method, params, callback) ->
     console.log('Adding to Q:', method, params, @get('isQueueRunning'), @get('execQueue.length'))
     process = =>
-      @set('isQueueRunning',true)
       if @get('execQueue.length')
         [mthod, param, callb] = @get('execQueue').shiftObject()
         @_execute mthod, param, ((result) =>
@@ -276,24 +287,35 @@ FM.Drive = Ember.Object.extend
           setTimeout(process, 10)
           @set('fileJustCopied', result.title)
           @incrementProperty('copiedCount')
+          @set('queueErrorTryCount', 0)
           callb(result)
         ), ((result) =>
-          if result.error.code == 403 and
-          (result.error.errors[0].reason ==  'rateLimitExceeded' or result.error.errors[0].reason == 'userRateLimitExceeded')
-            console.log('got 403, retrying', mthod, param, result)
+          @incrementProperty('queueErrorTryCount')
+          if @get('queueErrorTryCount') > 7
+            console.log("exceeded retry count", mthod, param, result)
+            @set('execQueue', [])
+
+          if result.error.code == 417
+            console.log("got 417, retrying #{@get('queueErrorTryCount')}", mthod, param, result)
             @get('execQueue').pushObject([mthod, param, callb])
             setTimeout(process, 1000)
           else
-            console.log('q Unknown Error', mthod, param, result)
+            console.log("q Unknown Error, retrying #{@get('queueErrorTryCount')}", mthod, param, result)
+            @get('execQueue').pushObject([mthod, param, callb])
+            setTimeout(process, 5000)
         )
       else
-        console.log('Q: Stopping the queue')
-        @set('isQueueRunning',false)
-        @set('copiedCount', 0)
+        @decrementProperty('isQueueRunning')
+        if @get('isQueueRunning') == 0
+          @set('copiedCount', 0)
+          console.log('Q: Stopping the queue')
 
     @get('execQueue').pushObject([method, params, callback])
-    setTimeout(process, 10) unless @get('isQueueRunning')
-    @set('isQueueRunning',true)
+
+    if @get('isQueueRunning') < 3
+      console.log('starting Q: ', @get('isQueueRunning'))
+      @incrementProperty('isQueueRunning')
+      setTimeout(process, 100)
 
   completed: (->
     Math.round(@get('copiedCount') * 100 / (@get('newFileCount') + @get('newFolderCount')))
