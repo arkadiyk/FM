@@ -116,14 +116,54 @@ FM.Drive = Ember.Object.extend
         reject(error_message)
     new Ember.RSVP.Promise(execute)
 
-  createTreeHierarchy: (root_folder, folder_count, file_count) ->
+  createTreeHierarchy: ->
+    root = FM.Folder.find('root')
+
+    folder_count = 2; file_count = 0
+    hash_hierarchy = (h, file, level1_key, level2_key) ->
+      [lev1, lev2] = [file.get(level1_key), file.get(level2_key)]
+      if lev1 and lev2
+        h[lev1] ||= {}
+        h[lev1][lev2] ||= []
+        h[lev1][lev2].push(file)
+
+    create_hierarchy = (hash, hierarchy) ->
+      for lev1, lev2s of hash
+        lev1_obj = {title: lev1, children: [], files: []}
+        hierarchy.children.push lev1_obj
+        folder_count++
+        for lev2, files of lev2s
+          lev2_obj = {title: lev2, children: [], files: []}
+          lev1_obj.children.push lev2_obj
+          folder_count++
+          for file in files
+            lev2_obj.files.push file
+            file_count++
+
+    by_date = {}
+    by_location = {}
+    selectedFiles = root.get('allChildrenSelectedFiles')
+    selectedFiles.forEach (file) ->
+      unless file.get('isFotomoo')
+        hash_hierarchy(by_date, file, 'year', 'month')
+        hash_hierarchy(by_location, file, 'address.country', 'address.city')
+
+    pics_root =
+      title: 'Fotomoo Pictures'
+      children: [
+        {title: "By Date", children: [], files: []}
+        {title: "By Location", children: [], files: []}
+      ]
+      files: []
+
+    create_hierarchy(by_date, pics_root.children[0])
+    create_hierarchy(by_location, pics_root.children[1])
+
     @set('newFolderCount', folder_count)
     @set('processedFolderCount', folder_count)
     @set('newFileCount', file_count)
+    @_createTree(pics_root, root)
 
-    root = FM.Folder.find('root')
-    root_folder.title = 'Fotomoo Pictures'
-    @_createTree(root_folder, root)
 
   _saveDirtyFiles: ->
     @findFolder('root').get('allChildrenSelectedDirtyFiles').forEach (file) =>
@@ -134,14 +174,13 @@ FM.Drive = Ember.Object.extend
         file.set('address.dirty', false) if file.get('address.dirty')
 
   _createTree: (folder_def, root) ->
-    process_new_folder = (new_folder) =>
+    process_folder = (new_folder) =>
       @_createTree(child, new_folder) for child in folder_def.children
 
       for file in folder_def.files
         file.get('parents').pushObject(id: new_folder.get('id'), isRoot: false)
         file.set('dirty', true)
 
-      console.log("CREATED", folder_def.title, "(cnt: #{@get('processedFolderCount')} of #{@get('newFolderCount')})")
       @decrementProperty('processedFolderCount')
       @_saveDirtyFiles() if @get('processedFolderCount') < 0
 
@@ -150,7 +189,7 @@ FM.Drive = Ember.Object.extend
     folder = root.get('children').findProperty('title', folder_def.title)
     if folder
       console.log("folder exists:", folder.get('id'), folder.get('title'))
-      process_new_folder(folder)
+      process_folder(folder)
     else
       folder_def.parents = [{id: root.get('id')}]
       @_createFolder folder_def, (new_folder_json) =>
@@ -158,7 +197,7 @@ FM.Drive = Ember.Object.extend
         console.log('created', new_folder.get('title'), new_folder.get('parents.length'), new_folder.get('parentObj.length'))
         @get('driveFolderObjectCache').set(new_folder_json.id, new_folder)
         root.get('childIds').push(new_folder_json.id)
-        process_new_folder(new_folder)
+        process_folder(new_folder)
 
   _authorize: (success_callback) ->
     CLIENT_ID = '865302316429.apps.googleusercontent.com'
