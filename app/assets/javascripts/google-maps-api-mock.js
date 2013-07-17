@@ -6,7 +6,7 @@ window.google = {
         Geocoder: function() {
             return {
                 geocode: function(params, callback) {
-                    if (Math.floor(Math.random() * 5) < 1) {
+                    if (Math.floor(Math.random() * 15) < 1) {
                         callback([], "OVER_QUERY_LIMIT");
                     } else {
                         callback(FotomooFixtures.locations[Math.floor(Math.random() * 31)].results, "OK");

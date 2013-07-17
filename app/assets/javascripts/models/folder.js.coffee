@@ -37,6 +37,11 @@ FM.Folder = Ember.Object.extend
     @get('allChildrenFiles').filterProperty('isFotomoo', false)
   ).property('allChildrenFiles', 'allChildrenFiles.@each.isFotomoo')
 
+  allChildrenSelectedDirtyFiles: ( ->
+    @get('allChildrenFiles').filter (file) ->
+      file.get('selected') and (file.get('dirty') or file.get('address.dirty'))
+  ).property('allChildrenFiles', 'allChildrenFiles.@each.isFotomoo')
+
   allChildrenSelectedFiles: ( ->
     @get('allChildrenFiles').filterProperty('selected', true)
   ).property('allChildrenFiles', 'allChildrenFiles.@each.selected')

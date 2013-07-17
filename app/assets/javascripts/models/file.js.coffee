@@ -18,7 +18,7 @@ FM.File = Ember.Object.extend
   address: (->
     return null unless @get("imageMediaMetadata.location.latitude")
     FM.Address.find(@get("imageMediaMetadata.location.latitude"), @get("imageMediaMetadata.location.longitude"))
-  ).property()
+  ).property("imageMediaMetadata.location")
 
   year: (->
     @get('exifDate')?.split(':')[0] || "unknown"

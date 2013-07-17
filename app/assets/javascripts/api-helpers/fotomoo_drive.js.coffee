@@ -116,37 +116,41 @@ FM.Drive = Ember.Object.extend
         reject(error_message)
     new Ember.RSVP.Promise(execute)
 
-
-  allSelectedImages: ->
-    selected = []
-    @get('driveImageFileObjectCache').forEach (fid, file) ->
-      selected.push(file) if file.get('selected')
-    selected
-
   createTreeHierarchy: (root_folder, folder_count, file_count) ->
     @set('newFolderCount', folder_count)
+    @set('processedFolderCount', folder_count)
     @set('newFileCount', file_count)
 
     root = FM.Folder.find('root')
     root_folder.title = 'Fotomoo Pictures'
     @_createTree(root_folder, root)
 
+  _saveDirtyFiles: ->
+    @findFolder('root').get('allChildrenSelectedDirtyFiles').forEach (file) =>
+      @_linkFile file, ->
+        console.log('saved file', file.get('id'), file.get('selected'))
+        file.set('dirty', false)
+        file.set('selected', false)
+        file.set('address.dirty', false) if file.get('address.dirty')
 
   _createTree: (folder_def, root) ->
-    process = (new_folder) =>
+    process_new_folder = (new_folder) =>
+      @_createTree(child, new_folder) for child in folder_def.children
+
       for file in folder_def.files
         file.get('parents').pushObject(id: new_folder.get('id'), isRoot: false)
-        file.set('selected', false)
         file.set('dirty', true)
 
-      for child in folder_def.children
-          console.log('creating subtree', child)
-          @_createTree(child, new_folder)
+      console.log("CREATED", folder_def.title, "(cnt: #{@get('processedFolderCount')} of #{@get('newFolderCount')})")
+      @decrementProperty('processedFolderCount')
+      @_saveDirtyFiles() if @get('processedFolderCount') < 0
+
+
 
     folder = root.get('children').findProperty('title', folder_def.title)
     if folder
       console.log("folder exists:", folder.get('id'), folder.get('title'))
-      process(folder)
+      process_new_folder(folder)
     else
       folder_def.parents = [{id: root.get('id')}]
       @_createFolder folder_def, (new_folder_json) =>
@@ -154,7 +158,7 @@ FM.Drive = Ember.Object.extend
         console.log('created', new_folder.get('title'), new_folder.get('parents.length'), new_folder.get('parentObj.length'))
         @get('driveFolderObjectCache').set(new_folder_json.id, new_folder)
         root.get('childIds').push(new_folder_json.id)
-        process(new_folder)
+        process_new_folder(new_folder)
 
   _authorize: (success_callback) ->
     CLIENT_ID = '865302316429.apps.googleusercontent.com'
@@ -199,7 +203,7 @@ FM.Drive = Ember.Object.extend
 
 
 
-  _linkFile: (file, folder, callback) ->
+  _linkFile: (file, callback) ->
     params =
       fileId: file.get('id')
       fields: 'id,title'
@@ -231,7 +235,7 @@ FM.Drive = Ember.Object.extend
         @_execute mthod, param, ((result) =>
           console.log('q success', mthod, param, result)
           setTimeout(process, 10)
-          @set('fileJustCopied', result.id)
+          @set('fileJustCopied', result.title)
           @incrementProperty('copiedCount')
           callb(result)
         ), ((result) =>
