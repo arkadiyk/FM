@@ -2,6 +2,7 @@ FM.Drive = Ember.Object.extend
   driveFolderObjectCache: Ember.Map.create({})
   driveFolderTitleCache: Ember.Map.create({})
   driveImageFileObjectCache: Ember.Map.create({})
+  driveImageMD5cache: Ember.Map.create({})
   userProfile: Ember.Object.create()
   activeCallCount: 0
   userProfileLoading: false
@@ -77,6 +78,7 @@ FM.Drive = Ember.Object.extend
       params =
         q: "mimeType = 'application/vnd.google-apps.folder'"
         fields: "items(id,parents(id,isRoot),title),nextPageToken"
+        maxResults: 1000
       @setProperties(foldersLoading: true, foldersLoaded: false)
       @_loadFiles(params, process_folders)
     new Ember.RSVP.Promise(execute)
@@ -86,13 +88,15 @@ FM.Drive = Ember.Object.extend
     execute = (resolve) =>
       process_files = (files) =>
         for fid, file_json of files
-          file = FM.File.create(file_json)
-          @get('driveImageFileObjectCache').set(fid, file)
-          for parent in file_json.parents
-            pid = if parent.isRoot then 'root' else parent.id
-            folder = @findFolder(pid)
-            folder.set('files',[]) unless folder.get('files')
-            folder.get('files').addObject(file)
+          unless @get('driveImageMD5cache').get(file_json.md5Checksum) # ignore exact dups
+            file = FM.File.create(file_json)
+            @get('driveImageFileObjectCache').set(fid, file)
+            @get('driveImageMD5cache').set(file_json.md5Checksum, file)
+            for parent in file_json.parents
+              pid = if parent.isRoot then 'root' else parent.id
+              folder = @findFolder(pid)
+              folder.set('files',[]) unless folder.get('files')
+              folder.get('files').addObject(file)
 
         @setProperties(filesLoading: false, filesLoaded: true)
         resolve()
@@ -100,7 +104,7 @@ FM.Drive = Ember.Object.extend
       params =
         q: "mimeType contains 'image'"
         fields: "items(alternateLink,description,explicitlyTrashed,fileExtension,fileSize,id,imageMediaMetadata(cameraMake,cameraModel,date,height,location,rotation,width),indexableText,md5Checksum,mimeType,openWithLinks,originalFilename,parents(id,isRoot),thumbnailLink,title),nextPageToken"
-        maxResults: 500
+        maxResults: 1000
       @setProperties(filesLoading: true, filesLoaded: false)
       @_loadFiles(params, process_files)
 
@@ -220,6 +224,7 @@ FM.Drive = Ember.Object.extend
     [gapi_area, gapi_call] = method.split('.')
     @incrementProperty('activeCallCount')
     gapi.client.load 'drive', 'v2', =>
+      console.log("PARAMS:", params)
       request = gapi.client.drive[gapi_area][gapi_call](params)
       request.execute (result) =>
         if not result
