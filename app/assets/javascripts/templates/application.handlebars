@@ -5,9 +5,21 @@
       <li>{{#linkTo 'info'}}My Fotomoo{{/linkTo}}</li>
       <li>{{#linkTo 'setup'}}Organize!{{/linkTo}}</li>
       <li>{{#linkTo 'manage'}}Manage!{{/linkTo}}</li>
-      <li>{{#linkTo 'feedback'}}Feedback{{/linkTo}}</li>
-      <li>{{#linkTo 'about'}}About{{/linkTo}}</li>
-      <li>{{#linkTo 'readme'}}Readme{{/linkTo}}</li>
+
+      <li class="dropdown">
+        <a id="drop1" href="#" role="button" class="dropdown-toggle" data-toggle="dropdown">Help <b class="caret"></b></a>
+        <ul class="dropdown-menu" role="menu" aria-labelledby="drop1">
+          <li role="presentation">{{#linkTo 'about'}}About{{/linkTo}}</li>
+          <li role="presentation" class="divider"></li>
+          <li role="presentation">{{#linkTo 'feedback'}}Feedback{{/linkTo}}</li>
+          <li role="presentation" class="divider"></li>
+          <li role="presentation">{{#linkTo 'about'}}FAQ{{/linkTo}}</li>
+          <li role="presentation">{{#linkTo 'about'}}Readme{{/linkTo}}</li>
+          <li role="presentation" class="divider"></li>
+          <li role="presentation"><a role="menuitem" tabindex="-1" href="https://github.com/arkadiyk/FM">Source Code</a></li>
+        </ul>
+      </li>
+
     </ul>
   </div>
 </div>
