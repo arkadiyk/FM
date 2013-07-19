@@ -1,23 +1,3 @@
-function iii(ac) {
-    ret = {};
-    ac.forEach(function (e) {
-        if (e.types[0] === 'country') {
-            ret.country = e.long_name
-        }
-        if (e.types[0] === 'administrative_area_level_1') {
-            ret.pref = e.long_name
-        }
-        if (e.types[0] === 'locality') {
-            ret.city = e.long_name
-        }
-    });
-    console.log(ret);
-}
-
-// FotomooFixtures.locations.forEach(function(r){r.results.forEach(function(kk){ iii(kk.address_components) })})
-
-
-
 if (!window.FotomooFixtures) window.FotomooFixtures = {}
 window.FotomooFixtures.locations = [
     {
