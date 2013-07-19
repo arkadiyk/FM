@@ -102,7 +102,7 @@ FM.Drive = Ember.Object.extend
 
       params =
         q: "mimeType contains 'image'"
-        fields: "items(alternateLink,description,explicitlyTrashed,fileExtension,fileSize,id,imageMediaMetadata(cameraMake,cameraModel,date,height,location,rotation,width),indexableText,md5Checksum,mimeType,openWithLinks,originalFilename,parents(id,isRoot),thumbnailLink,title),nextPageToken"
+        fields: "items(alternateLink,description,explicitlyTrashed,fileExtension,fileSize,id,imageMediaMetadata(cameraMake,cameraModel,date,height,location,rotation,width),md5Checksum,mimeType,openWithLinks,originalFilename,parents(id,isRoot),thumbnailLink,title),nextPageToken"
         maxResults: 200
       @setProperties(filesLoading: true, filesLoaded: false)
       @_loadFiles(params, process_files)
@@ -209,7 +209,7 @@ FM.Drive = Ember.Object.extend
         process_folder(new_folder)
 
   _authorize: (success_callback) ->
-    CLIENT_ID = '251650969875-cd1ubr5qmgjqh5hptugcql4cik570u6f.apps.googleusercontent.com'
+    CLIENT_ID = '865302316429.apps.googleusercontent.com'
     SCOPES = 'https://www.googleapis.com/auth/drive'
     callback = (auth_result) ->
       if auth_result && !auth_result.error
@@ -323,5 +323,36 @@ FM.Drive = Ember.Object.extend
     Math.round(@get('copiedCount') * 100 / (@get('newFileCount') + @get('newFolderCount')))
   ).property('newFileCount', 'newFolderCount',  'copiedCount')
 
+
+  loadConfiguration: ->
+    setHeader = (xhr) ->
+      xhr.setRequestHeader('Authorization', "Bearer #{gapi.auth.getToken().access_token}")
+
+    callback = (data) ->
+      Ember.config = Ember.Object.create(data: data)
+
+    $.ajax(url:url, type: "GET", dataType: "json", success: callback, beforeSend: setHeader)
+
+
+  saveConfiguration: ->
+    boundary = '-------314159265358979323846'
+    delimiter = "\r\n--#{boundary}\r\n"
+    close_delim = "\r\n--#{boundary}--"
+
+    multipartRequestBody =
+      "#{delimiter}Content-Type: application/json\r\n\r\n" +
+      '{"title": "Fotomoo Settings.json", "mimeType": "application/json"}' +
+      "#{delimiter}Content-Type: application/json\r\n\r\n" +
+      '{"test1":"MMMMM", "address":"Japan, Fukushima Prefecture, Aizuwakamatsu, Jonanmachi, 3-74"}' +
+      close_delim
+
+    request = gapi.client.request
+      path: '/upload/drive/v2/files'
+      method: 'POST'
+      params: {uploadType: 'multipart'}
+      headers: { 'Content-Type': 'multipart/mixed; boundary="' + boundary + '"' }
+      body: multipartRequestBody
+
+    request.execute(-> callback())
 
 
