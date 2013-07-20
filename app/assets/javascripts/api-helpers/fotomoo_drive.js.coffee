@@ -214,6 +214,7 @@ FM.Drive = Ember.Object.extend
         new_folder.set('isFotomoo', true)
         console.log('created', new_folder.get('title'), new_folder.get('parents.length'), new_folder.get('parentObj.length'))
         @get('driveFolderObjectCache').set(new_folder_json.id, new_folder)
+        @get('driveFolderTitleCache').set(new_folder_json.title, new_folder)
         root.get('childIds').push(new_folder_json.id)
         process_folder(new_folder)
 
@@ -337,14 +338,12 @@ FM.Drive = Ember.Object.extend
     execute = (resolve, reject) =>
       download_content = (files_meta) =>
         return unless files_meta.length
-        console.log('GOT CONFIG META: ', files_meta[0])
         url = files_meta[0].downloadUrl
-        FM.config.set('id', files_meta[0])
+        FM.config.set('id', files_meta[0].id)
 
         set_header = (xhr) -> xhr.setRequestHeader('Authorization', "Bearer #{gapi.auth.getToken().access_token}")
 
         callback = (data) ->
-          console.log("GOT CONFIG DATA:", data)
           FM.config.parseResponse(data)
           resolve()
 
@@ -354,14 +353,14 @@ FM.Drive = Ember.Object.extend
           dataType: "json"
           success: callback
           error: (xhr, text_status) ->
-            console.log('ERROR: cannot get config', 'text_status')
+            console.log('ERROR: cannot get config', text_status)
             reject(text_status)
           beforeSend: set_header
 
 
-      root_id = @findFolder('root').get('id')
+      fotomoo_root = @get('driveFolderTitleCache').get('Fotomoo Pictures').get('id')
       params =
-        q: "title = 'Fotomoo Settings' and '#{root_id}' in parents"
+        q: "title = 'Fotomoo Settings' and '#{fotomoo_root}' in parents"
         fields: "items(id,md5Checksum,downloadUrl)"
       @_loadFiles(params, download_content)
 
@@ -370,7 +369,7 @@ FM.Drive = Ember.Object.extend
 
 
   saveConfiguration: ->
-    root_id = @findFolder('root').get('id')
+    fotomoo_root = @get('driveFolderTitleCache').get('Fotomoo Pictures').get('id')
 
     boundary = '-------314159265358979323846'
     delimiter = "\r\n--#{boundary}\r\n"
@@ -379,7 +378,7 @@ FM.Drive = Ember.Object.extend
     metadata =
       title: "Fotomoo Settings",
       mimeType: "application/json",
-      parents: [id: root_id]
+      parents: [id: fotomoo_root]
 
 
     multipartRequestBody =
@@ -409,7 +408,6 @@ FM.Drive = Ember.Object.extend
       console.log('SAVED!', file)
       FM.config.set('id', file.id)
 
-    console.log('saving:', JSON.stringify(FM.config.get('data'), undefined, 2))
     request.execute(save_callback)
 
 

@@ -9,7 +9,6 @@ window.gapi.auth =
 window.gapi.client = {
   load: (api_name, api_version, load_callback) -> setTimeout load_callback, 15
   drive:
-
     about:
       get: (params)->
         result = FotomooFixtures.about
@@ -52,4 +51,10 @@ window.gapi.client = {
           else
             ret = {id: params.fileId, title: 'the title'}
           setTimeout ( ->  callback(ret) ), 100
+  request: (params) ->
+    execute: (callback) ->
+      console.log "calling execute. input:", params
+      setTimeout (-> callback({id: "config-ID"})), 100
+
+
 }
