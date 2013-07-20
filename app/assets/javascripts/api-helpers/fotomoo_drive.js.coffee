@@ -35,7 +35,9 @@ FM.Drive = Ember.Object.extend
       @getUserProfile()
       @loadFolders()
     ]
-    Ember.RSVP.all(tasks).then => @loadImageFiles()
+    Ember.RSVP.all(tasks).then =>
+      @loadConfiguration()
+      @loadImageFiles()
 
   getUserProfile: ->
     @set('statusMessage', 'Authorizing ...')
@@ -53,16 +55,20 @@ FM.Drive = Ember.Object.extend
     @set('statusMessage', 'Loading Folders ...')
     execute = (resolve) =>
       process_folders = (folders) =>
-        folders.root = {id: 'root', title: 'Root Folder', parents: []}
-        for fid, folder of folders
+        folders.push {id: 'root', title: 'Root Folder', parents: []}
+
+        folder_cache = {}
+        folder_cache[f.id] = f for f in folders
+
+        for folder in folders
           for parent in folder.parents
             pid = if parent.isRoot then 'root' else parent.id
-            folders[pid].childIds ||= []
-            folders[pid].childIds.push fid
+            folder_cache[pid].childIds ||= []
+            folder_cache[pid].childIds.push folder.id
 
-        for fid, folder of folders
+        for folder in folders
           fo = FM.Folder.create(folder)
-          @get('driveFolderObjectCache').set(fid, fo)
+          @get('driveFolderObjectCache').set(folder.id, fo)
           @get('driveFolderTitleCache').set(folder.title, fo)
 
         mark_children = (ch) ->
@@ -86,9 +92,9 @@ FM.Drive = Ember.Object.extend
     @set('statusMessage', 'Loading Files ...')
     execute = (resolve) =>
       process_files = (files) =>
-        for fid, file_json of files
+        for file_json in files
           file = FM.File.create(file_json)
-          @get('driveImageFileObjectCache').set(fid, file)
+          @get('driveImageFileObjectCache').set(file_json.id, file)
           @get('driveImageMD5cache').set(file_json.md5Checksum, file)
           for parent in file_json.parents
             pid = if parent.isRoot then 'root' else parent.id
@@ -191,7 +197,10 @@ FM.Drive = Ember.Object.extend
         file.set('dirty', true)
 
       @decrementProperty('processedFolderCount')
-      @_saveDirtyFiles() if @get('processedFolderCount') < 0
+
+      if @get('processedFolderCount') < 0
+        @saveConfiguration() if FM.config.get('isDirty')
+        @_saveDirtyFiles()
 
 
     folder = @get('driveFolderTitleCache').get(folder_def.title)
@@ -238,9 +247,9 @@ FM.Drive = Ember.Object.extend
         @decrementProperty('activeCallCount')
 
   _loadFiles: (params, complete_callback) ->
-    files = {}
+    files = []
     callback = (result) =>
-      files[file.id] = file for file in result.items
+      files.pushObjects(result.items)
       if result.nextPageToken
         params.pageToken = result.nextPageToken
         @set('statusDetailsMessage', "#{Object.keys(files).length} files loaded")
@@ -325,34 +334,82 @@ FM.Drive = Ember.Object.extend
 
 
   loadConfiguration: ->
-    setHeader = (xhr) ->
-      xhr.setRequestHeader('Authorization', "Bearer #{gapi.auth.getToken().access_token}")
+    execute = (resolve, reject) =>
+      download_content = (files_meta) =>
+        return unless files_meta.length
+        console.log('GOT CONFIG META: ', files_meta[0])
+        url = files_meta[0].downloadUrl
+        FM.config.set('id', files_meta[0])
 
-    callback = (data) ->
-      Ember.config = Ember.Object.create(data: data)
+        set_header = (xhr) -> xhr.setRequestHeader('Authorization', "Bearer #{gapi.auth.getToken().access_token}")
 
-    $.ajax(url:url, type: "GET", dataType: "json", success: callback, beforeSend: setHeader)
+        callback = (data) ->
+          console.log("GOT CONFIG DATA:", data)
+          FM.config.parseResponse(data)
+          resolve()
+
+        $.ajax
+          url: url
+          type: "GET"
+          dataType: "json"
+          success: callback
+          error: (xhr, text_status) ->
+            console.log('ERROR: cannot get config', 'text_status')
+            reject(text_status)
+          beforeSend: set_header
+
+
+      root_id = @findFolder('root').get('id')
+      params =
+        q: "title = 'Fotomoo Settings' and '#{root_id}' in parents"
+        fields: "items(id,md5Checksum,downloadUrl)"
+      @_loadFiles(params, download_content)
+
+    new Ember.RSVP.Promise(execute)
+
 
 
   saveConfiguration: ->
+    root_id = @findFolder('root').get('id')
+
     boundary = '-------314159265358979323846'
     delimiter = "\r\n--#{boundary}\r\n"
     close_delim = "\r\n--#{boundary}--"
 
+    metadata =
+      title: "Fotomoo Settings",
+      mimeType: "application/json",
+      parents: [id: root_id]
+
+
     multipartRequestBody =
       "#{delimiter}Content-Type: application/json\r\n\r\n" +
-      '{"title": "Fotomoo Settings.json", "mimeType": "application/json"}' +
+      JSON.stringify(metadata) +
       "#{delimiter}Content-Type: application/json\r\n\r\n" +
-      '{"test1":"MMMMM", "address":"Japan, Fukushima Prefecture, Aizuwakamatsu, Jonanmachi, 3-74"}' +
+      FM.config.get('json') +
       close_delim
 
+    r_path = '/upload/drive/v2/files'
+    r_method = 'POST'
+
+    config_id = FM.config.get('id')
+    if config_id
+      r_path = r_path + '/' + config_id
+      r_method = 'PUT'
+
+
     request = gapi.client.request
-      path: '/upload/drive/v2/files'
-      method: 'POST'
-      params: {uploadType: 'multipart'}
+      path: r_path
+      method: r_method
+      params: {uploadType: 'multipart', alt: 'json'}
       headers: { 'Content-Type': 'multipart/mixed; boundary="' + boundary + '"' }
       body: multipartRequestBody
 
-    request.execute(-> callback())
+    save_callback = (file) ->
+      console.log('SAVED!', file)
+      FM.config.set('id', file.id)
+
+    console.log('saving:', JSON.stringify(FM.config.get('data'), undefined, 2))
+    request.execute(save_callback)
 
 

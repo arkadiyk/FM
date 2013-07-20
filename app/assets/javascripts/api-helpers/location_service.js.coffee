@@ -1,14 +1,20 @@
 FM.LocationService = Ember.Object.extend
-  _aCache: Ember.Map.create({})
+  addressCache: Ember.Map.create({})
+
   find: (latitude, longitude) ->
-    rr = (n) -> (Math.round(n * 100) / 100)
+    rr = (n) -> (Math.round((+ n) * 100) / 100)
     [lat, lon] = [rr(latitude), rr(longitude)]
     id = "#{lat},#{lon}"
-    addr = @_aCache.get(id)
+    addr = @findByKey(id)
+    addr.setProperties {latitude, longitude}
+
+  findByKey: (id) ->
+    addr = @addressCache.get(id)
     unless addr
-      addr = FM.Address.create {id,latitude,longitude}
-      @_aCache.set(id, addr)
+      addr = FM.Address.create {id}
+      @addressCache.set(id, addr)
     addr
+
 
   loadSelected: (complete_callback) ->
     selectedAddresses = Ember.Map.create({})
@@ -18,7 +24,8 @@ FM.LocationService = Ember.Object.extend
 
     addresses = []
     selectedAddresses.forEach (id, addr) ->
-      addresses.push(addr) unless addr.get('isLoaded')
+      if not addr.get('isLoaded') and addr.get("latitude") and addr.get("longitude")
+        addresses.push(addr)
 
     if window.google and google.maps
       @_load(addresses, complete_callback)
@@ -50,6 +57,7 @@ FM.LocationService = Ember.Object.extend
               addr_json = @_parseResponse(results)
               addr.setProperties addr_json
               addr.set('dirty', true)
+              addr.set('isValid', true)
               @set('addressObtained', addr_json.formattedAddresses[1])
               @incrementProperty('processedCount')
               try_count = 0

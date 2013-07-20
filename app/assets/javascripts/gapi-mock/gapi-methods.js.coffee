@@ -4,6 +4,7 @@ window.gapi.auth =
   authorize: (params, callback) ->
     result = {}
     setTimeout ( -> callback(result); console.log('authorized') ), 10
+  getToken: -> "==TOKEN=="
 
 window.gapi.client = {
   load: (api_name, api_version, load_callback) -> setTimeout load_callback, 15
@@ -19,8 +20,12 @@ window.gapi.client = {
     files:
       list: (params) ->
         folderPtrn = /mimeType\s*=\s*'application\/vnd.google-apps.folder'/
-        pageToken = params.pageToken || 'page0'
-        result = if params.q.match(folderPtrn) then FotomooFixtures.folders[pageToken] else FotomooFixtures.files[pageToken]
+        if params.q.match /title = 'Fotomoo Settings'/
+          result = {items: [id: 'config-ID', downloadUrl: '/ui/fm_config']}
+        else
+          pageToken = params.pageToken || 'page0'
+          result = if params.q.match(folderPtrn) then FotomooFixtures.folders[pageToken] else FotomooFixtures.files[pageToken]
+
         execute: (callback) ->
           console.log "calling files.list with ", result
           setTimeout ( ->  callback(result) ), 10
