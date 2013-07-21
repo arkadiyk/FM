@@ -1,6 +1,6 @@
 window.google = {
     load: function(api, version, other_params) {
-        other_params.callback()
+        setTimeout(other_params.callback, 3000);
     },
     maps: {
         Geocoder: function() {

@@ -19,6 +19,9 @@ FM.FilesGridController = Ember.ObjectController.extend
   cols: null
   collapsed: Ember.Set.create([])
 
+  selectFile: (file) ->
+    file.set('selected', !file.get('selected'))
+
   flipSelect: (folder) ->
     select = !folder.get('isAllSelected')
     folder.get('folder.unprocessedFiles').forEach (f) -> f.set('selected', select)

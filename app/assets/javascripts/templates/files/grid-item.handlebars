@@ -1,14 +1,11 @@
 {{#if isFile}}
-<div style="position: relative">
+<div style="position: relative" {{action 'selectFile' this}}>
   <img style="max-width: 220px; max-height: 165px" {{bindAttr src="thumbnailLink"}}>
   <span style="position: absolute; bottom: 5px; left: 5px; opacity: 0.6;" class="badge">{{title}}</span>
   <span style="position: absolute; top: 2px; left: 5px">
-
-      {{address.country}}
-      {{address.pref}}
-      {{address.city}}
-
-  {{input type=checkbox checked=selected}}
+    {{#if selected}}
+       <i class="icon-check-sign icon-2x" style="color: #000000; text-shadow: 0 0 10px #FFF; opacity: 0.6;"></i>
+    {{/if}}
   </span>
 </div>
 {{/if}}
