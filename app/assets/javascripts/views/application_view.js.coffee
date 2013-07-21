@@ -18,3 +18,7 @@ FM.LocationServiceProgressView = Ember.View.extend
   completed: (-> "width: #{FM.locationService.get('completed')}%").property('FM.locationService.completed')
   didInsertElement: -> @$('.modal').modal(keyboard: false, backdrop: 'static')
   willDestroyElement: -> @$('.modal').modal('hide')
+
+FM.LoadingView = Ember.View.extend
+  didInsertElement: -> @$('.modal').modal(keyboard: false, backdrop: 'static')
+  willDestroyElement: -> @$('.modal').modal('hide')

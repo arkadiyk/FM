@@ -119,7 +119,7 @@ FM.Drive = Ember.Object.extend
   findFolder: (fid) -> @get('driveFolderObjectCache').get(fid)
   findImageFile: (fid) -> @get('driveImageFileObjectCache').get(fid)
   rootFolder: ->
-    root = @findFolder('root')
+    root = @findFolder('root') || @get('root_promise')
     return root if root
     execute = (resolve, reject) =>
       @apiLoaded().then =>
@@ -130,7 +130,9 @@ FM.Drive = Ember.Object.extend
         resolve(@findFolder('root'))
       .then null, (error_message) ->
         reject(error_message)
-    new Ember.RSVP.Promise(execute)
+    root_promise = new Ember.RSVP.Promise(execute)
+    @set('root_promise', root_promise)
+    root_promise
 
   createTreeHierarchy: ->
     root = FM.Folder.find('root')

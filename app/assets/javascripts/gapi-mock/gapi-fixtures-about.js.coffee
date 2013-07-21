@@ -5,5 +5,5 @@ window.FotomooFixtures.about = {
   user:
     displayName: "The Best User Ever"
     picture:
-      url: "img/photo.jpg"
+      url: "/assets/photo.jpg"
 }
