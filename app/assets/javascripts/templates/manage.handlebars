@@ -27,7 +27,12 @@
     <tr>
       <td>Number of images managed by Fotomoo</td>
       <td>{{allChildrenManagedFiles.length}}</td>
-      <td><button class="btn btn-info btn-small" {{action 'unmanageFiles'}}>Unmanage All</button></td>
+      <td><button class="btn btn-info btn-small btn-with-popover"
+                  data-content="Unlink all managed images from the 'Fotomoo Pictures' folder.
+                  After this operation you can safely delete this folder
+                  folder without risk of loosing all your google drive photos." {{action 'unmanageFiles'}}>
+          Unmanage All</button>
+      </td>
     </tr>
     <tr>
       <td>Number of managed images with geolocation info but not in location hierarchy</td>

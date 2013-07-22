@@ -1,5 +1,4 @@
 FM.Router.map ->
-  @route 'info'
   @route 'about'
   @route 'readme'
   @route 'manage'

@@ -22,3 +22,6 @@ FM.LocationServiceProgressView = Ember.View.extend
 FM.LoadingView = Ember.View.extend
   didInsertElement: -> @$('.modal').modal(keyboard: false, backdrop: 'static')
   willDestroyElement: -> @$('.modal').modal('hide')
+
+FM.ManageView = Ember.View.extend
+  didInsertElement: -> @$('.btn-with-popover').popover(trigger: 'hover')
