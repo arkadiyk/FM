@@ -1,0 +1,46 @@
+<div style="margin: 40px">
+  <h1>Manage (coming soon)</h1>
+  <p>
+    This screen will let you
+    <span class="label">Search</span>,
+    <span class="label">Filter</span>,
+    <span class="label">Select</span>,
+    <span class="label">Share</span> and
+    <span class="label">Re-organize</span> Fotomoo managed pictures.
+  </p><p>
+    For now you can take advantage of Fotomoo created Date and Location hierarchies and searchable indexes using
+    <a href="https://drive.google.com/">Google Drive UI</a>
+  </p><small>
+    Here you will be able to fine tune hierarchies and searchable indexes which Fotomoo has created for you,
+    create and assign keywords, assign star rating, flag photos and provide description.
+  </small>
+</div>
+
+{{#if allChildrenManagedFiles.length}}
+<div class="well" style="width: 91%; margin: 30px">
+  <table class="table table-hover">
+    <tr>
+      <td>Total number of images on your Google Drive</td>
+      <td>{{allChildrenFiles.length}}</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Number of images managed by Fotomoo</td>
+      <td>{{allChildrenManagedFiles.length}}</td>
+      <td><button class="btn btn-info btn-small">Unmanage All</button></td>
+    </tr>
+    <tr>
+      <td>Number of managed images with geolocation info but not in location hierarchy</td>
+      <td>34</td>
+      <td><button class="btn btn-info btn-small">Organize by location</button></td>
+    </tr>
+    <tr>
+      <td>Number managed images which also belong to unmanaged folders</td>
+      <td>5</td>
+      <td><button class="btn btn-info btn-small">Leave them managed</button></td>
+    </tr>
+  </table>
+</div>
+{{else}}
+    <h3>There are no Fotomoo managed pictures on your Google Drive</h3>
+{{/if}}

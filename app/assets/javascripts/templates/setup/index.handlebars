@@ -1,10 +1,10 @@
 
 <div class="well" style="width: 91%; margin: 20px">
-  {{#if allChildrenSelectedFiles.length}}
+   {{#if allChildrenSelectedFiles.length}}
     <button class="btn btn-info pull-right" style="margin-top: 15px" {{action copyFiles}}>
       Organize {{allChildrenSelectedFiles.length}} pictures!
     </button>
-  {{/if}}
+   {{/if}}
     <span class="pull-left"><h3>Organize ...</h3></span>
     <table class="table table-hover">
         <tr>
@@ -19,8 +19,13 @@
             <td>Will be copied into Fotomoo</td>
             <td>{{allChildrenSelectedFiles.length}}</td>
         </tr>
+        <tr>
+          <td>Number of exact duplicate images</td>
+          <td>5</td>
+        </tr>
+
+
     </table>
-    {{#if allChildrenUnprocessedFiles.length}}
     <span class="pull-left"><h3>Setup Details</h3></span>
     <table class="table table-hover">
         <tr>
@@ -54,6 +59,4 @@
           {{/if}}
         {{/each}}
     </table>
-   {{/if}}
-
 </div>

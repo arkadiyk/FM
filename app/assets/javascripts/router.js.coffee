@@ -14,7 +14,7 @@ FM.IndexRoute = Ember.Route.extend
   redirect: ->
     @transitionTo 'about' # unless FM.drive.get('Fotomoo Folder')
 
-FM.InfoRoute = Ember.Route.extend
+FM.ManageRoute = Ember.Route.extend
   model: -> FM.drive.rootFolder()
 
 FM.SetupRoute = Ember.Route.extend
