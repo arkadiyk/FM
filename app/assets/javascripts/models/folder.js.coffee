@@ -26,7 +26,7 @@ FM.Folder = Ember.Object.extend
     list.addObjects(@get('files'))
     @get('children').forEach (child) -> list.addObjects(child.get('allChildrenFiles'))
     list
-  ).property('children.@each', 'files.@each')
+  ).property('children.@each', 'files.@each', 'children.@each.allChildrenFiles')
 
   allChildrenUnprocessedFiles: ( ->
     @get('allChildrenFiles').filterProperty('isFotomoo', false)

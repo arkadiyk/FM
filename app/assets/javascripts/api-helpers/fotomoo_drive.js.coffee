@@ -183,6 +183,37 @@ FM.Drive = Ember.Object.extend
     @_createTree(pics_root, root)
 
 
+  unmanageFiles: ->
+    dirty_files = []; parents_cache = {}
+    @set('newFileCount', @findFolder('root').get('allChildrenManagedFiles.length'))
+    @set('newFolderCount', 0)
+    @findFolder('root').get('allChildrenManagedFiles').forEach (file) ->
+      old_parents = file.get('parents')
+      new_parents = []
+
+      old_parents.forEach (parent) ->
+        folder = FM.Folder.find(parent.id)
+        if folder?.get('isFotomoo')
+          parents_cache[parent.id] ||= []
+          parents_cache[parent.id].push(file.get('id'))
+        else
+          new_parents.push(parent)
+
+      if new_parents.length
+        file.set('parents', new_parents)
+        dirty_files.push file
+
+    for fid, fileids of parents_cache
+      folder = @findFolder(fid)
+      files = folder.get('files').filter( (f)-> (fileids.indexOf(f.get('id')) < 0) )
+      folder.set('files', files)
+
+    dirty_files.forEach (file) =>
+      @_linkFile file, ->
+        console.log('unmanage file', file.get('id'), file.get('selected'))
+        file.setProperties(dirty: false, selected: false, isFotomoo: false)
+
+
   _saveDirtyFiles: ->
     @findFolder('root').get('allChildrenSelectedDirtyFiles').forEach (file) =>
       @_linkFile file, ->
@@ -322,6 +353,8 @@ FM.Drive = Ember.Object.extend
         @decrementProperty('isQueueRunning')
         if @get('isQueueRunning') == 0
           @set('copiedCount', 0)
+          @set('newFileCount', 0)
+          @set('newFolderCount', 0)
           console.log('Q: Stopping the queue')
 
     @get('execQueue').pushObject([method, params, callback])
@@ -331,9 +364,14 @@ FM.Drive = Ember.Object.extend
       @incrementProperty('isQueueRunning')
       setTimeout(process, 100)
 
+
+  toProcess: (->
+    @get('newFileCount') + @get('newFolderCount')
+  ).property('newFileCount', 'newFolderCount')
+
   completed: (->
-    Math.round(@get('copiedCount') * 100 / (@get('newFileCount') + @get('newFolderCount')))
-  ).property('newFileCount', 'newFolderCount',  'copiedCount')
+    Math.round(@get('copiedCount') * 100 / @get('toProcess'))
+  ).property('copiedCount', 'toProcess')
 
 
   loadConfiguration: ->
