@@ -64,6 +64,7 @@ FM.LocationService = Ember.Object.extend
               addr.setProperties addr_json
               addr.set('dirty', true)
               addr.set('isValid', true)
+              FM.config.set('isDirty', true) # fixme should be somwhere else
               @set('addressObtained', addr_json.formattedAddresses[1])
               @incrementProperty('processedCount')
               try_count = 0

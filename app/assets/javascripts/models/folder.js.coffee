@@ -53,6 +53,9 @@ FM.Folder = Ember.Object.extend
     @get('files').filterProperty('selected', true)
   ).property('files','files.@each.selected')
 
+  isAllSelected: (->
+    @get('selectedFiles.length') == @get('unprocessedFiles.length')
+  ).property('selectedFiles.length','unprocessedFiles.length')
 
   folderPath: (->
     full_name = [@get('title')]

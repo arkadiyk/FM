@@ -1,10 +1,14 @@
 
 <div class="well" style="width: 91%; margin: 20px">
-    <button class="btn btn-info pull-right" {{action copyFiles}}>Start!</button>
+  {{#if allChildrenSelectedFiles.length}}
+    <button class="btn btn-info pull-right" style="margin-top: 15px" {{action copyFiles}}>
+      Organize {{allChildrenSelectedFiles.length}} pictures!
+    </button>
+  {{/if}}
     <span class="pull-left"><h3>Organize ...</h3></span>
     <table class="table table-hover">
         <tr>
-            <td>Total Images</td>
+            <td>Total Images On your Google Drive</td>
             <td>{{allChildrenFiles.length}}</td>
         </tr>
         <tr>
@@ -16,15 +20,18 @@
             <td>{{allChildrenSelectedFiles.length}}</td>
         </tr>
     </table>
+    {{#if allChildrenUnprocessedFiles.length}}
     <span class="pull-left"><h3>Setup Details</h3></span>
     <table class="table table-hover">
         <tr>
             <th>Folder</th>
             <th>Total</th>
             <th>Not Managed</th>
-            <th>To Copy</th>
+            <th colspan="2">To Organize</th>
+
         </tr>
         {{#each flatChildren}}
+          {{#if unprocessedFiles.length}}
             <tr>
                 <td>
                     {{#each folderPath}}<span class="badge badge-info">{{this}}</span>{{/each}}
@@ -32,8 +39,21 @@
                 <td>{{files.length}}</td>
                 <td>{{unprocessedFiles.length}}</td>
                 <td>{{selectedFiles.length}}</td>
+                <td>
+
+                  <button class="btn btn-mini" style="width: 80px;" {{action flipSelect this}}>
+                  {{#if isAllSelected}}
+                    Unselect All
+                  {{else}}
+                    Select All
+                  {{/if}}
+                  </button>
+
+                </td>
             </tr>
+          {{/if}}
         {{/each}}
     </table>
+   {{/if}}
 
 </div>

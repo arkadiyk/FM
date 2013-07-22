@@ -409,6 +409,7 @@ FM.Drive = Ember.Object.extend
     save_callback = (file) ->
       console.log('SAVED!', file)
       FM.config.set('id', file.id)
+      FM.config.set('isDirty', false)
 
     request.execute(save_callback)
 

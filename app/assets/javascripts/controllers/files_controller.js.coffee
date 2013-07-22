@@ -5,12 +5,9 @@ FM.GridElement = Ember.Object.extend
 
 FM.GridDirElement = Ember.Object.extend
   isDir: true
-  isAllSelected: (->
-    @get('folder.selectedFiles.length') == @get('folder.unprocessedFiles.length')
-  ).property('folder.selectedFiles','folder.unprocessedFiles')
   selectLabel: (->
-    if @get('isAllSelected') then "Unselect All" else "Select All"
-  ).property('isAllSelected')
+    if @get('folder.isAllSelected') then "Unselect All" else "Select All"
+  ).property('folder.isAllSelected')
 
 
 FM.FilesGridController = Ember.ObjectController.extend
@@ -23,7 +20,7 @@ FM.FilesGridController = Ember.ObjectController.extend
     file.set('selected', !file.get('selected'))
 
   flipSelect: (folder) ->
-    select = !folder.get('isAllSelected')
+    select = !folder.get('folder.isAllSelected')
     folder.get('folder.unprocessedFiles').forEach (f) -> f.set('selected', select)
 
   collapse: (folder) ->

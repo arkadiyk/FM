@@ -1,5 +1,6 @@
 <div id="wrapper">
     <div class="panels">
+      {{#if allChildrenUnprocessedFiles.length}}
         <div class="files-panel">
             {{outlet}}
         </div>
@@ -25,9 +26,15 @@
                 </li>
 
 
-
             </ul>
         </div>
+      {{else}}
+        <h3>All photos on your Google Drive are managed by Fotomoo</h3>
+        <div style="width: 91%; margin: 30px">
+          {{outlet}}
+        </div>
+      {{/if}}
+
     </div>
 </div>
 

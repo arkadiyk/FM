@@ -1,3 +1,5 @@
 {{#linkTo 'files.grid' this}}{{title}}
-  <span class="muted">({{allChildrenUnprocessedFiles.length}})</span>
+<small>
+  <span class="muted pull-right">{{allChildrenSelectedFiles.length}}/{{allChildrenUnprocessedFiles.length}}</span>
+</small>
 {{/linkTo}}

@@ -10,7 +10,7 @@ FM.viewMode = FM.ViewMode.create({})
 
 FM.Config = Ember.Object.extend
   config_format_version: 1
-  isDirty: true
+  isDirty: false
   data: ((key, value) ->
     if arguments.length == 1
       addresses: FM.locationService.get('addressCache').copy()
@@ -34,7 +34,6 @@ FM.Config = Ember.Object.extend
           city: addr_obj.get('city')
           formattedAddresses: addr_obj.get('formattedAddresses')
 
-    console.log('JSON: ', jsn)
     JSON.stringify(jsn, undefined, 2)
 
   ).property()

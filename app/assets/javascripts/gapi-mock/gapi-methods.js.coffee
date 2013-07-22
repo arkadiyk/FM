@@ -41,7 +41,7 @@ window.gapi.client = {
               parents: params.resource.parents
 
             FotomooFixtures.folders.page0.items.push(ret)
-          setTimeout ( ->  callback(ret) ), 100
+          setTimeout ( ->  callback(ret) ), 10
 
       patch: (params) ->
         execute: (callback) ->
@@ -50,11 +50,11 @@ window.gapi.client = {
             ret = {error: { code: 417, message: 'Random Fail', errors: [{reason: 'userRateLimitExceeded'}]} }
           else
             ret = {id: params.fileId, title: 'the title'}
-          setTimeout ( ->  callback(ret) ), 100
+          setTimeout ( ->  callback(ret) ), 10
   request: (params) ->
     execute: (callback) ->
       console.log "calling execute. input:", params
-      setTimeout (-> callback({id: "config-ID"})), 100
+      setTimeout (-> callback({id: "config-ID"})), 10
 
 
 }

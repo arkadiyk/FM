@@ -13,3 +13,8 @@ FM.SetupIndexController = FM.FolderController.extend
     FM.locationService.loadSelected ->
       FM.drive.createTreeHierarchy()
 
+
+  flipSelect: (folder) ->
+    select = !folder.get('isAllSelected')
+    folder.get('unprocessedFiles').forEach (f) -> f.set('selected', select)
+
