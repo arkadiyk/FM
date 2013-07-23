@@ -1,70 +1,93 @@
 <div class="well" style="margin: 30px 60px">
-<h1>F.A.Q.</h1>
-<table class="table">
-  <tr>
-  <td>How do I do Fotomoo Test Drive</td>
-  <td><p>
-      Easiest way to find out whether Fotomoo will suit your needs it to export few tens or hundreds of
-      pictures from your favorite Photo management application into synced Google Drive folder on your local drive.
-    </p><p>
-      For testing I would recommend to export photos using small dimensions so syncing won't take long time and
-      also the collection won't take too much space on your Google Drive.
-      </p><p>
-      Once syncing is complete you can go to {{#linkTo 'setup'}}Organize{{/linkTo}}
-      page to organize exported pictures into hierarchies.</p>
-  </td>
-  </tr><tr>
+  <h1>F.A.Q.</h1>
+  <table class="table">
+    <tr>
+      <td>How do I do Fotomoo Test Drive</td>
+      <td><p>
+        Easiest way to find out whether Fotomoo will suit your needs is to export few tens or hundreds of
+        pictures from your favorite Photo management application into synced
+        Google Drive folder on your local drive. <br />
+        Please check <a href="https://support.google.com/drive/answer/2374987">Google Drive sync application</a>
+        for details about synced folders.
+      </p>
 
-  </tr>
-  <td>I want to use Google Drive as an archive of my entire photo library</td>
-  <td>
-    IMHO the easiest way is to use Google Drive synced folder.
-    <ol>
-      <li>Copy your collection into Google Drive synced folder</li>
-      <li>Use {{#linkTo 'setup'}}Organize!{{/linkTo}} page to create hierarchies.
+        <p>
+          For testing I would recommend to export photos using small dimensions so syncing won't take long time and
+          also the collection won't take too much space on your Google Drive.
+        </p>
+
+        <p>
+          Once syncing is complete you can organize your pictures on the {{#linkTo 'setup'}}Organize{{/linkTo}}
+          page.</p>
+      </td>
+    </tr>
+    <tr>
+
+    </tr>
+    <td>I want to use Google Drive as an archive of my entire photo library</td>
+    <td>
+      <p class="text-error">Please do not delete
+        the original source folders using Google Drive web UI as it will delete the pictures from
+        managed hierarchies as well</p>
+      <ol>
+        <li>Copy your collection into Google Drive synced folder</li>
+        <li>Use {{#linkTo 'setup'}}Organize!{{/linkTo}} page to create hierarchies.
       <span class="muted">It will be faster if you select only few pictures
         first to let Fotomoo to create "Fotomoo Pictures" folder</span>
-      </li>
-      <li>
-        Exclude 'Fotomoo Pictures' folder from syncing on your Google Drive Folder
-      </li>
-      <li>
-        {{#linkTo 'setup'}}Organize{{/linkTo}} the rest of your pictures.
-      </li>
-      <li>Use "Leave them managed" button on the {{#linkTo 'manage'}}Manage!{{/linkTo}}
-      Page to unlinked managed pictures from not Fotomoo folders</li>
-    </ol>
+        </li>
+        <li>
+          Exclude 'Fotomoo Pictures' folder from syncing on your Google Drive application settings.
+        </li>
+        <li>
+          {{#linkTo 'setup'}}Organize{{/linkTo}} the rest of your pictures.
+        </li>
+        <li>Use "Leave them managed" button on the {{#linkTo 'manage'}}Manage!{{/linkTo}}
+          Page to unlink managed pictures from their original folders.
+          </li>
 
-  </td>
-  </tr><tr>
+      </ol>
 
-  <td>Remove Hierarchies created by Fotomoo without deleting photos from their original locations</td>
-  <td>
-    <ol>
-      <li>Press "Unmanage All" button on the {{#linkTo 'manage'}}Manage!{{/linkTo}} page</li>
-      <li>Make sure there is no pictures left in the subfolders under "Fotomoo Pictures"</li>
-      <li>Delete "Fotomoo Pictures" folder</li>
-    </ol>
-  </td>
-  </tr><tr>
+    </td>
+    </tr>
+    <tr>
 
-  <td>Automatically upload images from my mobile device</td>
-  <td><span class="muted">coming soon</span> </td>
-  </tr><tr>
-  <td>How can I help to make Fotomoo better</td>
-  <td>
-    We need your help! To contribute to the project you can:
-    <ul>
-      <li>Tell us what you think in the {{#linkTo 'feedback'}}Feedback{{/linkTo}} page</li>
-      <li>Contribute to ui design and source code by cloning the project on
-        <a href="https://github.com/arkadiyk/FM">Github</a> and submit a pull request </li>
-    </ul>
-  </td>
-</tr><tr>
-  <td>Why photos uploaded by IFTTT ends up into "unknown" folder</td>
-  <td>Unfortunately when IFTTT uploads a photo on the Google Drive it looses essential metadata attributes
-  which makes it impossible to classify the photo</td>
-</tr>
+      <td>Remove Hierarchies created by Fotomoo without deleting photos from their original locations</td>
+      <td>
+        <p class="text-error">Please do not delete the "Fotomoo Pictures" folder using Google Drive
+        web UI if there are any pictures left in the "Fotomoo Pictures" subfolders.
+        There is a risk of loosing managed pictures from their original source folders as well.</p>
+        If you want to remove hierarchies created by Fotomoo please follow these steps:
+        <ol>
+          <li>Press "Unmanage All" button on the {{#linkTo 'manage'}}Manage!{{/linkTo}} page</li>
+          <li>Make sure there is no pictures left in any subfolders under "Fotomoo Pictures" folder</li>
+          <li>Delete "Fotomoo Pictures" folder using </li>
+        </ol>
+      </td>
+    </tr>
+    <tr>
 
-</table>
+      <td>Automatically upload images from my mobile device</td>
+      <td><span class="muted">coming soon</span></td>
+    </tr>
+    <tr>
+      <td>How can I help to make Fotomoo better</td>
+      <td>
+        We need your help! To contribute to the project you can:
+        <ul>
+          <li>If you notice any problems, have questions or want to make
+            a suggestion please let me know on the {{#linkTo 'feedback'}}Feedback{{/linkTo}} page</li>
+          <li>Contribute to ui design and source code by cloning the project on
+            <a href="https://github.com/arkadiyk/FM">Github</a> and submit a pull request
+          </li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td>Why photos uploaded by IFTTT ends up into "unknown" folder</td>
+      <td>Unfortunately when IFTTT uploads a photo on the Google Drive it looses essential metadata attributes
+        which makes it impossible to classify the photo
+      </td>
+    </tr>
+
+  </table>
 </div>
