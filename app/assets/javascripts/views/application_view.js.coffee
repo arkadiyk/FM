@@ -24,4 +24,4 @@ FM.LoadingView = Ember.View.extend
   willDestroyElement: -> @$('.modal').modal('hide')
 
 FM.ManageView = Ember.View.extend
-  didInsertElement: -> @$('.btn-with-popover').popover(trigger: 'hover')
+  didInsertElement: -> @$('.btn-with-popover').popover(trigger: 'hover', placement: 'top')

@@ -1,10 +1,13 @@
 <div class="navbar navbar-fixed-top">
   <div class="navbar-inner">
-    <a class="brand" href="#">FM</a>
       <div class="pull-right" style="margin: 6px 20px 0 0">
       {{FM.drive.userProfile.name}} &nbsp;
       <img {{bindAttr src="FM.drive.userProfile.user.picture.url"}} alt="" width="28" height="28" style="border-radius: 14px;">
       </div>
+
+    <div style="margin-left: 15px">
+    {{#linkTo 'about' class="brand"}}Fotomoo{{/linkTo}}
+    </div>
 
     <ul class="nav">
       <li>{{#linkTo 'setup'}}Organize!{{/linkTo}}</li>

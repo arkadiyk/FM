@@ -9,7 +9,7 @@
 
 
                 <li class="nav-header">&nbsp;</li>
-                <li style="font-size: larger">{{#linkTo 'setup.index'}}<strong>Organize!{{/linkTo}}</strong></li>
+                <li style="font-size: larger">{{#linkTo 'setup.index'}}<strong>Finalize!{{/linkTo}}</strong></li>
                 <li class="nav-header">Select Images to organize</li>
                 <li>
                     {{#if childrenWithPictures.length}}
@@ -29,8 +29,10 @@
             </ul>
         </div>
       {{else}}
+      <div style="margin: 40px">
         <h3>All photos on your Google Drive are managed by Fotomoo</h3>
         <p>You can mange organized pictures {{#linkTo 'manage'}}Here{{/linkTo}}</p>
+        </div>
       {{/if}}
 
     </div>

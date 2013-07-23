@@ -33,22 +33,34 @@
     <tr>
       <td>Number of images managed by Fotomoo</td>
       <td>{{allChildrenManagedFiles.length}}</td>
-      <td><button class="btn btn-info btn-small btn-with-popover"
-                  data-content="Unlink all managed images from the 'Fotomoo Pictures' folder.
-                  After this operation you can safely delete this folder
-                  folder without risk of loosing all your google drive photos." {{action 'unmanageFiles'}}>
+      <td><button
+          class="btn btn-info btn-small btn-with-popover"
+          data-content="Unlink all managed images from the 'Fotomoo Pictures' folder.
+          After this operation is complete you can safely delete 'Fotomoo Pictures'
+          folder without risk of loosing all your google drive photos." {{action 'unmanageFiles'}}>
           Unmanage All</button>
       </td>
     </tr>
     <tr>
       <td>Number of managed images with geolocation info but not in location hierarchy</td>
-      <td>34</td>
-      <td><button class="btn btn-info btn-small">Organize by location</button></td>
+      <td>0</td>
+      <td><button onclick="alert('comig soon')"
+          class="btn btn-info btn-small btn-with-popover"
+          data-content="Try to re-obtain address info and re-organize managed pictures
+          by location if for any reason Fotomoo could not obtain address information from
+          Google maps on the initial import.">
+          Organize by location</button></td>
     </tr>
     <tr>
       <td>Number managed images which also belong to unmanaged folders</td>
-      <td>5</td>
-      <td><button class="btn btn-info btn-small">Leave them managed</button></td>
+      <td>{{allChildrenManagedFiles.length}}</td>
+      <td><button onclick="alert('comig soon')"
+          class="btn btn-info btn-small btn-with-popover"
+          data-content="On initial import Fotomoo does not unlink photos from
+          their original folders. This will let you keep your photos only
+          in the Fotomoo managed hierarchies">
+        Leave them managed</button>
+      </td>
     </tr>
   </table>
 </div>
