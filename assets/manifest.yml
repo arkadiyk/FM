@@ -5,12 +5,14 @@ about_by_location.png: about_by_location-ed36c91386ef7830c4c7c1bf74953c9a.png
 about_by_location/index.png: about_by_location-ed36c91386ef7830c4c7c1bf74953c9a.png
 about_search.png: about_search-ab76defa1350072e13d424551610baac.png
 about_search/index.png: about_search-ab76defa1350072e13d424551610baac.png
+chrome_95472_alert.gif: chrome_95472_alert-42128320df875aea620049e3f7f59e22.gif
+chrome_95472_alert/index.gif: chrome_95472_alert-42128320df875aea620049e3f7f59e22.gif
 photo.jpg: photo-038feb7c3e628b417b4bb5a730ef8cf9.jpg
 photo/index.jpg: photo-038feb7c3e628b417b4bb5a730ef8cf9.jpg
 thumbnail1.jpg: thumbnail1-6b559e29d39f7da027c81568bb66a704.jpg
 thumbnail1/index.jpg: thumbnail1-6b559e29d39f7da027c81568bb66a704.jpg
-application.js: application-231610d155ade9ff5188977c3e37a441.js
-application/index.js: application-231610d155ade9ff5188977c3e37a441.js
+application.js: application-a0054af67bdd689630c9f49201145bcf.js
+application/index.js: application-a0054af67bdd689630c9f49201145bcf.js
 models/application.js: models/application-1b81472dad01667bf291fb9698c3098d.js
 models/application/index.js: models/application-1b81472dad01667bf291fb9698c3098d.js
 templates/application.js: templates/application-30a5ecedfba6b10a9066353568c3026f.js
