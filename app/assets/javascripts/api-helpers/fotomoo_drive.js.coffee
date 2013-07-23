@@ -1,6 +1,5 @@
 FM.Drive = Ember.Object.extend
   driveFolderObjectCache: Ember.Map.create({})
-  driveFolderTitleCache: Ember.Map.create({})
   driveImageFileObjectCache: Ember.Map.create({})
   driveImageMD5cache: Ember.Map.create({})
   userProfile: Ember.Object.create()
@@ -69,12 +68,12 @@ FM.Drive = Ember.Object.extend
         for folder in folders
           fo = FM.Folder.create(folder)
           @get('driveFolderObjectCache').set(folder.id, fo)
-          @get('driveFolderTitleCache').set(folder.title, fo)
+          @set('fotomooFolder', fo) if folder.title == "Fotomoo Pictures"
 
         mark_children = (ch) ->
           ch.set('isFotomoo', true)
           ch.get('children').forEach (child) -> mark_children(child)
-        fotomoo_root = @get('driveFolderTitleCache').get('Fotomoo Pictures')
+        fotomoo_root = @get('fotomooFolder')
         mark_children(fotomoo_root) if fotomoo_root
 
         @setProperties(foldersLoading: false, foldersLoaded: true)
@@ -236,7 +235,7 @@ FM.Drive = Ember.Object.extend
         @_saveDirtyFiles()
 
 
-    folder = @get('driveFolderTitleCache').get(folder_def.title)
+    folder = root.get('children').findProperty('title', folder_def.title)
     if folder
       console.log("folder exists:", folder.get('id'), folder.get('title'))
       process_folder(folder)
@@ -247,7 +246,7 @@ FM.Drive = Ember.Object.extend
         new_folder.set('isFotomoo', true)
         console.log('created', new_folder.get('title'), new_folder.get('parents.length'), new_folder.get('parentObj.length'))
         @get('driveFolderObjectCache').set(new_folder_json.id, new_folder)
-        @get('driveFolderTitleCache').set(new_folder_json.title, new_folder)
+        @set('fotomooFolder', new_folder) if new_folder_json.title == "Fotomoo Pictures"
         root.get('childIds').push(new_folder_json.id)
         process_folder(new_folder)
 
@@ -359,7 +358,7 @@ FM.Drive = Ember.Object.extend
 
     @get('execQueue').pushObject([method, params, callback])
 
-    if @get('isQueueRunning') < 3
+    if @get('isQueueRunning') < 4
       console.log('starting Q: ', @get('isQueueRunning'))
       @incrementProperty('isQueueRunning')
       setTimeout(process, 100)
@@ -398,7 +397,7 @@ FM.Drive = Ember.Object.extend
           beforeSend: set_header
 
 
-      fotomoo_root = @get('driveFolderTitleCache').get('Fotomoo Pictures').get('id')
+      fotomoo_root = @get('fotomooFolder.id')
       params =
         q: "title = 'Fotomoo Settings' and '#{fotomoo_root}' in parents"
         fields: "items(id,md5Checksum,downloadUrl)"
@@ -409,7 +408,7 @@ FM.Drive = Ember.Object.extend
 
 
   saveConfiguration: ->
-    fotomoo_root = @get('driveFolderTitleCache').get('Fotomoo Pictures').get('id')
+    fotomoo_root = @get('fotomooFolder.id')
 
     boundary = '-------314159265358979323846'
     delimiter = "\r\n--#{boundary}\r\n"
