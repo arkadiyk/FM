@@ -1,10 +1,8 @@
-<div class="well" style="margin: 30px 60px">
+<div class="well row-fluid" style="margin: 30px 60px; width: 87%">
 <h3>Fotomoo is a tool to manage your photos stored on the cloud</h3>
-  <p class="muted"><small>At this moment it works with Google drive only</small></p>
 
-  <div class="pull-right">
-    <img src="assets/about1.png" />
-  </div>
+<div class="span6" >
+  <p class="muted"><small>At this moment it works with Google drive only</small></p>
 
 <p>
   <strong>Fotomoo</strong> organises photos on your Google Drive by <strong>automatically</strong>
@@ -15,15 +13,24 @@
 
     This POC is a very first step, a bare minimum which can already
     help you to keep your pictures in order.
-</p><p>
-    You can start by uploading your pictures into your Google Drive. No worries into which folder in what order,
-    duplicate files, empty folders, etc. Fotomoo will organize your pictures by date and location and index them
-    in a way you can find a photo you are looking for right away!
 </p>
 
-<p>Please read {{#linkTo 'readme'}}readme page{{/linkTo}} for more details</p>
-<p>You may also take a look at {{#linkTo 'faq'}}F.A.Q.{{/linkTo}}</p>
-<p>{{#linkTo 'setup'}}Start organazing pictures on your Google Drive{{/linkTo}}</p>
+  <div class="alert alert-info">
+    Fotomoo takes advantage of Google Drive feature which allows a file to belong to multiple
+    folders. Unlike any other filesystems with the similar feature, deleting a file from
+    one of the Google Drive folders deletes the file <strong>completely</strong>
+    from all of the folders.<br />
+    So please be extra careful when you delete a photo from Google Drive UI.<br />
+    <strong>If</strong> you would like to keep managed photos only in the Fotomoo
+    hierarchy or you want to delete Fotomoo hierarchy and leave images in their
+    original location please navigate to {{#linkTo 'manage'}}Manage{{/linkTo}}
+    page and use <strong>"Leave them maneged"</strong> or <strong>"Unmanage All"</strong>
+    buttons
+  </div>
+
+  <p>Please read {{#linkTo 'readme'}}readme page{{/linkTo}} for more details</p>
+  <p>You may also take a look at {{#linkTo 'faq'}}F.A.Q.{{/linkTo}}</p>
+  <p>{{#linkTo 'setup'}}Start organazing pictures on your Google Drive{{/linkTo}}</p>
 
 <h3>Coming up (very) soon</h3>
 <p>
@@ -47,4 +54,10 @@
     to organize and help to enhance your images in much greater way.
   Please stay tuned!
 </p>
+</div>
+
+  <div class="span5">
+    <img src="assets/about1.png" />
+  </div>
+
 </div>

@@ -1,12 +1,68 @@
-<div class="well" style="margin: 30px 60px">
+<div class="well row-fluid" style="margin: 30px 60px; width: 87%">
   <h1>readme</h1>
 
-<p>
-    At this moment Fotomoo can organize pictures on your google drive by creating two hierarchies:
-    1) By Date - YEAR/MONTH folders using a date the picture was taken
-    2) By Location - For Photos with geotags (taken on Smartphone) Fotomoo will try to obtain an address and put pictures into
-    COUNTRY/CITY folders.
-    3) Fotomoo will also use the address into searchable attributes of the pictures so you can use a
-    search field in your Google Drive UI to locate images.
-</p>
+  <div class="row">
+    <div class="span6">
+      <p>
+        At this moment Fotomoo can organize pictures on your google drive by creating two hierarchies:
+      <ul>
+        <li>
+          <span class="label">By Date</span> - <strong>YEAR/MONTH</strong>
+          folders using a date the picture was taken
+        </li>
+        <li>
+          <span class="label">By Location</span> - <strong>COUNTRY/CITY</strong>
+          folders for Photos with geotags (any photos taken on Smartphone, for example).
+        </li>
+      </ul>
+      Fotomoo will also use the address to update <span class="label">Searchable Indexes</span>
+      of the pictures so you can use a search field in your Google Drive UI to locate images.
+      </p>
+
+      <p>
+        To <strong>start using</strong> Fotomoo you need to upload a collection of images into your Google Drive in any folder(s).
+        The easiest way to upload multiple files is to use
+        <a href="https://support.google.com/drive/answer/2374987">Google Drive sync application</a>
+      </p>
+
+      <p>
+        Once the upload is complete you need to navigate to {{#linkTo 'setup'}}Organize!{{/linkTo}} page.
+        On this pages you can unselect folders and individual images you don't need
+        to be managed by Fotomoo.
+        <br />
+        By default <strong>All</strong> images found in all folders on your Google Drive selected.
+      </p>
+
+      <p>
+        After you satisfied with the selection click on <strong>Organize pictures!</strong> button.
+        Fotomoo will try to obtain location info for your images and then will create the two hierarchies.
+        The process can take long time depending on the size of your collection.
+        If for any reason the process is interrupted, the next time you start Fotomoo it will
+        start when it was left off.
+      </p>
+
+      <p>
+        During this process Fotomoo does not unlink photos from their original folders.
+        If you would like to keep managed photos only in the Fotomoo hierarchies you
+        need to navigate to {{#linkTo 'manage'}}Manage{{/linkTo}} page and click on
+        <strong>Leave them managed</strong> button
+      </p>
+
+      <p>
+        To <strong>add new images</strong> into Fotomoo hierarchies you need to upload them into any folder except
+        "Fotomoo Pictures", the folder created by Fotomoo. Then navigate to
+        {{#linkTo 'setup'}}Organize!{{/linkTo}} page and click on <strong>Organize pictures!</strong> button.
+      </p>
+
+      <p>
+        You can manage your hierarchies on the {{#linkTo 'manage'}}Manage{{/linkTo}} page or
+        browse the structure and use search box using <a href="https://drive.google.com/">Google Drive UI</a>
+      </p>
+
+    </div>
+
+    <div class="span5">
+    </div>
+
   </div>
+</div>

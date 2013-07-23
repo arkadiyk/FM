@@ -1,5 +1,9 @@
 <div style="margin: 40px">
   <h1>Manage (coming soon)</h1>
+  </p><p>
+  At this moment you can take advantage of Fotomoo created Date and Location hierarchies and searchable indexes using
+    <a href="https://drive.google.com/">Google Drive UI</a>
+  </p>
   <p>
     Soon this page will let you:
   <ul>
@@ -16,10 +20,6 @@
       assign <span class="label">description</span></li>
   </ul>
 
-  </p><p>
-    For now you can take advantage of Fotomoo created Date and Location hierarchies and searchable indexes using
-    <a href="https://drive.google.com/">Google Drive UI</a>
-  </p>
 </div>
 
 {{#if allChildrenManagedFiles.length}}
@@ -57,13 +57,15 @@
       <td><button onclick="alert('comig soon')"
           class="btn btn-info btn-small btn-with-popover"
           data-content="On initial import Fotomoo does not unlink photos from
-          their original folders. This will let you keep your photos only
-          in the Fotomoo managed hierarchies">
+          their original folders. This will let you keep managed photos only
+          in the Fotomoo hierarchies">
         Leave them managed</button>
       </td>
     </tr>
   </table>
 </div>
 {{else}}
+  <div style="margin: 40px">
     <h3>There are no Fotomoo managed pictures on your Google Drive</h3>
+  </div>
 {{/if}}
