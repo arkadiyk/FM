@@ -1,6 +1,9 @@
 if (!window.FotomooFixtures) window.FotomooFixtures = {}
 window.FotomooFixtures.files = {
   page0: {
+      items: []
+  },
+  page_blah: {
     nextPageToken: "nextFilePageToken1",
       items: [
         {

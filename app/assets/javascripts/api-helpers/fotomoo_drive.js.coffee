@@ -60,6 +60,7 @@ FM.Drive = Ember.Object.extend
         folder_cache[f.id] = f for f in folders
 
         for folder in folders
+          folder.parents = [{id: "root", sRoot: true}] unless folder.parents # shared folders have no parents!
           for parent in folder.parents
             pid = if parent.isRoot then 'root' else parent.id
             folder_cache[pid].childIds ||= []
@@ -375,6 +376,12 @@ FM.Drive = Ember.Object.extend
 
   loadConfiguration: ->
     execute = (resolve, reject) =>
+
+      fotomoo_root = @get('fotomooFolder.id')
+      unless fotomoo_root
+        resolve()
+        return
+
       download_content = (files_meta) =>
         return unless files_meta.length
         url = files_meta[0].downloadUrl
@@ -396,8 +403,6 @@ FM.Drive = Ember.Object.extend
             reject(text_status)
           beforeSend: set_header
 
-
-      fotomoo_root = @get('fotomooFolder.id')
       params =
         q: "title = 'Fotomoo Settings' and '#{fotomoo_root}' in parents"
         fields: "items(id,md5Checksum,downloadUrl)"
