@@ -39,7 +39,9 @@
           {{#if unprocessedFiles.length}}
             <tr>
                 <td>
+                  {{#linkTo 'files.grid' this}}
                     {{#each folderPath}}<span class="badge badge-info">{{this}}</span>{{/each}}
+                  {{/linkTo}}
                 </td>
                 <td>{{files.length}}</td>
                 <td>{{unprocessedFiles.length}}</td>
