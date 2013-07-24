@@ -1,8 +1,10 @@
 <div class="navbar navbar-fixed-top">
   <div class="navbar-inner">
       <div class="pull-right" style="margin: 6px 20px 0 0">
+        {{#if FM.drive.userProfile}}
       {{FM.drive.userProfile.name}} &nbsp;
       <img {{bindAttr src="FM.drive.userProfile.user.picture.url"}} alt="" width="28" height="28" style="border-radius: 14px;">
+        {{/if}}
       </div>
 
     <div style="margin-left: 15px">

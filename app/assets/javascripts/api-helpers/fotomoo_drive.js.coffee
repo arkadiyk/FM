@@ -81,7 +81,7 @@ FM.Drive = Ember.Object.extend
         resolve()
 
       params =
-        q: "mimeType = 'application/vnd.google-apps.folder'"
+        q: "mimeType = 'application/vnd.google-apps.folder' and 'me' in owners and trashed = false"
         #fields: "items(id,parents(id,isRoot),title),nextPageToken"
         maxResults: 200
       @setProperties(foldersLoading: true, foldersLoaded: false)
@@ -107,7 +107,7 @@ FM.Drive = Ember.Object.extend
         resolve()
 
       params =
-        q: "mimeType contains 'image'"
+        q: "mimeType contains 'image' and 'me' in owners and trashed = false"
         fields: "items(alternateLink,description,explicitlyTrashed,fileExtension,fileSize,id,imageMediaMetadata(cameraMake,cameraModel,date,height,location,rotation,width),md5Checksum,mimeType,openWithLinks,originalFilename,parents(id,isRoot),thumbnailLink,title),nextPageToken"
         maxResults: 200
       @setProperties(filesLoading: true, filesLoaded: false)
@@ -404,7 +404,7 @@ FM.Drive = Ember.Object.extend
           beforeSend: set_header
 
       params =
-        q: "title = 'Fotomoo Settings' and '#{fotomoo_root}' in parents"
+        q: "title = 'Fotomoo Settings' and '#{fotomoo_root}' in parents and 'me' in owners and trashed = false"
         fields: "items(id,md5Checksum,downloadUrl)"
       @_loadFiles(params, download_content)
 
