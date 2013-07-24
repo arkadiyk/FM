@@ -359,10 +359,10 @@ FM.Drive = Ember.Object.extend
 
     @get('execQueue').pushObject([method, params, callback])
 
-    if @get('isQueueRunning') < 4
+    if @get('isQueueRunning') < 3
       console.log('starting Q: ', @get('isQueueRunning'))
       @incrementProperty('isQueueRunning')
-      setTimeout(process, 100)
+      setTimeout(process, 150)
 
 
   toProcess: (->
