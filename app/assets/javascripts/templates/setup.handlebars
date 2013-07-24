@@ -30,9 +30,13 @@
         </div>
       {{else}}
       <div style="margin: 40px">
-        <h3>All photos on your Google Drive are managed by Fotomoo</h3>
-        <p>You can mange organized pictures {{#linkTo 'manage'}}Here{{/linkTo}}</p>
-        </div>
+        {{#if allChildrenFiles.length}}
+          <h3>All photos on your Google Drive are managed by Fotomoo</h3>
+          <p>You can mange organized pictures {{#linkTo 'manage'}}Here{{/linkTo}}</p>
+          </div>
+        {{else}}
+          <h3>You do not have any images on your Google Drive</h3>
+        {{/if}}
       {{/if}}
 
     </div>

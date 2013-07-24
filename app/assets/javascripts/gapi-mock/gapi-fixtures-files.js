@@ -1,6 +1,6 @@
 if (!window.FotomooFixtures) window.FotomooFixtures = {}
 window.FotomooFixtures.files = {
-  page0_empty: {
+  page0_: {
       items: []
   },
   page0: {
