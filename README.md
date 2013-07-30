@@ -1,20 +1,38 @@
-# Fotomoo is a tool to manage your photos stored on the cloud
+# Fotomoo
+
+**A tool to manage large photo libraries stored on the cloud**
+
+The project's goal is to make management of digital assets on the cloud as effortless as possible.
+
 At this moment it works with Google drive only
 
 POC: http://fotomoo.com
 
-Fotomoo organises photos on your Google Drive by automatically creating multiple hierarchies and assigning searchable indexes to your photos.
+### The code
 
-Fotomoo is designed to make management of your digital assets on the cloud as effortless as possible.
+It looks like a Rails project but it is not. At this moment it is purely CoffeScript / Ember.js application, 
+which uses Google Drive as a backend. I am using rails to compile assets only. There is a 
+chance that one day the project will have a server part to
+do image processing. I am still not sure which server-side framework that would be. Rails or Node, most likely.
 
-This POC is a very first step, a bare minimum which can already help you to keep your pictures in order.
+## Current State.
+
+At this moment the application can organise photos on Google Drive by automatically creating 
+multiple hierarchies and assigning searchable indexes to your photos based on image EXIF date and geotags.
+
+To give it a test drive you can export a large amount of scaled down photos to your google drive 
+and then try to organize them by navigating on to "Organize!" page of fotomoo.com.
 
 
 ## Coming soon
 
-__Shared Library__ You will be able to organize and manage a single Fotomoo library from multiple accounts. Great for family photo collections!
+__Shared Library__ to organize and manage a single Fotomoo library from multiple accounts.
 
-In the coming weeks you will be able to Manage your photo library on the cloud using Fotomoo.
+__Mobile App__ to search and browse photo library in the cloud. Will let you instantly find a
+picture you are looking for and show it on your mobile device. The picture will be scaled to an
+optimal resolution to minimize the loading time and network bandwidth.
+
+__Manage Page__. In the coming weeks you will be able to Manage your photo library on the cloud using Fotomoo:
 
 __Search__, __Filter__, __Select__ and __Share__ Fotomoo
 managed pictures using all automatically and manually created attributes
@@ -27,4 +45,5 @@ For now you can take advantage of automatically created hierarchies and indexes 
 
 ## The future
 
-Fotomoo will use advanced image processing algorithms to organize and help to enhance your images in much greater way. Please stay tuned!
+Fotomoo will use advanced image processing algorithms to organize and help to enhance your images in much greater way.
+
