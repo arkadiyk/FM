@@ -35,8 +35,8 @@ optimal resolution to minimize the loading time and network bandwidth.
 __Manage Page__. In the coming weeks you will be able to Manage your photo library on the cloud using Fotomoo:
 
   * __Search__, __Filter__, __Select__ and __Share__ Fotomoo
-managed pictures using all automatically and manually created attributes
-In fact this is what Fotomoo is created for =)
+managed pictures using all automatically and manually created attributes. In fact
+this is what Fotomoo is created for =)
   * __Edit__ your photos by integrating with Google Drive 3rd party tools like Picmonkey or Pics.io
   * __Fine tune__ the structure and searchable indexes which Fotomoo has automatically created for you.
   * Create your __own hierarchies__ and searchable indexes
@@ -46,5 +46,4 @@ For now you can take advantage of automatically created hierarchies and indexes 
 
 ## The future
 
-Fotomoo will use __image processing__ to organize and help to enhance your images in much greater way. 
-
+Fotomoo will use __image processing__ to organize and help to enhance images in much greater way.
