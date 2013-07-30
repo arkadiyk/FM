@@ -6,22 +6,32 @@ The project's goal is to make management of digital assets on the cloud as effor
 
 At this moment it works with Google drive only
 
-POC: http://fotomoo.com
+### POC: http://fotomoo.com
 
 ### The code
 
-It looks like a Rails project but it is not. At this moment it is purely CoffeScript / Ember.js application, 
+It looks like a Rails project but it is not. At this moment it is purely CoffeeScript / Ember.js application, 
 which uses Google Drive as a backend. I am using rails to compile assets only. There is a 
 chance that one day the project will have a server part to
 do image processing. I am still not sure which server-side framework that would be. Rails or Node, most likely.
 
 ## Current State.
 
-At this moment the application can organise photos on Google Drive by automatically creating 
-multiple hierarchies and assigning searchable indexes to your photos based on image EXIF date and geotags.
+At this moment Fotomoo:  
+  1. Scans user's Google Drive for images
+  2. Query Image EXIF metadata using Google Drive API
+  3. Creates __Fotomoo Pictures__ folder if it does not exists
+  4. Creates __By Date__ and __By Location__ hierarchies under __Fotomoo Pictures__ using EXIF metadata. 
+To obtain location info Fotomoo uses Google maps API.
+  5. Links images to appropriate folders into those two hierarchies. It does not unlink
+images from thier original location. To keep images only in the Fotomoo hierarchy there is a "Leave Them managed"
+button on the "Manage!" page.
+  6. Updates searchable index for each geotagged image with full address obtained from Google Drive API. 
+It allows user to search google drive for images using any Address components.
+
 
 To give it a test drive you can export a large amount of scaled down photos to your google drive 
-and then try to organize them by navigating on to "Organize!" page of fotomoo.com.
+and then organize them by navigating on to "Organize!" page of fotomoo.com.
 
 
 ## Coming soon
