@@ -3,7 +3,7 @@ window.gapi ||= {}
 window.gapi.auth =
   authorize: (params, callback) ->
     result = {}
-    setTimeout ( -> callback(result); console.log('authorized') ), 10
+    setTimeout ( -> callback(result); console.log('authorized') ), 1000
   getToken: -> "==TOKEN=="
 
 window.gapi.client = {

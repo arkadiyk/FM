@@ -3,6 +3,29 @@
     <div class="well well-large well-transparent lead">
       <i class="icon-spinner icon-spin icon-2x pull-left"></i> <div style="margin-top: 6px">Loading Data</div>
     </div>
+    {{#if FM.drive.popupWarningMessage}}
+      <div class="text-error" style="font-size: larger"><strong>*** Important ***</strong></div>
+      <p>
+        In order to login into your Google Drive account you need to allow popups from this site.
+      </p>
+      <p>
+        {{#if view.isChrome}}
+          Please click on the
+          <img src="assets/chrome_95472_alert.gif" class="img-rounded" /> icon in the address bar
+          and choose on <strong>"Always allow pop-ups from arkadiyk.github.io"</strong>
+        {{else}}
+          {{#if view.isFirefox}}
+            Please click on the "Option" button on the warning panel
+            and choose on <strong>"Allow popups for arkadiyk.github.io"</strong>
+          {{else}}
+            Please follow the browser instruction to allow popups from arkadiyk.github.io
+          {{/if}}
+        {{/if}}
+      </p>
+    <div class="text-error">
+      <strong>Please reload this page after you allow pop-ups.</strong>
+    </div>
+    {{/if}}
     <p class="muted">
       <span id='load-message'>{{FM.drive.statusMessage}}</span>
       <small class="pull-right" id='load-details-message'>{{FM.drive.statusDetailsMessage}}</small>

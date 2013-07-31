@@ -22,6 +22,17 @@ FM.LocationServiceProgressView = Ember.View.extend
 FM.LoadingView = Ember.View.extend
   didInsertElement: -> @$('.modal').modal(keyboard: false, backdrop: 'static')
   willDestroyElement: -> @$('.modal').modal('hide')
+  isChrome: (->
+    test = /chrome/.test(navigator.userAgent.toLowerCase())
+    console.log('Chrome', test)
+    test
+  ).property()
+  isFirefox: (->
+    test = /firefox/.test(navigator.userAgent.toLowerCase())
+    console.log('Chrome', test)
+    test
+  ).property()
+
 
 FM.ManageView = Ember.View.extend
   didInsertElement: -> @$('.btn-with-popover').popover(trigger: 'hover', placement: 'top')

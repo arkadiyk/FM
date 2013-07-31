@@ -1,116 +1,124 @@
 <div class="well row-fluid" style="margin: 30px 60px; width: 87%">
-<h3>Fotomoo is a tool to manage your photos stored on the cloud</h3>
+  <h3>Fotomoo is a tool to manage your photos stored on the cloud</h3>
 
-    <p class="text-error" style="font-size: larger"><strong>*** Important ***</strong>
-        You need to
-        <a href="https://support.google.com/chrome/answer/95472?hl=en">disable popup blocker</a>
-        from http://fotomoo.com and http://arkadiyk.github.io/
-        in order to login into your Google Drive account!
-        </p>
+  <p class="text-error"> At the moment Fotomoo tested only with Chrome and Firefox.
+    Good chance it will work with Safari. It probably won't work very well in IE</p>
 
-    <p class="text-error"> At the moment Fotomoo tested only with Chrome and Safari. Good chance it will work with Firefox.
-    It probably won't work very well in IE</p>
-
-
-
-    <div class="span6" >
-  <p class="muted"><small>At this moment Fotomoo works with Google drive only</small></p>
-
-<p>
-  <strong>Fotomoo</strong> organises photos on your Google Drive by <strong>automatically</strong>
-  creating multiple folder <span class="label">hierarchies</span> and assigning
-  <span class="label">searchable indexes</span> to your photos.
-</p><p>
-  Fotomoo is designed to make management of your digital assets on the cloud as effortless as possible.
-</p><p>
-
-    This POC is a very first step, a bare minimum which can already
-    help you to keep your pictures in order.
-</p>
-
-    <p class="text-error">In order to login into your Google account you need to <strong>allow pop-ups</strong> from this site.
-        <br />
-        If you see the "Loading" indicator keep spinning, most likely your browser blocked Google Authorization popup.
-        <br />
-    In <strong>Chrome</strong> you will see the
-        <img src="assets/chrome_95472_alert.gif" class="img-rounded" /> icon in the address bar once you navigate onto
-        "Organize!" or "Manage!" pages. You need to click on that icon and follow the instructions to allow popups.
-        <a href="https://support.google.com/chrome/answer/95472?hl=en">Here are detail instruction</a>.
-     In <strong>Safari</strong> please follow the
-     <a href="http://support.apple.com/kb/PH11946?viewlocale=en_US&locale=en_US">instructions</a> here
+  <div class="span6">
+    <p class="muted">
+      <small>Currently Fotomoo works with Google Drive cloud storage only</small>
     </p>
 
-
-    <p>To give it a test you can export a large amount of scaled down photos to your google drive
-        and then organize them by navigating on to {{#linkTo 'setup'}}Organize!{{/linkTo}} page of fotomoo.com.
+    <p>
+      <strong>Fotomoo</strong> organises photos on your Google Drive by <strong>automatically</strong>
+      creating multiple <span class="label">folder hierarchies</span> and assigning
+      <span class="label">searchable indexes</span> to your photos.
     </p>
 
-  <p>Please read {{#linkTo 'readme'}}readme page{{/linkTo}} for more details</p>
-  <p>You may also want to take a look at {{#linkTo 'faq'}}F.A.Q.{{/linkTo}}</p>
+    <p>
+      Fotomoo is designed to make management of your digital assets on the cloud as effortless as possible.
+    </p>
 
-  <p>Please let me know what you think about this project on the {{#linkTo 'feedback'}}Feedback{{/linkTo}} page</p>
+    <p>
+      This POC is a very first step, a bare minimum which can already
+      help you to keep your pictures in order.
+    </p>
 
-  <p>{{#linkTo 'setup'}}Start organizing pictures on your Google Drive{{/linkTo}}</p>
+    <p class="text-error">
+      In order to login into your Google account you need to
+      <strong>allow pop-ups</strong> from  this site.
+      <br/>
+      If you see the "Loading" indicator keep spinning, most likely your browser
+      blocked Google Authorization popup.
+    </p>
 
-<h3>Coming soon</h3>
-  <p>
-    <span class="label label-warning" style="font-size: larger">Shared Library</span> You will be able to
-    organize and manage a single Fotomoo library from multiple accounts.
-    Great for family photo collections!
-  </p>
-  <p>
-    <span class="label label-warning" style="font-size: larger">Mobile App</span>
-    to search and browse your photo library in the cloud. Will let you instantly find a
-    picture you are looking for and show it on your mobile device. The picture will be scaled to an
-    optimal resolution to minimize the loading time and network bandwidth.
-  </p>
-  <p>
+    <p>
+      To give it a test you can copy a few (hundreds) of photos to your
+      Google Drive synced folder. After the sync is complete,
+      please navigate to {{#linkTo 'setup'}}Organize!{{/linkTo}} page
+      and click on "Organize pictures!" button to organize your library.
+    </p>
+    <p>
+      You can optionally unselect pictures which you do not want to be organized by Fotomoo.
+    </p>
+
+    <p>Please read {{#linkTo 'readme'}}readme page{{/linkTo}} for more details</p>
+
+    <p>You may also want to take a look at {{#linkTo 'faq'}}F.A.Q.{{/linkTo}}</p>
+
+    <p>Please let me know what you think about this project on the {{#linkTo 'feedback'}}Feedback{{/linkTo}} page</p>
+
+
+    <h3>Coming soon</h3>
+
+    <p>
+      <span class="label label-warning" style="font-size: larger">Shared Library</span> You will be able to
+      organize and manage a single Fotomoo library from multiple accounts.
+      Great for family photo collections!
+    </p>
+
+    <p>
+      <span class="label label-warning" style="font-size: larger">Mobile App</span>
+      to search and browse your photo library in the cloud. It will let you instantly find a
+      picture you are looking for and show it on your mobile device. The picture will be scaled to an
+      optimal resolution to minimize the loading time and network bandwidth.
+    </p>
+
+    <p>
     <span class="label label-warning" style="font-size: larger">
       Manage Page
     </span>
-    In the coming weeks you will be able to {{#linkTo 'manage'}}Manage{{/linkTo}} your photo library
-  on the cloud using Fotomoo.
-  <ul>
-  <li>
-    <span class="label">Search</span>,
-    <span class="label">Filter</span>,
-    <span class="label">Select</span> and
-    <span class="label">Share</span>
-    Fotomoo managed pictures using all automatically and manually created attributes</li>
-    In fact this is what Fotomoo is created for =)</li>
-  <li><span class="label">Edit</span> your photos by integrating with Google Drive
-    3rd party tools like Picmonkey or Pics.io</li>
-  <li><span class="label">Fine tune</span> the structure and searchable indexes which Fotomoo has automatically created for you.</li>
-  <li>Create your <span class="label">own hierarchies</span> and searchable indexes</li>
-  <li><span class="label">Rate</span> and <span class="label">flag</span> your photos, assign
-    <span class="label">description</span></li>
-  </ul>
-</p><p>
-  For now you can take advantage of automatically created hierarchies and indexes using
-  <a href="https://drive.google.com/">Google Drive web UI</a>
-</p>
+      In the coming weeks you will be able to {{#linkTo 'manage'}}Manage{{/linkTo}} your photo library
+      on the cloud using Fotomoo.
+    <ul>
+      <li>
+        <span class="label">Search</span>,
+        <span class="label">Filter</span>,
+        <span class="label">Select</span> and
+        <span class="label">Share</span>
+        Fotomoo managed pictures using all automatically and manually created attributes
+      </li>
+      In fact this is what Fotomoo is created for =)</li>
+      <li><span class="label">Edit</span> your photos by integrating with Google Drive
+        3rd party tools like Picmonkey or Pics.io
+      </li>
+      <li><span class="label">Fine tune</span> the structure and searchable indexes which Fotomoo has automatically
+        created for you.
+      </li>
+      <li>Create your <span class="label">own hierarchies</span> and searchable indexes</li>
+      <li><span class="label">Rate</span> and <span class="label">flag</span> your photos, assign
+        <span class="label">description</span></li>
+    </ul>
+    </p><p>
+    For now you can take advantage of automatically created hierarchies and indexes using
+    <a href="https://drive.google.com/">Google Drive web UI</a>
+  </p>
 
-<h3>The future</h3>
-<p>
-    Fotomoo will use advanced image processing algorithms
-    to organize and help to enhance your images in much greater way.
-  Please stay tuned!
-</p>
-</div>
+    <h3>The future</h3>
+
+    <p>
+      Fotomoo will use advanced image processing algorithms
+      to organize and help to enhance your images in much greater way.
+      Please stay tuned!
+    </p>
+    <p>
+      Fotomoo will work with multiple cloud storage services.
+    </p>
+  </div>
 
   <div class="span5 pull-right">
-      <h4>By Date</h4>
-    <img src="assets/about_by_date.png" />
+    <h4>By Date</h4>
+    <img src="assets/about_by_date.png"/>
     <h4>By Location</h4>
-    <img src="assets/about_by_location.png" />
+    <img src="assets/about_by_location.png"/>
     <h4>Search</h4>
-    <img src="assets/about_search.png" />
+    <img src="assets/about_search.png"/>
   </div>
 
 </div>
 
 <div style="margin-left:20px;">
   <footer>
-    <p>&copy; Arkadiy Kraportov 2013. Version 0.0.1&#945; </p>
+    <p>&copy; Arkadiy Kraportov 2013. Version 0.0.2&#945; </p>
   </footer>
 </div>

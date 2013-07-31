@@ -254,11 +254,15 @@ FM.Drive = Ember.Object.extend
   _authorize: (success_callback) ->
     CLIENT_ID = '865302316429.apps.googleusercontent.com'
     SCOPES = 'https://www.googleapis.com/auth/drive'
-    callback = (auth_result) ->
+
+    callback = (auth_result) =>
       if auth_result && !auth_result.error
+        @set('popupWarningMessage', false)
         success_callback(auth_result)
       else
+        @set('popupWarningMessage', true)
         gapi.auth.authorize( {client_id: CLIENT_ID, scope: SCOPES, immediate: false}, callback)
+
     gapi.auth.authorize( {client_id: CLIENT_ID, scope: SCOPES, immediate: true}, callback)
 
   _execute: (method, params, success_callback, error_callback) ->
