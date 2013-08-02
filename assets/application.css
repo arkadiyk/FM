@@ -2049,6 +2049,10 @@ select::-webkit-scrollbar-thumb {
 .ember-list-view{overflow:auto;position:relative;}
 .ember-list-item-view{position:absolute;}
 .dir-box{height:90px;border-top:4px double gray;margin-top:70px;}
+.landing-page{line-height:19px;text-align:justify;}.landing-page div{padding:0 20px;}
+.landing-page p{margin:0 0 5px;padding:0 0 4px;border-bottom:1px dotted #505050;}
+.landing-page p:last-child{border:none;}
+h1,h2,h3{font-family:'Gruppo',cursive;}
 /*!
  * jQuery UI CSS Framework 1.10.3
  * http://jqueryui.com
