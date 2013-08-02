@@ -9,9 +9,9 @@ FM.Router.map ->
       @route 'list'
       @route 'grid'
 
-FM.IndexRoute = Ember.Route.extend
-  redirect: ->
-    @transitionTo 'about' # unless FM.drive.get('Fotomoo Folder')
+#FM.IndexRoute = Ember.Route.extend
+#  redirect: ->
+#    @transitionTo 'about' # unless FM.drive.get('Fotomoo Folder')
 
 FM.ManageRoute = Ember.Route.extend
   model: -> FM.drive.rootFolder()
