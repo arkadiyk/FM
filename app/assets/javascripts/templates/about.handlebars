@@ -1,126 +1,151 @@
 <div class="well row-fluid" style="margin: 30px 60px; width: 87%">
-  <h3>Fotomoo is a tool to manage your photos stored on the cloud</h3>
+    <h2>Fotomoo is a tool to manage photos stored on your Google Drive</h2>
 
-  <p class="text-error">
-    At the moment Fotomoo works fully only with Chrome and Firefox.
-    There’s a good chance it will work with Safari.
-    Unfortunately, it doesn’t seem to work very well in IE
-  </p>
-
-  <div class="span6">
-    <p class="muted">
-      <small>Currently Fotomoo works with Google Drive cloud storage only</small>
-    </p>
-
-    <p>
-      <strong>Fotomoo</strong> organises photos on your Google Drive by <strong>automatically</strong>
-      creating multiple <span class="label">folder hierarchies</span> and assigning
-      <span class="label">searchable indexes</span> to your photos.
-    </p>
-
-    <p>
-      Fotomoo is designed to make management of your digital assets on the cloud as effortless as possible.
-    </p>
-
-    <p>
-      This proof of concept is only the first step,
-      and provides the bare minimum to help you organize your pictures.
+    <p class="text-error">
+        At the moment Fotomoo works fully only with Chrome, Firefox and Safari.
+        Unfortunately, it doesn’t seem to work very well in IE
     </p>
 
     <p class="text-error">
-      In order to login into your Google account you need to
-      <strong>allow pop-ups</strong> from  this site.
-      <br/>
-      If you see the "Loading" indicator keep spinning for what seems an
-      eternity, then most likely your browser is blocking the Google Authorization popup.
+        You need to
+        <strong>allow pop-ups</strong> from this site
+        in order to login into your Google account.<br/>
+        <small>If you see the "Loading" indicator keep spinning for what seems an
+            eternity, then most likely your browser is blocking the Google Authorization popup.
+        </small>
     </p>
 
-    <p>
-      To test, you can copy a few (or hundreds!) of photos to your Google Drive synced folder.
-      After the sync is complete, please navigate to the Organize! page
-      and click on "Organize pictures!" button to organize your library.
-    </p>
-    <p>
-      You can optionally unselect pictures which you do not want to be organized by Fotomoo.
-    </p>
+    <div class="span6">
 
-    <p>Please read {{#linkTo 'readme'}}readme page{{/linkTo}} for more details</p>
+        <h3>First Step</h3>
 
-    <p>You may also want to take a look at {{#linkTo 'faq'}}FAQ{{/linkTo}}</p>
+        <p>
+            To test whether Fotomoo fits your needs, you can upload a few (or hundreds!) of
+            photos to your Google Drive. After upload is complete, please navigate to the
+            {{#linkTo 'setup'}}Organize!{{/linkTo}} page
+            and click on "Organize pictures!" button to process your photos.
+        </p>
 
-    <p>Please let me know what you think about this project on the {{#linkTo 'feedback'}}Feedback{{/linkTo}} page</p>
+        <p>
+            During this operation Fotomoo will create <span class= "badge badge-info">Fotomoo Pictures</span>
+            folder, and <span class= "badge badge-info">By Date</span> and
+            <span class= "badge badge-info">By Location</span> folder hierarchies.
+            Then Fotomoo will link each photo file on your Google Drive to those hierarchies.
+        </p>
+        <p>
+            Examples of hierarchies created by Fotomoo are shown on the pictures on the right panel.
+        </p>
+        <p>
+            After the <strong>Organize</strong> process is complete you can use Google Drive UI to
+            take advantage of hierarchies and indexes which Fotomoo has created for you.
+        </p>
+        <p>
+            When Fotomoo links a photo file to the Fotomoo hierarchies it does not unlink the photo file
+            from its original folder.
+            If you would like to keep photos only in Fotomoo hierarchies you need to use
+            "Keep them managed" button on the {{#linkTo 'manage'}}Manage{{/linkTo}} page.
+            If you'd like to delete Fotomoo created hierarchies leaving photo files in their
+            original location please use "Unmanage All" button on the {{#linkTo 'manage'}}Manage{{/linkTo}} page.
+            Because of this
+            <a class="link-with-popover" href="#" data-content="Google Drive has a feature to allow a file to
+          belong to multiple folders. Unlike any other filesystems with the similar feature, deleting a file from
+          one of the Google Drive folders deletes the file
+          from all of the folders the file belongs to.<br />
+          So please be extra careful when you delete files which belong to
+          multiple folders using Google Drive UI."
+               >caveat</a>
+            please do not use Google Drive UI delete functions to delete files which belong
+            to multiple folders.
+        </p>
+
+        <p>
+            For more information please visit {{#linkTo 'readme'}}Readme{{/linkTo}} page and read
+            {{#linkTo 'faq'}}FAQ{{/linkTo}}. <br/>
+            Please let me know what you think about this project on the {{#linkTo 'feedback'}}Feedback{{/linkTo}}
+            page.
+        </p>
 
 
-    <h3>Coming soon</h3>
 
-    <p>
-      <span class="label label-warning" style="font-size: larger">Shared Library</span> You will be able to
-      organize and manage a single Fotomoo library from multiple accounts.
-      Great for family photo collections!
-    </p>
+        <h3>Coming soon</h3>
 
-    <p>
-      <span class="label label-warning" style="font-size: larger">Mobile App</span>
-      to search and browse your photo library in the cloud. It will let you instantly find a
-      picture you are looking for and show it on your mobile device. The picture will be scaled to an
-      optimal resolution to minimize the loading time and network bandwidth.
-    </p>
+        <p>
+            Fotomoo is under heavy development right now. In the coming weeks you will be able to
+            organize and manage your photo library in a much greater way. Here is what's coming up:
+        </p>
+        <p>
+            <span class="label label-warning" style="font-size: larger">Shared Library</span> You will be able to
+            organize and manage a single Fotomoo library from multiple accounts.
+            Great for family photo collections!
+        </p>
 
-    <p>
+        <p>
+            <span class="label label-warning" style="font-size: larger">Mobile App</span>
+            to search and browse your photo library in the cloud. It will let you instantly find a
+            picture you are looking for and show it on your mobile device. The picture will be scaled to an
+            optimal resolution to minimize the loading time and network traffic.
+        </p>
+
+        <p>
     <span class="label label-warning" style="font-size: larger">
       Manage Page
     </span>
-      In the coming weeks you will be able to {{#linkTo 'manage'}}Manage{{/linkTo}} your photo library
-      on the cloud using Fotomoo.
-    <ul>
-      <li>
-        <span class="label">Search</span>,
-        <span class="label">Filter</span>,
-        <span class="label">Select</span> and
-        <span class="label">Share</span>
-        Fotomoo managed pictures using all automatically and manually created attributes
-      </li>
-      In fact this is what Fotomoo is created for =)</li>
-      <li><span class="label">Edit</span> your photos by integrating with Google Drive
-        3rd party tools like Picmonkey or Pics.io
-      </li>
-      <li><span class="label">Fine tune</span> the structure and searchable indexes which Fotomoo has automatically
-        created for you.
-      </li>
-      <li>Create your <span class="label">own hierarchies</span> and searchable indexes</li>
-      <li><span class="label">Rate</span> and <span class="label">Flag</span> your photos, and assign a
-        <span class="label">description</span></li>
-    </ul>
-    </p><p>
-    For now you can take advantage of the automatically-created hierarchies and indexes using
-    <a href="https://drive.google.com/">Google Drive web UI</a>
-  </p>
+            In the coming weeks you will be able to {{#linkTo 'manage'}}Manage{{/linkTo}} your photo library
+            on the cloud using Fotomoo.
+        <ul>
+        <li>
+            Create <span class= "label">Albums</span>, assign <span class= "label">Keywords</span>,
+            <span class= "label">Rate</span> and <span class= "label">Flag</span> your photos,
+            write a <span class= "label">Description</span>
+        </li>
 
-    <h3>The future</h3>
+        <li>
+            <span class= "label">Browse</span>,
+            <span class= "label">Search</span> and
+            <span class= "label">Filter</span>
+            your photo library using automatically and manually created hierarchies and
+            attributes as well as EXIF metadata.
+        </li>
 
-    <p>
-      Fotomoo will use advanced image processing algorithms
-      to organize and help to enhance your images in much greater way.
-      Please stay tuned!
+        <li>
+            <span class= "label">Share</span> individual photos or albums on your favorite social networks
+        </li>
+
+        <li>
+            <span class= "label">Edit</span> your photos using Google Drive
+            3rd party applications like <a href="http://www.picmonkey.com/">Picmonkey</a>
+            or <a href="http://pics.io/">Pics.io</a>
+        </li>
+        </ul>
+        </p><p>
+        For now you can take advantage of the automatically-created hierarchies and indexes using
+        <a href="https://drive.google.com/">Google Drive web UI</a>
     </p>
-    <p>
-      Fotomoo will work with multiple cloud storage services.
-    </p>
-  </div>
 
-  <div class="span5 pull-right">
-    <h4>By Date</h4>
-    <img src="assets/about_by_date.png"/>
-    <h4>By Location</h4>
-    <img src="assets/about_by_location.png"/>
-    <h4>Search</h4>
-    <img src="assets/about_search.png"/>
-  </div>
+        <h3>The future</h3>
+
+        <p>
+            In the future, Fotomoo will offer advanced image processing to help you organize your library and enhance your photos.
+            Fotomoo will be able to recommend <span class= "label label-info">keywords</span> for you photos, detect
+            possibly <span class= "label label-info">under- and over- exposed</span> photos,
+            <span class= "label label-info">blurry</span> images, images with <span class= "label label-info">no content</span>,
+            potential <span class= "label label-info">duplicates</span>, etc.
+        </p>
+    </div>
+
+    <div class="span5 pull-right">
+        <h4>By Date folder hierarchy</h4>
+        <img src="assets/about_by_date.png"/>
+        <h4>By Location folder hierarchy</h4>
+        <img src="assets/about_by_location.png"/>
+        <h4>Search photos by Address</h4>
+        <img src="assets/about_search.png"/>
+    </div>
 
 </div>
 
 <div style="margin-left:20px;">
-  <footer>
-    <p>&copy; Arkadiy Kraportov 2013. Version 0.0.3&#945; </p>
-  </footer>
+    <footer>
+        <p>&copy; Arkadiy Kraportov 2013. Version 0.0.3&#945; </p>
+    </footer>
 </div>

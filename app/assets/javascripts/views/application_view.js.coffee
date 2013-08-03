@@ -36,3 +36,9 @@ FM.LoadingView = Ember.View.extend
 
 FM.ManageView = Ember.View.extend
   didInsertElement: -> @$('.btn-with-popover').popover(trigger: 'hover', placement: 'top')
+
+FM.AboutView = Ember.View.extend
+  didInsertElement: -> @$('.link-with-popover').click(-> false).popover
+    trigger: 'hover'
+    placement: 'top'
+    html: true
