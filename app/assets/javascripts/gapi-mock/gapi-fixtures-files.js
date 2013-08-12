@@ -1,9 +1,9 @@
 if (!window.FotomooFixtures) window.FotomooFixtures = {}
 window.FotomooFixtures.files = {
-  page0_blank: {
+  page0: {
       items: []
   },
-  page0: {
+  page0_: {
     nextPageToken: "nextFilePageToken1",
       items: [
         {

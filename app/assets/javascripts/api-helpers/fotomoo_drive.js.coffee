@@ -52,7 +52,8 @@ FM.Drive = Ember.Object.extend
 
   loadFolders: () ->
     @set('statusMessage', 'Loading Folders ...')
-    execute = (resolve) =>
+
+    execute = (promise) =>
       process_folders = (folders) =>
         folders.push {id: 'root', title: 'Root Folder', parents: []}
 
@@ -78,7 +79,7 @@ FM.Drive = Ember.Object.extend
         mark_children(fotomoo_root) if fotomoo_root
 
         @setProperties(foldersLoading: false, foldersLoaded: true)
-        resolve()
+        promise.resolve()
 
       params =
         q: "mimeType = 'application/vnd.google-apps.folder' and 'me' in owners and trashed = false"
@@ -86,7 +87,7 @@ FM.Drive = Ember.Object.extend
         maxResults: 200
       @setProperties(foldersLoading: true, foldersLoaded: false)
       @_loadFiles(params, process_folders)
-    new Ember.RSVP.Promise(execute)
+    Ember.Deferred.promise(execute)
 
   loadImageFiles: ->
     @set('statusMessage', 'Loading Files ...')
@@ -99,6 +100,7 @@ FM.Drive = Ember.Object.extend
           for parent in file_json.parents
             pid = if parent.isRoot then 'root' else parent.id
             folder = @findFolder(pid)
+            continue unless folder
             file.set('isFotomoo', true) if folder.get('isFotomoo')
             folder.set('files',[]) unless folder.get('files')
             folder.get('files').addObject(file)

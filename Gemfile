@@ -22,3 +22,4 @@ gem 'jquery-rails'
 gem 'jquery-ui-rails'
 
 gem 'puma'
+gem 'qunit-rails'
