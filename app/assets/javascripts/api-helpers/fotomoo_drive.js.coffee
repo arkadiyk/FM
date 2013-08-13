@@ -2,7 +2,7 @@ FM.Drive = Ember.Object.extend
   driveFolderObjectCache: Ember.Map.create({})
   driveImageFileObjectCache: Ember.Map.create({})
   driveImageMD5cache: Ember.Map.create({})
-  userProfile: Ember.Object.create()
+  userProfile: Ember.Object.create({})
   activeCallCount: 0
   userProfileLoading: false
   userProfileLoaded: false
@@ -15,126 +15,137 @@ FM.Drive = Ember.Object.extend
 
   apiLoaded: ->
     call_count = 0
-    execute = (resolve, reject) ->
+    promise = Ember.Deferred.create({})
+    execute = ->
       if window.gapi and window.gapi.auth
-        resolve()
+        promise.resolve()
       else
         if call_count++ > 10
-          reject('Cannot load Google Drive API')
+          promise.reject('Cannot load Google Drive API')
         else
-          setTimeout ( => execute(resolve, reject) ), 37
-    new Ember.RSVP.Promise(execute)
+          setTimeout ( => execute() ), 37
+
+    execute()
+    promise
 
   authorize: ->
     execute = (resolve) => @_authorize -> resolve()
     new Ember.RSVP.Promise(execute)
 
   loadAssets: ->
-    tasks = [
+    Ember.RSVP.all([
       @getUserProfile()
       @loadFolders()
-    ]
-    Ember.RSVP.all(tasks).then =>
-      @loadConfiguration()
+    ]).then => Ember.RSVP.all([
       @loadImageFiles()
+      @loadConfiguration()
+    ])
+    #@loadFolders().then => @loadImageFiles()
+
 
   getUserProfile: ->
     @set('statusMessage', 'Authorizing ...')
     @set('userProfileLoading', true)
+
+    promise = Ember.Deferred.create({})
     profile = @get('userProfile')
-    execute = (resolve, reject) =>
-      callback = (result) =>
-        profile.setProperties(result)
-        @setProperties(userProfileLoading: false, userProfileLoaded: true)
-        resolve()
-      @_execute('about.get', {fields: 'name,user'}, callback )
-    new Ember.RSVP.Promise(execute)
+    callback = (result) =>
+      profile.setProperties(result)
+      @setProperties(userProfileLoading: false, userProfileLoaded: true)
+      promise.resolve()
+    @_execute('about.get', {fields: 'name,user'}, callback )
+    promise
 
   loadFolders: () ->
     @set('statusMessage', 'Loading Folders ...')
+    promise = Ember.Deferred.create({})
 
-    execute = (promise) =>
-      process_folders = (folders) =>
-        folders.push {id: 'root', title: 'Root Folder', parents: []}
+    process_folders = (folders) =>
+      folders.push {id: 'root', title: 'Root Folder', parents: []}
 
-        folder_cache = {}
-        folder_cache[f.id] = f for f in folders
+      folder_cache = {}
+      folder_cache[f.id] = f for f in folders
 
-        for folder in folders
-          folder.parents = [{id: "root", sRoot: true}] unless folder.parents # shared folders have no parents!
-          for parent in folder.parents
-            pid = if parent.isRoot then 'root' else parent.id
-            folder_cache[pid].childIds ||= []
-            folder_cache[pid].childIds.push folder.id
+      for folder in folders
+        folder.parents = [{id: "root", sRoot: true}] unless folder.parents # fixme: shared folders have no parents!
+        for parent in folder.parents
+          pid = if parent.isRoot then 'root' else parent.id
+          folder_cache[pid].childIds ||= []
+          folder_cache[pid].childIds.push folder.id
 
-        for folder in folders
-          fo = FM.Folder.create(folder)
-          @get('driveFolderObjectCache').set(folder.id, fo)
-          @set('fotomooFolder', fo) if folder.title == "Fotomoo Pictures"
+      for folder in folders
+        fo = FM.Folder.create(folder)
+        @get('driveFolderObjectCache').set(folder.id, fo)
+        @set('fotomooFolder', fo) if folder.title == "Fotomoo Pictures"
 
-        mark_children = (ch) ->
-          ch.set('isFotomoo', true)
-          ch.get('children').forEach (child) -> mark_children(child)
-        fotomoo_root = @get('fotomooFolder')
-        mark_children(fotomoo_root) if fotomoo_root
+      mark_children = (ch) ->
+        ch.set('isFotomoo', true)
+        ch.get('children').forEach (child) -> mark_children(child)
+      fotomoo_root = @get('fotomooFolder')
+      mark_children(fotomoo_root) if fotomoo_root
 
-        @setProperties(foldersLoading: false, foldersLoaded: true)
-        promise.resolve()
+      @setProperties(foldersLoading: false, foldersLoaded: true)
+      promise.resolve()
 
-      params =
-        q: "mimeType = 'application/vnd.google-apps.folder' and 'me' in owners and trashed = false"
-        #fields: "items(id,parents(id,isRoot),title),nextPageToken"
-        maxResults: 200
-      @setProperties(foldersLoading: true, foldersLoaded: false)
-      @_loadFiles(params, process_folders)
-    Ember.Deferred.promise(execute)
+    params =
+      q: "mimeType = 'application/vnd.google-apps.folder' and 'me' in owners and trashed = false"
+      #fields: "items(id,parents(id,isRoot),title),nextPageToken"
+      maxResults: 200
+
+    @setProperties(foldersLoading: true, foldersLoaded: false)
+    @_loadFiles(params, process_folders)
+
+    promise
 
   loadImageFiles: ->
     @set('statusMessage', 'Loading Files ...')
-    execute = (resolve) =>
-      process_files = (files) =>
-        for file_json in files
-          file = FM.File.create(file_json)
-          @get('driveImageFileObjectCache').set(file_json.id, file)
-          @get('driveImageMD5cache').set(file_json.md5Checksum, file)
-          for parent in file_json.parents
-            pid = if parent.isRoot then 'root' else parent.id
-            folder = @findFolder(pid)
-            continue unless folder
-            file.set('isFotomoo', true) if folder.get('isFotomoo')
-            folder.set('files',[]) unless folder.get('files')
-            folder.get('files').addObject(file)
+    promise = Ember.Deferred.create({})
 
-        @setProperties(filesLoading: false, filesLoaded: true)
-        resolve()
+    process_files = (files) =>
+      for file_json in files
+        file = FM.File.create(file_json)
+        @get('driveImageFileObjectCache').set(file_json.id, file)
+        @get('driveImageMD5cache').set(file_json.md5Checksum, file)
+        for parent in file_json.parents
+          pid = if parent.isRoot then 'root' else parent.id
+          folder = @findFolder(pid)
+          continue unless folder
+          file.set('isFotomoo', true) if folder.get('isFotomoo')
+          folder.set('files',[]) unless folder.get('files')
+          folder.get('files').addObject(file)
 
-      params =
-        q: "mimeType contains 'image' and 'me' in owners and trashed = false"
-        fields: "items(alternateLink,description,explicitlyTrashed,fileExtension,fileSize,id,imageMediaMetadata(cameraMake,cameraModel,date,height,location,rotation,width),md5Checksum,mimeType,openWithLinks,originalFilename,parents(id,isRoot),thumbnailLink,title),nextPageToken"
-        maxResults: 200
-      @setProperties(filesLoading: true, filesLoaded: false)
-      @_loadFiles(params, process_files)
+      @setProperties(filesLoading: false, filesLoaded: true)
+      promise.resolve()
 
-    new Ember.RSVP.Promise(execute)
-
+    params =
+      q: "mimeType contains 'image' and 'me' in owners and trashed = false"
+      fields: "items(alternateLink,description,explicitlyTrashed,fileExtension,fileSize,id,imageMediaMetadata(cameraMake,cameraModel,date,height,location,rotation,width),md5Checksum,mimeType,openWithLinks,originalFilename,parents(id,isRoot),thumbnailLink,title),nextPageToken"
+      maxResults: 200
+    @setProperties(filesLoading: true, filesLoaded: false)
+    @_loadFiles(params, process_files)
+    promise
 
   findFolder: (fid) -> @get('driveFolderObjectCache').get(fid)
   findImageFile: (fid) -> @get('driveImageFileObjectCache').get(fid)
   rootFolder: ->
     root = @findFolder('root') || @get('root_promise')
     return root if root
-    execute = (resolve, reject) =>
-      @apiLoaded().then =>
-        @authorize()
-      .then =>
-        @loadAssets()
-      .then =>
-        resolve(@findFolder('root'))
-      .then null, (error_message) ->
-        reject(error_message)
-    root_promise = new Ember.RSVP.Promise(execute)
-    @set('root_promise', root_promise)
-    root_promise
+
+    promise = Ember.Deferred.create({})
+    @apiLoaded().then =>
+      @authorize()
+    .then =>
+      console.log('111')
+      @loadAssets()
+    .then =>
+      console.log('222', @findFolder('root'))
+      promise.resolve(@findFolder('root'))
+    .then null, (error_message) ->
+      console.log("ERROR _1", error_message)
+      promise.reject(error_message)
+
+    @set('root_promise', promise)
+    promise
 
   createTreeHierarchy: ->
     root = FM.Folder.find('root')
@@ -276,14 +287,14 @@ FM.Drive = Ember.Object.extend
         if not result
           success_callback({items:[]})
         else if not result.error
-          Ember.run(-> success_callback(result))
+          success_callback(result)
         else if result.error.code == 401
           console.log("reathorizing #{method}:", result)
           @_authorize(=> @_execute(method, params, success_callback, error_callback))
         #else if result.error.code == 403
         else
           console.log("ERROR!", result)
-          Ember.run( -> error_callback(result)) if error_callback
+          error_callback(result) if error_callback
         @decrementProperty('activeCallCount')
 
   _loadFiles: (params, complete_callback) ->
@@ -381,41 +392,40 @@ FM.Drive = Ember.Object.extend
 
 
   loadConfiguration: ->
-    execute = (resolve, reject) =>
+    promise = Ember.Deferred.create({})
 
-      fotomoo_root = @get('fotomooFolder.id')
-      unless fotomoo_root
-        resolve()
-        return
-
+    fotomoo_root = @get('fotomooFolder.id')
+    if fotomoo_root
       download_content = (files_meta) =>
-        return unless files_meta.length
-        url = files_meta[0].downloadUrl
+        unless files_meta.length
+          promise.resolve()
+          return
+
         FM.config.set('id', files_meta[0].id)
-
         set_header = (xhr) -> xhr.setRequestHeader('Authorization', "Bearer #{gapi.auth.getToken().access_token}")
-
         callback = (data) ->
           FM.config.parseResponse(data)
-          resolve()
+          promise.resolve()
 
         $.ajax
-          url: url
+          url: files_meta[0].downloadUrl
           type: "GET"
           dataType: "json"
           success: callback
           error: (xhr, text_status) ->
             console.log('ERROR: cannot get config', text_status)
-            reject(text_status)
+            promise.reject(text_status)
           beforeSend: set_header
 
       params =
         q: "title = 'Fotomoo Settings' and '#{fotomoo_root}' in parents and 'me' in owners and trashed = false"
         fields: "items(id,md5Checksum,downloadUrl)"
       @_loadFiles(params, download_content)
+    else
+      promise.resolve()
 
-    new Ember.RSVP.Promise(execute)
 
+    promise
 
 
   saveConfiguration: ->
