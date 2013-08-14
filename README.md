@@ -1,4 +1,5 @@
 # Fotomoo
+[![Build Status](https://travis-ci.org/arkadiyk/FM.png)](https://travis-ci.org/arkadiyk/FM)
 
 **A tool to manage large photo libraries stored on the cloud**
 
