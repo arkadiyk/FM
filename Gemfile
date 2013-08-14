@@ -22,4 +22,8 @@ gem 'jquery-rails'
 gem 'jquery-ui-rails'
 
 gem 'puma'
-gem 'qunit-rails'
+
+gem "teaspoon"
+gem "guard-teaspoon"
+gem "rb-fsevent" # used by guard
+

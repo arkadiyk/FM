@@ -13,19 +13,28 @@ FM.Drive = Ember.Object.extend
   statusMessage: ''
   statusDetailsMessage: ''
 
+  init: ->
+    @gapi = @get('gapi_mock') if @get('gapi_mock')
+
   apiLoaded: ->
     call_count = 0
     promise = Ember.Deferred.create({})
-    execute = ->
-      if window.gapi and window.gapi.auth
-        promise.resolve()
-      else
-        if call_count++ > 10
-          promise.reject('Cannot load Google Drive API')
-        else
-          setTimeout ( => execute() ), 37
 
-    execute()
+    if @gapi
+      promise.resolve()
+    else
+      execute = =>
+        if window.gapi and window.gapi.auth
+          @gapi = window.gapi
+          promise.resolve()
+        else
+          if call_count++ > 10
+            promise.reject('Cannot load Google Drive API')
+          else
+            setTimeout ( => execute() ), 37
+
+      execute()
+
     promise
 
   authorize: ->
@@ -40,8 +49,6 @@ FM.Drive = Ember.Object.extend
       @loadImageFiles()
       @loadConfiguration()
     ])
-    #@loadFolders().then => @loadImageFiles()
-
 
   getUserProfile: ->
     @set('statusMessage', 'Authorizing ...')
@@ -57,7 +64,7 @@ FM.Drive = Ember.Object.extend
     promise
 
   loadFolders: () ->
-    @set('statusMessage', 'Loading Folders ...')
+    @set('statusMessage', 'Loading Folders ...a')
     promise = Ember.Deferred.create({})
 
     process_folders = (folders) =>
@@ -135,10 +142,8 @@ FM.Drive = Ember.Object.extend
     @apiLoaded().then =>
       @authorize()
     .then =>
-      console.log('111')
       @loadAssets()
     .then =>
-      console.log('222', @findFolder('root'))
       promise.resolve(@findFolder('root'))
     .then null, (error_message) ->
       console.log("ERROR _1", error_message)
@@ -274,15 +279,15 @@ FM.Drive = Ember.Object.extend
         success_callback(auth_result)
       else
         @set('popupWarningMessage', true)
-        gapi.auth.authorize( {client_id: CLIENT_ID, scope: SCOPES, immediate: false}, callback)
+        @gapi.auth.authorize( {client_id: CLIENT_ID, scope: SCOPES, immediate: false}, callback)
 
-    gapi.auth.authorize( {client_id: CLIENT_ID, scope: SCOPES, immediate: true}, callback)
+    @gapi.auth.authorize( {client_id: CLIENT_ID, scope: SCOPES, immediate: true}, callback)
 
   _execute: (method, params, success_callback, error_callback) ->
     [gapi_area, gapi_call] = method.split('.')
     @incrementProperty('activeCallCount')
-    gapi.client.load 'drive', 'v2', =>
-      request = gapi.client.drive[gapi_area][gapi_call](params)
+    @gapi.client.load 'drive', 'v2', =>
+      request = @gapi.client.drive[gapi_area][gapi_call](params)
       request.execute (result) =>
         if not result
           success_callback({items:[]})
@@ -402,7 +407,7 @@ FM.Drive = Ember.Object.extend
           return
 
         FM.config.set('id', files_meta[0].id)
-        set_header = (xhr) -> xhr.setRequestHeader('Authorization', "Bearer #{gapi.auth.getToken().access_token}")
+        set_header = (xhr) => xhr.setRequestHeader('Authorization', "Bearer #{@gapi.auth.getToken().access_token}")
         callback = (data) ->
           FM.config.parseResponse(data)
           promise.resolve()
@@ -457,7 +462,7 @@ FM.Drive = Ember.Object.extend
       r_method = 'PUT'
 
 
-    request = gapi.client.request
+    request = @gapi.client.request
       path: r_path
       method: r_method
       params: {uploadType: 'multipart', alt: 'json'}

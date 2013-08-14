@@ -7,6 +7,7 @@
 <% else %>
     <%= javascript_include_tag 'gapi-mock' %>
     <script type="text/javascript">
+        setTimeout(function(){ window.gapi = (new GapiMock.GapiApi(window.FotomooFixtures)).getAPI() }, 1000)
         window.GLOCSCRIPT = "/assets/google-maps-api-mock.js"
     </script>
 <% end %>
